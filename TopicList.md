@@ -8,6 +8,7 @@ Programming Assignments
 * Building a robot (exercise)
 * Taijitu (exercise)
 * Digitize a painting
+* Create a visual representation of a song (exercise)
 * Custom lego family
 * Events (exercise)
 * Jumping monster
