@@ -18,6 +18,7 @@ Programming Assignments
 * Color Checker
 * Color filters
 * Data viz
+* Final interactive project
 
 Major Topics
 * Environment setup
