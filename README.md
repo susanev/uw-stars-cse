@@ -1,1 +1,3 @@
-# UWStarsCSE142
+# UW Stars CSE 142 Curriculum (Autumn 2016)
+
+Coming soon ...
