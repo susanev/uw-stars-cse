@@ -20,6 +20,7 @@ __Final__: No standard final
 
 ## Contact Information
 Course materials: <https://github.com/susanev/2016_Autumn_UWStarsCSE142>
+
 Course discussion: <https://cse-stars.slack.com>
 
 Anonymous feedback form: <https://goo.gl/forms/ZYKxivzlwH0N3tWz2>
