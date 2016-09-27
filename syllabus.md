@@ -6,7 +6,7 @@ __Course Title__: STARS CSE 142 Seminar
 
 __Offering__: Autumn 2016
 
-__Class__: [110 minutes]: Wednesdays 5:30 – 7:20, Room CSE 403
+__Class__: [110 minutes] Wednesdays 5:30 – 7:20, Room CSE 403
 
 __Holidays__: None
 
