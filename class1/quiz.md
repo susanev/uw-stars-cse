@@ -16,5 +16,13 @@
 5. What is the name of the character shown: `/`
 
 6. Fill in the escape sequence that matches each character described in the table below.
+| __Escape sequence__   | __Description__  
+| :-------------------- | :-------------------- |
+|                       | Newline               |
+|                       | Tab                   |
+|                       | Double quote          |
+|                       | Backslash             |
 
-7. 
+7. What will be printed to the console when the program below is run?
+8. What will be printed to the console when the program below is run?
+9. Fill in the table below
