@@ -6,7 +6,7 @@
  * Be patient with yourself and others
  * No phones/laptops out unless working on assigned code
  * Take a break whenever you need it (but try and make this happen outside of lecture and quiz time)
-* Review [syllabus](syllabus.md)
+* Review [syllabus](../syllabus.md)
 * Success in CSE 142
  * Go to CSE142 lecture and lab
  * Come to our class and check-in meetings
