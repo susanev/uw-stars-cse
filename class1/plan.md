@@ -1,3 +1,5 @@
+# Class #1 Plan
+## Wednesday, 6:00pm – 7:20pm, 09/28/2016
 * Introductions
 * General guidelines
  * Be nice to yourself and others
