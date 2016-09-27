@@ -23,7 +23,7 @@ Course materials: <https://github.com/susanev/2016_Autumn_UWStarsCSE142>
 
 Course discussion: <https://cse-stars.slack.com>
 
-Anonymous feedback form: <https://goo.gl/forms/ZYKxivzlwH0N3tWz2>
+Anonymous feedback form: <https://goo.gl/forms/GENVWFVRAA0uEdWa2>
 
 | __Susan Evans, Instructor__           |
 | :------------------------------------ |
