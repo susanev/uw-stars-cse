@@ -24,6 +24,7 @@
 |                       | Double quote          |
 |                       | Backslash             |
 
+
 7. What will be printed to the console when the program below is run?
 8. What will be printed to the console when the program below is run?
 9. Fill in the table below
