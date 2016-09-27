@@ -13,6 +13,9 @@
  * Ask when you need help
  * Start your homework early ... so you know if you need help
  * No phones/laptops in CSE142 lecture
+* Collaboration in CSE 142
+ * Homeworks must be your work, and only your work; do not help others, do not receive help from others ...
+ * During labs you can help each other
 * Quiz
 * Quiz Review
 * Lecture
