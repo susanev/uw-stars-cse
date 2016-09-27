@@ -27,4 +27,11 @@
 
 7. What will be printed to the console when the program below is run?
 8. What will be printed to the console when the program below is run?
-9. Fill in the table below
+9. Fill in the table below, evaluating the expressions
+
+    | __Expression__                 | __What does it evaluate to__   |
+    |:-----------------------------  | :----------------------------- |
+    |                                | Newline                        |
+    |                                | Tab                            |
+    |                                | Double quote                   |
+    |                                | Backslash                      |
