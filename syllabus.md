@@ -38,7 +38,7 @@ Students will need regular access to a computer with Java and jGRASP installed, 
 
 * Software install information: <https://courses.cs.washington.edu/courses/cse142/16su/working_at_home.shtml>
 
-Students are expected to check Slack and GitHub daily for announcements, discussions, and assignments.
+Students are expected to check Slack and GitHub daily for announcements, and discussions.
 
 ## Textbooks
 ### Required
