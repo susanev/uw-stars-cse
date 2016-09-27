@@ -16,7 +16,8 @@
 5. What is the name of the character shown: `/`
 
 6. Fill in the escape sequence that matches each character described in the table below.
-| __Escape sequence__   | __Description__  
+
+| __Escape sequence__   | __Description__       |
 | :-------------------- | :-------------------- |
 |                       | Newline               |
 |                       | Tab                   |
