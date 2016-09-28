@@ -46,3 +46,11 @@
     | `4.0 / 2 * 9 / 2`              |                                |
     | `8 / 5 + 13 / 2 / 3.0`         |                                |
     | `"hello 34 " + 2 * 4`          |                                |
+    
+    
+    
+    | Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
