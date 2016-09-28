@@ -5,7 +5,7 @@ Course Description: Students will receive support to ensure success in CSE 142, 
 [Syllabus](syllabus.md)
 
 ### Week 1
-[plan](class1/plan.md)
-[quiz](class1/quiz.md)
-[lecture notes](class1/lecture-notes.md)
-[exercises](class1/exercises.md)
+* [plan](class1/plan.md)
+* [quiz](class1/quiz.md)
+* [lecture notes](class1/lecture-notes.md)
+* [exercises](class1/exercises.md)
