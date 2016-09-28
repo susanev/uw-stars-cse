@@ -25,11 +25,12 @@
 
 6. Fill in the escape sequence that matches each character described in the table below.
 
-    | Tables   |      Are      |  Cool |
-    |----------|:-------------:|------:|
-    | col 1 is |  left-aligned | $1600 |
-    | col 2 is |    centered   |   $12 |
-    | col 3 is | right-aligned |    $1 |
+    | Escape sequence   |     Description      | 
+    |----------|:-------------:|
+    | | Newline |
+    | | Tab  | 
+    | |Double quote |
+    | |Backslash |
 
     | Escape sequence   | Description      |
     | :-------------------- | :-------------------- |
