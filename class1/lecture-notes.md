@@ -11,6 +11,7 @@
 * Must declare a variable before you use it, but can't declare it twice
 * Understanding assignment statements
 * Three main data types (you will learn more later)
+
  | Date type   | Description 
  | :-----------|-------------------------------------------------------------- |
  | int         | integers, pos, zero, neg, up to 2^31-1                        |
