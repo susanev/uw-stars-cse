@@ -1,6 +1,7 @@
 # Lecture Notes
 ### General
 * You write Java code as text, you then __compile__ it into compiler instructions using a porgram called a compiler. When your code is compiled it turns into bytecode. Then you can run the bytecode using the Java Runtime Environment.
+* In this class you will be writing your Java code in an Integrated Development Environment (IDE). IDE's allow you to type your code, compile your code, and run your code.
 * Every piece of code you write needs to be inside of a class
 * Class is executable only if it has a __main__ method
 * Commands end with semicolons
