@@ -16,6 +16,9 @@
 * Your goal for all assignments is to reduce redundancy
 * You want main to be short, and give an good overview of what your program does
 * Java precedence
+ * unary operators (+, -)
+ * multiplicative operators (*, /, %)
+ * additive operators (+, -)
 * Integer division
 * Must declare a variable before you use it, but can't declare it twice
 * Understanding assignment statements
