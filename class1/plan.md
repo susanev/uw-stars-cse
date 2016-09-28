@@ -20,9 +20,9 @@
 * Collaboration in CSE 142
  * Homeworks must be your work, and only your work; do not help others, do not receive help from others ...
  * During labs you can help each other
-* Quiz
+* [Quiz](quiz.md)
 * Quiz Review
-* Lecture
-* Java and jGRASP install fest
+* [Lecture](lecture-notes.md)
+* [Java and jGRASP install fest](https://courses.cs.washington.edu/courses/cse142/16su/working_at_home.shtml)
 * Whiteboard problem sets (if we have time)
  
