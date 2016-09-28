@@ -36,4 +36,4 @@
 ### Style
   * Classes start with a capital letter, no spaces, all other words in name are also capitalized
   * Methods start with lowercase letters, no spaces, all other words in name are capitalized
-  * Indentation is importnat, when you open a curly brace everything inside is indented
+  * Indentation is important, when you open a curly brace everything inside is indented
