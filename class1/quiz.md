@@ -25,27 +25,13 @@
 
 6. Fill in the escape sequence that matches each character described in the table below.
 
-    | Escape sequence   |     Description      | 
-    |----------|:-------------:|
-    | | Newline |
-    | | Tab  | 
-    | |Double quote |
-    | |Backslash |
-
     | Escape sequence   | Description      |
-    | :-------------------- | :-------------------- |
+    | -------------------- | :-------------------- |
     |                       | Newline               |
     |                       | Tab                   |
     |                       | Double quote          |
     |                       | Backslash             |
     
-    | Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-
 7. What will be printed to the console when the program below is run?
 
     `System.out.println("\"Quotes\"");`
@@ -54,8 +40,8 @@
     `System.out.println("Slashes \\//");`
 9. Fill in the table below, evaluating the expressions
 
-    | __Expression__                 | __What does it evaluate to__   |
-    |:-----------------------------  | :----------------------------- |
+    | Expression                 | What does it evaluate to   |
+    |-----------------------------  | :----------------------------- |
     | `3 + 4 + " 2 + 2"`             |                                |
     | `4.0 / 2 * 9 / 2`              |                                |
     | `8 / 5 + 13 / 2 / 3.0`         |                                |
