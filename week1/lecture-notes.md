@@ -9,8 +9,8 @@
 
   | __Escape sequence__   | __Description__       |
   | :-------------------- | :-------------------- |
-  |  \t                   | Newline               |
-  |  \n                   | Tab                   |
+  |  \n                   | Newline               |
+  |  \t                   | Tab                   |
   |  \"                   | Double quote          |
   |  \\                   | Backslash             |
 * Your goal for all assignments is to reduce redundancy
