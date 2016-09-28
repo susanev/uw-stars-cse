@@ -23,6 +23,6 @@
 * [Quiz](quiz.md)
 * Quiz Review
 * [Lecture](lecture-notes.md)
-* [Java and jGRASP install fest](https://courses.cs.washington.edu/courses/cse142/16su/working_at_home.shtml)
+* [Java and jGRASP install fest](https://courses.cs.washington.edu/courses/cse142/16au/working_at_home.shtml)
 * Whiteboard problem sets (if we have time)
  
