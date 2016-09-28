@@ -25,7 +25,13 @@
 
 6. Fill in the escape sequence that matches each character described in the table below.
 
-    | __Escape sequence__   | __Description__       |
+    | Tables   |      Are      |  Cool |
+    |----------|:-------------:|------:|
+    | col 1 is |  left-aligned | $1600 |
+    | col 2 is |    centered   |   $12 |
+    | col 3 is | right-aligned |    $1 |
+
+    | Escape sequence   | Description      |
     | :-------------------- | :-------------------- |
     |                       | Newline               |
     |                       | Tab                   |
@@ -47,10 +53,3 @@
     | `4.0 / 2 * 9 / 2`              |                                |
     | `8 / 5 + 13 / 2 / 3.0`         |                                |
     | `"hello 34 " + 2 * 4`          |                                |
-
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
