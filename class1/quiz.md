@@ -38,6 +38,12 @@
     |                       | Tab                   |
     |                       | Double quote          |
     |                       | Backslash             |
+    
+    | Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 
 7. What will be printed to the console when the program below is run?
