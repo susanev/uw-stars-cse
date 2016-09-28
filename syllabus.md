@@ -36,7 +36,7 @@ Anonymous feedback form: <https://goo.gl/forms/GENVWFVRAA0uEdWa2>
 ### Computing Software (all free)
 Students will need regular access to a computer with Java and jGRASP installed, both are available to students for free.
 
-* Software install information: <https://courses.cs.washington.edu/courses/cse142/16su/working_at_home.shtml>
+* Software install information: <https://courses.cs.washington.edu/courses/cse142/16au/working_at_home.shtml>
 
 Students are expected to check Slack and GitHub daily for announcements, and discussions.
 
