@@ -34,8 +34,10 @@
 
 
 7. What will be printed to the console when the program below is run?
+
     `System.out.println("\"Quotes\"");`
 8. What will be printed to the console when the program below is run?
+
     `System.out.println("Slashes \\//");`
 9. Fill in the table below, evaluating the expressions
 
