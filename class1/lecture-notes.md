@@ -42,26 +42,22 @@
 Together we will write a Java Program called EggStop that prints the ASCII image below. We will practicing using methods and reducing redundancy.
 
 ```
-   _______
-  /       \
- /         \
- \         /
-  \       /
-   _______
- \         /
-  \       /
-   _______
-  +-------+
-  
-   _______
-  /       \
- /         \
- |   STOP  |
- \         /
-  \       /
-   _______
+   _________
+  /         \
+ /           \
+ \           /
+  \_________/
+ \           /
+  \_________/
+  +--------+
+   _________
+  /         \
+ /           \
+ |    STOP   |
+ \           /
+  \_________/
    
-   _______
-  /       \
- /         \
+   _________
+  /         \
+ /           \
  ```
