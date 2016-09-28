@@ -32,10 +32,10 @@ These exercises should be completed on the whiteboards by yourself, but feel fre
 2. Write a program named __Egg__ that displays the output shown below.
   ```
     _______
-   /       \
+    /       \
   /         \
   \         /
-   \_______/
+    \_______/
 
   -"-'-"-'-"-
     _______
