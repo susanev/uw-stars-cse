@@ -6,6 +6,7 @@
 * Class is executable only if it has a __main__ method
 * Commands end with semicolons
 * Escape sequences
+
   | __Escape sequence__   | __Description__       |
   | :-------------------- | :-------------------- |
   |  \t                   | Newline               |
@@ -19,7 +20,8 @@
 * Must declare a variable before you use it, but can't declare it twice
 * Understanding assignment statements
 * Three main data types (you will learn more later)
- | Date type   | Description 
+
+ | __Data type__   | __Description__                                           |
  | :-----------|-------------------------------------------------------------- |
  | int         | integers, pos, zero, neg, up to 2^31-1                        |
  | double      | floating point numbers (real), pos, zero, neg, up to 10^308   |
