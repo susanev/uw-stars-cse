@@ -11,7 +11,6 @@
 * Must declare a variable before you use it, but can't declare it twice
 * Understanding assignment statements
 * Three main data types (you will learn more later)
-
  | Date type   | Description 
  | :-----------|-------------------------------------------------------------- |
  | int         | integers, pos, zero, neg, up to 2^31-1                        |
@@ -26,3 +25,4 @@
 ### Style
   * Classes start with a capital letter, no spaces, all other words in name are also capitalized
   * Methods start with lowercase letters, no spaces, all other words in name are capitalized
+  * Indentation is importnat, when you open a curly brace everything inside is indented
