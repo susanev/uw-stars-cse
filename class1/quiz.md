@@ -31,7 +31,7 @@
 
     | __Expression__                 | __What does it evaluate to__   |
     |:-----------------------------  | :----------------------------- |
-    |                                | Newline                        |
-    |                                | Tab                            |
-    |                                | Double quote                   |
-    |                                | Backslash                      |
+    |                                |                                |
+    |                                |                                |
+    |                                |                                |
+    |                                |                                |
