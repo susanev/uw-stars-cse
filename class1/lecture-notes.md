@@ -37,3 +37,31 @@
   * Classes start with a capital letter, no spaces, all other words in name are also capitalized
   * Methods start with lowercase letters, no spaces, all other words in name are capitalized
   * Indentation is important, when you open a curly brace everything inside is indented
+  
+### Living Coding
+Together we will write a Java Program called EggStop that prints the ASCII image below. We will practicing using methods and reducing redundancy.
+
+```
+   _______
+  /       \
+ /         \
+ \         /
+  \       /
+   _______
+ \         /
+  \       /
+   _______
+  +-------+
+  
+   _______
+  /       \
+ /         \
+ |   STOP  |
+ \         /
+  \       /
+   _______
+   
+   _______
+  /       \
+ /         \
+ ```
