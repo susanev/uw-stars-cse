@@ -6,14 +6,12 @@
 * Class is executable only if it has a __main__ method
 * Commands end with semicolons
 * Escape sequences
-
   | __Escape sequence__   | __Description__       |
   | :-------------------- | :-------------------- |
   |  \t                   | Newline               |
   |  \n                   | Tab                   |
   |  \"                   | Double quote          |
   |  \\                   | Backslash             |
- 
 * Your goal for all assignments is to reduce redundancy
 * You want main to be short, and give an good overview of what your program does
 * Java precedence
@@ -21,7 +19,6 @@
 * Must declare a variable before you use it, but can't declare it twice
 * Understanding assignment statements
 * Three main data types (you will learn more later)
-
  | Date type   | Description 
  | :-----------|-------------------------------------------------------------- |
  | int         | integers, pos, zero, neg, up to 2^31-1                        |
