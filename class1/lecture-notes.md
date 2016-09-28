@@ -1,4 +1,5 @@
 # Lecture Notes
+### General
 * Every piece of code you write needs to be inside of a class
 * Class is executable only if it has a __main__ method
 * Commands end with semicolons
@@ -11,6 +12,6 @@
 * Understanding assignment statements
 * Three main data types (you will learn more later)
 
-* Style notes
+### Style
   * Classes start with a capital letter, no spaces, all other words in name are also capitalized
   * Methods start with lowercase letters, no spaces, all other words in name are capitalized
