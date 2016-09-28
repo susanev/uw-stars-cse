@@ -38,7 +38,7 @@
   * Methods start with lowercase letters, no spaces, all other words in name are capitalized
   * Indentation is important, when you open a curly brace everything inside is indented
   
-### Living Coding
+### Live Coding
 Together we will write a Java Program called EggStop that prints the ASCII image below. We will practicing using methods and reducing redundancy.
 
 ```
