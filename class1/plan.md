@@ -1,12 +1,15 @@
 # Class #1 Plan
 ## Wednesday, 6:00pm – 7:20pm, 09/28/2016
 * Introductions
-* General guidelines
+* General classroom stuff
  * Be nice to yourself and others
  * Be patient with yourself and others
  * No phones/laptops out unless working on assigned code
  * Take a break whenever you need it (but try and make this happen outside of lecture and quiz time)
 * Review [syllabus](../syllabus.md)
+* How this class will work
+ * Every class we will have a quiz, quiz review, short lecture (reviewing material), then have time to complete whiteboard exercises
+ * When we get close to the midterm and final class format will change to test prep and practice
 * Success in CSE 142
  * Go to CSE142 lecture and lab
  * Come to our class and check-in meetings
