@@ -23,6 +23,7 @@
  * int literal: number without a decimal, e.g., -7, 0, 103
  * double literal: number with a decimal, e.g., -7.0, 0.2, 103.5
  * String literal: characters surrounded by quotes, e.g., "hello world"
+* For now, use `System.out.println("text")` to display text to the console
 
 
 ### Style
