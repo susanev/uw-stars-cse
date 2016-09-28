@@ -7,12 +7,12 @@
 * Commands end with semicolons
 * Escape sequences
 
- | __Escape sequence__   | __Description__       |
- | :-------------------- | :-------------------- |
- |  \t                   | Newline               |
- |  \n                   | Tab                   |
- |  \"                   | Double quote          |
- |  \\                   | Backslash             |
+  | __Escape sequence__   | __Description__       |
+  | :-------------------- | :-------------------- |
+  |  \t                   | Newline               |
+  |  \n                   | Tab                   |
+  |  \"                   | Double quote          |
+  |  \\                   | Backslash             |
  
 * Your goal for all assignments is to reduce redundancy
 * You want main to be short, and give an good overview of what your program does
