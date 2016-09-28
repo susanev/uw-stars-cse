@@ -10,12 +10,14 @@
 2. Write an executable program that prints "Hello World!"
 
 3. Describe the errors in the program below.
-    ```public MyProgram {
-           public static void main(String[] args) {
-               System.out.println("This is a test of the")
-               System.out.Pringln("emergency broadcast system.");
-           }
-       }```
+    ```
+    public MyProgram {
+       public static void main(String[] args) {
+           System.out.println("This is a test of the")
+           System.out.Pringln("emergency broadcast system.");
+       }
+   }
+   ```
 
 4. What is the name of the character shown: `\`
 
