@@ -1,6 +1,6 @@
 # Quiz 1
 
-1. Below is a program, but it is not executable? Explain what executable means, why the program below is not executable, and what you need to add to make it executable?
+1. Below is a program, but it is not executable. Explain what executable means, why the program below is not executable, and what you need to add to make it executable?
     ```
         public class Hello {
 
