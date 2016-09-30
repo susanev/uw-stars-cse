@@ -5,7 +5,7 @@
 * General discussion about how their feeling in class and any current questions they have
 * Have you done the intro survey?
 * Have you been doing the readings?
-* How confident are you feeling with these topics
+* How confident are you feeling with these topics?
  * Setting up a class and creating static methods
  * Writing print statements
  * Evaluating expressions
