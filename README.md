@@ -8,5 +8,6 @@ __Course Description__: Support class for CSE142 to ensure success by all studen
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, variables, assignment statements
 * [Plan](week1/plan.md)
 * [Quiz](week1/quiz.md)
+* [Quiz answers](week1/quiz-answers.md)
 * [Lecture notes](week1/lecture-notes.md)
 * [Exercises](week1/exercises.md)
