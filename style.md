@@ -19,11 +19,11 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Use __println__ statements over a print statement that ends with `\n`.
 * Combine print statements when necessary, for example use 
 
-  `System.out.println("*");` 
+  `System.out.println("*"); // use this!` 
   
   instead of 
   
   ```
-  System.out.print("*");
+  System.out.print("*"); // do not use these two lines!
   System.out.println();
   ```
