@@ -6,7 +6,7 @@
 
         }
     ```
-__The class Hello needs a main method in order for it to be executable, and for it to run in the Java Runtime Environment.))
+__The class Hello needs a main method in order for it to be executable, and for it to run in the Java Runtime Environment.__
 
 2. Write an executable program that prints "Hello World!"
 ```
