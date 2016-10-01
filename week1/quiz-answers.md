@@ -31,10 +31,10 @@ __Forward slash, also sometimes called 'slash'__
 
     | Escape sequence   | Description      |
     | -------------------- | :-------------------- |
-    |  \n                     | Newline            |
-    |  \t                     | Tab                |
-    |  \"                     | Double quote       |
-    |  \\                     | Backslash          |
+    |  __\n__                     | Newline        |
+    |  __\t__                     | Tab            |
+    |  __\"__                     | Double quote   |
+    |  __\\__                     | Backslash      |
     
 7. What will be printed to the console when the program below is run?
 
@@ -50,8 +50,8 @@ __Forward slash, also sometimes called 'slash'__
 
     | Expression                 | What does it evaluate to   |
     |-----------------------------  | :----------------------------- |
-    | `3 + 4 + " 2 + 2"`             | "7 2 + 2"                     |
-    | `4.0 / 2 * 9 / 2`              | 9.0                           |
-    | `8 / 5 + 13 / 2 / 3.0`         | 3.0                           |
-    | `"hello 34 " + 2 * 4`          | "hello 34 8"                  |
+    | `3 + 4 + " 2 + 2"`             | __"7 2 + 2"__                 |
+    | `4.0 / 2 * 9 / 2`              | __9.0__                       |
+    | `8 / 5 + 13 / 2 / 3.0`         | __3.0__                       |
+    | `"hello 34 " + 2 * 4`          | __"hello 34 8"__              |
     
