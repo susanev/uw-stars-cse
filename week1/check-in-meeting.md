@@ -2,7 +2,7 @@
 ## Week 1
 
 ### Disucssion
-* General discussion about how their feeling in class and any current questions they have
+* How are you feeling in class, are you stuck on any topics or do you have any questions?
 * Have you done the intro survey?
 * Have you been doing the readings?
 * How confident are you feeling with these topics?
