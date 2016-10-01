@@ -16,7 +16,6 @@ public class Hello {
     }
 }
 ```
-
 3. Describe the errors in the program below.
     ```
     public MyProgram {
