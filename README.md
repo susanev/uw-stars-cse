@@ -5,7 +5,7 @@ __Course Description__: Support class for CSE142 to ensure success by all studen
 [Syllabus](syllabus.md)
 
 ### Week 1
-__Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, variables, assignment statements
+__Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
 * [Plan](week1/plan.md)
 * [Quiz](week1/quiz.md)
 * [Quiz answers](week1/quiz-answers.md)
