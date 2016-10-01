@@ -9,11 +9,13 @@
 __The class Hello needs a main method in order for it to be executable, and for it to run in the Java Runtime Environment.__
 
 2. Write an executable program that prints "Hello World!"
-```
-public class Hello {
-
-}
-```
+    ```
+    public class Hello {
+        public static void main(String[] args) {
+           System.out.println("Hello world!");
+        }
+    }
+    ```
 
 3. Describe the errors in the program below.
     ```
