@@ -1,5 +1,9 @@
 # Check-in Meeting
 ## Week 2
+### Discussion
+  * Have you finished the homework? Any questions?
+  * How are you feeling in class, are you stuck on any topics or do you have any questions?
+  * Have you been doing the readings?
 
 ### Expressions
   1. `(238 % 10 + 3) % 7`	
