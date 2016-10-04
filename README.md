@@ -14,3 +14,12 @@ __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, 
 * [Lecture notes](week1/lecture-notes.md)
 * [Exercises](week1/exercises.md)
 * [Check-in meeting](week1/check-in-meeting.md)
+
+### Week 2
+__Topics__:
+* [Plan]
+* [Quiz]
+* [Quiz answers]
+* [Lecture notes]
+* [Exercises]
+* [Check-in meeting]
