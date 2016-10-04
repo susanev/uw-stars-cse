@@ -4,6 +4,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 ### General
 * Every statement should be on its own line.
 * No single line should be more than 100 characters.
+* Use curly braces consistently 
 
 ### Naming 
 * Start all __class names__ with an uppercase letter, every following word in the class name should also start with an uppercase letter (e.g., Box, FancyBox, SuperFancyBox).
