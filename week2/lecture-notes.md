@@ -22,6 +22,7 @@
 ### Assignment statements
 * `=` is the assignment operator, it has nothing to do with equality
 * Assignment statements should be read right-to-left
+
  ```
  // 1 is stored in the int variable named x
  int x = 1;
