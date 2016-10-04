@@ -22,20 +22,7 @@
  * unary operators (+, -)
  * multiplicative operators (*, /, %)
  * additive operators (+, -)
-* Integer division
-* Must declare a variable before you use it, but can't declare it twice
-* Understanding assignment statements
-* Three main data types (you will learn more later)
-
- | __Data type__   | __Description__                                           |
- | :-----------|-------------------------------------------------------------- |
- | int         | integers, pos, zero, neg, up to 2^31-1                        |
- | double      | floating point numbers (real), pos, zero, neg, up to 10^308   |
- | String      | text characters                                               |
-* Literals
- * int literal: number without a decimal, e.g., -7, 0, 103
- * double literal: number with a decimal, e.g., -7.0, 0.2, 103.5
- * String literal: characters surrounded by quotes, e.g., "hello world"
+* Integer division: When dividing integers, all information after the decimal point is lost
 * For now, use `System.out.println("text")` to display text to the console
 
 
