@@ -35,7 +35,7 @@
 
  ```
  for(initialization; test; update) {
-     statement(s);
+     body
  }
  ```
 
