@@ -1,6 +1,20 @@
 # Lecture Notes
 ## Week 2
 
+### Data types
+* Three main data types (you will learn more later)
+
+ | __Data type__   | __Description__                                           |
+ | :-----------|-------------------------------------------------------------- |
+ | int         | integers, pos, zero, neg, up to 2^31-1                        |
+ | double      | floating point numbers (real), pos, zero, neg, up to 10^308   |
+ | String      | text characters                                               |
+ 
+* Literals
+* int literal: number without a decimal, e.g., -7, 0, 103
+* double literal: number with a decimal, e.g., -7.0, 0.2, 103.5
+* String literal: characters surrounded by quotes, e.g., "hello world"
+
 ### Variables
 * In Java we need to declare variables with a type and a name before they can be used
 * Once a variable is declared you cannot redeclare it (with a type)
