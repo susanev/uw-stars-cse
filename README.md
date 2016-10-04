@@ -23,3 +23,6 @@ __Topics__:
 * [Lecture notes](week2/lecture-notes.md)
 * [Exercises]
 * [Check-in meeting](week2/check-in-meeting.md)
+
+#### Resources
+Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) and their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
