@@ -31,6 +31,8 @@
   ```
 
 ### Programming
-1. Write a for loop that produces the following output: `1 4 9 16 25 36 49 64 81 100`
+1. Write a for loop that produces the following output:
+  `1 4 9 16 25 36 49 64 81 100`
 
-2. Write a piece of code that uses a for loop to compute and print the first 12 Fibonacci numbers: `1 1 2 3 5 8 13 21 34 55 89 144`
+2. Write a piece of code that uses a for loop to compute and print the first 12 Fibonacci numbers:
+  `1 1 2 3 5 8 13 21 34 55 89 144`
