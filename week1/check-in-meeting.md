@@ -11,7 +11,7 @@
  * Evaluating expressions
  * Creating and using variables
  
- ### Exercises
+### Exercises
  
 #### Expressions
 1. `4 + 1 + 9 + "." + (-3 + 10) + 11 / 3`
