@@ -11,9 +11,9 @@
  | String      | text characters                                               |
  
 * Literals
-* int literal: number without a decimal, e.g., -7, 0, 103
-* double literal: number with a decimal, e.g., -7.0, 0.2, 103.5
-* String literal: characters surrounded by quotes, e.g., "hello world"
+ * int literal: number without a decimal, e.g., -7, 0, 103
+ * double literal: number with a decimal, e.g., -7.0, 0.2, 103.5
+ * String literal: characters surrounded by quotes, e.g., "hello world"
 
 ### Variables
 * In Java we need to declare variables with a type and a name before they can be used
