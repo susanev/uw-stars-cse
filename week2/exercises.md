@@ -1,15 +1,15 @@
 # Exercises
 ## Week 2
 
-A. Write a for loop that produces the following output:
+A. Write a for loop that produces the following output
 
   `1 4 9 16 25 36 49 64 81 100`
 
-B. Write a piece of code that uses a for loop to compute and print the first 12 Fibonacci numbers:
+B. Write a piece of code that uses a for loop to compute and print the first 12 Fibonacci numbers
 
   `1 1 2 3 5 8 13 21 34 55 89 144`
   
-C. Write nested for loops to produce the following output:
+C. Write nested for loops to produce the following output
  
 ```
     1
@@ -18,7 +18,7 @@ C. Write nested for loops to produce the following output:
  4
 5
 ```
-D. Write nested or loops to produce the following output:
+D. Write nested or loops to produce the following output
   
 ```
     1
@@ -39,7 +39,7 @@ E. Fill in the table below, indicating an expression that uses line and SIZE to 
 | 1, 2, 3, 4, 5, 6, ... | 4 | 10, 9, 8, 7, 6, 5, ... | |
 | 1, 2, 3, 4, 5, 6, ... | 9 | 20, 19, 18, 17, 16, 15, ... | |
 
-F. Write an entire program that produces the following hourglass figure as its output using nested for loops:
+F. Write an entire program that produces the following hourglass figure as its output using nested for loops
 
 ```
 |""""""""""|
