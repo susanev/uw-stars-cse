@@ -31,8 +31,8 @@
 
 5. Fill in the table below, indicating an expression that uses line and SIZE to generate the sequence
 
-  | line value | constant SIZE value | characters | expression |
-  | :--------------------------------------------------------- |
+  | __line value__ | __constant SIZE value__ | __characters__ | __expression__ |
+  | :---| :------| :--------|:---------------------------------------- |
   | 1, 2, 3, 4, 5, 6, ... | 1 | 4, 6, 8, 10, 12, 14, ... | |
   | 1, 2, 3, 4, 5, 6, ... | 2 | 6, 8, 10, 12, 14, 16... | |
   | 1, 2, 3, 4, 5, 6, ... | 3 | 13, 16, 21, 25, 29, 33, ... | |
