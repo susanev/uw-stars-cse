@@ -11,23 +11,23 @@
   
 3. Write nested for loops to produce the following output:
  
-  ```
-      1
-     2
-    3
-   4
-  5
-  ```
+```
+    1
+   2
+  3
+ 4
+5
+```
 
 4. Write nested or loops to produce the following output:
   
-  ```
-      1
-     22
-    333
-   4444
-  55555
-  ```
+```
+    1
+   22
+  333
+ 4444
+55555
+```
 
 5. Fill in the table below, indicating an expression that uses line and SIZE to generate the sequence
 
@@ -42,16 +42,16 @@
 
 6. Write an entire program that produces the following hourglass figure as its output using nested for loops:
 
-  ```
-  |""""""""""|
-   \::::::::/
-    \::::::/
-     \::::/
-      \::/
-       ||
-      /::\
-     /::::\
-    /::::::\
-   /::::::::\
-  |""""""""""|
-  ```
+```
+|""""""""""|
+ \::::::::/
+  \::::::/
+   \::::/
+    \::/
+     ||
+    /::\
+   /::::\
+  /::::::\
+ /::::::::\
+|""""""""""|
+```
