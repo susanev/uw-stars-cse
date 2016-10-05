@@ -17,7 +17,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 
 ### Printing
 * To print a blank line use `System.out.println()`, do not use `System.out.println("")`.
-* Use __println__ statements over a print statements that end with `\n`.
+* Use __println__ statements instead of print statements that end with `\n`.
 * Combine print statements when necessary, for example use 
 
   ```
