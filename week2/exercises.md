@@ -18,7 +18,7 @@
    4
   5
   ```
-
+f
 4. Write nested or loops to produce the following output:
   
   ```
