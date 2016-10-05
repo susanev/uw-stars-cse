@@ -15,7 +15,7 @@
       2
      3
     4
-    5
+   5
   ```
 
 4. Write nested or loops to produce the following output:
@@ -24,7 +24,7 @@
       22
      333
     4444
-    55555
+   55555
   ```
 
 5. Fill in the table below, indicating an expression that uses line and SIZE to generate the sequence
