@@ -38,4 +38,8 @@
      body
  }
  ```
+ 
+ ### Constants
+ * Should be at the top of your program
+ * Start with `public static final`
 
