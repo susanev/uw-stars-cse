@@ -9,6 +9,8 @@ _This style is specific to the guidelines at UW when using Java, different langu
 ### Naming 
 * Start all __class names__ with an uppercase letter, every following word in the class name should also start with an uppercase letter (e.g., Box, FancyBox, SuperFancyBox).
 * Start all __method names__ with a lowercase letter, every following word in the method name should start with an uppercase letter (.e.g., triangle, printTriangle, printFancyTriangle).
+* Start all __variable names__ with a lowercase letter, every following word in the variable name should start with an uppercase letter (.e.g., border, borderColor).
+* __Constants__ should be named in all uppercase letters, with the words separated by underscores (e.g., ROCKET_SIZE).
 
 ### Methods
 * Reduce redundancy in your program by using __static methods__, but do not create methods that do too little.
@@ -32,3 +34,13 @@ _This style is specific to the guidelines at UW when using Java, different langu
   System.out.print("*"); 
   System.out.println();
   ```
+### Variables
+* If you do not need decimal precision use __int__ instead of __double__
+* Variable names should clearly describe what the variable represents
+
+### Constants
+* Constants should only be used for single values that do not change
+* Constants should not be passed as parameters
+
+## for loops
+* Do not use a for loop if it only runs 1 time
