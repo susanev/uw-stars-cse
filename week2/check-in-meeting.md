@@ -18,16 +18,16 @@
   int b = 4;
   int c = 3;
   int d = a + b;
-  a = c - b - a;
-  b = c;
-  c = a + d - b;
+  a = c - d - a;
+  b = a;
+  c = a + c - b;
   ```
 
 2. What are the values of `e`, `f`, and `g` after the following code is executed?
   ```
   int e = 1;
   int f = 0;
-  int g = -1;
+  int g = -11;
   int h = e + f + g;
   e = f - h;
   f = e;
