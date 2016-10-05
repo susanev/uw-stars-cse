@@ -28,6 +28,7 @@
   ```
 
 5. Fill in the table below, indicating an expression that uses line and SIZE to generate the sequence
+
 | line value | constant SIZE value | characters | expression |
 | :--------------------------------------------------------- |
 | 1, 2, 3, 4, 5, 6, ... | 1 | 4, 6, 8, 10, 12, 14, ... | |
@@ -38,6 +39,8 @@
 | 1, 2, 3, 4, 5, 6, ... | 9 | 20, 19, 18, 17, 16, 15, ... | |
 
 6. Write an entire program that produces the following hourglass figure as its output using nested for loops:
+
+```
 |""""""""""|
  \::::::::/
   \::::::/
@@ -49,3 +52,4 @@
   /::::::\
  /::::::::\
 |""""""""""|
+```
