@@ -11,7 +11,7 @@
   | ` 2 * 2.3 + 5 / 2 + 19 / 4 * 2.0` | ________________ |
   |`436 / 10 / 5 - 9 / 2 * 2.5 / 2` | ________________|
 
-2. In your own works explain the difference between `print()` and `println()`
+2. In your own works explain the difference between `print()` and `println()`.
 
 3. What are the values of first and second at the end of the following code? 
 
