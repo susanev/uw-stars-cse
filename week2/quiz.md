@@ -11,7 +11,9 @@
   | ` 2 * 2.3 + 5 / 2 + 19 / 4 * 2.0` | ________________ |
   |`436 / 10 / 5 - 9 / 2 * 2.5 / 2` | ________________|
 
-2. What are the values of first and second at the end of the following code? 
+2. In your own works explain the difference between `print()` and `println()`
+
+3. What are the values of first and second at the end of the following code? 
 
   ```
   int first = 8;
@@ -21,7 +23,7 @@
   first = first - second;
   ```
 
-3. What is the output of the following sequence of loops?
+4. What is the output of the following sequence of loops?
   ```
   for(int i = 1; i <= 5; i++){
     for(int j = 1; j <= 10; j++){
@@ -31,7 +33,7 @@
   }
   ```
   
-4.  Consider the following program. what is the output produced by this program.
+5.  Consider the following program. what is the output produced by this program.
 
     ```
      public class Mystery {
