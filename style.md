@@ -43,5 +43,5 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Constants should only be used for single values that do not change
 * Constants should not be passed as parameters
 
-## for loops
+### for loops
 * Do not use a for loop if it only runs 1 time
