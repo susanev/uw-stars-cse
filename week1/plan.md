@@ -1,6 +1,8 @@
 # Plan
 ## Week 1
 
+[Slides](https://docs.google.com/presentation/d/1CyUM1R0l0_AaMqhVPHMm3u2lpsZ-cPJw68XqNFN96Og/edit?usp=sharing)
+
 * Introductions
 * General classroom stuff
  * Be nice to yourself and others
