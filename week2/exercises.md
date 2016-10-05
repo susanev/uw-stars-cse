@@ -10,6 +10,7 @@
   `1 1 2 3 5 8 13 21 34 55 89 144`
   
 3. Write nested for loops to produce the following output:
+ 
   ```
       1
      2
@@ -19,6 +20,7 @@
   ```
 
 4. Write nested or loops to produce the following output:
+  
   ```
       1
      22
