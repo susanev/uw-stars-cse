@@ -34,6 +34,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
   System.out.print("*"); 
   System.out.println();
   ```
+
 ### Variables
 * If you do not need decimal precision use __int__ instead of __double__
 * Variable names should clearly describe what the variable represents
