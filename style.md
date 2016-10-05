@@ -16,7 +16,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * There should be a blank line between every method in your entire program.
 
 ### Printing
-* To print a blank line use `System.out.println()'`, do not use `System.out.println("")`.
+* To print a blank line use `System.out.println()`, do not use `System.out.println("")`.
 * Use __println__ statements over a print statements that end with `\n`.
 * Combine print statements when necessary, for example use 
 
