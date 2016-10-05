@@ -3,8 +3,8 @@
 
 1. For each expression in the left-hand column, indicate its value in the right-hand column.  Be sure to list a constant of appropriate type (e.g., 7.0 rather than 7 for a double, Strings in quotes).
 
-        | __Expression__ | __Value__|
-        | :--- | :---|
+        | __Expression__ | __Value__ |
+        | :--- | :--- |
         | '8 * 2 - 2 * 3' | ________________ |
         | '87 % 10 + 28 % 5 % 2' | ________________ |
         | '1 + 2 + "3" + 4 + 5 * 6' | ________________ |
