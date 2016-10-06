@@ -24,5 +24,5 @@ __Topics__:
 * [Exercises](week2/exercises.md)
 * [Check-in meeting](week2/check-in-meeting.md)
 
-#### Resources
+#### References
 Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) in their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
