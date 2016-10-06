@@ -21,7 +21,7 @@ __Topics__:
 * [Quiz](week2/quiz.md)
 * [Quiz answers]
 * [Lecture notes](week2/lecture-notes.md)
-* [Exercises]
+* [Exercises](week2/exercises.md)
 * [Check-in meeting](week2/check-in-meeting.md)
 
 #### Resources
