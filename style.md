@@ -16,6 +16,8 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Reduce redundancy in your program by using __static methods__, but do not create methods that do too little.
 * __main__ should be a short, summary of your program. Readers of your code should be able to look at your main method and know exactly what your entire program will do.
 * There should be a blank line between every method in your entire program.
+* There should be a single space between the closing paren of a method header and the opening curly brace of a method header (e.g., `public static void Hello() {`
+  
 
 ### Printing
 * To print a blank line use `System.out.println()`, do not use `System.out.println("")`.
