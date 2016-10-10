@@ -26,6 +26,27 @@ _Not built into Java, something written specifically for this class. Will need t
  
 * See basic program with the setup below.
  ```
+  // needed in order to use Color
+ import java.awt.*;
+
+ public class BasicDrawing {
+    public static void main(String [] args) {
+       // creates a new Drawing Panel object of width 400, height 200
+       DrawingPanel dp = new DrawingPanel(400, 200);
+
+       // sets the background color of the panel
+       dp.setBackground(Color.GREEN);
+
+       // creates a new Graphics object
+       Graphics g = dp.getGraphics();
+
+       g.setColor(Color.RED);
+       g.fillRect(100, 100, 50, 70);
+       g.setColor(Color.BLUE);
+       g.drawRect(100, 100, 50, 70);
+    }
+ }
+ ```
  
  
 
