@@ -16,13 +16,22 @@ __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, 
 * [Check-in meeting](week1/check-in-meeting.md)
 
 ### Week 2
-__Topics__:
+__Topics__: Data types, variables, assignment statements, for loops, constants
 * [Plan](week2/plan.md)
 * [Quiz](week2/quiz.md)
-* [Quiz answers]
 * [Lecture notes](week2/lecture-notes.md)
 * [Exercises](week2/exercises.md)
 * [Check-in meeting](week2/check-in-meeting.md)
+
+### Week 3
+__Topics__: Parameters, graphics, return, Math class
+* [Plan]
+* [Quiz]
+* [Lecture notes](week3/lecture-notes.md)
+* [Exercises]
+* [Check-in meeting]
+* [Homework](week3/homework.md)
+
 
 #### References
 Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) in their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
