@@ -9,7 +9,7 @@
 * __object types__: name of class (.e.g., String, DrawingPanel)
 
 ### Drawing Panel
-_Not built into Java, something written specifically for this class. Will need to place [DrawingPanel.java](DrawingPanel.java) in the same folder as your code in order for it to work properly_
+_Not built into Java, something written specifically for this class. Will need to place [DrawingPanel.java](DrawingPanel.java) in the same folder as your code and compile it in order for it to work properly_
 * In computer graphics, the upper-left hand corner is (0,0)
 * In order to use Color, you will need to add `import java.awt.*;` to the top of your code
 * Drawing Panel methods
