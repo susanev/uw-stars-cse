@@ -14,7 +14,7 @@ _Not built into Java, something written specifically for this class. Will need t
 * In order to use Color, you will need to add `import java.awt.*;` to the top of your code
 * Drawing Panel methods
 
- | __Method Nmae__                                      |  __Description__|
+ | __Method Name__                                      |  __Description__|
  | :--------------------------------------------------- | :--- |
  | `dp.setBackground(Color);` | sets the background color of the panel |
  | `dp.clear();` | clears the background of the panel |
