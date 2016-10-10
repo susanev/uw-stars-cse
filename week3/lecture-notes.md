@@ -15,6 +15,7 @@ _Not built into Java, something written specifically for this class. Will need t
 * Drawing Panel methods
 
  |: __Method Nmae__ | : __Description__|
+ | --- | --- |
  | `g.drawLine(x1, y1, x2, y2);` | draws a line between the points (x1, y1) and (x2, y2) |
  | `g.drawOval(x, y, width, height);` | draws the outline of an oval that fits exactly into a box of size width x height with the top-left corner of the box at (x, y) |
  | `g.drawRect(x, y, width, height);` | draws the outline of a rectangle of size width x height with the top-left corner at (x, y) |
