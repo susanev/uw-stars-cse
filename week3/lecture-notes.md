@@ -27,7 +27,7 @@ _Not built into Java, something written specifically for this class. Will need t
  | `g.fillRect(x, y, width, height)` | draws a filled in rectangle of size width x height with a top-left corner at (x, y) |
  | `g.setColor(Color); ` | sets Graphics to paint any following shapes in the given color |
  
-* See basic program with the setup below.
+* Basic program setup
  ```
   // needed in order to use Color
  import java.awt.*;
