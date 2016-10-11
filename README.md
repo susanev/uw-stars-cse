@@ -29,7 +29,7 @@ __Topics__: Parameters, graphics, return, Math class
 * [Quiz]
 * [Lecture notes](week3/lecture-notes.md)
 * [Exercises]
-* [Check-in meeting]
+* [Check-in meeting](week3/check-in-meeting.md)
 * [Homework](week3/homework.md)
 
 
