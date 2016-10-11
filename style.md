@@ -57,6 +57,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * All complicated parts of your code should include comments
 * There should be a space between the comment character and your actual comment (e.g., `// comment`)
 * Comments should directly line up with the code they describe
+
  ```
  // this method prints "Hello"
  public static void hello() {
