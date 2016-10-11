@@ -73,7 +73,6 @@ _Not built into Java, something written specifically for this class. Will need t
 
 ### Casting
 * Changes the type of a piece of information
-*
  ```
  int x = 2;
  // a will contain 2.0
