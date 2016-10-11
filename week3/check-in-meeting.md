@@ -47,7 +47,7 @@
 ```
 
 ### Programming
-1. Write a method named __lastDigit__ that returns the last digit of an integer. For example, lastDigit(3572) should return 2. It should work for negative numbers as well. For example, lastDigit(-947) should return 7. (Hint: This is a short method. You may not use a String to solve this problem.)
+1. Write a method named __lastDigit__ that returns the last digit of an integer. For example, lastDigit(3572) should return 2. It should work for negative numbers as well. For example, lastDigit(-947) should return 7.
 
 2. Write a method called __printPowersOfN__ that accepts a base and an exponent as arguments and prints each power of the base from base0 (1) up to that maximum power, inclusive. For example, consider the following calls:
   ```
