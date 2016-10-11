@@ -22,7 +22,7 @@
    }
 
    public static void touch(String elbow, String ear) {
-      System.out.println("touch your " + elbow" + " to your " + ear);
+      System.out.println("touch your " + elbow + " to your " + ear);
    }
   ```
 
@@ -42,7 +42,7 @@
    }
 
    public static void touch(String elbow, String ear) {
-      System.out.println("touch your " + elbow" + " to your " + ear);
+      System.out.println("touch your " + elbow + " to your " + ear);
    }
 ```
 
