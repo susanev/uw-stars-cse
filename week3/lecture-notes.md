@@ -83,4 +83,13 @@ _Not built into Java, something written specifically for this class. Will need t
  // b will contain 2
  int b = (int)y;
  ```
-
+ * Updated precedence list with casting
+ | __Priority__ | __Operation__ |
+ | :--- | :--- |
+ | 1 | parens |
+ | 2 | uniary operations, __casting__ |
+ | 3 | multiplication, division, mod |
+ | 4 | addition, subtraction, string concatenation |
+ | 5 | less than, less than or equal to, greater than, greather than or equal to |
+ | 6 | equal to, not equal to |
+ 
