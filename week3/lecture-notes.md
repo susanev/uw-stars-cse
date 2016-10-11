@@ -7,6 +7,8 @@
  * A variable declared in a method exists only in that method
 * __primitive types__: int, double, boolean, char
 * __object types__: name of class (.e.g., String, DrawingPanel)
+* __parameter__: sends information __in__ from the caller of a method
+* __return__: sends information __out__ from a method to its caller
 
 ### Drawing Panel
 _Not built into Java, something written specifically for this class. Will need to place [DrawingPanel.java](DrawingPanel.java) in the same folder as your code and compile it in order for it to work properly_
@@ -50,6 +52,23 @@ _Not built into Java, something written specifically for this class. Will need t
     }
  }
  ```
+### Math class
+* The __Math__ class has a number of useful methods including `Math.sqrt()`, `Math.abs()`, and `Math.pow()`; check out more details in the [Java API](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
+
+### return
+* There cannot be statements exectuted after a return statement in a method
+* The return type should be provided as the third keyowrd in your method header
+ ```
+ // This method has a return type of void
+ public static void hello() {
+    System.out.println("Hello");
+ }
  
+ // This method has a return type of int
+ public static int three() {
+    return 3;
+ }
+ ```
+
  
 
