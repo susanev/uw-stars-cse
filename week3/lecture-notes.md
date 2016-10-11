@@ -56,6 +56,7 @@ _Not built into Java, something written specifically for this class. Will need t
 * The __Math__ class has a number of useful methods including `Math.sqrt()`, `Math.abs()`, and `Math.pow()`; check out more details in the [Java API](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
 ### return
+* A return statement sends information __out__ from a method to its caller
 * There cannot be statements exectuted after a return statement in a method
 * The return type should be provided as the third keyowrd in your method header
  ```
@@ -69,6 +70,16 @@ _Not built into Java, something written specifically for this class. Will need t
     return 3;
  }
  ```
-
+### Casting
+* Changes the type of a piece of information
+*
+ ```
+ int x = 2;
+ // a will contain 2.0
+ double a = (double)x;
  
+ double y = 2.5;
+ // b will contain 2
+ int b = (int)y;
+ ```
 
