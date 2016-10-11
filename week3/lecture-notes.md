@@ -52,6 +52,7 @@ _Not built into Java, something written specifically for this class. Will need t
     }
  }
  ```
+
 ### Math class
 * The __Math__ class has a number of useful methods including `Math.sqrt()`, `Math.abs()`, and `Math.pow()`; check out more details in the [Java API](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
