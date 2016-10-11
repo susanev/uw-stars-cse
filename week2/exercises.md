@@ -1,32 +1,32 @@
 # Exercises
 ## Week 2
 
-A. Write a for loop that produces the following output
+1. Write a for loop that produces the following output
 
   `1 4 9 16 25 36 49 64 81 100`
 
-B. Write a piece of code that uses a for loop to compute and print the first 12 Fibonacci numbers
+2. Write a piece of code that uses a for loop to compute and print the first 12 Fibonacci numbers
 
   `1 1 2 3 5 8 13 21 34 55 89 144`
   
 C. Write nested for loops to produce the following output
  
-```
-    1
-   2
-  3
- 4
-5
-```
+  ```
+      1
+     2
+    3
+   4
+  5
+  ```
 D. Write nested or loops to produce the following output
   
-```
-    1
-   22
-  333
- 4444
-55555
-```
+  ```
+      1
+     22
+    333
+   4444
+  55555
+  ```
 
 E. Determine an expression for each table below, the expression should use line and SIZE to generate the sequence
 
