@@ -77,11 +77,11 @@ _Not built into Java, something written specifically for this class. Will need t
  ```
  int x = 2;
  // a will contain 2.0
- double a = (double)x;
+ double a = (double) x;
  
  double y = 2.5;
  // b will contain 2
- int b = (int)y;
+ int b = (int) y;
  ```
 * Updated precedence list with casting
  
