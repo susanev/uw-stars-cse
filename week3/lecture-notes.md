@@ -83,7 +83,8 @@ _Not built into Java, something written specifically for this class. Will need t
  // b will contain 2
  int b = (int)y;
  ```
- * Updated precedence list with casting
+* Updated precedence list with casting
+ 
  | __Priority__ | __Operation__ |
  | :--- | :--- |
  | 1 | parens |
