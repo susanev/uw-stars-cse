@@ -1,0 +1,14 @@
+# Plan
+## Week 3
+
+* Announcmenets
+ * Edward, please fill out the survey
+ * Create a Practice-It account, with school/org name __UW STARS__; you can edit your profile if you already have an account
+ * _NEW_: You will now have Practice-It homework each week, that needs to be completed before your check-in meeting
+* Was everyone able to view their feedback from their TA?
+* Any outstanding questions?
+* Review [UW Java Style](../style.md)
+* Quiz
+* Quiz Review
+* Graphics problems (on laptops)
+* Whiteboard exercises (if time)
