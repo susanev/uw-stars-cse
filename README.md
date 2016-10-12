@@ -25,7 +25,7 @@ __Topics__: Data types, variables, assignment statements, for loops, constants
 
 ### Week 3
 __Topics__: Parameters, graphics, return, Math class
-* [Plan]
+* [Plan](week3/plan.md)
 * [Quiz]
 * [Lecture notes](week3/lecture-notes.md)
 * [Exercises]
