@@ -28,7 +28,7 @@ __Topics__: Parameters, graphics, return, Math class
 * [Plan](week3/plan.md)
 * [Quiz]
 * [Lecture notes](week3/lecture-notes.md)
-* [Exercises]
+* [Exercises](week3/exercises.md)
 * [Check-in meeting](week3/check-in-meeting.md)
 * [Homework](week3/homework.md)
 
