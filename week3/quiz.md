@@ -2,6 +2,7 @@
 ## Week 3
 
 1. For each expression in the left-hand column, indicate its value in the right-hand column. List a constant of appropriate type (e.g., 7.0 for a double, true or false for a boolean, Strings in "" quotes).
+
   | __Expression__ | __Value__ |
   | :--- | :--- |
   | `4.5 / 3 / 2 + 1` | |
