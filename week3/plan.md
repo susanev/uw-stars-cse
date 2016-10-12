@@ -10,5 +10,8 @@
 * Review [UW Java Style](../style.md)
 * Quiz
 * Quiz Review
-* Graphics problems (on laptops)
+* Graphics practice (on laptops)
+ * Write a method to draw a house
+ * Write a method that draws _n_ houses, based on a parameter received
+ * __Extra__:Include a parameter in your house method that represents the size of the house, and the parameter that represents the base color of the house
 * Whiteboard exercises (if time)
