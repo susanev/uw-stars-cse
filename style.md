@@ -12,7 +12,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Start all __class names__ with an uppercase letter, every following word in the class name should also start with an uppercase letter (e.g., Box, FancyBox, SuperFancyBox)
 
 ### Methods
-* Start all __method names__ with a lowercase letter, every following word in the method name should start with an uppercase letter (.e.g., triangle, printTriangle, printFancyTriangle)
+* Start all method names with a lowercase letter, every following word in the method name should start with an uppercase letter (.e.g., triangle, printTriangle, printFancyTriangle)
 * Reduce redundancy in your program by using __static methods__, but do not create methods that do too little
 * __main__ should be a short summary of your program. Readers of your code should be able to look at your main method and know exactly what your entire program will do
 * There should be exactly one blank line between every method in your entire program
@@ -39,12 +39,12 @@ _This style is specific to the guidelines at UW when using Java, different langu
   ```
 
 ### Variables
-* Start all __variable names__ with a lowercase letter, every following word in the variable name should start with an uppercase letter (.e.g., border, borderColor)
+* Start all variable names with a lowercase letter, every following word in the variable name should start with an uppercase letter (.e.g., border, borderColor)
 * Variable names should clearly describe what the variable represents
 * If you do not need decimal precision use __int__ instead of __double__
 
 ### Constants
-* __Constants__ should be named in all uppercase letters, with the words separated by underscores (e.g., ROCKET_SIZE)
+* Constants should be named in all uppercase letters, with the words separated by underscores (e.g., ROCKET_SIZE)
 * Contstants must start with `public static final`
 * Constants should only be used for single values that do not change
 * Constants should not be passed as parameters
