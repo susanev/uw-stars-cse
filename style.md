@@ -40,8 +40,8 @@ _This style is specific to the guidelines at UW when using Java, different langu
 
 ### Variables
 * Start all __variable names__ with a lowercase letter, every following word in the variable name should start with an uppercase letter (.e.g., border, borderColor)
-* If you do not need decimal precision use __int__ instead of __double__
 * Variable names should clearly describe what the variable represents
+* If you do not need decimal precision use __int__ instead of __double__
 
 ### Constants
 * __Constants__ should be named in all uppercase letters, with the words separated by underscores (e.g., ROCKET_SIZE)
