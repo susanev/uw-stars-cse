@@ -9,7 +9,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Do not use `break` statements
 
 ### Classes 
-* Start all __class names__ with an uppercase letter, every following word in the class name should also start with an uppercase letter (e.g., Box, FancyBox, SuperFancyBox)
+* Start all class names with an uppercase letter, every following word in the class name should also start with an uppercase letter (e.g., Box, FancyBox, SuperFancyBox)
 
 ### Methods
 * Start all method names with a lowercase letter, every following word in the method name should start with an uppercase letter (.e.g., triangle, printTriangle, printFancyTriangle)
@@ -22,7 +22,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 ### Printing
 * main should generally not contain any print statments
 * To print a blank line use `System.out.println()`, do not use `System.out.println("")`
-* Use __println__ statements instead of print statements that end with `\n`
+* Use `println` statements instead of print statements that end with `\n`
 * Combine print statements when necessary, for example use 
 
   ```
