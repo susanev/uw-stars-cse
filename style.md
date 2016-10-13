@@ -44,6 +44,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Variable names should clearly describe what the variable represents
 
 ### Constants
+* Contstants must start with `public static final`
 * Constants should only be used for single values that do not change
 * Constants should not be passed as parameters
 
