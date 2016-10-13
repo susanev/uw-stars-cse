@@ -6,6 +6,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * No single line should be more than 100 characters
 * Use curly braces consistently 
 * Put a single space on both sides of all operations (e.g., `2 + 3`, `int x = y`)
+* Do not use `break` statements
 
 ### Naming 
 * Start all __class names__ with an uppercase letter, every following word in the class name should also start with an uppercase letter (e.g., Box, FancyBox, SuperFancyBox)
