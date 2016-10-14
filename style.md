@@ -51,6 +51,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 
 ### for loops
 * Do not use a for loop if it only runs 1 time
+* Use descriptive loop variable names, or use the `i`, `j`, `k` convention; if loops are nest nested they should use the `i` variable
 
 ### Comments
 * There should be a comment block at the top of your programs with your name, date, class, TA name, assignment name, and a brief description of what the program does
