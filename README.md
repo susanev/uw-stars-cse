@@ -32,6 +32,15 @@ __Topics__: Parameters, graphics, return, Math class
 * [Check-in meeting](week3/check-in-meeting.md)
 * [Homework](week3/homework.md)
 
+### Week 4
+__Topics__: Intercative programs (using `Scanner`), if/else, String, char
+* [Plan]
+* [Quiz]
+* [Lecture notes]
+* [Exercises]
+* [Check-in meeting]
+* [Homework](week4/homework.md)
+
 
 #### References
 Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) in their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
