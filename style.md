@@ -5,7 +5,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Every statement should be on its own line
 * No single line should be more than 100 characters
 * Use curly braces consistently 
-* Put a single space on both sides of all operations (e.g., `2 + 3`, `int x = y`)
+* Put a single space on both sides of all binary operations (e.g., `2 + 3`, `int x = y`)
 * Do not use `break` statements
 
 ### Classes 
