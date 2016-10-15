@@ -26,14 +26,14 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Use `println` statements instead of print statements that end with `\n`
 * Combine print statements when necessary, for example use 
 
-  ```
+  ```java
   // use this!
   System.out.println("*");
   ```
   
   instead of 
   
-  ```
+  ```java
   // do not use these two lines!
   System.out.print("*"); 
   System.out.println();
@@ -66,7 +66,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * There should be a space between the comment character and your actual comment (e.g., `// comment`)
 * Comments should directly line up with the code they describe
 
- ```
+ ```java
  // this method prints "Hello"
  public static void hello() {
     System.out.println("Hello");
