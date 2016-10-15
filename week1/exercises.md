@@ -4,7 +4,7 @@
 These exercises should be completed on the whiteboards by yourself, but feel free to help each other if that comes more naturally to you. Our goal though, is for everyone to be able to do these problems on their own.
 
 1. What is the output of the program shown below. Record your process on the whiteboard
-  ```
+  ```java
   public class Strange {
     public static void first() {
       System.out.println("Inside first method");
@@ -31,7 +31,7 @@ These exercises should be completed on the whiteboards by yourself, but feel fre
   ```
 
 2. Write a program named __Egg__ that displays the output shown below.
-```
+```java
   _______
  /       \
 /         \

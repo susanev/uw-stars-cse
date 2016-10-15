@@ -3,7 +3,7 @@
 
 1. Write nested for loops that produce the following output.
 
-  ```
+  ```java
   000111222333444555666777888999
   000111222333444555666777888999
   000111222333444555666777888999
@@ -11,12 +11,12 @@
 
 2. Write a method called __printNumbers__ that accepts a maximum number as a parameter and prints each number from 1 up to that maximum, inclusive, boxed by square brackets. For example, consider the following calls. You may assume that the value passed to printNumbers is 1 or greater.
 
-  ```
+  ```java
   printNumbers(15);
   printNumbers(5);
   ```
   These calls should produce the following output
-  ```
+  ```java
   [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
   [1] [2] [3] [4] [5]
   ```

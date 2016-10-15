@@ -21,7 +21,7 @@
  
 #### Programming
    1.
-   ```
+   ```java
      /\       /\
     /  \     /  \
    /    \   /    \
@@ -41,7 +41,7 @@
    ```
    
    2.
-  ```
+  ```java
   Go, team, go!
   You can do it.
 

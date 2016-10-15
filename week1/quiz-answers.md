@@ -2,7 +2,7 @@
 ## Week 1
 
 1. Below is a program, but it is not executable. Explain what executable means, why the program below is not executable, and what you need to add to make it executable?
-    ```
+    ```java
         public class Hello {
 
         }
@@ -10,7 +10,7 @@
 __The class Hello needs a main method in order for it to be executable, and for it to run in the Java Runtime Environment.__
 
 2. Write an executable program that prints "Hello World!"
-    ```
+    ```java
     public class Hello {
         public static void main(String[] args) {
            System.out.println("Hello world!");
@@ -19,7 +19,7 @@ __The class Hello needs a main method in order for it to be executable, and for 
    ```
 
 3. Describe the errors in the program below.
-    ```
+    ```java
     public MyProgram {
        public static void main(String[] args) {
            System.out.println("This is a test of the")

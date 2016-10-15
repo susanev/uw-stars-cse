@@ -13,7 +13,7 @@
 
 ### Mystery variables
 1. What are the values of `a`, `b`, and `c` after the following code is executed?
-  ```
+  ```java
   int a = 2;
   int b = 4;
   int c = 3;
@@ -24,7 +24,7 @@
   ```
 
 2. What are the values of `e`, `f`, and `g` after the following code is executed?
-  ```
+  ```java
   int e = 1;
   int f = 0;
   int g = -11;

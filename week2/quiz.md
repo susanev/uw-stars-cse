@@ -15,7 +15,7 @@
 
 3. What are the values of first and second at the end of the following code? 
 
-  ```
+  ```java
   int first = 8;
   int second = 19;
   first = first + second;
@@ -24,7 +24,7 @@
   ```
 
 4. What is the output of the following sequence of loops?
-  ```
+  ```java
   for(int i = 1; i <= 5; i++){
     for(int j = 1; j <= 10; j++){
       System.out.print((i * j) + " ");
@@ -35,7 +35,7 @@
   
 5.  Consider the following program. what is the output produced by this program.
 
-    ```
+    ```java
      public class Mystery {
          public static void main(String[] args) {
              String hear = "bad";

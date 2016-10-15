@@ -30,7 +30,7 @@ _Not built into Java, something written specifically for this class. Will need t
  | `g.setColor(Color); ` | sets Graphics to paint any following shapes in the given color |
  
 * Basic program setup
- ```
+ ```java
   // needed in order to use Color
  import java.awt.*;
 
@@ -60,7 +60,7 @@ _Not built into Java, something written specifically for this class. Will need t
 * A return statement sends information __out__ from a method to its caller
 * There cannot be statements exectuted after a return statement in a method
 * The return type should be provided as the third keyowrd in your method header
- ```
+ ```java
  // This method has a return type of void
  public static void hello() {
     System.out.println("Hello");
@@ -74,7 +74,7 @@ _Not built into Java, something written specifically for this class. Will need t
 
 ### Casting
 * Changes the type of a piece of information
- ```
+ ```java
  int x = 2;
  // a will contain 2.0
  double a = (double) x;

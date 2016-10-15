@@ -11,7 +11,7 @@
   
 3. Write nested for loops to produce the following output
  
-    ```
+    ```java
         1
        2
       3
@@ -20,7 +20,7 @@
     ```
 4. Write nested or loops to produce the following output
   
-    ```
+    ```java
         1
        22
       333
@@ -47,7 +47,7 @@
 
 6. Write an entire program that produces the following hourglass figure as its output using nested for loops
 
-    ```
+    ```java
     |""""""""""|
      \::::::::/
       \::::::/

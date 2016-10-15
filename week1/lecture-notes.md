@@ -33,7 +33,7 @@
 ### Live Coding
 Together we will write a Java Program called EggStop that prints the ASCII image below. We will practicing using methods and reducing redundancy.
 
-```
+```java
    _________
   /         \
  /           \

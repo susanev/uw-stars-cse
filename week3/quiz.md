@@ -13,7 +13,7 @@
   
 2. Given the following program
 
-  ```
+  ```java
   public class MysteryWho {
       public static void main(String[] args) {
           String whom = "her";
@@ -37,7 +37,7 @@
 
   Write the output of each of the following calls.
   
-  ```
+  ```java
   sentence(he, she, it);	
   sentence(she, he, who);	
   sentence(who, she, who);	
@@ -46,7 +46,7 @@
   ```
 3. Consider the following method.
 
-  ```
+  ```java
   public static void ifElseMystery1(int x, int y) {
       int z = 4;
       if (z <= x) { 
@@ -63,7 +63,7 @@
 
   For each call below, indicate what output is produced.
 
-  ```
+  ```java
   ifElseMystery1(3, 20);	
   ifElseMystery1(4, 5);	
   ifElseMystery1(5, 5);	
