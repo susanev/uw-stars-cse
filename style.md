@@ -56,7 +56,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Every constant should have a comment above it explaining what it is used for
 
 ### for loops
-* Do not use a for loop if it only runs 1 time
+* Do not use a `for` loop if it only runs 1 time
 * There should be a space between `for` and `)`,(e.g., `for (int i = 1 ...`)
 * Use descriptive loop variable names, __OR__ use the `i`, `j`, `k` convention—if loops are not nested they should use only the `i` variable
 
