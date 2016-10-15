@@ -67,7 +67,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * Comments should directly line up with the code they describe
 
  ```java
- // this method prints "Hello"
+ // prints "Hello"
  public static void hello() {
     System.out.println("Hello");
  }
