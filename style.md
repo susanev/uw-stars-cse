@@ -59,6 +59,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 ### Comments
 * There should be a comment block at the top of your programs with your name, date, class, TA name, assignment name, and a brief description of what the program does
  * Note: The brief description should describe what the program does, not how the program does it
+ * Note: This comment block should use single line comments, not block comments
 * There should be a blank line between your top comment block and the start of your code
 * Directly above every method (except for main) there should be a comment that describes what it does
 * All complicated parts of your code should include comments
