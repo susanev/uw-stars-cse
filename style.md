@@ -17,6 +17,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 * __main__ should be a short summary of your program. Readers of your code should be able to look at your main method and know exactly what your entire program will do
 * There should be exactly one blank line between every method in your entire program
 * There should be a single space between the closing paren of a method header and the opening curly brace of a method header (e.g., `public static void Hello() {`)
+* Do not create a method for a single print statement
   
 
 ### Printing
@@ -51,6 +52,7 @@ _This style is specific to the guidelines at UW when using Java, different langu
 
 ### for loops
 * Do not use a for loop if it only runs 1 time
+* There should be a space between `for` and `)`,(e.g., `for (int i = 1 ...`
 * Use descriptive loop variable names, __OR__ use the `i`, `j`, `k` convention—if loops are not nested they should use only the `i` variable
 
 ### Comments
