@@ -33,7 +33,7 @@ __Topics__: Parameters, graphics, return, Math class
 * [Homework](week3/homework.md)
 
 ### Week 4
-__Topics__: Intercative programs (using `Scanner`), if/else, String, char
+__Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
 * [Plan]
 * [Quiz]
 * [Lecture notes]
