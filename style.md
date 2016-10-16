@@ -5,7 +5,7 @@ Note: New additions for this week are __bolded__
 
 ### General
 * Every statement should be on its own line
-* No single line should contain more than 100 characters (this includes white space)
+* No single line should contain more than 100 characters __(this includes white space)__
 * Use curly braces consistently 
 * __Put a single space on both sides of all binary operations (e.g., `2 + 3`, `int x = y`)__
 * __Do not use `break` statements__
