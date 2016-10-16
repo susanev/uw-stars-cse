@@ -1,7 +1,7 @@
 # Java Style
 _This style is specific to the guidelines at UW when using Java, different languages will have different styles, and different schools and companies may have different styles as well. To ensure full-credit on your programming assignments follow these styles._
 
-Note: New additions for this week are shown in bold
+Note: New additions for this week are __bolded__
 
 ### General
 * Every statement should be on its own line
