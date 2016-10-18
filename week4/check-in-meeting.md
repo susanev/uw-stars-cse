@@ -3,7 +3,7 @@
 
 1. Write a method called fractionSum that accepts an integer parameter `n` and returns as a double the sum of the first `n` terms of the sequence. In other words, the method should generate the following sequence: `1 + (1/2) + (1/3) + (1/4) + (1/5) + ...` You may assume that the parameter `n` is non-negative.
 
-2. Write a method named repl that accepts a `String` and a number of repetitions as parameters and returns the `String` concatenated that many times. For example, the call `repl("hello", 3);` returns `"hellohellohello"`. If the number of repetitions is 0 or less, an empty string is returned.
+2. Write a method named `repl` that accepts a `String` and a number of repetitions as parameters and returns the `String` concatenated that many times. For example, the call `repl("hello", 3);` returns `"hellohellohello"`. If the number of repetitions is 0 or less, an empty string is returned.
 
 3. Write a method named `evenSum` that prompts the user for a number of integers and prints the total even sum and maximum of the even numbers. You may assume that the user types at least one non-negative even integer.
   ```
