@@ -11,3 +11,5 @@ This homework assignment should be completed before your check-in meeting. You s
 4. [while Loop Mystery 1](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm4/whileLoopMystery)
 5. [while Loop Mystery 2](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm5/whileLoopMystery)
 5. [Assertions](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm4/assertions)
+
+Additionally, please spend sometime studying the BMI case study in the book, as recommened by Stuart in class.
