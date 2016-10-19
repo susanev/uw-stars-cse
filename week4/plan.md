@@ -3,6 +3,7 @@
 
 * Announcements
  * Class on 11/23 (optional?)
+ * Study the BMI case study in the book
  * Reminder, re-read the assignment before submitting, read over our style checklist before submitting, check output before submitting; late days!
  * Any topics you want me to review tonight?
  * Next week we will have a mock midterm: you will have 75 minutes to complete it.
