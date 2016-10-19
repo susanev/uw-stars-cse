@@ -34,7 +34,7 @@ __Topics__: Parameters, graphics, return, Math class
 
 ### Week 4
 __Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
-* [Plan]
+* [Plan](week4/plan.md)
 * [Quiz]
 * [Lecture notes]
 * [Exercises](week4/exercises.md)
