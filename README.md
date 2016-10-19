@@ -37,7 +37,7 @@ __Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
 * [Plan]
 * [Quiz]
 * [Lecture notes]
-* [Exercises]
+* [Exercises](week4/exercises.md)
 * [Check-in meeting](week4/check-in-meeting.md)
 * [Homework](week4/homework.md)
 
