@@ -8,6 +8,7 @@
  * Any topics you want me to review tonight?
  * Next week we will have a mock midterm: you will have 75 minutes to complete it.
  * Still waiting for response from Stuart about use of quotes and how to indicate spaces
+ * For A4, you must use the correct structure of if statments to earn full-credit on style
 * [Style Review](../style.md) (new items)
 * [Quiz](quiz.md): 40 minutes, if you finish early turn it in; then you can work on [homework](homework.md) for this week
 * [Whiteboard exercises](exercises.md)
