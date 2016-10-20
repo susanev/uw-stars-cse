@@ -4,6 +4,7 @@
 * Announcements
  * Class on 11/23 (optional?)
  * __Friday check-in meetings are in CSE 220 this week__
+ * Do you all read the lecture notes I type up, are those useful?
  * Study the BMI case study in the book
  * Reminder, re-read the assignment before submitting, read over our style checklist before submitting, check output before submitting; late days!
  * I will start assigning points for completeing the assigned homework (due at your check-in meeting)
