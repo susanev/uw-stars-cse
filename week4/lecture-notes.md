@@ -30,15 +30,20 @@ int age = console.nextInt();
 System.out.println("You'll be 40 in " + (40 - age) + " years.");
 ```
 
-### Logical operators
-| __Operator__ | __Meaning__ | __Example__ | __Value__ |
+### Relational operators
+| __Operator__ | __Meaning__ | __Example__ | __Result__ |
 | :--- | :--- | :--- | :--- |
-| `==` | equals | `1 + 1 == 2` | true |
-| `!=` | does not equal | `3.2 != 2.5` | true |
-| `<` | less than | `10 < 5` | false |
-| `>` | greater than | `10 > 5` | true |
-| `<=` | less than or equal to | `126 <= 100` | false |
-| `>=` | greater than or equal to | `5.0 >= 5.0` | true |
+| `==` | equals | `1 + 1 == 2` | `true` |
+| `!=` | does not equal | `3.2 != 2.5` | `true` |
+| `<` | less than | `10 < 5` | `false` |
+| `>` | greater than | `10 > 5` | `true` |
+| `<=` | less than or equal to | `126 <= 100` | `false` |
+| `>=` | greater than or equal to | `5.0 >= 5.0` | `true` |
  
- 
+### Logical operators
+| __Operator__ | __Description__ | __Example__ | __Result__ |
+| :--- | :--- | :--- | :--- |
+| `&&` | and | `(2 == 3) && (-1 < 5)` | `false`|
+| `||` | or | `(2 == 3) || (-1 < 5)` | `true` |
+| `!` | not | `!(2 == 3)` | `true` |
 
