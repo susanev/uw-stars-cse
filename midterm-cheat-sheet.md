@@ -32,6 +32,11 @@ public static type name(parameters) {
 }
 ```
 
+```java
+Scanner console = new Scanner(System.in);
+Random r = new Random();
+```
+
 | __Math Method__ | __Description__ |
 | :--- | :--- |
 | `Math.abs(value)` | absolute value |
