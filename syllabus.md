@@ -49,9 +49,13 @@ General components that will influence your grade:
 * Attending and participating in class
 * Attending and participating in check-in meetings
 * Reaching out if you are struggling with material in CSE142
+* Completing all homework assignments
+* Preparing and succeeding on in-class tests and quizzes
 
 The grade weighting is as follows:
-* If you attend at least 9 of our 11 classes AND at least 8 check-in meetings AND you actively participate than you will earn credit for this class. Note: I highly recommend that you attend all classes and all check-in meetings, but I understand if things beyond your control come up. Please do email me if you will miss class or a check-in meeting.
+* 50% Attendance: Attending both class meetings and check-in appointments
+* 30% Tests and Quizzes: Preparing and putting forth good effort on all tests and quizzes
+* 20% Homework: Completeing or trying to complete all assigned homework assignments
 
 ## Academic Conduct
 All work in this class must be your own. All of it. DO NOT COPY! Computers make it trivial to copy digital information—it's an important source of their power. Computers make it trivial to find copying. Penalties are high.
