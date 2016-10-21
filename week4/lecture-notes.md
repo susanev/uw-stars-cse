@@ -31,7 +31,7 @@ System.out.println("You'll be 40 in " + (40 - age) + " years.");
 ```
 
 ### Relational operators
-| __Operator__ | __Meaning__ | __Example__ | __Result__ |
+| __Operator__ | __Description__ | __Example__ | __Result__ |
 | :--- | :--- | :--- | :--- |
 | `==` | equals | `1 + 1 == 2` | `true` |
 | `!=` | does not equal | `3.2 != 2.5` | `true` |
