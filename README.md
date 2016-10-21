@@ -6,6 +6,8 @@ __Course Description__: Support class for CSE142 to ensure success by all studen
 
 [Java Style](style.md)
 
+[Midterm Cheat Sheet](midterm-cheat-sheet.md)
+
 ### Week 1
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
 * [Plan](week1/plan.md)
