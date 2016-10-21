@@ -19,7 +19,7 @@ Note: New additions for this week are __bolded__
 
 ### Methods
 * Start all method names with a lowercase letter, every following word in the method name should start with an uppercase letter (.e.g., triangle, printTriangle, printFancyTriangle)
-* Directly above every method (except for main) there should be a comment that describes what it does
+* Directly above every method (except for main) there should be a comment that describes what it does, any parameters it takes in, and any values it returns
 * Reduce redundancy in your program by using __static methods__, but do not create methods that do too little
 * `main` should be a short summary of your program. Readers of your code should be able to look at your main method and know exactly what your entire program will do
 * There should be exactly one blank line between every method in your entire program
