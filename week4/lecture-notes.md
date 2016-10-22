@@ -12,6 +12,7 @@ _More coming soon ..._
 * In order to use `Scanner` you need to add an import statement to the top of your code: `import java.util.*;`
 * In main, you will use `Scanner console = new Scanner(System.in);` to create a Scanner object named console that you can pass to any of your methods that need user input
  * Note: The `console` name is arbitrary, if it makes sense use a different name
+ * Note: You should only ever construct 1 Scanner object and pass it in as a parameter to only the methods that need it
 
 #### Scanner methods
 
@@ -129,3 +130,11 @@ if (test) {
     statement(s);
 }
 ```
+### Rounding
+_If you want to round to 1 digit after the decimal use the below code, adjust the 10.0 to other multiples of 10 for different number of places after the decimal._
+
+```java
+// Note: This 1 line method is okay because it does a computation
+public static double round(double n) {
+  return Math.round(n * 10.0 / 10.0);
+}
