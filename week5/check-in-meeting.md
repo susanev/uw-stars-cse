@@ -59,8 +59,12 @@
 
   The longest name should be printed with its first letter capitalized and all subsequent letters in lowercase, regardless of the capitalization the user used when typing in the name.
 
-  If there is a tie for longest between two or more names, use the tied name that was typed earliest. Also print a message saying that there was a tie. It's possible that some shorter names will tie in length, sbut don't print a message unless the tie is between the longest names.
+  If there is a tie for longest between two or more names, use the tied name that was typed earliest. Also print a message saying that there was a tie. It's possible that some shorter names will tie in length, such as DANE and Erik in the left log below; but don't print a message unless the tie is between the longest names.
 
   You may assume that `n` is at least 1, that each name is at least 1 character long, and that the user will type single-word names consisting of only letters. The following table shows two sample calls and their output.
+  
+  | __Call__ | `longestName(console,5);` | `longestName(console, 7);` |
+  | :--- | :--- | :--- |
+  | __Output__ | name #1? roy<br/> name #2? DANE<br/> name #3? Erik<br/> name #4? sTeFaNiE<br/> name #5? LaurA<br/> Stephanie's name is longest <br/><br/><br/><br/>| name #1? TrEnt<br/> name #2? rita<br/> name #3? JORDAN<br/> name #4? craig<br/> name #5? leslie<br/> name #6? YUKI<br/> name #7? TaNnEr<br/> Jordan's name is longest <br/> (There was a tie!) |
 
 4. Write a method `digitSum` that takes a non-negative integer as a parameter and that returns the sum of its digits.  For example, `digitSum(20879);` should return `26` because 2 + 0 + 8 + 7 + 9 is 26.  You may assume that the method is passed a value greater than or equal to 0.  You may not use a String to solve this problem; you must solve it using integer arithmetic.
