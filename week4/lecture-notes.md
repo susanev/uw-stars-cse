@@ -47,3 +47,42 @@ System.out.println("You'll be 40 in " + (40 - age) + " years.");
 | `||` | or | `(2 == 3) || (-1 < 5)` | `true` |
 | `!` | not | `!(2 == 3)` | `true` |
 
+| __p__ | __q__ | __p && q__ | __p &#124;&#124; q__ |
+| :--- | :--- | :--- | :--- |
+| `true` | `true` | `true` | `true` |
+| `true` | `false` | `false` | `true` |
+| `false` | `true` | `false` | `true` |
+| `false` | `false` | `false` | `false` |
+
+| __p__ | __q__ |
+| :--- | :--- |
+| `true` | `false` |
+| `false` | `true` |
+
+### Cumulative Algorithms
+_This is an extremely common pattern in programming, super important to know!_
+
+#### Cumulative Sum
+
+```java
+public static int calculateSum(int n) {
+ int sum = 0;
+ for(int i = 0; i < n; i++) {
+  sum = sum + i;
+ }
+ return sum;
+}
+```
+
+#### Replicate
+
+```java
+public static String replicate(String s, int n) {
+  String output = "";
+  for(int i = 0; i < n; i++) {
+    output = output + s;
+  }
+  return output;
+}
+```
+
