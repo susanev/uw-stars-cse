@@ -1,10 +1,6 @@
 # Lecture Notes
 ## Week 4
 
-_More coming soon ..._
-
-
-
 ### User input
 
 * We will be using `Scanner` for user input
