@@ -85,4 +85,47 @@ public static String replicate(String s, int n) {
   return output;
 }
 ```
+### Conditionals
+* `else` can only be used when paired with an if
 
+#### Structure
+
+```java
+// independent tests; not exclusive
+// 0, 1, or many of the statement(s) may execute
+// every test in every if block is checked
+if (test) {
+    statement(s);
+}
+if (test) {
+    statement(s);
+}
+if (test) }
+    statement(s);
+}
+```
+
+```java
+// 0, or 1 of the if blocks may execute
+// at most only 1 of the if blocks execute
+// it could be the case that 0 if blocks execute because their is no else
+if (test) {
+    statement(s);
+} else if (test) {
+    statement(s);
+} else if (test) {
+    statement(s);
+}
+```
+
+```java
+// mutually exclusive
+// exactly 1 of the if blocks will execute
+if (test) {
+    statement(s);
+} else if (test) {
+    statement(s);
+} else {
+    statement(s);
+}
+```
