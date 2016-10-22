@@ -63,4 +63,4 @@
 
   You may assume that `n` is at least 1, that each name is at least 1 character long, and that the user will type single-word names consisting of only letters. The following table shows two sample calls and their output.
 
-4. Write a method `digitSum` that takes a non-negative integer as a parameter and that returns the sum of its digits.  For example, `digitSum(20879);` should return `26 (2 + 0 + 8 + 7 + 9)`.  You may assume that the method is passed a value greater than or equal to 0.  You may not use a String to solve this problem; you must solve it using integer arithmetic.
+4. Write a method `digitSum` that takes a non-negative integer as a parameter and that returns the sum of its digits.  For example, `digitSum(20879);` should return `26` because 2 + 0 + 8 + 7 + 9 is 26.  You may assume that the method is passed a value greater than or equal to 0.  You may not use a String to solve this problem; you must solve it using integer arithmetic.
