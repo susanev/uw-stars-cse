@@ -114,7 +114,7 @@ _Note: These notes are repeated from [week4](../week4/lecture-notes.md) beacause
 | __Method Name__ | __Description__ |
 | :--- | :--- |
 | `nextInt()` | returns a random integer |
-| `nextInt(max)` | returns a random integer in the range [0, max) (i.e., 0 to `max - 1` inclusdive) |
+| `nextInt(max)` | returns a random integer in the range [0, max) (i.e., 0 to `max - 1` inclusive) |
 | `nextDouble()` | returns a random real number in the range [0.0, 1.0) |
 
 #### Structure
