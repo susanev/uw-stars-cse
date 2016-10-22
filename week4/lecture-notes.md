@@ -3,8 +3,7 @@
 
 _More coming soon ..._
 
-### Definitions
-* token: A sequence of characters that are not white space (e.g., tabs, spaces, etc)
+
 
 ### User input
 
@@ -13,6 +12,7 @@ _More coming soon ..._
 * In main, you will use `Scanner console = new Scanner(System.in);` to create a Scanner object named console that you can pass to any of your methods that need user input
  * Note: The `console` name is arbitrary, if it makes sense use a different name
  * Note: You should only ever construct 1 Scanner object and pass it in as a parameter to only the methods that need it
+* __token__: A sequence of characters that are not white space (e.g., tabs, spaces, etc)
 
 #### Scanner methods
 
@@ -67,11 +67,11 @@ _This is an extremely common pattern in programming, super important to know!_
 
 ```java
 public static int calculateSum(int n) {
- int sum = 0;
- for(int i = 0; i < n; i++) {
-  sum = sum + i;
- }
- return sum;
+   int sum = 0;
+   for(int i = 0; i < n; i++) {
+     sum = sum + i;
+   }
+   return sum;
 }
 ```
 
@@ -79,11 +79,11 @@ public static int calculateSum(int n) {
 
 ```java
 public static String replicate(String s, int n) {
-  String output = "";
-  for(int i = 0; i < n; i++) {
-    output = output + s;
-  }
-  return output;
+    String output = "";
+    for(int i = 0; i < n; i++) {
+      output = output + s;
+    }
+    return output;
 }
 ```
 ### Conditionals
@@ -136,5 +136,5 @@ _If you want to round to 1 digit after the decimal use the below code, adjust th
 ```java
 // Note: This 1 line method is okay because it does a computation
 public static double round(double n) {
-  return Math.round(n * 10.0 / 10.0);
+    return Math.round(n * 10.0 / 10.0);
 }
