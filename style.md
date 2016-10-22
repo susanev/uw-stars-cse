@@ -8,6 +8,7 @@ Note: New additions for this week are __bolded__
 * No single line should contain more than 100 characters (this includes white space)
 * Use curly braces consistently 
 * Put a single space on both sides of all binary operations (e.g., `2 + 3`, `int x = y`)
+* __Put a single space after any commas in method calls or parameter lists (e.g., `String word, int num`)__
 * Do not use `break` statements
 
 ### Classes 
