@@ -135,3 +135,12 @@ int randomNumber2 = rand.nextInt(20) + 1;
 // randomNumber3 will store the first 5 even numbers (0, 2, 4, 6, 8)
 int randomNumber3 = rand.nextInt(5) * 2;
 ```
+### Logical assertions
+* Assertion: A statement that is either `true` or `false`
+* Tips
+    * Right after a variable is initialized, its value is known
+    * At the start of a loop's body, the loop's test must be `true`
+    * After a loop, the loop's test must be `false`
+    * Inside a loop's body, the loop's test may become `false`
+    * Reading from a `Scanner`, reading from a `Random` object, or parameter values are unknown and usually result in a "Sometimes" assertion
+    * If you are unsure, guess "Sometimes"
