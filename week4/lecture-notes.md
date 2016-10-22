@@ -167,6 +167,7 @@ Chaining is bad and you will use points if you do it. It is the practice of call
        ...
     }
     ```
+
 #### String test methods
 | __Methods__ | __Description__ |
 | :--- | :--- |
