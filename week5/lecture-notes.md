@@ -65,3 +65,73 @@ public static void sum() {
     }
 }
 ```
+### Boolean
+* boolean is a type
+* boolean variables can hold either `true` or `false`
+
+### String
+* Strings in Java are objects
+* Strings can contain the same characters but not be equal because in Java they are stored as different objects (even though they have the same characters)
+ * Because of this, you should use `.equals()` when comparing Strings and not `==`
+    ```java
+    // word1 and word2 are different objects
+    String word1 = "hello";
+    String word2 = "hello";
+
+    // do not use!
+    if (word1 == word2) {
+       ...
+    }
+
+    // use this instead!
+    if (word1.equals(word2)) {
+       ...
+    }
+
+    // you could also have use this; it does the same as the one directly above
+    if (word2.equals(word1)) {
+       ...
+    }
+    ```
+
+#### String test methods
+_Note: These notes are repeated from [week4](../week4/lecture-notes.md) beacause they were discussed in more detail this week._
+
+| __Methods__ | __Description__ |
+| :--- | :--- |
+| `str1.equals(str2)` | tests whether str1 contains the same characters as str2 |
+| `str1.equalsIgnoreCase(str2)` | tests whether str1 contains the same characters as str2, ignoring case |
+| `str1.startsWith(str2)` | tesets whether str1 starts with the characters in str2 |
+| `str1.endsWith(str2)` | tests whether str1 ends with the characters in str2 |
+| `str1.contains(str2)` | tests whether str2 is found inside of str1 |
+
+### Random class
+* A `Random` object generates pseudo-random numbers
+* pseudo-random means simulated randomness, but not truly random
+* In order to use the Random class you will need to import the util package: `import java.util.*;`
+
+#### Random methods
+| __Method Name__ | __Description__ |
+| :--- | :--- |
+| `nextInt()` | returns a random integer |
+| `nextInt(max)` | returns a random integer in the range [0, max) (i.e., 0 to `max - 1` inclusdive) |
+| `nextDouble()` | returns a random real number in the range [0.0, 1.0) |
+
+#### Structure
+_To get a number in an inclusive range of min to max_
+
+```java
+nextInt(max - min + 1) + min
+```
+
+#### Example code
+
+```java
+Random rand = new Random();
+// randomNumber1 will store a random number in the range 0 – 9
+int randomNumber1 = rand.nextInt(10);
+// randomNumber2 will store a random number in the range 1 - 20
+int randomNumber2 = rand.nextInt(20) + 1;
+// randomNumber3 will store the first 5 even numbers (0, 2, 4, 6, 8)
+int randomNumber3 = rand.nextInt(5) * 2;
+```
