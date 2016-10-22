@@ -43,6 +43,14 @@ __Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
 * [Check-in meeting](week4/check-in-meeting.md)
 * [Homework](week4/homework.md)
 
+### Week 5
+__Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, assertions
+* [Plan](week5/plan.md)
+* [Practice Midterm](week5/practice-midterm.md)
+* [Lecture notes](week5/lecture-notes.md)
+* [Check-in meeting](week5/check-in-meeting.md)
+* [Homework](week5/homework.md)
+
 
 #### References
 Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) in their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
