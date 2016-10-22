@@ -62,9 +62,10 @@ _This is an extremely common pattern in programming, super important to know!_
 #### Cumulative Sum
 
 ```java
+// sums numbers from 1 up to n
 public static int calculateSum(int n) {
    int sum = 0;
-   for(int i = 0; i < n; i++) {
+   for(int i = 1; i <= n; i++) {
      sum = sum + i;
    }
    return sum;
