@@ -135,7 +135,7 @@ int randomNumber2 = rand.nextInt(20) + 1;
 // randomNumber3 will store the first 5 even numbers (0, 2, 4, 6, 8)
 int randomNumber3 = rand.nextInt(5) * 2;
 ```
-### [Logical assertions](#assertions)
+### Logical assertions
 * Assertion: A statement that is either `true` or `false`
 * Tips
     * Right after a variable is initialized, its value is known
