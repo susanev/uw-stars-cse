@@ -57,8 +57,8 @@ System.out.println("You'll be 40 in " + (40 - age) + " years.");
 | `true` | `false` |
 | `false` | `true` |
 
-### Cumulative Algorithms
-_This is an extremely common pattern in programming, super important to know!_
+### Common Algorithms
+_These are extremely common patterns in programming, super important to know!_
 
 #### Cumulative Sum
 
@@ -66,10 +66,42 @@ _This is an extremely common pattern in programming, super important to know!_
 // returns the sum of integers from 1 up to n
 public static int calculateSum(int n) {
    int sum = 0;
-   for(int i = 1; i <= n; i++) {
+   for (int i = 1; i <= n; i++) {
      sum = sum + i;
    }
    return sum;
+}
+```
+
+#### Max
+
+```java
+public static int findMax(Scanner console, int n) {
+    int max = 0
+    
+    System.out.print("How many numbers? ");
+    int nums = console.nextInt();
+    
+    for (int i = 0; i < nums; i++) {
+        System.out.print("Enter an integer: ");
+        int num = console.nextInt();
+        
+        if (num > max) {
+            max = num;
+        }
+    }
+}
+```
+
+#### Even or Odd
+
+```java
+public static void evenOrOdd(int n) {
+    if (n % 2 == 0) {
+        System.out.println(n + " is even.");
+    } else {
+        System.out.println(n + " is odd.");
+    }
 }
 ```
 
@@ -79,12 +111,24 @@ public static int calculateSum(int n) {
 // returns a String containing n replications of s
 public static String replicate(String s, int n) {
     String output = "";
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
       output = output + s;
     }
     return output;
 }
 ```
+#### Reverse String
+
+```java
+public static String reverse(String phrase) {
+    String output = "";
+    for (int i = 0; i < phrase.length(); i++) {
+        output = phrase.charAt(i) + output;
+    }
+    return output;
+}
+```
+
 ### Conditionals
 * `else` can only be used when paired with an if
 
@@ -175,5 +219,38 @@ Chaining is bad and you will use points if you do it. It is the practice of call
 | `str1.startsWith(str2)` | tesets whether str1 starts with the characters in str2 |
 | `str1.endsWith(str2)` | tests whether str1 ends with the characters in str2 |
 | `str1.contains(str2)` | tests whether str2 is found inside of str1 |
+
+### Using printf
+* The f in `printf` stands for formatted
+* Allows you to format what you are printing
+
+#### General structure
+
+```java
+System.out.printf(<format string>, <parameter>, ..., <parameter>);
+```
+
+#### Example
+
+```java
+int x = 38;
+int y = 152;
+// the below line will output: location: (38, 152)
+System.out.printf("location: (%d, %d)\n", x, y); 
+```
+
+#### Common Format Specifiers
+| __Specifier__ | __Result__ |
+| :--- | :--- |
+| `%d` | Integer |
+| `%8d` | Integer, right-aligned, 8-space-wide field |
+| `%6d` | Integer, left-aligned, 6-space-wide field |
+| `%f` | Floating-point number |
+| `%12f` | Floating-point number, right-aligned, 12-space-wide field |
+| `%.2f` | Floating-point number, rounded to nearest hundredth |
+| `%16.3f` | Floating-point number, rounded to nearest thousandth, 16-space-wide field |
+| `%s` | String |
+| `%8s` | String, right-aligned, 8-space-wide field |
+| `%9s` | String, left-aligned, 9-space-wide field |
 
 
