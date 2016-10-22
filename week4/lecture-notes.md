@@ -138,3 +138,42 @@ _If you want to round to 1 digit after the decimal use the below code, adjust th
 public static double round(double n) {
     return Math.round(n * 10.0) / 10.0;
 }
+```
+
+### Chaining
+Chaining is bad and you will use points if you do it. It is the practice of calling methods which call other methods which call other methods and they rarely or never return a value back to the caller. Instead you should try and structure your code so that methods return back to their callers. 
+
+### String
+* Strings in Java are objects
+* Strings can contain the same characters but not be equal because in Java they are stored as different objects (even though they have the same characters)
+ * Because of this, you should use `.equals()` when comparing Strings and not `==`
+    ```java
+    // word1 and word2 are different objects
+    String word1 = "hello";
+    String word2 = "hello";
+
+    // do not use!
+    if (word1 == word2) {
+       ...
+    }
+
+    // use this instead!
+    if (word1.equals(word2)) {
+       ...
+    }
+
+    // you could also have use this; it does the same as the one directly above
+    if (word2.equals(word1)) {
+       ...
+    }
+    ```
+#### String test methods
+| __Methods__ | __Description__ |
+| :--- | :--- |
+| `str1.equals(str2)` | tests whether str1 contains the same characters as str2 |
+| `str1.equalsIgnoreCase(str2)` | tests whether str1 contains the same characters as str2, ignoring case |
+| `str1.startsWith(str2)` | tesets whether str1 starts with the characters in str2 |
+| `str1.endsWith(str2)` | tests whether str1 ends with the characters in str2 |
+| `str1.contains(str2)` | tests whether str2 is found inside of str1 |
+
+
