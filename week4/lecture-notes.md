@@ -51,7 +51,7 @@ System.out.println("You'll be 40 in " + (40 - age) + " years.");
 | `false` | `true` | `false` | `true` |
 | `false` | `false` | `false` | `false` |
 
-| __p__ | __q__ |
+| __p__ | __!p__ |
 | :--- | :--- |
 | `true` | `false` |
 | `false` | `true` |
