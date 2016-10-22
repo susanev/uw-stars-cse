@@ -136,5 +136,5 @@ _If you want to round to 1 digit after the decimal use the below code, adjust th
 ```java
 // Note: This 1 line method is okay because it does a computation
 public static double round(double n) {
-    return Math.round(n * 10.0 / 10.0);
+    return Math.round(n * 10.0) / 10.0;
 }
