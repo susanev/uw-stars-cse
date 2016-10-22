@@ -22,6 +22,7 @@
 #### Sample code
 
 ```java
+Scanner console = new Scanner(System.in);
 System.out.print("How olde are you? ");
 int age = console.nextInt();
 System.out.println("You'll be 40 in " + (40 - age) + " years.");
