@@ -76,4 +76,4 @@ Note: New additions for this week are __bolded__
  ```
 
 ### import statements
-  * __They belong after the top comment block, and before the class__
+  * __Belong after the top comment block, and before the class__
