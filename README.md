@@ -6,6 +6,15 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 
 [Java Style](style.md)
 
+## Exams
+### Midterm
+__Topics__: All material from weeks 1 – 5, except for Graphics
+* [Study Sheet](midterm/study-sheet.md)
+* [Midterm Cheat Sheet](midterm/midterm-cheat-sheet.md)
+* [Practice Midterm](midterm/practice-midterm.md)
+* [Practice Midterm Answers](midterm/practice-midterm-answers.md)
+
+## Weeks
 ### Week 1
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
 * [Plan](week1/plan.md)
@@ -49,14 +58,6 @@ __Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, asserti
 * [Lecture notes](week5/lecture-notes.md)
 * [Check-in meeting](week5/check-in-meeting.md)
 * [Homework](week5/homework.md)
-
-### Midterm
-__Topics__: All material from weeks 1 – 5, except for Graphics
-* [Study Sheet](midterm/study-sheet.md)
-* [Midterm Cheat Sheet](midterm/midterm-cheat-sheet.md)
-* [Practice Midterm](midterm/practice-midterm.md)
-* [Practice Midterm Answers](midterm/practice-midterm-answers.md)
-
 
 #### References
 Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) in their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
