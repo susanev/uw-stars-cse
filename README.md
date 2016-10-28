@@ -44,8 +44,8 @@ __Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
 ### Week 5
 __Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, assertions
 * [Plan](week5/plan.md)
-* [Practice Midterm](week5/practice-midterm.md)
-* [Practice Midterm Answers](week5/practice-midterm-answers.md)
+* [Practice Midterm](midterm/practice-midterm.md)
+* [Practice Midterm Answers](midterm/practice-midterm-answers.md)
 * [Lecture notes](week5/lecture-notes.md)
 * [Check-in meeting](week5/check-in-meeting.md)
 * [Homework](week5/homework.md)
@@ -54,6 +54,8 @@ __Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, asserti
 __Topics__: All material from weeks 1 – 5, except for Graphics
 * [Study Sheet](midterm/study-sheet.md)
 * [Midterm Cheat Sheet](midterm/midterm-cheat-sheet.md)
+* [Practice Midterm](midterm/practice-midterm.md)
+* [Practice Midterm Answers](midterm/practice-midterm-answers.md)
 
 
 #### References
