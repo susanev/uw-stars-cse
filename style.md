@@ -26,6 +26,7 @@ Note: New additions for this week are __bolded__
 * There should be exactly one blank line between every method in your entire program
 * There should be a single space between the closing paren of a method header and the opening curly brace of a method header (e.g., `public static void Hello() {`)
 * Do not create a method for a single print statement
+* Method commends should describe what the method does and not how it does it; they should also detail the parameters and the return value (if any)
 
 ### Printing
 * `main` should generally not contain any print statments
