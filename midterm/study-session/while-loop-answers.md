@@ -9,7 +9,7 @@
   | `mystery(9);` | `2 3` |
   | `mystery(12);` | `3 3` |
 
-2. While Loop Simulations. Consider the following method:
+2. 
 
   | __Method Call__ | __Output Produced__ |
   | :--- | :--- |
@@ -18,20 +18,7 @@
   | `mystery(24);` | `4 3` |
   | `mystery(28);` | `3 7` |
 
-3. While Loop Simulations. Consider the following method:
-
-  ```java
-  public static void mystery(int i, int j) {
-      while (i != 0 && j != 0) {
-          i = i / j;
-          j = (j - 1) / 2;
-          System.out.print(i + " " + j + " ");
-      }
-      System.out.println(i);
-  }
-  ```
-
-  For each call below, indicate what output is produced:
+3.
 
   | __Method Call__ | __Output Produced__ |
   | :--- | :--- |
