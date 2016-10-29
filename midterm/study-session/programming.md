@@ -10,7 +10,7 @@
 
   Below are two sample logs of execution that might be produced:
 
-  java
+  ```
   initial balance? 48.50                  initial balance? 39.75
   how many transactions? 4                how many transactions? 5
   1/4 amount? -20.00                      1/5 amount? -18.50
