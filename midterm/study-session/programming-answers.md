@@ -44,7 +44,7 @@
   }
   ```
   
-3. Below is four possible solutions; but please note there are many correct solutions to this problem.
+3. Below are four possible solutions; but please note there are many correct solutions to this problem.
 
   ```java
   public static boolean anglePairs(int a1, int a2, int a3) {
@@ -107,7 +107,7 @@
   }
   ```
 
-4. Below is two possible solutions; but please note there are many correct solutions to this problem.
+4. Below are two possible solutions; but please note there are many correct solutions to this problem.
 
   ```java
   public static String graduation(double gpa, int credits, int honorsCredits) {
@@ -143,7 +143,7 @@
   }  
   ```
 
-5. Below is three possible solutions; but please note there are many correct solutions to this problem.
+5. Below are three possible solutions; but please note there are many correct solutions to this problem.
 
   ```java
   public static void cheerleader(int lines, int cheers) {
@@ -185,6 +185,52 @@
           }
           System.out.println("Go");
       }
+  } 
+  ```
+  
+  6. Below are four possible solutions; but please note there are many correct solutions to this problem.
+
+  ```java
+  public static boolean enoughTimeForLunch(int h1, int m1, int h2, int m2) {
+      if (h1 > h2) {
+          return false;
+      } else if (h1 == h2) {
+          return m2 - m1 >= 45;
+      } else if (h1 == h2 - 1) {
+          return 60 + m2 - m1 >= 45;
+      } else {
+          return true;
+      }
+  }
+  ```
+  
+  ```java
+  public static boolean enoughTimeForLunch(int h1, int m1, int h2, int m2) {
+      if (h2 > h1 + 1) {
+          return true;
+      } else if (h2 == h1 && m1 + 45 <= m2) {
+          return true;
+      } else if (h2 == h1 + 1 && m1 - 15 <= m2) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+  ```
+
+  ```java
+  public static boolean enoughTimeForLunch(int h1, int m1, int h2, int m2) {
+      if ((h1 == h2 && m1 + 45 <= m2) || (h2 == h1 + 1 && m1 - 15 <= m2) || (h1 < h2 - 1)) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+  ```
+  
+  ```java
+  public static boolean enoughTimeForLunch(int h1, int m1, int h2, int m2) {
+      return 60 * h1 + m1 + 45 <= 60 * h2 + m2;
   } 
   ```
   
