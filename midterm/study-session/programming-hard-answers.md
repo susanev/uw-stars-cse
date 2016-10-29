@@ -145,51 +145,58 @@
     } 
     ```
 
-5. Below are three possible solutions; but please note there are many correct solutions to this problem.
-public static void favoriteLetter(Scanner console, String letter) {
- System.out.println("Looking for two \"" + letter + "\" words in a row.");
- int count = 0;
- String word = "";
- while (count < 2) {
- System.out.print("Type a word: ");
- word = console.next();
- if (word.startsWith(letter)) {
- count++;
- } else {
- count = 0;
- }
- }
- System.out.println("\"" + letter + "\" is for \"" + word + "\"");
-}
-// uses two Strings instead of count, and uses forever/break loop
-public static void favoriteLetter(Scanner console, String letter) {
- System.out.println("Looking for two \"" + letter + "\" words in a row.");
- System.out.print("Type a word: ");
- String word1 = console.next();
- System.out.print("Type a word: ");
- String word2 = console.next();
- while (!(word1.startsWith(letter) && word2.startsWith(letter))) {
- word1 = word2;
- System.out.print("Type a word: ");
- word2 = console.next();
- }
- System.out.println("\"" + letter + "\" is for \"" + word2 + "\"");
-}
-// uses do/while loop
-public static void favoriteLetter(Scanner console, String letter) {
- System.out.println("Looking for two \"" + letter + "\" words in a row.");
- int count = 0;
- String word;
- do {
- System.out.print("Type a word: ");
- word = console.next();
- if (word.startsWith(letter)) {
- count++;
- } else {
- count = 0;
- }
- } while (count < 2);
- System.out.println("\"" + letter + "\" is for \"" + word + "\"");
-} 
+5. Below are two possible solutions; but please note there are many correct solutions to this problem.
 
-6. Below are three possible solutions; but please note there are many correct solutions to this problem.
+    ```java
+    public static void favoriteLetter(Scanner console, String letter) {
+        System.out.println("Looking for two \"" + letter + "\" words in a row.");
+        int count = 0;
+        String word = "";
+        while (count < 2) {
+            System.out.print("Type a word: ");
+            word = console.next();
+            if (word.startsWith(letter)) {
+                count++;
+            } else {
+                count = 0;
+            }
+        }
+        System.out.println("\"" + letter + "\" is for \"" + word + "\"");
+    }
+    ```
+
+    ```java
+    public static void favoriteLetter(Scanner console, String letter) {
+        System.out.println("Looking for two \"" + letter + "\" words in a row.");
+        System.out.print("Type a word: ");
+        String word1 = console.next();
+        System.out.print("Type a word: ");
+        String word2 = console.next();
+        while (!(word1.startsWith(letter) && word2.startsWith(letter))) {
+            word1 = word2;
+            System.out.print("Type a word: ");
+            word2 = console.next();
+        }
+        System.out.println("\"" + letter + "\" is for \"" + word2 + "\"");
+    }
+    ```
+
+6. Below is one possible solution; but please note there are many correct solutions to this problem.
+
+    ```java
+    public static int digitRange(int n) {
+        int min = n % 10;
+        int max = n % 10;
+        while (n > 0) {
+            int digit = n % 10;
+            n = n / 10;
+            if (digit < min) {
+                min = digit;
+            }
+            if (digit > max) {
+                max = digit;
+            }
+        }
+        return max - min;
+    }
+    ```
