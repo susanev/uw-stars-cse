@@ -22,7 +22,6 @@
 	| Point E | N | S | A |
   
 3.
-
 	| | `x > 2` | `x < n` | `n % x == 0` |
 	| :--- | :--- | :--- | :--- |
 	| Point A | N | S | S |
@@ -30,4 +29,3 @@
 	| Point C | N | S | S |
 	| Point D | A | S | S |
 	| Point E | S | N | S |
-	
