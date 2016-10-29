@@ -10,7 +10,7 @@
 
   Below are two sample logs of execution that might be produced:
 
-  ```java
+  java
   initial balance? 48.50                  initial balance? 39.75
   how many transactions? 4                how many transactions? 5
   1/4 amount? -20.00                      1/5 amount? -18.50
@@ -65,24 +65,7 @@
 
   You may assume the integer value passed to your method is greater than or equal to 0.  You are to exactly reproduce the format of these logs.
 
-3. Programming. Write a static method called digitRange that takes an integer n as a parameter and that returns the greatest difference between two digits of n. In particular, the method should report the largest difference (x - y) where x and y are digits of n. For example, the call digitRange(68437) should return 5 because the largest difference that can be formed using digits from the number is (8 - 3). You may assume that the number passed to the method is greater than or equal to 0. If the method is passed a 1-digit number, it should return 0. Below are more examples of calls and the values that should be returned.
-
-  | __Method Call__ | __Value Returned__ |
-  | :--- | :--- |
-  | `digitRange(0)` | `0` |        
-  | `digitRange(5)` | `0` |  
-  | `digitRange(26)` | `4` |   
-  | `digitRange(42)` | `2` |   
-  | `digitRange(725)` | `5` |   
-  | `digitRange(888)` | `0` |   
-  | `digitRange(1234)` | `3` |  
-  | `digitRange(24680)` | `8` |   
-  | `digitRange(857492)` | `7` |   
-  | `digitRange(3876254)` | `6` |   
-
-  You are not allowed to use a String to solve this problem.
-
-4. Programming. Write a static method named anglePairs that accepts three angles (integers), measured in degrees, as parameters and returns whether or not there exists both complementary and supplementary angles amongst the three angles passed. Two angles are complementary if their sum is exactly 90 degrees; two angles are supplementary if their sum is exactly 180 degrees. Therefore, the method should return true if any two of the three angles add up to 90 degrees and also any two of the three angles add up to 180 degrees; otherwise the method should return false. You may assume that each angle passed is non-negative.
+3. Programming. Write a static method named anglePairs that accepts three angles (integers), measured in degrees, as parameters and returns whether or not there exists both complementary and supplementary angles amongst the three angles passed. Two angles are complementary if their sum is exactly 90 degrees; two angles are supplementary if their sum is exactly 180 degrees. Therefore, the method should return true if any two of the three angles add up to 90 degrees and also any two of the three angles add up to 180 degrees; otherwise the method should return false. You may assume that each angle passed is non-negative.
 
   Here are some example calls to the method and their resulting return values.
 
@@ -97,7 +80,7 @@
   | `anglePairs(45, 90, 45)` | `false` |
   | `anglePairs(180, 45, 45)` | `false` |
 
-5. Programming. Write a static method named graduation that takes a student's GPA, total credit count, and honors credit count as parameters, and returns a String representing that student's graduation status. The total credit count already includes the honors credits. The graduation status to return is determined by the following rules:
+4. Programming. Write a static method named graduation that takes a student's GPA, total credit count, and honors credit count as parameters, and returns a String representing that student's graduation status. The total credit count already includes the honors credits. The graduation status to return is determined by the following rules:
   * Students must have completed at least 180 credits with a GPA of at least 2.0 to graduate. A student who does not
   meet both of these constraints should receive a return value of "not graduating".
   * Students who do have enough credits to graduate and sufficiently high GPAs will receive one of four return
@@ -120,7 +103,7 @@
 
   You may assume that the GPA will be between 0.0 and 4.0 and that both credit counts will be non-negative integers. 
  
-6. Programming. Write a static method named cheerleader that accepts two integer parameters lines and cheers and prints a series of "cheer" lines at increasing levels of indentation. The first parameter represents the number of lines of output to print, and the second represents the number of "cheers" per line. For example, the call of cheerleader(2, 4) means that you should print 2 lines of output, each containing 4 "cheers." A "cheer" is an occurrence of the word "Go" in the output. Neighboring cheers are separated by the word "Team", so 1 cheer is printed as "Go", 2 cheers as "Go Team Go", 3 cheers are printed as "Go Team Go Team Go", and so on.
+5. Programming. Write a static method named cheerleader that accepts two integer parameters lines and cheers and prints a series of "cheer" lines at increasing levels of indentation. The first parameter represents the number of lines of output to print, and the second represents the number of "cheers" per line. For example, the call of cheerleader(2, 4) means that you should print 2 lines of output, each containing 4 "cheers." A "cheer" is an occurrence of the word "Go" in the output. Neighboring cheers are separated by the word "Team", so 1 cheer is printed as "Go", 2 cheers as "Go Team Go", 3 cheers are printed as "Go Team Go Team Go", and so on.
 
   The lines you print should be displayed at increasing levels of indentation. The first line displayed should have no indentation, but each following line should be intended by 3 spaces more than the one before it. In other words, the 2nd line of output should be indented by 3 spaces, the 3rd line by 6 spaces, and so on.
  
@@ -169,13 +152,14 @@
     Go Team Go Team Go Team Go
   ```
 
-7. Programming. Write a static method named enoughTimeForLunch that accepts four integers hour1, minute1, hour2, and minute2 as parameters. Each pair of parameters represents a time on the 24-hour clock (for example, 1:36 PM would be represented as 13 and 36). The method should return true if the gap between the two times is long enough to eat lunch: that is, if the second time is at least 45 minutes after the first time. Otherwise the method should return false. 
+6. Programming. Write a static method named enoughTimeForLunch that accepts four integers hour1, minute1, hour2, and minute2 as parameters. Each pair of parameters represents a time on the 24-hour clock (for example, 1:36 PM would be represented as 13 and 36). The method should return true if the gap between the two times is long enough to eat lunch: that is, if the second time is at least 45 minutes after the first time. Otherwise the method should return false. 
 
   You may assume that all parameter values are valid: the hours are both between 0 and 23, and the minute parameters are between 0 and 59. You may also assume that both times represent times in the same day, e.g. the first time won't represent a time today while the second time represents a time tomorrow. Note that the second time might be earlier than the first time; in such a case, your method should return false.
 
   Here are some example calls to your method and their expected return results:
 
   | __Call__ | __Value Returned__ |
+  | :--- | :--- |
   | `enoughTimeForLunch(11, 00, 11, 59)` | `true` |
   | `enoughTimeForLunch(12, 30, 13, 00)` | `false` |
   | `enoughTimeForLunch(12, 30, 13, 15)` | `true` |
@@ -184,7 +168,7 @@
   | `enoughTimeForLunch(12, 00, 11, 55)` | `false` |
 
 
-8. Programming. Write a static method named printGrid that accepts two integer parameters rows and cols. The output is a commaseparated grid of numbers where the first parameter (rows) represents the number of rows of the grid and the second parameter (cols) represents the number of columns. The numbers count up from 1 to (rows x cols). The output are displayed in column-major order, meaning that the numbers shown increase sequentially down each column and wrap to the top of the next column to the right once the bottom of the current column is reached.
+7. Programming. Write a static method named printGrid that accepts two integer parameters rows and cols. The output is a commaseparated grid of numbers where the first parameter (rows) represents the number of rows of the grid and the second parameter (cols) represents the number of columns. The numbers count up from 1 to (rows x cols). The output are displayed in column-major order, meaning that the numbers shown increase sequentially down each column and wrap to the top of the next column to the right once the bottom of the current column is reached.
 
   Assume that rows and cols are greater than 0. Here are some example calls to your method and their expected results:
   
@@ -245,7 +229,7 @@
   1, 2, 3 
   ```
 
-9. Programming. Write a static method named threeHeads that repeatedly flips a coin until three heads in a row are seen. You should use a Random object to give an equal chance to a head or a tail appearing. Each time the coin is flipped, what is seen is displayed (H for heads, T for tails). When 3 heads in a row are flipped a congratulatory message is printed.
+8. Programming. Write a static method named threeHeads that repeatedly flips a coin until three heads in a row are seen. You should use a Random object to give an equal chance to a head or a tail appearing. Each time the coin is flipped, what is seen is displayed (H for heads, T for tails). When 3 heads in a row are flipped a congratulatory message is printed.
 
   Here are possible outputs of two calls to threeHeads:
   
