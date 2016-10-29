@@ -54,3 +54,143 @@
   }
   ```
 
+3. Below are three possible solutions; but please note there are many correct solutions to this problem.
+
+    ```java
+    public static void randomRects() {
+        Random r = new Random();
+        int last = 100; // can also be 0
+        int count = 0;
+        while (count < 4) {
+            int w = r.nextInt(10) + 1;
+            int h = r.nextInt(10) + 1;
+
+            System.out.println("w: " + w + ", h: " + h + ", area: " + w * h);
+            if (last < w * h) {
+                count++;
+            } else {
+                count = 1; // need to count first rect in sequence
+            }
+            last = w * h;
+        }
+        System.out.println("Four rectangles of increasing area.");
+    }
+    ```
+    
+    ```java
+    public static void randomRects() {
+        Random r = new Random();
+        int a1 = 0, a2 = 0, a3 = 0, a4 = 0;
+        while (a1 == 0 || a1 >= a2 || a2 >= a3 || a3 >= a4) {
+            int w = r.nextInt(10) + 1;
+            int h = r.nextInt(10) + 1;
+            a1 = a2;
+            a2 = a3;
+            a3 = a4;
+            a4 = w * h;
+            System.out.println("w: " + w + ", h: " + h + ", area: " + a4);
+        }
+        System.out.println("Four rectangles of increasing area.");
+    }
+    ```
+    
+    ```java
+    public static void randomRects() {
+        Random r = new Random();
+        int area = 0;
+        int last = 0;
+        int count = 0;
+        while (count != 4) {
+            int w = r.nextInt(10) + 1;
+            int h = r.nextInt(10) + 1;
+            area = w * h;
+            if (area <= last) {
+                count = 1;
+            } else {
+                count++;
+            }
+            System.out.println("w: " + w + ", h: " + h + ", area: " + area);
+            last = area;
+        }
+        System.out.println("Four rectangles of increasing area.");
+    } 
+    ```
+
+4. Below are two possible solutions; but please note there are many correct solutions to this problem.
+
+    ```java
+    public static int countEvenDigits(int n) {
+        int count = 0;
+        while (n != 0) {
+            int digit = n % 10;
+            n = n / 10;
+            if (digit % 2 == 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+    ```
+
+    ```java
+    public static int countEvenDigits(int n) {
+        int count = 0;
+        while (n > 0) {
+            if (n % 2 == 0) {
+                count++;
+            }
+            n = n / 10;
+        }
+        return count;
+    } 
+    ```
+
+5. Below are three possible solutions; but please note there are many correct solutions to this problem.
+public static void favoriteLetter(Scanner console, String letter) {
+ System.out.println("Looking for two \"" + letter + "\" words in a row.");
+ int count = 0;
+ String word = "";
+ while (count < 2) {
+ System.out.print("Type a word: ");
+ word = console.next();
+ if (word.startsWith(letter)) {
+ count++;
+ } else {
+ count = 0;
+ }
+ }
+ System.out.println("\"" + letter + "\" is for \"" + word + "\"");
+}
+// uses two Strings instead of count, and uses forever/break loop
+public static void favoriteLetter(Scanner console, String letter) {
+ System.out.println("Looking for two \"" + letter + "\" words in a row.");
+ System.out.print("Type a word: ");
+ String word1 = console.next();
+ System.out.print("Type a word: ");
+ String word2 = console.next();
+ while (!(word1.startsWith(letter) && word2.startsWith(letter))) {
+ word1 = word2;
+ System.out.print("Type a word: ");
+ word2 = console.next();
+ }
+ System.out.println("\"" + letter + "\" is for \"" + word2 + "\"");
+}
+// uses do/while loop
+public static void favoriteLetter(Scanner console, String letter) {
+ System.out.println("Looking for two \"" + letter + "\" words in a row.");
+ int count = 0;
+ String word;
+ do {
+ System.out.print("Type a word: ");
+ word = console.next();
+ if (word.startsWith(letter)) {
+ count++;
+ } else {
+ count = 0;
+ }
+ } while (count < 2);
+ System.out.println("\"" + letter + "\" is for \"" + word + "\"");
+} 
+
+6. Below are three possible solutions; but please note there are many correct solutions to this problem.
+
