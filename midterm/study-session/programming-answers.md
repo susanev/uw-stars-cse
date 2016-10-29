@@ -188,7 +188,7 @@
   } 
   ```
   
-  6. Below are four possible solutions; but please note there are many correct solutions to this problem.
+6. Below are four possible solutions; but please note there are many correct solutions to this problem.
 
   ```java
   public static boolean enoughTimeForLunch(int h1, int m1, int h2, int m2) {
