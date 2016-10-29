@@ -233,5 +233,48 @@
       return 60 * h1 + m1 + 45 <= 60 * h2 + m2;
   } 
   ```
+
+7. Below are three possible solutions; but please note there are many correct solutions to this problem.
+
+  ```java
+  public static void printGrid(int rows, int cols) {
+      for (int i = 1; i <= rows; i++) {
+          System.out.print(i);
+          for (int j = 1; j <= cols - 1; j++) {
+              System.out.print(", " + (i + rows * j));
+          }
+          System.out.println();
+      }
+  }
+  ```
   
+  ```java
+  public static void printGrid(int rows, int cols) {
+      for (int i = 1; i <= rows; i++) {
+          for (int j = 0; j < cols - 1; j++) {
+              System.out.print((i + rows * j) + ", ");
+          }
+          System.out.println(i + rows * (cols - 1));
+      }
+  }
+  ```
+  
+  ```java
+  public static void printGrid(int rows, int cols) {
+      int n = 1;
+      int count1 = 1;
+      int count2 = 1;
+      while (count1 <= rows * cols) {
+          if (count1 % cols == 0) {
+              System.out.println(n);
+              count2++;
+              n = count2;
+          } else {
+              System.out.print(n + ", ");
+              n = n + rows;
+          }
+          count1++;
+      }
+  } 
+  ```
  
