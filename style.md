@@ -8,7 +8,7 @@ Note: New additions for this week are __bolded__
 * No single line should contain more than 100 characters (this includes white space)
 * Use curly braces consistently 
 * Put a single space on both sides of all binary operations (e.g., `2 + 3`, `int x = y`)
-* __Put a single space after any commas in method calls or parameter lists (e.g., `String word, int num`)__
+* Put a single space after any commas in method calls or parameter lists (e.g., `String word, int num`)
 * Do not use `break` statements
 
 ### Classes 
@@ -31,7 +31,7 @@ Note: New additions for this week are __bolded__
 * `main` should generally not contain any print statments
 * To print a blank line use `System.out.println()`, do not use `System.out.println("")`
 * Use `println` statements instead of `print` statements that end with `\n`
-* __When a `\n` character, then use `printf` and not `print` or `println`__
+* When a `\n` character, then use `printf` and not `print` or `println`
 * Combine print statements when necessary, for example use 
 
   ```java
@@ -77,4 +77,4 @@ Note: New additions for this week are __bolded__
  ```
 
 ### import statements
-  * __Place import statements after the top comment block, and before the class__
+  * Place import statements after the top comment block, and before the class
