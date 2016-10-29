@@ -277,4 +277,25 @@
       }
   } 
   ```
+  
+8. Below is one possible solution; but please note there are many correct solutions to this problem.
+
+  ```java
+  public static void threeHeads() {
+      Random r = new Random();
+      int numHeads = 0;
+      while (numHeads < 3) {
+          int flip = r.nextInt(2); // flip coin
+          if (flip == 0) { // heads
+              numHeads++;
+              System.out.print("H ");
+          } else {
+              numHeads = 0;
+              System.out.print("T ");
+          }
+      }
+      System.out.println();
+      System.out.println("Three heads in a row!");
+  } 
+  ```
  
