@@ -82,62 +82,42 @@
 
   You are not allowed to use a String to solve this problem.
 
-7. Programming
-Write a static method named anglePairs that accepts three angles (integers), measured in degrees, as parameters
-and returns whether or not there exists both complementary and supplementary angles amongst the three angles
-passed. Two angles are complementary if their sum is exactly 90 degrees; two angles are supplementary if their sum
-is exactly 180 degrees. Therefore, the method should return true if any two of the three angles add up to 90 degrees
-and also any two of the three angles add up to 180 degrees; otherwise the method should return false. You may
-assume that each angle passed is non-negative.
-Here are some example calls to the method and their resulting return values.
-Call Value Returned
-anglePairs(0, 90, 180)
-anglePairs(45, 135, 45)
-anglePairs(177, 87, 3)
-anglePairs(120, 60, 30)
-anglePairs(35, 60, 30)
-anglePairs(120, 60, 45)
-anglePairs(45, 90, 45)
-anglePairs(180, 45, 45)
-true
-true
-true
-true
-false
-false
-false
-false
+4. Programming. Write a static method named anglePairs that accepts three angles (integers), measured in degrees, as parameters and returns whether or not there exists both complementary and supplementary angles amongst the three angles passed. Two angles are complementary if their sum is exactly 90 degrees; two angles are supplementary if their sum is exactly 180 degrees. Therefore, the method should return true if any two of the three angles add up to 90 degrees and also any two of the three angles add up to 180 degrees; otherwise the method should return false. You may assume that each angle passed is non-negative.
 
-6. Programming
-Write a static method named graduation that takes a student's GPA, total credit count, and honors credit count as
-parameters, and returns a String representing that student's graduation status. The total credit count already includes
-the honors credits. The graduation status to return is determined by the following rules:
-• Students must have completed at least 180 credits with a GPA of at least 2.0 to graduate. A student who does not
-meet both of these constraints should receive a return value of "not graduating".
-• Students who do have enough credits to graduate and sufficiently high GPAs will receive one of four return
-values depending on the GPA and number of honors credits:
-o All students with GPAs between 2.0 and 3.6 receive a return value of "graduating".
-o Students with fewer than 15 honors credits receive a return of "cum laude" if their GPA is at least 3.6 but
-less than 3.8, and a return of "magna cum laude" if their GPA is at least 3.8.
-o Students with 15 or more honors credits receive a return of "magna cum laude" if their GPA is at least
-3.6 but less than 3.8, and a return of "summa cum laude" if their GPA is at least 3.8.
- Here are some example calls to the method and their resulting return values:
-Call Value Returned
-graduation(3.87, 178, 16)
-graduation(1.5, 199, 30)
-graduation(2.7, 380, 50)
-graduation(3.6, 180, 14)
-graduation(3.62, 200, 20)
-graduation(3.93, 185, 0)
-graduation(3.85, 190, 15)
-"not graduating"
-"not graduating"
-"graduating"
-"cum laude"
-"magna cum laude"
-"magna cum laude"
-"summa cum laude"
- You may assume that the GPA will be between 0.0 and 4.0 and that both credit counts will be non-negative integers. 
+  Here are some example calls to the method and their resulting return values.
+
+  | __Call Value__ | __Returned__ |
+  | :--- | :--- |
+  | `anglePairs(0, 90, 180)` | `true` |
+  | `anglePairs(45, 135, 45)` | `true` |
+  | `anglePairs(177, 87, 3)` | `true` |
+  | `anglePairs(120, 60, 30)` | `true` |
+  | `anglePairs(35, 60, 30)` | `false` |
+  | `anglePairs(120, 60, 45)` | `false` |
+  | `anglePairs(45, 90, 45)` | `false` |
+  | `anglePairs(180, 45, 45)` | `false` |
+
+5. Programming. Write a static method named graduation that takes a student's GPA, total credit count, and honors credit count as parameters, and returns a String representing that student's graduation status. The total credit count already includes the honors credits. The graduation status to return is determined by the following rules:
+  * Students must have completed at least 180 credits with a GPA of at least 2.0 to graduate. A student who does not
+  meet both of these constraints should receive a return value of "not graduating".
+  * Students who do have enough credits to graduate and sufficiently high GPAs will receive one of four return
+  values depending on the GPA and number of honors credits:
+    * All students with GPAs between 2.0 and 3.6 receive a return value of "graduating".
+    * Students with fewer than 15 honors credits receive a return of "cum laude" if their GPA is at least 3.6 but less than 3.8, and a return of "magna cum laude" if their GPA is at least 3.8.
+    * Students with 15 or more honors credits receive a return of "magna cum laude" if their GPA is at least 3.6 but less than 3.8, and a return of "summa cum laude" if their GPA is at least 3.8.
+ 
+  Here are some example calls to the method and their resulting return values:
+
+  | __Call Value__ |  __Returned__ |
+  | `graduation(3.87, 178, 16)` | "not graduating" |
+  | `graduation(1.5, 199, 30)` |  "not graduating" |
+  | `graduation(2.7, 380, 50)` | "graduating" |
+  | `graduation(3.6, 180, 14)` | "cum laude" |
+  | `graduation(3.62, 200, 20)` | "magna cum laude" |
+  | `graduation(3.93, 185, 0)` | "magna cum laude" |
+  | `graduation(3.85, 190, 15)` | "summa cum laude" |
+
+  You may assume that the GPA will be between 0.0 and 4.0 and that both credit counts will be non-negative integers. 
  
  7. Programming
 Write a static method named cheerleader that accepts two integer parameters lines and cheers and prints a series of
