@@ -193,4 +193,3 @@ public static void favoriteLetter(Scanner console, String letter) {
 } 
 
 6. Below are three possible solutions; but please note there are many correct solutions to this problem.
-
