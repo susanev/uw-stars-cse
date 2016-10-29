@@ -7,7 +7,7 @@
 * [Practice Midterm](practice-midterm.md)
 * [Practice Midterm Answers](practice-midterm-answers.md)
 
-## Study Session
+## [Study Session](study-session)
 * [Expressions](study-session/expressions.md)
 * [Expressions Answers](study-session/expressions-answers.md)
 * [While Loops](study-session/while-loop.md)
