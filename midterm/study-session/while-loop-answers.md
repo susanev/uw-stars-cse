@@ -2,6 +2,7 @@
 # Midterm Study Session
 
 1. 
+
   | __Method Call__ | __Output Produced__ |
   | :--- | :--- |
   | `mystery(2);` | `1 2` |
