@@ -22,7 +22,7 @@
       System.out.println("minimum balance = $" + min);
       return (min < 0);
   }
-  ```java
+  ```
 
 2. Below is one possible solution; but please note there are many correct solutions to this problem.
 
