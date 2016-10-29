@@ -207,3 +207,13 @@ Output 1, 4, 7, 10, 13, 16
 3
 4
 1, 2, 3 
+
+8. Programming
+Write a static method named threeHeads that repeatedly flips a coin until three heads in a row are seen. You should
+use a Random object to give an equal chance to a head or a tail appearing. Each time the coin is flipped, what is seen
+is displayed (H for heads, T for tails). When 3 heads in a row are flipped a congratulatory message is printed. Here
+are possible outputs of two calls to threeHeads:
+T T T H T H H H
+Three heads in a row!
+T H T H T T T T T H H T H H H
+Three heads in a row!
