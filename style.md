@@ -61,7 +61,7 @@ Note: New additions for this week are __bolded__
 
 ### for loops
 * Do not use a `for` loop if it only runs 1 time
-* There should be a space between `for` and `)`,(e.g., `for (int i = 1 ...`)
+* There should be a space between `for` and `(`,(e.g., `for (int i = 1 ...`)
 * Use descriptive loop variable names, __OR__ use the `i`, `j`, `k` convention—if loops are not nested they should use only the `i` variable
 
 ### Comments
