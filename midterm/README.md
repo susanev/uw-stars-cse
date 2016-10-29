@@ -1,4 +1,11 @@
 # Midterm Resources
+[Study Sheet](study-sheet.md)
+
+[Midterm Cheat Sheet](midterm-cheet-sheet.md)
+
+## Practice Midterm
+* [Practice Midterm](practice-midterm.md)
+* [Practice Midterm Answers](practice-midterm-answers.md)
 
 ## Study Session
 * [Expressions](study-session/expressions.md)
