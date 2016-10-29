@@ -1,6 +1,6 @@
 # Week 3
 
-[DrawingPanel.jave](DrawingPanel.java)
+[DrawingPanel.java](DrawingPanel.java)
 
 __Topics__: Parameters, graphics, return, Math class
 * [Plan](week3/plan.md)
