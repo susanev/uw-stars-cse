@@ -3,25 +3,25 @@
 
 1. Below is one possible solution; but please note there are many correct solutions to this problem.
 
-```java
-public static boolean sameDashes(String str1, String str2) {
-    for (int i = 0; i < str1.length(); i++) {
-        if (str1.charAt(i) == '-') {
-            if (i > str2.length() || str2.charAt(i) != '-') {
-                return false;
+    ```java
+    public static boolean sameDashes(String str1, String str2) {
+        for (int i = 0; i < str1.length(); i++) {
+            if (str1.charAt(i) == '-') {
+                if (i > str2.length() || str2.charAt(i) != '-') {
+                    return false;
+                }
             }
         }
-    }
-    for (int i = 0; i < str2.length(); i++) {
-        if (str2.charAt(i) == '-') {
-            if (i > str1.length() || str1.charAt(i) != '-') {
-                return false;
+        for (int i = 0; i < str2.length(); i++) {
+            if (str2.charAt(i) == '-') {
+                if (i > str1.length() || str1.charAt(i) != '-') {
+                    return false;
+                }
             }
         }
+        return true;
     }
-    return true;
-}
-```
+    ```
 
 2. Below are two possible solutions; but please note there are many correct solutions to this problem.
 
