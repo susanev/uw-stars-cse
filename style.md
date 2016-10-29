@@ -32,7 +32,7 @@ Note: New additions for this week are __bolded__
 * `main` should generally not contain any print statments
 * To print a blank line use `System.out.println()`, do not use `System.out.println("")`
 * Use `println` statements instead of `print` statements that end with `\n`
-* When a `\n` character, then use `printf` and not `print` or `println`
+* When printing a `\n` character, then use `printf` and not `print` or `println`
 * Combine print statements when necessary, for example use 
 
   ```java
