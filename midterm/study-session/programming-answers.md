@@ -143,7 +143,7 @@
   }  
   ```
 
-5.  Below is three possible solutions; but please note there are many correct solutions to this problem.
+5. Below is three possible solutions; but please note there are many correct solutions to this problem.
 
   ```java
   public static void cheerleader(int lines, int cheers) {
