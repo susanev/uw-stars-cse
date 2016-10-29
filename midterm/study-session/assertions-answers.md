@@ -30,3 +30,4 @@
 	| Point C | N | S | S |
 	| Point D | A | S | S |
 	| Point E | S | N | S |
+	
