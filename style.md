@@ -58,7 +58,7 @@ Note: New additions for this week are __bolded__
 * Constants must start with `public static final`
 * Constants should only be used for single values that do not change
 * Constants should not be passed as parameters
-* Every constant should have a comment above it explaing what it represents and what happens when you change it
+* Every constant should have a comment above it explaining what it represents and what happens when you change it
 
 ### for loops
 * Do not use a `for` loop if it only runs 1 time
