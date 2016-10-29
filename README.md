@@ -16,7 +16,7 @@ __Topics__: All material from weeks 1 – 5, except for Graphics
 * [Study Session](midterm/study-session/README.md)
 
 ## Weeks
-### Week 1
+### [Week 1](week1)
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
 * [Plan](week1/plan.md)
 * [Quiz](week1/quiz.md)
@@ -25,7 +25,7 @@ __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, 
 * [Exercises](week1/exercises.md)
 * [Check-in meeting](week1/check-in-meeting.md)
 
-### Week 2
+### [Week 2](week2)
 __Topics__: Data types, variables, assignment statements, for loops, constants
 * [Plan](week2/plan.md)
 * [Quiz](week2/quiz.md)
@@ -33,7 +33,7 @@ __Topics__: Data types, variables, assignment statements, for loops, constants
 * [Exercises](week2/exercises.md)
 * [Check-in meeting](week2/check-in-meeting.md)
 
-### Week 3
+### [Week 3](week3)
 __Topics__: Parameters, graphics, return, Math class
 * [Plan](week3/plan.md)
 * [Quiz](week3/quiz.md)
@@ -42,7 +42,7 @@ __Topics__: Parameters, graphics, return, Math class
 * [Check-in meeting](week3/check-in-meeting.md)
 * [Homework](week3/homework.md)
 
-### Week 4
+### [Week 4](week4)
 __Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
 * [Plan](week4/plan.md)
 * [Quiz](week4/quiz.md)
@@ -51,7 +51,7 @@ __Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
 * [Check-in meeting](week4/check-in-meeting.md)
 * [Homework](week4/homework.md)
 
-### Week 5
+### [Week 5](week5)
 __Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, assertions
 * [Plan](week5/plan.md)
 * [Practice Midterm](midterm/practice-midterm.md)
