@@ -1,7 +1,7 @@
 # Midterm Resources
 [Study Sheet](study-sheet.md)
 
-[Midterm Cheat Sheet](midterm-cheet-sheet.md)
+[Midterm Cheat Sheet](midterm-cheat-sheet.md)
 
 ## Practice Midterm
 * [Practice Midterm](practice-midterm.md)
