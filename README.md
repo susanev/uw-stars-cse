@@ -7,7 +7,7 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 [Java Style](style.md)
 
 ## Exams
-### Midterm
+### [Midterm](midterm)
 __Topics__: All material from weeks 1 – 5, except for Graphics
 * [Study Sheet](midterm/study-sheet.md)
 * [Midterm Cheat Sheet](midterm/midterm-cheat-sheet.md)
