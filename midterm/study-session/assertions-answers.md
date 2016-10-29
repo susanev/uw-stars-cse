@@ -20,7 +20,7 @@
 	| Point C | A | N | N |
 	| Point D | N | N | N |
 	| Point E | N | S | A |
-  
+
 3.
 
 	| | `x > 2` | `x < n` | `n % x == 0` |
