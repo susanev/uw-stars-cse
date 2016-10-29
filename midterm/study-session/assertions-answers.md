@@ -13,13 +13,6 @@
 
 2. 
 
-	| | `x > y` | `z == 0` | `x == y` |
-	| :--- | :--- | :--- | :--- |
-	| Point A | S | A | S |
-	| Point B | S | S | N |
-	| Point C | A | N | N |
-	| Point D | N | N | N |
-	| Point E | N | S | A |
 
 3.
 
