@@ -147,17 +147,16 @@
 
   ```java
   public static void cheerleader(int lines, int cheers) {
-  for (int line = 0; line < lines; line++) {
-  for (int space = 1; space <= line * 3; space++) {
-  System.out.print(" ");
-  }
-
-  System.out.print("Go");
-  for (int cheer = 2; cheer <= cheers; cheer++) {
-  System.out.print(" Team Go");
-  }
-  System.out.println();
-  }
+      for (int line = 0; line < lines; line++) {
+          for (int space = 1; space <= line * 3; space++) {
+              System.out.print(" ");
+          }
+          System.out.print("Go");
+          for (int cheer = 2; cheer <= cheers; cheer++) {
+              System.out.print(" Team Go");
+          }
+          System.out.println();
+      }
   }
   ```
   
