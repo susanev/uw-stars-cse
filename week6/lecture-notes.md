@@ -91,7 +91,7 @@
 * Scanner objects can only go forwards, they cannot read information backwards; if you need to read a file twice then you would need to create two Scanner objects
 * Because of some exception rules in Java you need to add `throws FileNotFoundException` to any method that constructs a Scanner from a File object
 
-#### Basic File Code
+#### File Example
 
 ```java
 import java.io.*; // to use the File calss
@@ -100,9 +100,13 @@ import java.util.*; // to use the Scanner class
 public class FileExample {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner input = new Scanner(new File("numbers.txt"));
-
-        double n = input.nextDouble();
-        System.out.println("n = " + n);
+        double sum = 0.0;
+        while (input.hasNextDouble()) {
+            double n = input.nextDouble();
+            System.out.println("n = " + n);
+            sum+=n;
+        }
+        System.out.println("sum = " + sum);
     }
 }
 ```
@@ -122,3 +126,24 @@ public class FileExample {
 * `InputMismatchException`: When you try and read a token of the wrong type
 * `NoSuchElementException`: When you try and read a token that does not exist
 
+#### Testing for valid input with Scanner
+Assuming, a Scanner object has already been created named _input_
+
+| __Method name__ | __Description__ |
+| :--- | :--- |
+| `input.hasNext()` | returns `true` if there are more tokens of input to read |
+| `input.hasNextInt()` | returns `true` if there is a next token and it can be read as an `int` |
+| `input.hasNextDouble()` | returns `true` if there is a next token and it can be read as an `double` |
+
+#### Reading HTML from a webpage
+
+```java
+    import java.net.*; // to read from URL
+    import java.util.*; // to be able to use Scanner
+    
+    public class WebExample {
+        public static void main(String[] args) throws FileNotFoundException {
+            Scanner input = new Scanner(new URL("http://www.cs.washington.edu/").openStream());
+        }
+    }
+```
