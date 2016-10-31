@@ -1,6 +1,18 @@
 # Lecture Notes
 ## Week 6
 
+### boolean
+* __boolean__: A logical type whose value is either true or false.
+* You can create boolean variables, pass booleans as parameters, and return boolean values from methods
+
+#### DeMorgan's Laws
+Rules used to negate or reverse boolean expressions
+
+| __Original Expression__ | __Negated Expression__ | __Alternative__ |
+| :--- | :--- | :--- |
+| `a && b` | `!a || !b` | `!(a && b)` |
+| `a || b` | `!a && !b` | `!(a || b)` |
+
 ### Midterm Review Problems
 
 1. Write a static method called `seven` that takes a `Random` object as a parameter and that uses the random object to generate up to 10 numbers between 1 and 30 inclusive, printing them and stopping if the "lucky numver" 7 comes up and returning whether or not that happened.
