@@ -72,4 +72,5 @@ Many of these materials are taken from, or inspired by the work of [Stuart Reges
 
 #### FAQ
 1. How do you print these resources?
+
   I have had success using [grip](https://github.com/joeyespo/grip) to display in Chrome, and then print to pdf from Chrome. To install `grip` use `pip install grip`
