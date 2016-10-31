@@ -80,3 +80,45 @@
 ### Random Numbers
 * When deciding on the formula to use with nextInt, first ask yourself how many nummbers do I need, then add the offset to that
  * e.g., random numbers between 1 and 30, so that is 30 numbers, offset by 1, so our forumla is r.nextInt(_num of numbers_) + offset, or in code `r.nextInt(30) + 1`
+
+### File Processing
+* To make a .txt file in jGRASP: File > New > Plain Text
+* To use the `File` class you need to have an import statement, `import java.io.*;`
+* `File f = new File("numbers.txt");` creates a new File object
+* You can connect your file to a Scanner object with `Scanner input = new Scanner(f);`
+* __absoulte path__: complete path to a file, can use that path anywhere on your system and it will locate the file
+* __relative path__: path to the file from the current directly, if you used this path in a different directory it would not go to your file
+* Scanner objects can only go forwards, they cannot read information backwards; if you need to read a file twice then you would need to create two Scanner objects
+* Because of some exception rules in Java you need to add `throws FileNotFoundException` to any method that constructs a Scanner from a File object
+
+#### Basic File Code
+
+```java
+import java.io.*; // to use the File calss
+import java.util.*; // to use the Scanner class
+
+public class FileExample {
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner input = new Scanner(new File("numbers.txt"));
+
+        double n = input.nextDouble();
+        System.out.println("n = " + n);
+    }
+}
+```
+
+#### Common File Methods
+
+| __Method name__ | __Description__ |
+| :--- | :--- |
+| `f.canRead()` | returns whether the file f is able to be read |
+| `f.delete()` | removes the file f from the disk |
+| `f.exists()` | returns true if the file f exists, otherwise returns false |
+| `f.getName()` | returns the name of file f |
+| `f.length()` | returns the number of bytes in the file f |
+| `f.renameTo(name)` | changes the name of file f to _name_ |
+
+#### Common File Errors
+* `InputMismatchException`: When you try and read a token of the wrong type
+* `NoSuchElementException`: When you try and read a token that does not exist
+
