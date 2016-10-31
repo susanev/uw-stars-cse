@@ -1,9 +1,17 @@
 # Midterm Cheat Sheet
 
-_You will be provided a cheat sheet with the information below on your midterm. If you are interested in the actual format of the document, check out [last year's version](https://courses.cs.washington.edu/courses/cse142/15au/handouts/09.html)._
+_You will be provided a cheat sheet with the information below on your midterm. If you are interested in the actual format of the document, check out [this year's version](https://courses.cs.washington.edu/courses/cse142/16au/handouts/cheat-mid.pdf)._
 
 ```java
-for (initialization; test; update) {
+if (test) {
+  statement(s);
+} 
+```
+
+```java
+if (test) {
+  statement(s);
+} else {
   statement(s);
 }
 ```
@@ -14,6 +22,18 @@ if (test) {
 } else if (test) {
   statement(s);
 } else {
+  statement(s);
+}
+```
+
+```java
+for (initialization; test; update) {
+  statement(s);
+}
+```
+
+```java
+while (condition) {
   statement(s);
 }
 ```
@@ -43,7 +63,6 @@ Random r = new Random();
 | `Math.min(v1, v2)` | smaller of two values |
 | `Math.max(v1, v2)` | larger of two values |
 | `Math.round(value)` | nearest whole number |
-| `Math.sqrt(value)` | square root |
 | `Math.pow(b, e)` | base to the exponent power |
 
 | __Scanner Method__ | __Description__ |
@@ -56,7 +75,7 @@ Random r = new Random();
 | :--- | :--- |
 | `nextInt(max)` | random integer from 0 to `max-1` |
 
-|__String Method__ | __Description__ |
+| __String Method__ | __Description__ |
 | :--- | :--- |
 | `contains(str)` | true if this string contains the other's characters inside it |
 | `endsWith(str), startsWith(str)` | true if this string starts/ends with the other's characters
@@ -69,4 +88,14 @@ Random r = new Random();
 | `toLowerCase()`, `toUpperCase()` | a new string with all lowercase or uppercase letters |
 | `charAt(i)` | returns `char` at index `i` |
 
-
+| __Operator__ | __Description__ |
+| :--- | :--- |
+| `<` | less than |
+| `<=` | less than or equal |
+| `>` | greater than |
+| `>=` | greater than or equal |
+| `==` | equal to  |
+| `!=` | not equal to |
+| `&&` | logical and |
+| `||` | logical or |
+| `!` | logical not |
