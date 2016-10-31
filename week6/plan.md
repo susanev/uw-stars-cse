@@ -1,2 +1,2 @@
 # Plan
-## Weeek 6
+## Week 6
