@@ -15,4 +15,4 @@ _You should plan to be fully prepared for everything listed below_
 * Being able to look trhough the individual characters in a String
 
 #### Tips
-* Write the method header first, with the correct return value, name, and parameters along with open curly brace and closing curly brace (this will usually earn you a minimum of 2pts)
+* Write the method header first, with the correct return value, name, and parameters along with open curly brace and closing curly brace (this will usually earn you a minimum of 1pt)
