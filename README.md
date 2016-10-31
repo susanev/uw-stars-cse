@@ -60,5 +60,12 @@ __Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, asserti
 * [Check-in meeting](week5/check-in-meeting.md)
 * [Homework](week5/homework.md)
 
+### [Week 6](week6)
+__Topics__: type boolean, more while loops, file input
+* [Plan](week6/plan.md)
+* [Lecture notes](week6/lecture-notes.md)
+* [Check-in meeting](week6/check-in-meeting.md)
+* [Homework](week6/homework.md)
+
 #### References
 Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) in their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
