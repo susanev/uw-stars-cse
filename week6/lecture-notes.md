@@ -22,4 +22,4 @@
     
 ### Random Numbers
 * When deciding on the formula to use with nextInt, first ask yourself how many nummbers do I need, then add the offset to that
- * e.g., random numbers between 1 and 30, so that is 30 numbers, offset by 1, so our forumla is r.nextInt(<num of numbers>) + offset, or in code `r.nextInt(30) + 1`
+ * e.g., random numbers between 1 and 30, so that is 30 numbers, offset by 1, so our forumla is r.nextInt(_num of numbers_) + offset, or in code `r.nextInt(30) + 1`
