@@ -123,7 +123,7 @@ public class FileExample {
 }
 ```
 
-#### Common File Methods
+#### Common Methods
 
 | __Method name__ | __Description__ |
 | :--- | :--- |
