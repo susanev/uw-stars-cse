@@ -123,7 +123,7 @@ public class FileExample {
 }
 ```
 
-#### Common Methods
+#### Common File Methods
 
 | __Method name__ | __Description__ |
 | :--- | :--- |
@@ -134,7 +134,7 @@ public class FileExample {
 | `f.length()` | returns the number of bytes in the file f |
 | `f.renameTo(name)` | changes the name of file f to _name_ |
 
-#### Common File Errors
+#### Common Errors
 * `InputMismatchException`: When you try and read a token of the wrong type
 * `NoSuchElementException`: When you try and read a token that does not exist
 
