@@ -74,7 +74,7 @@ Many of these materials are taken from, or inspired by the work of [Stuart Reges
 ## FAQ
 1. Can I use these materials in my own class?
 
-  Yes! But please credit both Stuart Reges and Marty Stepp
+  Yes! But please credit Stuart Reges, Marty Stepp, and myself—Susan Evans
 
 2. How do you print these resources?
 
