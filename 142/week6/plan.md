@@ -1,7 +1,6 @@
 # Plan
 ## Week 6
 * Outstanding questions?
-* Assignment walk-through; critical reading
 * Weave walk-through
   ```java
   // weave(128,394); => 132984
