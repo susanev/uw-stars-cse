@@ -1,6 +1,7 @@
 # Plan
 ## Week 6
 * Outstanding questions?
+* [Midterm Evaluation](midterm-evaluation.md)
 * Weave walk-through
   ```java
   // weave(128,394); => 132984
