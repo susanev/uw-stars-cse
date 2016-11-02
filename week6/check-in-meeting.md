@@ -17,7 +17,7 @@
   Type a number: 4
   Type a number: 16
   Type a number: -4
-  Average wa 9.0
+  Average was 9.0
   ```
   
 
