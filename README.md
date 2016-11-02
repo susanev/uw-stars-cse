@@ -10,3 +10,15 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 
 ### CSE 143
 ... coming soon.
+
+## FAQ
+1. Can I use these materials in my own class?
+
+  Yes! But please credit Stuart Reges, Marty Stepp, and myself—Susan Evans
+
+2. How do you print these resources?
+
+  I have had success using [grip](https://github.com/joeyespo/grip) to display in Chrome, and then print to pdf from Chrome. To install `grip` use `pip install grip`
+  
+## References
+Many of these materials are taken from, or inspired by the work of [Stuart Reges](https://homes.cs.washington.edu/~reges/) and [Marty Stepp](http://www.martystepp.com/) in their [Building Java Programs](http://www.buildingjavaprograms.com/) book and resources.
