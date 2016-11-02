@@ -1,4 +1,4 @@
-# CSE 190Z Course Syllabus
+# STARS CSE 142 Course Syllabus
 ## Catalog Information
 __Course Number__: CSE 190Z
 
