@@ -68,6 +68,6 @@ __Topics__: type boolean, more while loops, file input
 * [Midterm Evaluation](week6/midterm-evaluation.md)
 * [Lecture notes](week6/lecture-notes.md)
 * [Quiz](week6/quiz.md)
-* [Quiz](week6/quiz-answers.md)
+* [Quiz Answers](week6/quiz-answers.md)
 * [Check-in meeting](week6/check-in-meeting.md)
 * [Homework](week6/homework.md)
