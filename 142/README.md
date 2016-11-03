@@ -6,6 +6,8 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 
 [Java Style](style.md)
 
+[Anonymous Feedback Form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
+
 ## Exams
 ### [Midterm](midterm)
 __Topics__: All material from weeks 1 – 5, except for Graphics
