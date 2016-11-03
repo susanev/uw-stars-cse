@@ -1,6 +1,6 @@
 # Quiz Answers
 ## Week 6
-_It is important to note that these are an example of a correct solution; there are many correct solutions that will not match these solutions exactly._
+_It is important to note that these are examples of correct solutions; there are many correct solutions that will not match these solutions exactly._
 
 1. __randomWalk (15 points)__
 
