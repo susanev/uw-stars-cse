@@ -43,15 +43,22 @@
   ```
 
   ```java
-  public static void printStripped(String s) {
-      int start = s.indexOf('<');
-      while (start != -1) {
-          int stop = s.indexOf('>', start + 1);
-          s = s.substring(0, start) + s.substring(stop + 1);
-          start = s.indexOf('<');
+   public static void printStripped(String s) {
+      String output = "";
+      for (int i = 0; i < s.length(); i++) {
+         char sym = s.charAt(i);       
+         if (sym == '<') {
+            // int index = s.indexOf(">", i); not on cheat sheet so can't use
+            int index = i + s.substring(i).indexOf(">");
+            if (index != -1) {
+               i = index;
+            }
+         } else {
+            output = output + sym;
+         }
       }
-      System.out.println(s);
-  }
+      System.out.println(output);
+   }
   ```
 
 3. Below are three possible solutions; but please note there are many correct solutions to this problem.
