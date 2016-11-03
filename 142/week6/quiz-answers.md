@@ -7,19 +7,18 @@ _It is important to note that these are an example of a correct solution; there 
 	```java
 	public static void randomWalk(Random r, int goal) {
 	  int pos = 0;
-	  int value = r.nextInt(5) - 2;
-	  int min = value;
-	  int max = value;
+	  int min = 0;
+	  int max = 0;
 	  System.out.printf("goal = %d, pos = %d\n", goal, pos);
 	  while (goal != pos) {
-	     if (value < min) {
-	        min = value;
-	     } else if (value > max) {
-	        max = value;
-	     }
-	     pos = pos + value; 
-	     System.out.printf("adding %d, pos = %d\n", value, pos);
 	     value = r.nextInt(5) - 2;
+	     pos = pos + value; 
+	     if (pos < min) {
+	        min = pos;
+	     } else if (pos > max) {
+	        max = pos;
+	     }
+	     System.out.printf("adding %d, pos = %d\n", value, pos);
 	  }
 	  System.out.printf("min = %d, max = %d\n", min, max);
 	}
@@ -46,7 +45,7 @@ _It is important to note that these are an example of a correct solution; there 
 	     if (lowHigh < 0 || lowHigh > 1) {
 	        return false;
 	     }
-	     num = num / 10;
+	     num = num / 10;	
 	  }
 	  return true;
 	}
