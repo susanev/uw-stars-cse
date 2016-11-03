@@ -63,6 +63,7 @@ __Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, asserti
 ### [Week 6](week6)
 __Topics__: type boolean, more while loops, file input
 * [Plan](week6/plan.md)
+* [Midterm Evaluation](week6/midterm-evaluation.md)
 * [Lecture notes](week6/lecture-notes.md)
 * [Quiz](week6/quiz.md)
 * [Quiz](week6/quiz-answers.md)
