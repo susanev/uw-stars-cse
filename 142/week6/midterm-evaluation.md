@@ -7,7 +7,6 @@
 * Extra resources (Github, Slack)
 * Whiteboard exercises
 * Practice midterm
-* Weekly quizzes
 
 ### Things to improve
 
