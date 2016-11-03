@@ -2,7 +2,7 @@
 ## Week 6
 * Outstanding questions?
 * [Midterm Evaluation](midterm-evaluation.md)
-* Weave walk-through
+* [Weave](../week5/practice-midterm.md) walk-through
   ```java
   // weave(128,394); => 132984
   // weave(394,128); => 319248
