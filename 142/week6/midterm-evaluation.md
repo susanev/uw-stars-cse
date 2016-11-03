@@ -15,7 +15,7 @@
 * Better planning
 	* Final session: [Optional] Saturday, December 10th 10am – 4pm
 	* Other comments about this? Does there need to be more planning beyond the Saturday sessions?
-* Required one-on-ones
+* Required check-in meetings
 	* Optional?
 	* More flexible?
 	* Note: I do not have ability to do class and check-ins at the same time .. : [
