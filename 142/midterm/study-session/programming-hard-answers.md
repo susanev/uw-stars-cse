@@ -196,13 +196,9 @@
         int max = n % 10;
         while (n > 0) {
             int digit = n % 10;
+            min = Math.min(digit, min);
+            max = Math.max(digit, max);
             n = n / 10;
-            if (digit < min) {
-                min = digit;
-            }
-            if (digit > max) {
-                max = digit;
-            }
         }
         return max - min;
     }
