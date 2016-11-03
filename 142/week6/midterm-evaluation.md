@@ -26,3 +26,4 @@
 ### Other things of note
 
 * Wednesday's class too long
+* If you have more feedback but don't want to talk to me directly, please use the [Anonymous Feedback Form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
