@@ -4,7 +4,7 @@
 ###Concepts
 _You should plan to be fully prepared for everything listed below_
 
-* Using `Random` objects
+#### Using `Random` objects
 
   ```java
   Random r = new Random();
@@ -13,7 +13,7 @@ _You should plan to be fully prepared for everything listed below_
   r.nextInt(30) + 10; // 10 – 39
   ```
 
-* Using `Scanner` objects
+#### Using `Scanner` objects
 
   ```java
   Scanner console = new Scanner(System.in);
@@ -22,7 +22,7 @@ _You should plan to be fully prepared for everything listed below_
   double y = console.nextDouble(); // reads in as a double
   ```
 
-* Solving fencepost problems
+#### Solving fencepost problems
 
   _Tips: Usually needs a loop._
   
@@ -39,7 +39,7 @@ _You should plan to be fully prepared for everything listed below_
   }
   ```
   
-* Solving cumulative sum problems
+#### Solving cumulative sum problems
   
   _Tips: Usually needs a sum variable, a loop, and an update variable statement inside of the loop._
     
@@ -56,7 +56,7 @@ _You should plan to be fully prepared for everything listed below_
   }
   ```
   
-* Solving counting problems
+#### Solving counting problems
 
   _Tips: Usually needs a count variable, a loop, and an increment statement inside the loop._
     
@@ -79,7 +79,7 @@ _You should plan to be fully prepared for everything listed below_
   }
   ```
   
-* Finding the max and min in a set of values
+#### Finding the max and min in a set of values
 
   _Tips: Usually needs a min variable and a max variable, a loop, and if statements inside the loop._
     
@@ -105,7 +105,7 @@ _You should plan to be fully prepared for everything listed below_
   }
   ```
 
-* Being able to look at the individual digits of a number using integer arithmetic
+#### Being able to look at the individual digits of a number using integer arithmetic
 
   _Tips: Look thorugh the number from right – left, not from left – right_
   
@@ -128,7 +128,7 @@ _You should plan to be fully prepared for everything listed below_
     return min;
   }
   ```
-* Being able to look through the individual characters in a String
+#### Being able to look through the individual characters in a String
 
   _Tips: Usually needs a for loop that goes until the length of the String_  
 
