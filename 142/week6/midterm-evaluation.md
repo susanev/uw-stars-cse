@@ -20,7 +20,8 @@
 	* Note: I do not have ability to do class and check-ins at the same time .. : [
 * More interactive activities during Wednesday's class
 * Collect/grade quizzes
-	* I lack the time to do this; but! Happy to discuss your quiz at our check-in meetings
+	* Record? or Grade and record?
+	* I lack the time to do grade the quizzes; but! Happy to discuss your quiz at our check-in meetings
 
 ### Other things of note
 
