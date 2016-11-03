@@ -1,8 +1,7 @@
 # Study Sheet
 ## Midterm
 
-### Programming Problems
-####Concepts
+###Concepts
 _You should plan to be fully prepared for everything listed below_
 
 * Using `Random` objects
@@ -147,14 +146,14 @@ _You should plan to be fully prepared for everything listed below_
   }
   ```
 
-#### Tips
+### Tips
 * Write the method header first, with the correct return value, name, and parameters along with open curly brace and closing curly brace (this will usually earn you a minimum of 1pt)
 * Complete problems 1 – 7, write the method header for 8 (the hard programming problem) and any other details you know are in the solution (loop, if block, return statement, etc.), then go back and check your solutions for 1 – 7, and finally work on the solution for 8.
 * If you cannot solve a programming problem, solve a simpler verison instead (this will earn you lots of partial credit)
 * Do not open your test before told to begin, and stop writing when time is called; don't lose these points .. its never worth it.
 * Do not abbreviate anything on the exame, except for A/S/N on the assertion questions
 
-#### Reminders
+### Reminders
 * Know where your seat is before you arrive
 * Bring your ID
 * Bring pencils, not pens (and optional highlighter—recommended!)
