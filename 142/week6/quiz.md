@@ -170,7 +170,7 @@
   | `areReversals("HELLO", "olleh")` | `true`
   | `areReversals("hello", "aolleh")` | `false`
 
-6. __is Consecutive (9 points)__
+6. __isConsecutive (9 points)__
 
 	Write a method called isConsecutive that takes an integer n as a parameter and that returns true if the digits of n are consecutive. Recall that consecutive digits come one after another (1 followed by 2 followed by 3, and so on). Your method should return true for a one-digit number.
 
