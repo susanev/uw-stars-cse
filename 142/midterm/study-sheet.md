@@ -25,6 +25,7 @@ _You should plan to be fully prepared for everything listed below_
   r.nextInt(10); // 0 – 9
   r.nextInt(10) + 1; // 1 – 10
   r.nextInt(30) + 10; // 10 – 39
+  r.nextInt(5) - 2; // -2 – 2
   ```
 
 #### Using `Scanner` objects
