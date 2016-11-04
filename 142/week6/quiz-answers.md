@@ -67,9 +67,6 @@ _It is important to note that these are examples of correct solutions; there are
 	        return false;
 	     }
 	  }  
-	  if (closed != open) {
-	     return false;
-	  }
-	  return true;
+	  return open == closed;
 	}
 	```
