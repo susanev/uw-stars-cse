@@ -116,7 +116,7 @@ _You should plan to be fully prepared for everything listed below_
       System.out.print("Enter a number (0) to quit: ");
       int num = console.nextInt();
     }
-    System.out.printf("Max: %d Min: %d", max, min);
+    System.out.printf("Max: %d Min: %d\n", max, min);
   }
   ```
 
