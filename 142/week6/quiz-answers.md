@@ -62,13 +62,11 @@ _It is important to note that these are examples of correct solutions; there are
 	        open++;
 	     } else {
 	        closed++;
-	     }
-	     
+	     }	     
 	     if (closed > open) {
 	        return false;
 	     }
-	  }
-	  
+	  }  
 	  if (closed != open) {
 	     return false;
 	  }
