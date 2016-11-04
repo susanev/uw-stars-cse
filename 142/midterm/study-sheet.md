@@ -127,11 +127,10 @@ _You should plan to be fully prepared for everything listed below_
   ```java
   // Return the smallest digit in a number
   public static int smallestDigit(int value) {
-    // special case; for if 0 is passed as value
+    // special case; if 0 is passed as value
     if (value == 0) {
       return 0;
     }
-    
     int min = 10; // no digit bigger than 9
     while (value != 0) {
       int digit = value % 10;
