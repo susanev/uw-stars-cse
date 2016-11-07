@@ -59,12 +59,13 @@
   | _value_ | 12 | 49 | -2 | 26 | 5 | 17 | -6 | 84 | 72 | 3 |
   
   In the array above, 12 is stored as element 0, 5 is stored as element 4, and 3 is stored as element 9
-* To declare and initialize an array use `type[] name = new type[length];
+* To declare and initialize an array use `type[] name = new type[length];`
 
   ```java
   int[] numbers = new int[10]; // creates a new int array to hold 10 values; all starting at zero
   ```
-  
+* Different array types have different default values; the default values for common types are shown in the table below
+
   | __Type__ | __Default Value__ |
   | :--- | :--- |
   | `int` | 0 |
