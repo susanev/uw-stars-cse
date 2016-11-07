@@ -86,7 +86,7 @@
   for (int i = 0; i < numbers.length; i++) {
     System.out.print(numbers[i] + " ");
   }
-  Ssytem.out.println();
+  System.out.println();
 
   // multiply every value in an array by 2
   for (int i = 0; i < numbers.length; i++) {
