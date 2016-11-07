@@ -49,3 +49,55 @@
   }
   ```
 
+### Arrays
+* __array__: an object that stores many values of the same type
+* __element__: one value in an array
+* __index__: a zero-based integer to access an element from an array
+
+  | _index_ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+  | _value_ | 12 | 49 | -2 | 26 | 5 | 17 | -6 | 84 | 72 | 3 |
+  
+  In the array above, 12 is stored as element 0, 5 is stored as element 4, and 3 is stored as element 9
+* To declare and initialize an array use `type[] name = new type[length];
+
+  ```java
+  int[] numbers = new int[10]; // creates a new int array to hold 10 values; all starting at zero
+  ```
+  
+  | __Type__ | __Default Value__ |
+  | :--- | :--- |
+  | `int` | 0 |
+  | `double` | 0.0 |
+  | `boolean` | `false` |
+  | `String` | null |
+
+* To access elements use `name[index]`
+* To modify elements use `name[index] = value`
+* The legal indexes of an array are between 0 and the array's length - 1. If you read or write outside of this range you will generate an `ArrayIndexOutOfBoundsException`
+* Arrays and for loops are best friends
+* An array's length field stores the number of elements, `name.length`, notice that there are no parens after length because it is a field and not a method
+
+#### Code Examples
+
+```java
+// print out the elements of an array
+for (int i = 0; i < numbers.length; i++) {
+  System.out.print(numbers[i] + " ");
+}
+Ssytem.out.println();
+
+// multiply every value in an array by 2
+for (int i = 0; i < numbers.length; i++) {
+  numbers[i] = 2 * i;
+}
+
+// using an array to count tallies
+int num = 229231007;
+int[] counts = new int[10];
+while (num > 0) {
+  int digit = num % 10;
+  counts[digit]++;
+  num = num / 10;
+}
+```
