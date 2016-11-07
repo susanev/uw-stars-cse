@@ -92,6 +92,14 @@
   for (int i = 0; i < numbers.length; i++) {
     numbers[i] = 2 * i;
   }
+  
+  // count how many values are above 5
+  int count = 0;
+  for (int i = 0; i < numbers.length; i++) {
+    if (numbers[i] > 5) {
+      count++;
+    }
+  }
 
   // using an array to count the number of each digit in a number
   int num = 229231007;
