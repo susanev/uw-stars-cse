@@ -80,24 +80,24 @@
 
 #### Code Examples
 
-```java
-// print out the elements of an array
-for (int i = 0; i < numbers.length; i++) {
-  System.out.print(numbers[i] + " ");
-}
-Ssytem.out.println();
+  ```java
+  // print out the elements of an array
+  for (int i = 0; i < numbers.length; i++) {
+    System.out.print(numbers[i] + " ");
+  }
+  Ssytem.out.println();
 
-// multiply every value in an array by 2
-for (int i = 0; i < numbers.length; i++) {
-  numbers[i] = 2 * i;
-}
+  // multiply every value in an array by 2
+  for (int i = 0; i < numbers.length; i++) {
+    numbers[i] = 2 * i;
+  }
 
-// using an array to count tallies
-int num = 229231007;
-int[] counts = new int[10];
-while (num > 0) {
-  int digit = num % 10;
-  counts[digit]++;
-  num = num / 10;
-}
-```
+  // using an array to count tallies
+  int num = 229231007;
+  int[] counts = new int[10];
+  while (num > 0) {
+    int digit = num % 10;
+    counts[digit]++;
+    num = num / 10;
+  }
+  ```
