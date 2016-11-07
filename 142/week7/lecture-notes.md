@@ -53,7 +53,6 @@
 * __array__: an object that stores many values of the same type
 * __element__: one value in an array
 * __index__: a zero-based integer to access an element from an array
-* Arrays have __random access__ which means you can access any element in the array without having to loop through the entire array
 
   | _index_ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
   | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -76,6 +75,7 @@
 
 * To access elements use `name[index]`
 * To modify elements use `name[index] = value`
+* Arrays have __random access__ which means you can access any element in the array without having to loop through the entire array
 * The legal indexes of an array are between 0 and the array's length - 1. If you read or write outside of this range you will generate an `ArrayIndexOutOfBoundsException`
 * Arrays and for loops are best friends
 * An array's length field stores the number of elements, `name.length`, notice that there are no parens after length because it is a field and not a method
