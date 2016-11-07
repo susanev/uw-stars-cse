@@ -71,7 +71,7 @@
   | `int` | 0 |
   | `double` | 0.0 |
   | `boolean` | `false` |
-  | `String` | null |
+  | `String` | `null` |
 
 * To access elements use `name[index]`
 * To modify elements use `name[index] = value`
