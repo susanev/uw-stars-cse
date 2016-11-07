@@ -14,7 +14,7 @@
 
 #### Line-based Processing
 * Process data by line using `nextLine()`
-* When doing line-based processing you often use a while loop, because you are unsure of the number of lines you will read in; an example method is shown below
+* When doing line-based processing you often use a while loop, because you are unsure of the number of lines you will read in; an example method is shown below. Note that the method below returns the empty string if nothing is found, this is a good 142 solution.
 
   ```java
   // searches for and returns the next line of the given input that contains
