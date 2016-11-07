@@ -93,7 +93,7 @@
     numbers[i] = 2 * i;
   }
 
-  // using an array to count tallies
+  // using an array to count the number of each digit in a number
   int num = 229231007;
   int[] counts = new int[10];
   while (num > 0) {
