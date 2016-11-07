@@ -33,4 +33,19 @@
 #### Hybrid Approach
 * Use line-based processing on the file, but then usd token-based processing for the individual lines of the file
 * Do this by passing the line itself (a String) into a new Scanner object to use token-based processing
+* An example of this approach is shown below
+
+  ```java
+  public static void print(String line) {
+      Scanner data = new Scanner(line);
+      int rank = data.nextInt();
+      int votes = data.nextInt();
+      double rating = data.nextDouble();
+      System.out.print(rank + "\t" + rating + "\t" + votes + "\t");
+      while (data.hasNext()) {
+          System.out.print(data.next() + " ");
+      }
+      System.out.println();
+  }
+  ```
 
