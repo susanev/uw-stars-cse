@@ -30,7 +30,7 @@
   }
   ```
 
-#### Hybrid Apprach
+#### Hybrid Approach
 * Use line-based processing on the file, but then usd token-based processing for the individual lines of the file
 * Do this by passing the line itself (a String) into a new Scanner object to use token-based processing
 
