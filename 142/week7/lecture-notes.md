@@ -53,6 +53,7 @@
 * __array__: an object that stores many values of the same type
 * __element__: one value in an array
 * __index__: a zero-based integer to access an element from an array
+* Arrays have __random access__ which means you can access any element in the array without having to loop through the entire array
 
   | _index_ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
   | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
