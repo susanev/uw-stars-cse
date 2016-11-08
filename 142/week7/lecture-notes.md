@@ -110,4 +110,27 @@
     counts[digit]++;
     num = num / 10;
   }
+  
+  // print a histogram for the values in an array
+  for (int i = 0; i < numbers.length; i++) {
+    System.out.print(i + ": ");
+    for (int j = 0; j < counts[i]; j++) {
+      System.out.print("*");
+    }
+    System.out.println();
+  }
   ```
+
+#### Histogram Example with Drawing Panel
+
+```java
+// Uses a DrawingPanel to draw the histogram
+public static void draw(int[] count) {
+    DrawingPanel p = new DrawingPanel(count.length * 6 + 12, 500);
+    Graphics g = p.getGraphics();
+    g.setColor(Color.BLUE);
+    for (int i = 0; i < count.length; i++) {
+        g.drawLine(i * 6 + 6, 475, i * 6 + 6, 475 - 10 * count[i]);
+    }
+}
+```
