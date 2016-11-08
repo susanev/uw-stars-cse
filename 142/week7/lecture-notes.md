@@ -1,7 +1,7 @@
 # Week 7
 ## Lecture Notes
 
-* [Sample File-Processing Program](Movies.java)
+[Sample File-Processing Program](Movies.java)
 
 ### File Processing
 * `Scanner` is the main tool to use for file processing
