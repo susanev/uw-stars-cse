@@ -119,18 +119,15 @@
     }
     System.out.println();
   }
+  
+  // histogram with DrawingPanel
+  // Uses a DrawingPanel to draw the histogram
+  public static void draw(int[] count) {
+      DrawingPanel p = new DrawingPanel(count.length * 6 + 12, 500);
+      Graphics g = p.getGraphics();
+      g.setColor(Color.BLUE);
+      for (int i = 0; i < count.length; i++) {
+          g.drawLine(i * 6 + 6, 475, i * 6 + 6, 475 - 10 * count[i]);
+      }
+  }
   ```
-
-#### Histogram Example with Drawing Panel
-
-```java
-// Uses a DrawingPanel to draw the histogram
-public static void draw(int[] count) {
-    DrawingPanel p = new DrawingPanel(count.length * 6 + 12, 500);
-    Graphics g = p.getGraphics();
-    g.setColor(Color.BLUE);
-    for (int i = 0; i < count.length; i++) {
-        g.drawLine(i * 6 + 6, 475, i * 6 + 6, 475 - 10 * count[i]);
-    }
-}
-```
