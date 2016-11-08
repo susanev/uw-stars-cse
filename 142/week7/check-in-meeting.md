@@ -7,6 +7,7 @@
 * Is there anything that we should have practiced more together? Anything that you were suprised to see on the midterm?
 * Have you started  A6?
 * Reminders about academic honesty
+* Are there any things I should stop doing or start doing to better support you?
 
 ### Problems
 1. Consider the following method, mystery.
