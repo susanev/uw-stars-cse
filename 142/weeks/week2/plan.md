@@ -8,4 +8,4 @@
 * Quiz
 * Quiz review
 * Lecture review
-* Whiteboard exercies
+* Whiteboard exercises

@@ -55,7 +55,7 @@ General components that will influence your grade:
 The grade weighting is as follows:
 * 50% Attendance: Attending both class meetings and check-in appointments
 * 30% Tests and Quizzes: Preparing and putting forth good effort on all tests and quizzes
-* 20% Homework: Completeing or trying to complete all assigned homework assignments
+* 20% Homework: Completing or trying to complete all assigned homework assignments
 
 ## Academic Conduct
 All work in this class must be your own. All of it. DO NOT COPY! Computers make it trivial to copy digital information—it's an important source of their power. Computers make it trivial to find copying. Penalties are high.

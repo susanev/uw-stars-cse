@@ -33,7 +33,7 @@ public static void printNumbers(int max) {
 
 ### `while` loop
 * Repeatedly executes its body as long as a logical test is true
-* Note: The `for` loop is a sepcialized form of the `while` loop
+* Note: The `for` loop is a specialized form of the `while` loop
 * Use `while` when it is __unknown__ how many times the loop will repeat (meaning you don't know right now, even if you could put in some time and effort to figure out the exact amount)
 * Use `for` when it is __known__ how many times the loop will repeat
 
@@ -45,7 +45,7 @@ while (test) {
 ```
 
 #### Sentinel values
-* A value that singals the end of user input
+* A value that signals the end of user input
 * __sentinel loop__: A loop that repeats until a sentinel value is seen
 
 ##### Example

@@ -1,7 +1,7 @@
 # Java Style
 _This style is specific to the guidelines at UW when using Java, different languages will have different styles, and different schools and companies may have different styles as well. To ensure full-credit on your programming assignments follow these styles._
 
-Note: New additions for this week are __bolded__
+Note: New additions for this week are shown in __bold__
 
 ### General
 * Every statement should be on its own line
@@ -29,7 +29,7 @@ Note: New additions for this week are __bolded__
 * Method commends should describe what the method does and not how it does it; they should also detail the parameters and the return value (if any)
 
 ### Printing
-* `main` should generally not contain any print statments
+* `main` should generally not contain any print statements
 * To print a blank line use `System.out.println()`, do not use `System.out.println("")`
 * Use `println` statements instead of `print` statements that end with `\n`
 * When printing a `\n` character, then use `printf` and not `print` or `println`

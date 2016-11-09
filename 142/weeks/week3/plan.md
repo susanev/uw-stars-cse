@@ -1,7 +1,7 @@
 # Plan
 ## Week 3
 
-* Announcmenets
+* Announcements
  * Create a [Practice-It](http://practiceit.cs.washington.edu/) account, with school/org name __UW STARS__; you can edit your profile if you already have an account
  * _NEW_: You will now have Practice-It [homework](homework.md) each week, that needs to be completed before your check-in meeting
 * Was everyone able to view their feedback from their TA?

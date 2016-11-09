@@ -29,7 +29,7 @@
   | `hasAnOddDigit(2448);` | `false` |
   | `hasAnOddDigit(-7004);` | `true` |
 
-3. Write a method named `isAllVowels` that returns whether a `String` consists entirely of vowels (a, e, i, o, u)—case-insensitvely. If every character of the `String` is a vowel, your method should return `true`. If any character of the String is a non-vowel, your method should return false. Your method should return true if passed the empty string, since it does not contain any non-vowel characters.
+3. Write a method named `isAllVowels` that returns whether a `String` consists entirely of vowels (a, e, i, o, u)—case-insensitively. If every character of the `String` is a vowel, your method should return `true`. If any character of the String is a non-vowel, your method should return false. Your method should return true if passed the empty string, since it does not contain any non-vowel characters.
 
   Below are some sample calls.
   

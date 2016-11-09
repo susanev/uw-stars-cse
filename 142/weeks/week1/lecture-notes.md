@@ -2,7 +2,7 @@
 ## Week 1
 
 ### General
-* You write Java code as text, you then __compile__ it into compiler instructions using a porgram called a compiler. When your code is compiled it turns into bytecode. Then you can run the bytecode using the Java Runtime Environment.
+* You write Java code as text, you then __compile__ it into compiler instructions using a program called a compiler. When your code is compiled it turns into byte code. Then you can run the byte code using the Java Runtime Environment.
 * In this class you will be writing your Java code in an Integrated Development Environment (IDE). IDE's allow you to type your code, compile your code, and run your code.
 * Every piece of code you write needs to be inside of a class
 * A class is executable only if it has a __main__ method

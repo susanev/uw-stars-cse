@@ -58,8 +58,8 @@ _Not built into Java, something written specifically for this class. Will need t
 
 ### return
 * A return statement sends information __out__ from a method to its caller
-* There cannot be statements exectuted after a return statement in a method
-* The return type should be provided as the third keyowrd in your method header
+* There cannot be statements executed after a return statement in a method
+* The return type should be provided as the third keyword in your method header
  ```java
  // This method has a return type of void
  public static void hello() {
@@ -91,6 +91,6 @@ _Not built into Java, something written specifically for this class. Will need t
  | 2 | uniary operations, __casting__ |
  | 3 | multiplication, division, mod |
  | 4 | addition, subtraction, string concatenation |
- | 5 | less than, less than or equal to, greater than, greather than or equal to |
+ | 5 | less than, less than or equal to, greater than, greater than or equal to |
  | 6 | equal to, not equal to |
  

@@ -3,7 +3,7 @@
 ## Things to improve for future offerings of this course
 
 ### Content
-* Cover more String, fencepost, and problems uing boolean before the midterm
+* Cover more String, fencepost, and problems using boolean before the midterm
 * Offer more guided support on how to setup the problem and general process stuff
 
 ### Structure

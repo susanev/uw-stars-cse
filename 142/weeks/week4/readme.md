@@ -1,5 +1,5 @@
 # Week 4
-__Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
+__Topics__: Interactive programs (using `Scanner`), if/else, `String`, `char`
 * [Plan](plan.md)
 * [Quiz](quiz.md)
 * [Lecture notes](lecture-notes.md)
