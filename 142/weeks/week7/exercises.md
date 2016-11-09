@@ -51,7 +51,7 @@ __Partners__: Marie+Aree+Kevin, Donavan+Connor, Jorge+Cheyenne, Vanessa+Courtney
   
 3. Write a method called countInRange that accepts an array of integers, a minimum value, and a maximum value as parameters and returns the count of how many elements from the array fall between the minimum and maximum (inclusive).
 
-  For example, in the array {14, 1, 22, 17, 36, 7, -43, 5}, there are four elements whose values fall between 4 and 17.
+  For example, in the array `{14, 1, 22, 17, 36, 7, -43, 5}`, there are four elements whose values fall between 4 and 17.
 
 4. Write a method named isUnique that takes an array of integers as a parameter and that returns a boolean value indicating whether or not the values in the array are unique (true for yes, false for no). The values in the list are considered unique if there is no pair of values that are equal. For example, if a variable called list stores the following values:
 
