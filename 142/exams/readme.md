@@ -1,4 +1,4 @@
-# [Exams]
+# Exams
 ## [Midterm](midterm)
 __Topics__: All material from weeks 1 – 5, except for Graphics
 * [Study Sheet](midterm/study-sheet.md)
