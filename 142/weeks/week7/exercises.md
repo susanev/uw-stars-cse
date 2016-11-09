@@ -2,7 +2,7 @@
 ## Week 7
 _This week you will be completing the whiteboard problems in groups. Work together to solve the problems. You may complete the problems in any order._
 
-__Partners__: Marie+Aree+Kevin, Donavan+Connor, Jorge+Cheyenne, Vanessa+Courtney, Edward+Jonny, Jayden+Lisa
+__Partners__: Marie+Kevin, Donavan+Connor, Jorge+Cheyenne, Vanessa+Courtney, Edward+Jonny, Jayden+Lisa
 
 1. Write a method named coinFlip that accepts as its parameter a Scanner for an input file. Assume that the input file data represents results of sets of coin flips that are either heads (H) or tails (T) in either upper or lower case, separated by at least one space. Your method should consider each line to be a separate set of coin flips and should output to the console the number of heads and the percentage of heads in that line, rounded to the nearest tenth. If this percentage is more than 50%, you should print a "You win" message. For example, consider the following input file:
 
