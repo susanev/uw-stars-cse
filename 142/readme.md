@@ -8,7 +8,7 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 
 [Anonymous Feedback Form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
 
-Planned [improvements](improve.md) for future offerings of this course
+[Planned improvements](improve.md) for future offerings of this course
 
 ## Exams
 ### [Midterm](midterm)
