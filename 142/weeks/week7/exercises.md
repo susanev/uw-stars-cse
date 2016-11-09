@@ -1,6 +1,6 @@
 # Exercises
 ## Week 7
-_This week you will be completeing the whiteboard problems in groups. Work together to solve the problems. You may complete the problems in any order._
+_This week you will be completing the whiteboard problems in groups. Work together to solve the problems. You may complete the problems in any order._
 
 __Partners__: Marie+Aree+Kevin, Donavan+Connor, Jorge+Cheyenne, Vanessa+Courtney, Edward+Jonny, Jayden+Lisa
 
