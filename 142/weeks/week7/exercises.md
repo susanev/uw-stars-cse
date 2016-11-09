@@ -45,3 +45,21 @@
   Notice that the input may span multiple lines and may have different spacing between tokens. The entire file represents a single grocery bill.
 
   You may assume that the input file exists and has the format described above. The file will always contain at least one grocery item and will always contain a number of tokens that is a multiple of 3. The second token in every triple will always be one of "red", "blue" or "none", case-insensitive.
+  
+3. Write a method called countInRange that accepts an array of integers, a minimum value, and a maximum value as parameters and returns the count of how many elements from the array fall between the minimum and maximum (inclusive).
+
+  For example, in the array {14, 1, 22, 17, 36, 7, -43, 5}, there are four elements whose values fall between 4 and 17.
+
+4. Write a method named isUnique that takes an array of integers as a parameter and that returns a boolean value indicating whether or not the values in the array are unique (true for yes, false for no). The values in the list are considered unique if there is no pair of values that are equal. For example, if a variable called list stores the following values:
+
+  ```java
+  int[] list = {3, 8, 12, 2, 9, 17, 43, -8, 46, 203, 14, 97, 10, 4};
+  ```
+
+  Then the call of isUnique(list) should return true because there are no duplicated values in this list. If instead the list stored these values:
+
+  ```java
+  int[] list = {4, 7, 2, 3, 9, 12, -47, -19, 308, 3, 74};
+  ```
+
+  Then the call should return false because the value 3 appears twice in this list. Notice that given this definition, a list of 0 or 1 elements would be considered unique.
