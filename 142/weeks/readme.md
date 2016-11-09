@@ -1,0 +1,61 @@
+# Weeks
+## [Week 1](week1)
+__Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
+* [Plan](weeks/week1/plan.md)
+* [Quiz](weeks/week1/quiz.md)
+* [Quiz answers](weeks/week1/quiz-answers.md)
+* [Lecture notes](weeks/week1/lecture-notes.md)
+* [Exercises](weeks/week1/exercises.md)
+* [Check-in meeting](weeks/week1/check-in-meeting.md)
+
+## [Week 2](weeks/week2)
+__Topics__: Data types, variables, assignment statements, for loops, constants
+* [Plan](weeks/week2/plan.md)
+* [Quiz](weeks/week2/quiz.md)
+* [Lecture notes](weeks/week2/lecture-notes.md)
+* [Exercises](weeks/week2/exercises.md)
+* [Check-in meeting](weeks/week2/check-in-meeting.md)
+
+## [Week 3](weeks/week3)
+__Topics__: Parameters, graphics, return, Math class
+* [Plan](weeks/week3/plan.md)
+* [Quiz](weeks/week3/quiz.md)
+* [Lecture notes](weeks/week3/lecture-notes.md)
+* [Exercises](weeks/week3/exercises.md)
+* [Check-in meeting](weeks/week3/check-in-meeting.md)
+* [Homework](weeks/week3/homework.md)
+
+## [Week 4](weeks/week4)
+__Topics__: Intercative programs (using `Scanner`), if/else, `String`, `char`
+* [Plan](weeks/week4/plan.md)
+* [Quiz](weeks/week4/quiz.md)
+* [Lecture notes](weeks/week4/lecture-notes.md)
+* [Exercises](weeks/week4/exercises.md)
+* [Check-in meeting](weeks/week4/check-in-meeting.md)
+* [Homework](weeks/week4/homework.md)
+
+## [Week 5](weeks/week5)
+__Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, assertions
+* [Plan](weeks/week5/plan.md)
+* [Practice Midterm](exams/midterm/practice-midterm.md)
+* [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
+* [Lecture notes](weeks/week5/lecture-notes.md)
+* [Check-in meeting](weeks/week5/check-in-meeting.md)
+* [Homework](weeks/week5/homework.md)
+
+## [Week 6](weeks/week6)
+__Topics__: type boolean, more while loops, file input
+* [Plan](weeks/week6/plan.md)
+* [Midterm Evaluation](weeks/week6/midterm-evaluation.md)
+* [Lecture notes](weeks/week6/lecture-notes.md)
+* [Quiz](weeks/week6/quiz.md)
+* [Quiz Answers](weeks/week6/quiz-answers.md)
+* [Check-in meeting](weeks/week6/check-in-meeting.md)
+* [Homework](weeks/week6/homework.md)
+
+## [Week 7](weeks/week7)
+__Topics__: line-based processing, arrays
+* [Plan](weeks/week7/plan.md)
+* [Lecture notes](weeks/week7/lecture-notes.md)
+* [Check-in meeting](weeks/week7/check-in-meeting.md)
+* [Homework](weeks/week7/homework.md)
