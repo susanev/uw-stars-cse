@@ -16,7 +16,6 @@
   }
   ```
   For each array below, indicate what value would be returned if the method mystery were called and passed that array as its parameter.
-  Sound F/X
   
   | Array | Value Returned |
   | :--- | :--- |
