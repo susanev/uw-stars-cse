@@ -76,6 +76,8 @@ __Topics__: type boolean, more while loops, file input
 ### [Week 7](weeks/week7)
 __Topics__: line-based processing, arrays
 * [Plan](weeks/week7/plan.md)
+* [Quiz](weeks/week7/quiz.md)
 * [Lecture notes](weeks/week7/lecture-notes.md)
+* [Exercises](weeks/week7/exercises.md)
 * [Check-in meeting](weeks/week7/check-in-meeting.md)
 * [Homework](weeks/week7/homework.md)
