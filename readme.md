@@ -1,5 +1,5 @@
 # UW Stars CSE Curriculum
-_This repository holds the curriculum for a series of support classes for students enrolled in the [STARS](https://www.engr.washington.edu/current/stars) program at the University of Washington._
+_This repository holds the curriculum for a series of computer science support classes for students enrolled in the [STARS](https://www.engr.washington.edu/current/stars) program at the University of Washington._
 
 ## Courses
 
