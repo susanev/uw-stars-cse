@@ -2,6 +2,7 @@
 ## Week 7
 
 * Any questions or thoughts you want to share about the midterm?
+* Final review session will be Monday 12/12, 3p – 7p (come for as much time as you can).
 * Course expectations
 	* You will arrive on time and ready to learn to both your check-in meeting and class workshop
 	* You will complete your homework and be ready to discuss your answers with me at your check-in meeting
