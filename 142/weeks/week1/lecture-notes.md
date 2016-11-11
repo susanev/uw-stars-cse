@@ -11,16 +11,16 @@
 
   | __Escape sequence__   | __Description__       |
   | :-------------------- | :-------------------- |
-  |  \n                   | Newline               |
-  |  \t                   | Tab                   |
-  |  \"                   | Double quote          |
-  |  \\                   | Backslash             |
+  |  `\n`                   | Newline               |
+  |  `\t`                   | Tab                   |
+  |  `\"`                   | Double quote          |
+  |  `\\`                   | Backslash             |
 * Your goal for all assignments is to reduce redundancy
 * You want main to be short, and give an good overview of what your program does
 * Java precedence
- * unary operators (+, -)
- * multiplicative operators (*, /, %)
- * additive operators (+, -)
+ * unary operators (`+`, `-`)
+ * multiplicative operators (`*`, `/`, `%`)
+ * additive operators (`+`, `-`)
 * Integer division: When dividing integers, all information after the decimal point is lost
 * For now, use `System.out.println("text")` to display text to the console
 
