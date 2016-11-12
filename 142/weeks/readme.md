@@ -56,6 +56,17 @@ __Topics__: type boolean, more while loops, file input
 ## [Week 7](week7)
 __Topics__: line-based processing, arrays
 * [Plan](week7/plan.md)
+* [Quiz](week7/quiz.md)
 * [Lecture notes](week7/lecture-notes.md)
+* [Exercises](week7/exercises.md)
 * [Check-in meeting](week7/check-in-meeting.md)
 * [Homework](week7/homework.md)
+
+### [Week 8](week8)
+__Topics__: arrays, output files, objects and classes, instance variables
+* [Plan](week8/plan.md)
+* [Quiz](week8/quiz.md)
+* [Lecture notes](week8/lecture-notes.md)
+* [Exercises](week8/exercises.md)
+* [Check-in meeting](week8/check-in-meeting.md)
+* [Homework](week8/homework.md)
