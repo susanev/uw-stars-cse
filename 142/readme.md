@@ -81,3 +81,12 @@ __Topics__: line-based processing, arrays
 * [Exercises](weeks/week7/exercises.md)
 * [Check-in meeting](weeks/week7/check-in-meeting.md)
 * [Homework](weeks/week7/homework.md)
+
+### [Week 8](weeks/week8)
+__Topics__: arrays, output files, objects and classes, instance variables
+* [Plan](weeks/week8/plan.md)
+* [Quiz](weeks/week8/quiz.md)
+* [Lecture notes](weeks/week8/lecture-notes.md)
+* [Exercises](weeks/week8/exercises.md)
+* [Check-in meeting](weeks/week8/check-in-meeting.md)
+* [Homework](weeks/week8/homework.md)
