@@ -53,6 +53,8 @@ y = temp;
     }
  }
  ```
+ 
+ * _in place_ refers to solving an arary problem witout creating a new array, you are able to rearrange the array's elements in the original array
 
 #### Array Mystery Problems
 * Pay attention to the loop bounds, often they will not go until the length of an array
