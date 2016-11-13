@@ -35,9 +35,23 @@ y = temp;
  * We use references to where it is stored in memory, not the actual values
  
  ```java
- int values = {1, 2, 3};
- int values2 = values; // values and values2 point to the same array in memory
+ int[] values = {1, 2, 3};
+ int[] values2 = values; // values and values2 point to the same array in memory
  values[0] = 7; // changes both the first value of values, and the first value of values2 to 7
+ ```
+ 
+ * Because of this fact, you do not need to return an array from a method to get its updated values, since both arrays refer to the same array in memory there is no reason to return the aray
+ 
+ ```java
+ int[] values = {4, 5, 6};
+ triple(values);
+ // values will now contain 12, 15, 18
+ 
+ public static void triple(int [] values) {
+  for (int i = 0; i < values.length; i++) {
+   values[i] = values[i] * 3;
+  }
+ }
  ```
 
 #### Array Mystery Problems
