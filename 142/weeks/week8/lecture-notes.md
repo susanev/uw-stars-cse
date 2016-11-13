@@ -77,3 +77,14 @@ public static int sum(int[] values) {
 int[] primes = {2, 3, 5, 7, 11, 13, 17};
 System.out.println(Arrays.toString(primes));
 ```
+
+```java
+// reverse the elements of an array
+public static void reverse(int[] values) {
+ for (int i = 0; i < values.length; i++) {
+   int temp = values[i];
+   values[i] = values[values.length - 1 - i];
+   values[values.length - 1 - i] = temp;
+ }
+}
+
