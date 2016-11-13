@@ -61,6 +61,16 @@ y = temp;
 * You should reference the updated values of the array when evaluating the answer instead of the original array
 * For extra practice with the array mystery problems check out the [practicum](https://olio.cs.washington.edu/csed/?lab=true&labNo=7)
 
+#### Methods of the `Arrays` class
+
+| Method Name | Description |
+| :--- | :--- |
+| `binarySearch(array, value)` | returns the index of the given value in a sorted array (< 0 if not found) |
+| `equals(array1, array2)` | returns `true` if the two arrays contain the same elements in the same order |
+| `fill(array, value)` | sets every element in the array to have the given value |
+| `sort(array)` | arranges the elements in the array into ascending order |
+| `toString(array)` | returns a String representing the array |
+
 #### Code Examples
 
 ```java
@@ -100,6 +110,17 @@ public static void applyAbs(int[] values) {
 }
 ```
 
+```java
+// convert a String into an array of ints
+public static int[] toIntArray(String line) {
+  int[] result = new int[line.length];
+  for (int i = 0; i < line.length; i++) {
+    int[i] = Integer.parseInt("" + line.charAt(i));
+  }
+  return result;
+}
+```
+
 ### Strings
 
 #### Code Examples
@@ -107,8 +128,24 @@ public static void applyAbs(int[] values) {
 ```java
 public static String reverse(String text) {
   String output = "";
-  for (int i = 0; i < text.length; i++) {
-    output = output + text.charAt(text.length - 1 - i);
+  for (int i = 0; i < text.length(); i++) {
+    output = text.charAt(i) + output;
   }
+  return output;
 }
 ```
+
+### Writing to Output Files
+* Requires creation of a `PrintStream` object
+* `PrintStream` is an object in the `java.io` package that lets you print output to a destination (e.g., a file)
+* All the methods you have been using for `System.out` can also be used on `PrintStream` objects
+* Important `PrintStream` details
+  * If a a given file does not exist, then it will be created for you
+  * If a given file already exists, then it will be overwritten
+  * The output you print will no longer appear on the console (it will be written to the file instead)
+  * Do not open the same file for both reading and writing at the same time
+
+ ```java
+ PrintStream output = new PrintStream(new File("output.txt"));
+ output.println("hello world");
+ ```
