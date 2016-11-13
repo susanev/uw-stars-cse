@@ -83,7 +83,7 @@ System.out.println(Arrays.toString(primes));
 ```java
 // reverse the elements of an array
 public static void reverse(int[] values) {
-  for (int i = 0; i < values.length; i++) {
+  for (int i = 0; i < values.length / 2; i++) {
     int temp = values[i];
     values[i] = values[values.length - 1 - i];
     values[values.length - 1 - i] = temp;
