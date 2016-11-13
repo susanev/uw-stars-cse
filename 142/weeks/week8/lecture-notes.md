@@ -145,7 +145,9 @@ public static String reverse(String text) {
   * The output you print will no longer appear on the console (it will be written to the file instead)
   * Do not open the same file for both reading and writing at the same time
 
- ```java
- PrintStream output = new PrintStream(new File("output.txt"));
- output.println("hello world");
- ```
+#### Code Example
+
+```java
+PrintStream output = new PrintStream(new File("output.txt"));
+output.println("hello world");
+```
