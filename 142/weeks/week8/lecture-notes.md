@@ -89,4 +89,26 @@ public static void reverse(int[] values) {
     values[values.length - 1 - i] = temp;
   }
 }
+```
 
+```java
+// apply Math.abs to all elements of an array
+public static void applyAbs(int[] values) {
+  for (int i = 0; i < values.length; i++) {
+    values[i] = Math.abs(values[i]);
+  }
+}
+```
+
+### Strings
+
+#### Code Examples
+
+```java
+public static String reverse(String text) {
+  String output = "";
+  for (int i = 0; i < text.length; i++) {
+    output = output + text.charAt(text.length - 1 - i);
+  }
+}
+```
