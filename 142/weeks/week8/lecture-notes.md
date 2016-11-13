@@ -46,11 +46,11 @@ y = temp;
  int[] values = {4, 5, 6};
  triple(values);
  // values will now contain 12, 15, 18
- 
+
  public static void triple(int [] values) {
-   for (int i = 0; i < values.length; i++) {
-    values[i] = values[i] * 3;
-   }
+    for (int i = 0; i < values.length; i++) {
+       values[i] = values[i] * 3;
+    }
  }
  ```
 
