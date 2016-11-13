@@ -151,3 +151,71 @@ public static String reverse(String text) {
 PrintStream output = new PrintStream(new File("output.txt"));
 output.println("hello world");
 ```
+
+### Object Oriented Programming (OOP)
+* OOP: programs that perform their behaviour as interactions between objects
+* Objects group together related variables
+* An object is an entity that combines state and behaviour
+  * An object is a blueprint for a new data type
+  * An object is not executable
+* A created object (using the new keyword) is an instance of a class
+* A client program, is a program that uses objects (you have already been writing client programs)
+
+#### Fields
+* __Field__: A variable inside an object that is part of its state
+  * Each object has its own copy of each field
+* Clients can access and modify an object's field
+  * To access use `<variable>.<field>`
+  * To modify use `<variable>.<field> = <value>`
+  
+  ```java
+  // An example of a client accessing and modifying the fileds of a class
+  Point p1 = new Point();
+  System.out.println(p1.x);
+  p2.y = 13;
+  ```
+
+#### Behaviour
+* Objects can tie related data and behaviour together
+* __Instance method__: A method inside an object that operates on that object
+* __Implicit parameter__: The object on which an instance method is called; can be referred to with the `this` keyword
+* __Accessor__: An instance method that provides information about the state of an object; giving clients "read only" access to the object's fields
+* __Mutator__: An instance method that modifies the object's internal state; giving clients both read and write access 
+
+#### Code Example
+
+```java
+// point class
+public class Point {
+  int x;
+  int y;
+  
+  public void translate(int dx, int dy) {
+    x = x + dx;
+    y = y + dy;
+  }
+  
+  public double distanceFromOrigin() {
+    return Math.sqrt(x * x, y * y);
+  }
+}
+```
+
+```java
+// client code
+public class PointClient {
+  public static void main (String[] args) {
+    Point p1 = new Point();
+    p1.x = 3;
+    p1.y = 5;
+    p1.translate(2, -2);
+    System.out.println(p1.distanceFromOrigin());
+    
+    Point p2 = new Point();
+    p2.x = 12;
+    p2.y = 4;
+    p2.translate(0, 3);
+    System.out.println(p2.distanceFromOrigin());
+  }
+}
+```
