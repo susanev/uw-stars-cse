@@ -167,6 +167,7 @@ output.println("hello world");
 * Clients can access and modify an object's field
   * To access use `<variable>.<field>`
   * To modify use `<variable>.<field> = <value>`
+* Not every variable should be a field, only the things the object needs to remember
   
   ```java
   // An example of a client accessing and modifying the fileds of a class
