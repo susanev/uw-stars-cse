@@ -29,6 +29,23 @@ public class Point {
 }
 ```
 
+```java
+// same as above, but uses this
+public class Point {
+  private int x;
+  private int y;
+
+  pubic Point(int x, int y) {
+    this.x = x;
+    this.y = y;
+  }
+
+  public String toString() {
+    return "(" + x + ", " + y + ")";
+  }
+}
+```
+
 ### Initializing Objects
 
 Last week, if we wanted to create an object it required 3 lines
@@ -106,4 +123,103 @@ public class Point {
     x = newX;
   }
 }
+```
+
+### for each loop
+
+
+```java
+int[] numbers = {3, 4, 7};
+for (int n : numbers) {
+  System.out.println(n);
+}
+```
+
+### Anonymous Functions
+
+```java
+// print all the numbers
+int[] numbers = {3, 4, 7};
+Arrays.stream(numbers)
+  .forEach(n -> System.out.print(" " + n));
+System.out.println();
+```
+
+```java
+// print the even numbers
+int[] numbers = {3, 4, 7, 8};
+Arrays.stream(numbers)
+  .filter(n -> n % 2 == 0)
+  .forEach(n -> System.out.print(" " + n));
+System.out.println();
+```
+
+```java
+// print the sorted even numbers
+int[] numbers = {10, 3, 4, 7, 8};
+Arrays.stream(numbers)
+  .filter(n -> n % 2 == 0)
+  .sorted()
+  .forEach(n -> System.out.print(" " + n));
+System.out.println();
+```
+
+```java
+// print the distinct sorted even numbers
+int[] numbers = {10, 3, 2, 2, 4, 7, 8};
+Arrays.stream(numbers)
+  .filter(n -> n % 2 == 0)
+  .sorted()
+  .distinct()
+  .forEach(n -> System.out.print(" " + n));
+System.out.println();
+```
+
+```java
+// print the squares of the distinct sorted even numbers
+int[] numbers = {10, 3, 2, 2, 4, 7, 8};
+Arrays.stream(numbers)
+  .filter(n -> n % 2 == 0)
+  .sorted()
+  .distinct()
+  .map(n -> n * n)
+  .forEach(n -> System.out.print(" " + n));
+System.out.println();
+```
+
+```java
+// store the sum of the squares of the distinct sorted even numbers
+int[] numbers = {10, 3, 2, 2, 4, 7, 8};
+int sum = Arrays.stream(numbers)
+  .filter(n -> n % 2 == 0)
+  .sorted()
+  .distinct()
+  .map(n -> n * n)
+  .reduce(0, (a, b) -> a + b);
+System.out.printf("sum %d", sum);
+```
+
+```java
+// same as directly above, but uses sum()
+int[] numbers = {10, 3, 2, 2, 4, 7, 8};
+int sum = Arrays.stream(numbers)
+  .filter(n -> n % 2 == 0)
+  .sorted()
+  .distinct()
+  .map(n -> n * n)
+  .sum();
+System.out.printf("sum %d", sum);
+```
+
+```java
+public static boolean isPrime(int n) {
+  return IntStream.range(1, n + 1)
+    .filter(x -> n % x == 0)
+    .count() == 2
+}
+```
+
+```java
+// note that printSum adds all prime numbers in the range
+printSum(IntStream.range(1, 20001).parallel());
 ```
