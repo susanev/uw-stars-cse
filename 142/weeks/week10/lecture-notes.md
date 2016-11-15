@@ -153,10 +153,13 @@ public class name extends superclass {
 * Draw the hierarchy first
 * Make and fill in an inheritance table
   
-  | Class | toString() | method1() | method2() |
+  | Class | `toString()` | `method1()` | `method2()` |
   | :--- | :--- | :--- | :--- |
   | Class1 | | | |
   | Class2 | | | |
   | Class3 | | | |
   | Class4 | | | |
+* But! Your table is not your answer, you need to write the output for the answer (do not label anything, you will lose points)
+  * Usually the test will tell you to write it in columns
+* Put a box around your final answer
 
