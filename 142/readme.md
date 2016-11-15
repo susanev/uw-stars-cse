@@ -18,6 +18,14 @@ __Topics__: All material from weeks 1 – 5, except for Graphics
 * [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
 * [Study Session](exams/midterm/study-session)
 
+### [Final](exams/final)
+__Topics__: Coming soon ...
+* [Study Sheet](exams/final/study-sheet.md)
+* [Midterm Cheat Sheet](exams/final/final-cheat-sheet.md)
+* [Practice Midterm](exams/final/practice-final.md)
+* [Practice Midterm Answers](exams/final/practice-final-answers.md)
+* [Study Session](exams/final/study-session)
+
 ## [Weeks](weeks)
 ### [Week 1](weeks/week1)
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
