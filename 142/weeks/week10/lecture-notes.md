@@ -117,3 +117,33 @@ public static void removeEvenLength(ArrayList<String> list) {
     }
 }
 ```
+
+### Inheritance
+* __is-a relationship__: A hierarchical connection where one category can be treated as a specialized version of another
+* __inheritance hierarchy__: A set of classes connected by is-a relationships that can share common code
+* __inheritance__: A way to form new classes based on existing classes, taking on their attributes/behaviour
+  * a way to group related classes
+  * a way to share code between two or more classes
+  * one class can extend another, absorbing its data/behaviour
+* __superclass__: The parent class that is being extended
+* __subclass__: The child class that extends that superclass and inherits its behaviour
+* __override__: To write a new version of a method in a subclass that replaces the superclass's version
+* Multiple levels of inheritance in a hierarchy are allowed
+* __polymorphism__: Ability for the same code to be used with different types of objects and behave differently with each
+
+#### Syntax
+
+```
+public class name extends superclass {
+  ...
+}
+```
+
+#### Example Code
+
+```java
+ public class Secretary extends Employee {
+  ...
+}
+```
+
