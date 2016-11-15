@@ -130,6 +130,8 @@ public static void removeEvenLength(ArrayList<String> list) {
 * __override__: To write a new version of a method in a subclass that replaces the superclass's version
 * Multiple levels of inheritance in a hierarchy are allowed
 * __polymorphism__: Ability for the same code to be used with different types of objects and behave differently with each
+* Note: In Stuart's version of CSE 142 you are not required to understand how to use `super.`, he will cover this in CSE 143
+* All classes except for `Object` extend `Object`; you don't have to code it, Java automatically adds it in.
 
 #### Syntax
 
@@ -146,4 +148,15 @@ public class name extends superclass {
   ...
 }
 ```
+
+#### Test Taking Hints
+* Draw the hierarchy first
+* Make and fill in an inheritance table
+  
+  | Class | toString() | method1() | method2() |
+  | :--- | :--- | :--- | :--- |
+  | Class1 | | | |
+  | Class2 | | | |
+  | Class3 | | | |
+  | Class4 | | | |
 
