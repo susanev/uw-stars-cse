@@ -1,0 +1,22 @@
+# Practice Final
+## Week 10
+
+### Exam Information
+Actual Final: Wednesday, December 14, 12:30 - 2:20PM
+
+#### Actual Exam Rules and Information
+* You will have an assigned seat and you must sit in that seat. If you arrive for the exam and find someone else in your seat, ask them to move because we will move students to their assigned seats. We will take pictures of the room to help us verify that students sit in their assigned seats (please contact us if you have a concern about this). Students are expected to make a reasonable effort to sit in their assigned seat. Students who demonstrate an egregious disregard for the seating assignments will receive a 5-point penalty (e.g., if a student goes to the wrong room or refuses to move when asked to).
+* We may ask to check your UW ID card during the exam so please have it ready.
+* We will distribute the exam early and you can read and fill out the cover page of the exam, but you should not look at the exam questions until you are told to begin. At the end when time is called, you are required to stop writing and close your exam. Students who look at the exam before being told to begin and students who make changes to their exam after time is called will receive a 10-point penalty. Students who do not close their exam booklet when time is called may also receive a 10-point penalty.
+* The exam is closed-book and closed-note. You must work alone and may not use any computing devices of any kind including calculators or digital copies of the textbook. Cell phones, music players, and other electronic devices may NOT be out during the exam for any reason.
+* There will be a cheat sheet included as the last page of the exam. You may remove this from your exam if you wish once the exam begins, but be sure to hold the staple when you remove the exam because otherwise your exam is likely to come apart. Space will be provided for your answers and you may use the back of the cheat sheet as scratch paper. If you need additional scratch paper, raise your hand and a TA will give it to you. You are not allowed to use your own paper during the exam.
+* Unless a question specifically mentions otherwise, the code you write will be graded purely on external correctness (proper behavior and output) and not on internal correctness (style). So, for example, redundancy or lack of comments will not reduce your score.
+* You are allowed to abbreviate "Always", "Never," and "Sometimes" as "A", "N", and "S" for the assertions question, but you should otherwise NOT use any abbreviations on the exam.
+* You don't need to write any import statements in your exam code.
+* You are not allowed to use advanced material to solve exam problems. For the midterm, you are limited to the constructs described in chapters 1 through 5 of the textbook. For the final, you are limited to the constructs described in chapters 1 through 10 of the textbook.
+* You are not allowed to use break statements or to have a return from a void method.
+* For standard Java classes such as Math and String, you are limited to the methods listed on the cheat sheet. You are not allowed to use the Arrays class or other standard classes and methods that aren't included on the cheat sheet.
+* Please be sure that your answer is clearly indicated. This is particularly important if you provide more than one answer or if you have notes in addition to your answer. You can draw a box around the answer you want to have graded and you can draw an "X" through anything that you do not want to have graded.
+* You may remove the exam cheat sheet from the test. You do not need to turn in scratch paper or the exam cheat sheet unless you have all or part of an answer on that sheet of paper (you can take these sheets of paper with you). If you have a sheet of paper with all or part of an answer, please write your name on that sheet of paper, staple it to your test (a stapler will be available), and clearly indicate under the corresponding problem that your answer is attached on an extra sheet of paper.
+* Please be quiet during the exam. If you have a question or need assistance, please raise your hand.
+* When you have finished the exam, please turn in your exam quietly and leave the room.
