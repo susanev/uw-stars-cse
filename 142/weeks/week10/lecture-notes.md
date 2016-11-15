@@ -47,20 +47,73 @@ names.add("peewee russell");
 | `add(value)` | appends value at end of list |
 | `add(index, value)` | inserts given value just before the given index, shifting subsequent values to the right |
 | `clear()` | removes all elements of the list |
-| `indexOf(value)` | returns first index where given value is found
-in list (-1 if not found) |
+| `indexOf(value)` | returns first index where given value is found in list (-1 if not found) |
 | `get(index)` | returns the value at given index |
 | `remove(index)` | removes/returns value at given index, shifting subsequent values to the left |
 | `set(index, value)` | replaces value at given index with given value |
 | `size()` | returns the number of elements in list |
-| `toString()` | returns a string representation of the list such as "[3, 42, -7, 15]" |
+| `toString()` | returns a string representation of the list such as `[3, 42, -7, 15]` |
 
 #### ArrayList vs Array
 
 | Description | Array | ArrayList |
 | :--- | :--- | :--- |
-| construction | 'String[] names = new String[5];' | `ArrayList<String> list = new ArrayList<String>();` |
+| construction | `String[] names = new String[5];` | `ArrayList<String> list = new ArrayList<String>();` |
 | storing a value | `names[0] = "Riley";` | `list.add("Riley");` |
+| replace a value at an index | `names[i] = "Riley";` | `list.set("Riley", i)` |
 | accessing a value | `String s = names[0];` | `String s = list.get(0);` |
 | how many elements? | `names.length` | `list.size();` |
 
+#### Code Examples
+
+```java
+// replaces every value in the list with two of that value
+public static void stutter(ArrayList<String> list) {
+  for (int i = 0; i < list.size(); i += 2) {
+    String next = list.get(i);
+    list.add(i, next);
+  }
+}
+```
+
+```java
+// moves the minimum value to the front of the given list, otherwise preserving the order of the elements
+public static void minToFront(ArrayList<Integer> list) {
+  int min = 0;
+  for (int i = 1; i < list.size(); i++) {
+    if (list.get(i) < list.get(min)) {
+      min = i;
+    }
+  }
+  list.add(0, list.remove(min));
+}
+```
+
+```java
+// returns the length of the longest String in the given list
+public static int maxLength(ArrayList<String> list) {
+    int max = 0;
+    for (int i = 0; i < list.size(); i++) {
+        String s = list.get(i);
+        if (s.length() > max) {
+            max = s.length();
+        }
+    }
+    return max;
+}
+```
+
+```java
+// removes from the list all strings of even length
+public static void removeEvenLength(ArrayList<String> list) {
+    int i = 0;
+    while (i < list.size()) {
+        String s = list.get(i);
+        if (s.length() % 2 == 0) {
+            list.remove(i);
+        } else {
+            i++;
+        }
+    }
+}
+```
