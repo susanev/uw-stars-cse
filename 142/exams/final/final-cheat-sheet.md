@@ -2,7 +2,7 @@
 
 _You will be provided a cheat sheet with the information below on your final. If you are interested in the actual format of the document, check out [last year's version](https://courses.cs.washington.edu/courses/cse142/15au/handouts/22.html)._
 
-### Construction Examples
+#### Construction Examples
 
 ```java
 int[] data = new int[10];
@@ -56,7 +56,7 @@ ArrayList<String>, ArrayList<Integer>
 | `set(index, value)` | replaces value at given index with given value |
 | `size()` | returns the number of elements in list |
 
-### Critter classes
+#### Critter classes
 
 ```java
 public class name extends Critter {
@@ -74,6 +74,7 @@ public class name extends Critter {
       // statement(s) that return a String;
   }
 }
+```
 
 | CritterInfo Method | Description |
 | :--- | :--- |
