@@ -2,59 +2,12 @@
 
 _You will be provided a cheat sheet with the information below on your midterm. If you are interested in the actual format of the document, check out [last year's version](https://courses.cs.washington.edu/courses/cse142/15au/handouts/22.html)._
 
-```java
-if (test) {
-  statement(s);
-} 
-```
+### Construction Examples
 
 ```java
-if (test) {
-  statement(s);
-} else {
-  statement(s);
-}
-```
-
-```java
-if (test) {
-  statement(s);
-} else if (test) {
-  statement(s);
-} else {
-  statement(s);
-}
-```
-
-```java
-for (initialization; test; update) {
-  statement(s);
-}
-```
-
-```java
-while (condition) {
-  statement(s);
-}
-```
-
-```java
-public static void name(parameters) {
-  statement(s);
-}
-```
-
-```java
-public static type name(parameters) {
-  statement(s);
-  ...
-  return expression;
-}
-```
-
-```java
-Scanner console = new Scanner(System.in);
+int[] data = new int[10];
 Random r = new Random();
+ArrayList<String>, ArrayList<Integer>
 ```
 
 | __Math Method__ | __Description__ |
@@ -67,9 +20,15 @@ Random r = new Random();
 
 | __Scanner Method__ | __Description__ |
 | :--- | :--- |
-| `nextInt()` | reads/returns input as `int` |
-| `nextDouble()` | reads/returns input as `double` |
-| `next()` | reads/returns input as `String` |
+| `nextInt()` | reads/returns token as `int` |
+| `nextDouble()` | reads/returns token as `double` |
+| `next()` | reads/returns token as `String` |
+| `nextLine()` | reads/returns line as `String` |
+| `hasNextInt()` | tests if reading an `int` will succeed |
+| `hasNextDouble()` | tests if reading a `double` will succeed |
+| `hasNext()` | tests if reading a token as a `String` will succeed |
+| `hasNextLine()` | tests if reading a line as a `String` will succeed |
+
 
 | __Random Method__ | __Description__ |
 | :--- | :--- |
@@ -88,14 +47,35 @@ Random r = new Random();
 | `toLowerCase()`, `toUpperCase()` | a new string with all lowercase or uppercase letters |
 | `charAt(i)` | returns `char` at index `i` |
 
-| __Operator__ | __Description__ |
+| Arraylist Method | Description |
 | :--- | :--- |
-| `<` | less than |
-| `<=` | less than or equal |
-| `>` | greater than |
-| `>=` | greater than or equal |
-| `==` | equal to  |
-| `!=` | not equal to |
-| `&&` | logical and |
-| `||` | logical or |
-| `!` | logical not |
+| `add(value)` | appends value at end of list |
+| `add(index, value)` | inserts given value just before the given index, shifting subsequent values to the right |
+| `get(index)` | returns the value at given index |
+| `remove(index)` | removes/returns value at given index, shifting subsequent values to the left |
+| `set(index, value)` | replaces value at given index with given value |
+| `size()` | returns the number of elements in list |
+
+### Critter classes
+
+```java
+public class name extends Critter {
+  // fields/constructor
+
+  public Color getColor() {
+      // statement(s) that return a Color (e.g., Color.RED, Color.BLUE, Color.GREEN)
+  }
+
+  public Action getMove(CritterInfo info) {
+      // statement(s) that return Action.INFECT, Action.HOP, Action.RIGHT, or Action.LEFT
+  }
+
+  public String toString() {
+      // statement(s) that return a String;
+  }
+}
+
+| CritterInfo Method | Description |
+| :--- | :--- |
+| `getFront()`, `getBack()`, `getLeft()`, `getRight()` | returns one of `Neighbor.WALL`, `Neighbor.EMPTY`, `Neighbor.SAME`, `Neighbor.OTHER` |
+| `getDirection()` | returns one of `Direction.NORTH`, `Direction.SOUTH`, `Direction.EAST`, `Direction.WEST` |
