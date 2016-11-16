@@ -3,6 +3,19 @@
 
 [Midterm Cheat Sheet](midterm-cheat-sheet.md)
 
+## Types of Questions
+
+| # | Points | Description |
+| :--- | :--- | :--- |
+| 1 | 10 | Expressions |
+| 2 | 12 | Parameter Mystery |
+| 3 | 12 | if/else Simulation |
+| 4 | 12 | while Loop Simulation |
+| 5 | 15 | Assertions |
+| 6 | 15 | Programming |
+| 7 | 15 | Programming |
+| 8 | 9 | Programming (Hard) |
+
 ## Practice Midterm
 
 | __Problems__ | __Answers__ |
