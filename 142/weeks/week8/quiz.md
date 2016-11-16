@@ -6,7 +6,7 @@
 	```java
 	import java.util.*;   // for Arrays class
 	​
-	public class ReferenceMystery2 {
+	public class ReferenceMystery {
 	    public static void main(String[] args) {
 	        int x = 1;
 	        int[] a = new int[2];
@@ -30,13 +30,13 @@
 
 	```java
 	public static void mystery(int[] list) {
-    for (int i = 0; i < list.length - 1; i++) {
+		for (int i = 0; i < list.length - 1; i++) {
 			if (i % 2 == 0) {
 			    list[i]++;
 			} else {
 			    list[i]--;
 			}
-    }
+		}
 	}
 	```
 
@@ -44,16 +44,11 @@
 
 	| Original List | Final List |
 	| :--- | :--- |
-
 	| `{6, 3}` | |
-
-	| `{{2, 4, 6}` | |
-
-	| `{{1, 2, 3, 4}` | |
-
-	| `{{2, 2, 2, 2, 2}` | |
-
-	| `{{7, 3, 2, 0, 5, 1}` | |
+	| `{2, 4, 6}` | |
+	| `{1, 2, 3, 4}` | |
+	| `{2, 2, 2, 2, 2}` | |
+	| `{7, 3, 2, 0, 5, 1}` | |
 
 3. Assume the following classes have been defined:
 
@@ -122,6 +117,7 @@
 	should return "SCUBA". The acronym is formed by combining the capitalized first letters of each word in the phrase.  Words in the phrase will be separated by some combination of dashes and spaces. There might be extra spaces or dashes at the beginning or end of the phrase.  The String will not contain any characters other than dashes, spaces, and letters, and is guaranteed to contain at least one word.  Below are several sample calls.
 
 	| Method Call | Value Returned |
+	| :--- | :--- |
 	| `acronym("   automatic   teller   machine  ")` | "ATM" |
 	| `acronym("personal identification number")` | "PIN" |
 	| `acronym("computer science")` | "CS" |
