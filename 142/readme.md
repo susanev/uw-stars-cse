@@ -21,7 +21,7 @@ __Topics__: All material from weeks 1 – 5, except for Graphics
 ### [Final](exams/final)
 __Topics__: Coming soon ...
 * [Study Sheet](exams/final/study-sheet.md)
-* [Midterm Cheat Sheet](exams/final/final-cheat-sheet.md)
+* [Final Cheat Sheet](exams/final/final-cheat-sheet.md)
 * [Practice Final](exams/final/practice-final.md)
 * [Practice Final Answers](exams/final/practice-final-answers.md)
 * [Study Session](exams/final/study-session)
