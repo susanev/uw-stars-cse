@@ -1,6 +1,6 @@
 # Final Cheat Sheet
 
-_You will be provided a cheat sheet with the information below on your midterm. If you are interested in the actual format of the document, check out [last year's version](https://courses.cs.washington.edu/courses/cse142/15au/handouts/22.html)._
+_You will be provided a cheat sheet with the information below on your final. If you are interested in the actual format of the document, check out [last year's version](https://courses.cs.washington.edu/courses/cse142/15au/handouts/22.html)._
 
 ### Construction Examples
 
