@@ -1,7 +1,7 @@
 # Exercises
 ## Week 8
 
-_This week you will be completing the whiteboard problems in groups. Work together to solve the problems. You may complete the problems in any order._
+_This week you will be completing the whiteboard problems in pairs. Work together to solve the problems. You may complete the problems in any order._
 
 __Partners__: Edward+Jonny, Kevin+Cheyenne, Vanessa+Courtney, Marie+Connor, Jorge+Lisa, Jayden+Donavan
 
