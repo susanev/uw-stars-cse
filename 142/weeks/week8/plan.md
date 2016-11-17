@@ -5,5 +5,6 @@
 * Final exam topics
 	* Any questions
 * Quiz (3 questions)
+* Break (6:20—10 minutes)
 * [Optional] Review Quiz
 * Exercises (in pairs again)
