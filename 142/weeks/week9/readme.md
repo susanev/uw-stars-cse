@@ -1,5 +1,5 @@
 # Week 9
-__Topics__: 
+__Topics__: toString, constructors, encapsulation, Java8
 * [Plan](plan.md)
 * [Quiz](quiz.md)
 * [Lecture notes](lecture-notes.md)
