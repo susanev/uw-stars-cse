@@ -103,6 +103,5 @@ __Topics__: arrays, output files, objects and classes, instance variables
 __Topics__: toString, constructors, encapsulation, Java8
 * [Plan](weeks/week9/plan.md)
 * [Lecture notes](weeks/week9/lecture-notes.md)
-* [Exercises](weeks/week9/exercises.md)
 * [Check-in meeting](weeks/week9/check-in-meeting.md)
 * [Homework](weeks/week9/homework.md)
