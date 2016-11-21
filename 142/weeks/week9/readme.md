@@ -1,5 +1,5 @@
 # Week 9
-__Topics__: arrays, output files, objects and classes, instance variables
+__Topics__: 
 * [Plan](plan.md)
 * [Quiz](quiz.md)
 * [Lecture notes](lecture-notes.md)
