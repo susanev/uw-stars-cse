@@ -98,3 +98,11 @@ __Topics__: arrays, output files, objects and classes, instance variables
 * [Exercises](weeks/week8/exercises.md)
 * [Check-in meeting](weeks/week8/check-in-meeting.md)
 * [Homework](weeks/week8/homework.md)
+
+### [Week 9](weeks/week9)
+__Topics__: 
+* [Plan](weeks/week9/plan.md)
+* [Lecture notes](weeks/week9/lecture-notes.md)
+* [Exercises](weeks/week9/exercises.md)
+* [Check-in meeting](weeks/week9/check-in-meeting.md)
+* [Homework](weeks/week9/homework.md)
