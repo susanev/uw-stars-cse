@@ -125,18 +125,21 @@ public class Point {
   }
 }
 ```
+### Java8 Material
+_You are not required to know this .. just some extra fun_
 
-### for each loop
+#### for each loop
 
 
 ```java
+// prints the numbers in the array each on its own line
 int[] numbers = {3, 4, 7};
 for (int n : numbers) {
   System.out.println(n);
 }
 ```
 
-### Anonymous Functions
+#### Anonymous Functions
 
 ```java
 // print all the numbers
