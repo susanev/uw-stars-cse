@@ -6,7 +6,7 @@
 
   | Method | Description |
   | :--- | :--- |
-  | `public String getNormalOrder()` | Returns the person’s name in normal order, with the first name followed by the middle initial and last name. For exam- ple,if the first name is "John", the middle initial is "Q", and the last name is "Public", returns "John Q. Public". |
+  | `public String getNormalOrder()` | Returns the person’s name in normal order, with the first name followed by the middle initial and last name. For example,if the first name is "John", the middle initial is "Q", and the last name is "Public", returns "John Q. Public". |
   | `public String getReverseOrder()` | Returns the person’s name in reverse order, with the last name preceding the first name and middle initial. For example, if the first name is "John", the middle initial is "Q", and the last name is "Public", returns "Public, John Q.". |
 
 3. Write a class called RationalNumber that represents a fraction with an integer numerator and denominator. A RationalNumber object should have the following methods:
