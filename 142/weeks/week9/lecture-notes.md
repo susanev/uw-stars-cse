@@ -126,7 +126,7 @@ public class Point {
 }
 ```
 ### Java8 Material
-_You are not required to know this .. just some extra fun. Note: You are not allowed to use any of this on the homeworks on the final exam._
+_You are not required to know this .. just some extra fun. Note: You are not allowed to use any of this on the homeworks or the final exam._
 
 #### for each loop
 
