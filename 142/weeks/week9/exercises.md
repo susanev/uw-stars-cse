@@ -1,7 +1,7 @@
 # Exercises
 ## Week 9
 
-### From Week 8 [Quiz](../week8/quiz.md)
+### From [Week 8 Quiz](../week8/quiz.md)
 1. Write a static method called acronym that takes as a parameter a String containing a phrase and that returns an acronym for the phrase. For example, the following call:
 
 	```java
@@ -21,7 +21,7 @@
 	| `acronym("--quite-- confusing - punctuation-")` | "QCP" |
 	| `acronym("  loner  ")` | "L" |
 
-### From Week 8 [Exercies](../week8/exercises.md)
+### From [Week 8 Exercies](../week8/exercises.md)
 1. Write a static method canGo that accepts 3 parameters: a Scanner holding a sequence of strings representing sequential bus stops, a string representing a start location, and a string representing an end destination. The method should return true if the start location appears before the end location in the sequence of bus stops; otherwise, it should return false.
 
 	For example, suppose a Scanner variable named stops contained the following bus stops:
