@@ -5,7 +5,7 @@
 1. Write a static method called acronym that takes as a parameter a String containing a phrase and that returns an acronym for the phrase. For example, the following call:
 
 	```java
-	acronym("self-contained underwater breathing apparatus")
+	acronym("self-contained underwater breathing apparatus");
 	```
 
 	should return "SCUBA". The acronym is formed by combining the capitalized first letters of each word in the phrase.  Words in the phrase will be separated by some combination of dashes and spaces. There might be extra spaces or dashes at the beginning or end of the phrase.  The String will not contain any characters other than dashes, spaces, and letters, and is guaranteed to contain at least one word.  Below are several sample calls.
