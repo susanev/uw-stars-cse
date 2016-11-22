@@ -1,14 +1,15 @@
 # Check-in Meeting
 ## Week 9
 
-1. Create a class called Name that represents a person’s name. The class should have encapsulated fields representing the person’s first name, last name, and middle initial. Add appropriate accessor methods to the class. Add methods called setFirstName, setMiddleInitial, and setLastName to your Name class. Give the parameters the same names as your fields, and use the this keyword in your solution. Then add the methods listed below to complete the class.
+1. In a few sentences, explain what is meant by the phrase Client (or Client Code).
+2. Create a class called Name that represents a person’s name. The class should have encapsulated fields representing the person’s first name, last name, and middle initial. Add appropriate accessor methods to the class. Add methods called setFirstName, setMiddleInitial, and setLastName to your Name class. Give the parameters the same names as your fields, and use the this keyword in your solution. Then add the methods listed below to complete the class.
 
   | Method | Description |
   | :--- | :--- |
   | `public String getNormalOrder()` | Returns the person’s name in normal order, with the first name followed by the middle initial and last name. For exam- ple,if the first name is "John", the middle initial is "Q", and the last name is "Public", returns "John Q. Public". |
   | `public String getReverseOrder()` | Returns the person’s name in reverse order, with the last name preceding the first name and middle initial. For example, if the first name is "John", the middle initial is "Q", and the last name is "Public", returns "Public, John Q.". |
 
-2. Write a class called RationalNumber that represents a fraction with an integer numerator and denominator. A RationalNumber object should have the following methods:
+3. Write a class called RationalNumber that represents a fraction with an integer numerator and denominator. A RationalNumber object should have the following methods:
 
   | Method | Description |
   | :--- | :--- |
