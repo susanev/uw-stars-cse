@@ -3,6 +3,7 @@
 
 ### Definitions
 __Implicit__: Something that is called or returned automatically without you having to state it
+
 __Explicit__: Something that you call or return by specifically stating it
 
 ### toString()
