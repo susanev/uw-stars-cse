@@ -75,7 +75,6 @@ __Topics__: arrays, output files, objects and classes, instance variables
 ## [Week 9](week9)
 __Topics__: 
 * [Plan](week9/plan.md)
-* [Quiz](week9/quiz.md)
 * [Lecture notes](week9/lecture-notes.md)
 * [Exercises](week9/exercises.md)
 * [Check-in meeting](week9/check-in-meeting.md)
