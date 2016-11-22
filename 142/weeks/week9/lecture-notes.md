@@ -9,7 +9,7 @@ __Explicit__: Something that you call or return by specifically stating it
 ### toString()
 * By convention, when you print an object Java will always call the `toString()` method of that class
   * This is because every single object inherits from the `Object` class in Java, and within that `Object` class there is a `toString()` method
-* By default, Java includes a 'toString()' method that returns a String containing the memory address of that object
+* By default, Java includes a `toString()` method that returns a String containing the memory address of that object
 * You can override the `toString()` method to customize the String that it returns
 
 #### Example Code
