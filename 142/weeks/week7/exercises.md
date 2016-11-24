@@ -1,3 +1,4 @@
+_CSE 142_
 # Exercises
 ## Week 7
 _This week you will be completing the whiteboard problems in groups. Work together to solve the problems. You may complete the problems in any order._

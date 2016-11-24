@@ -1,3 +1,4 @@
+_CSE 142_
 # Week 3
 
 [DrawingPanel.java](DrawingPanel.java)

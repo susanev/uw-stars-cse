@@ -1,3 +1,4 @@
+_CSE 142_
 # Check-in Meeting
 ## Week 1
 
@@ -11,7 +12,8 @@
  * Evaluating expressions
  * Creating and using variables
  
-### Exercises
+##_CSE 142_
+# Exercises
  
 #### Expressions
 1. `4 + 1 + 9 + "." + (-3 + 10) + 11 / 3`

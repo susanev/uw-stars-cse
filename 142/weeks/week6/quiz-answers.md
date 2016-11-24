@@ -1,3 +1,4 @@
+_CSE 142_
 # Quiz Answers
 ## Week 6
 _It is important to note that these are examples of correct solutions; there are many correct solutions that will not match these solutions exactly._

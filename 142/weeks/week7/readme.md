@@ -1,3 +1,4 @@
+_CSE 142_
 # Week 7
 __Topics__: line-based processing, arrays
 * [Plan](plan.md)

@@ -1,3 +1,4 @@
+_CSE 142_
 # Exercises
 ## Week 2
 

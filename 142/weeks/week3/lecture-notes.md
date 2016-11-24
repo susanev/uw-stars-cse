@@ -1,4 +1,5 @@
-# Lecutre Notes
+_CSE 142_
+# Lecture Notes
 ## Week 3
 
 ### Key Words
