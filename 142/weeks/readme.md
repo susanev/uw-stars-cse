@@ -1,4 +1,4 @@
-_CSE 143_
+_CSE 142_
 # Weeks
 ## [Week 1](week1)
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
