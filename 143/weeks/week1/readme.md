@@ -1,3 +1,4 @@
+_CSE 143_
 # Week 1
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
 * [Plan](plan.md)

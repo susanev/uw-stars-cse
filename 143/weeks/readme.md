@@ -1,3 +1,4 @@
+_CSE 143_
 # Weeks
 ## [Week 1](week1)
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
