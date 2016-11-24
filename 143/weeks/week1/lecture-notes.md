@@ -5,7 +5,7 @@
 * [142 Review Slides](https://courses.cs.washington.edu/courses/cse143/16wi/lectures/review.pdf)
 
 ### Upcoming Assignments
-* The first two assignments will review arrays([week 7](../../../142/weeks/week7) and [week 8](../../../142/weeks/week8)), and [classes]([week 8](../../../142/weeks/week8) and [week 9](../../../142/weeks/week9))
+* The first two assignments will review arrays([week 7](../../../142/weeks/week7) and [week 8](../../../142/weeks/week8)), and classes([week 8](../../../142/weeks/week8) and [week 9](../../../142/weeks/week9))
 
 ### Constructors
 * Every time you use the `new` keyword, Java calls a special method called a __constructor__.
