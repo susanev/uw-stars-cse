@@ -4,3 +4,12 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 
 ## Course Documents
 * [Anonymous Feedback Form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
+
+## [Weeks](weeks)
+### [Week 1](weeks/week1)
+__Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
+* [Plan](weeks/week1/plan.md)
+* [Lecture notes](weeks/week1/lecture-notes.md)
+* [Check-in meeting](weeks/week1/check-in-meeting.md)
+* [Quiz](weeks/week1/quiz.md)
+* [Exercises](weeks/week1/exercises.md)
