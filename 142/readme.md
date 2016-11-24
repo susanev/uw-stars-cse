@@ -100,7 +100,7 @@ __Topics__: arrays, output files, objects and classes, instance variables
 * [Homework](weeks/week8/homework.md)
 
 ### [Week 9](weeks/week9)
-__Topics__: toString, constructors, encapsulation, Java8
+__Topics__: toString, constructors, encapsulation, functional programming
 * [Plan](weeks/week9/plan.md)
 * [Lecture notes](weeks/week9/lecture-notes.md)
 * [Exercises](weeks/week9/exercises.md)
