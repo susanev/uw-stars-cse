@@ -89,9 +89,8 @@ _Not built into Java, something written specifically for this class. Will need t
  | __Priority__ | __Operation__ |
  | :--- | :--- |
  | 1 | parens |
- | 2 | uniary operations, __casting__ |
+ | 2 | unary operations, __casting__ |
  | 3 | multiplication, division, mod |
  | 4 | addition, subtraction, string concatenation |
  | 5 | less than, less than or equal to, greater than, greater than or equal to |
  | 6 | equal to, not equal to |
- 
