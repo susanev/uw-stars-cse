@@ -1,3 +1,4 @@
+_CSE 142_
 # Week 4
 __Topics__: Interactive programs (using `Scanner`), if/else, `String`, `char`
 * [Plan](plan.md)

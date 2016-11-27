@@ -1,3 +1,4 @@
+_CSE 142_
 # Week 2
 __Topics__: Data types, variables, assignment statements, for loops, constants
 * [Plan](plan.md)

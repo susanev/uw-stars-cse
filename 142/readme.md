@@ -18,6 +18,14 @@ __Topics__: All material from weeks 1 – 5, except for Graphics
 * [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
 * [Study Session](exams/midterm/study-session)
 
+### [Final](exams/final)
+__Topics__: All material from weeks 1 – 11, except for Graphics
+* [Study Sheet](exams/final/study-sheet.md)
+* [Final Cheat Sheet](exams/final/final-cheat-sheet.md)
+* [Practice Final](exams/final/practice-final.md)
+* [Practice Final Answers](exams/final/practice-final-answers.md)
+* [Study Session](exams/final/study-session)
+
 ## [Weeks](weeks)
 ### [Week 1](weeks/week1)
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
@@ -90,6 +98,14 @@ __Topics__: arrays, output files, objects and classes, instance variables
 * [Exercises](weeks/week8/exercises.md)
 * [Check-in meeting](weeks/week8/check-in-meeting.md)
 * [Homework](weeks/week8/homework.md)
+
+### [Week 9](weeks/week9)
+__Topics__: toString, constructors, encapsulation, functional programming
+* [Plan](weeks/week9/plan.md)
+* [Lecture notes](weeks/week9/lecture-notes.md)
+* [Exercises](weeks/week9/exercises.md)
+* [Check-in meeting](weeks/week9/check-in-meeting.md)
+* [Homework](weeks/week9/homework.md)
 
 ### [Week 10](weeks/week10)
 __Topics__: critters, ArrayList, inheritance

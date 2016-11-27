@@ -27,6 +27,7 @@ Note: New additions for this week are shown in __bold__
 * There should be a single space between the closing paren of a method header and the opening curly brace of a method header (e.g., `public static void Hello() {`)
 * Do not create a method for a single print statement
 * Method commends should describe what the method does and not how it does it; they should also detail the parameters and the return value (if any)
+* Methods should represent one concrete task
 
 ### Printing
 * `main` should generally not contain any print statements
