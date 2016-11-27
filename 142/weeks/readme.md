@@ -70,3 +70,12 @@ __Topics__: arrays, output files, objects and classes, instance variables
 * [Exercises](week8/exercises.md)
 * [Check-in meeting](week8/check-in-meeting.md)
 * [Homework](week8/homework.md)
+
+## [Week 10](week10)
+__Topics__: critters, ArrayList, inheritance
+* [Plan](week10/plan.md)
+* [Quiz](week10/quiz.md)
+* [Lecture notes](week10/lecture-notes.md)
+* [Exercises](week10/exercises.md)
+* [Check-in meeting](week10/check-in-meeting.md)
+* [Homework](week10/homework.md)
