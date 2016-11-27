@@ -1,3 +1,4 @@
+_CSE 142_
 # Lecture Notes
 ## Week 4
 
@@ -144,7 +145,7 @@ if (test) {
 if (test) {
     statement(s);
 }
-if (test) }
+if (test) {
     statement(s);
 }
 ```

@@ -1,3 +1,4 @@
+_CSE 142_
 # Exercises
 ## Week 8
 
@@ -54,7 +55,7 @@ __Partners__: Edward+Jonny, Kevin+Cheyenne, Vanessa+Courtney, Marie+Connor, Jorg
 	For example, given the following input file:
 
 	```
-	cse142 176 148 561
+	cse 142 176 148 561
 	rocks 937 889
 	computer 654 27878
 	science 583

@@ -1,4 +1,5 @@
-#Exercises
+_CSE 142_
+# Exercises
 ## Week 1
 
 These exercises should be completed on the whiteboards by yourself, but feel free to help each other if that comes more naturally to you. Our goal though, is for everyone to be able to do these problems on their own.

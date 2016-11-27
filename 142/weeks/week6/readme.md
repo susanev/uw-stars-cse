@@ -1,3 +1,4 @@
+_CSE 142_
 # Week 6
 __Topics__: type boolean, more while loops, file input
 * [Plan](plan.md)

@@ -1,3 +1,4 @@
+_CSE 142_
 # Weeks
 ## [Week 1](week1)
 __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, precedence, escape sequences, expressions, basic style, static methods and program flow.
@@ -70,3 +71,20 @@ __Topics__: arrays, output files, objects and classes, instance variables
 * [Exercises](week8/exercises.md)
 * [Check-in meeting](week8/check-in-meeting.md)
 * [Homework](week8/homework.md)
+
+## [Week 9](week9)
+__Topics__: 
+* [Plan](week9/plan.md)
+* [Lecture notes](week9/lecture-notes.md)
+* [Exercises](week9/exercises.md)
+* [Check-in meeting](week9/check-in-meeting.md)
+* [Homework](week9/homework.md)
+
+## [Week 10](week10)
+__Topics__: critters, ArrayList, inheritance
+* [Plan](week10/plan.md)
+* [Quiz](week10/quiz.md)
+* [Lecture notes](week10/lecture-notes.md)
+* [Exercises](week10/exercises.md)
+* [Check-in meeting](week10/check-in-meeting.md)
+* [Homework](week10/homework.md)

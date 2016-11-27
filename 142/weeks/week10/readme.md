@@ -1,6 +1,5 @@
-_CSE 142_
-# Week 7
-__Topics__: line-based processing, arrays
+# Week 10
+__Topics__: critters, ArrayList, inheritance
 * [Plan](plan.md)
 * [Quiz](quiz.md)
 * [Lecture notes](lecture-notes.md)

@@ -1,3 +1,4 @@
+_CSE 142_
 # Week 5
 __Topics__: while loops, fencepost/sentinel loops, pseudorandom numbers, assertions
 * [Plan](plan.md)

@@ -1,3 +1,4 @@
+_CSE 142_
 # Week 8
 __Topics__: arrays, output files, objects and classes, instance variables
 * [Plan](plan.md)
