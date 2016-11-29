@@ -67,4 +67,33 @@
 		return max;
 	}
 
-6. 
+6. One possible answer is shown below.
+
+	```java
+	public static void minToFront(int[] list) {
+		if (list.length != 0) {
+			int minIndex = 0;
+			for (int i = 1; i < list.length; i++) {
+				if (list[i] < list[minIndex]) {
+					minIndex = i;
+				}
+			}
+
+			int temp = list[0];
+			list[0] = list[minIndex];
+			list[minIndex] = temp;
+		}
+	}
+	```
+
+7. One possible answer is shown below.
+
+	```java
+	public static void reverse3(ArrayList<Integer> list) {
+		for (int i = 0; i < list.size() - 2; i+=3) {
+			int temp = list.get(i);
+			list.set(i, list.get(i + 2));
+			list.set(i + 2, temp);
+		}
+	}
+   ```
