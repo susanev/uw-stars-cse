@@ -126,5 +126,3 @@
 	You may assume that there is room in the longer array to insert the values	from the shorter array starting at the given index.
 
 	You are not allowed to use an auxiliary data structure such as a temporary array or ArrayList to solve this problem.
-
-	Write your solution to insert below.
