@@ -110,8 +110,6 @@ __Topics__: toString, constructors, encapsulation, functional programming
 ### [Week 10](weeks/week10)
 __Topics__: critters, ArrayList, inheritance
 * [Plan](weeks/week10/plan.md)
-* [Quiz](weeks/week10/quiz.md)
 * [Lecture notes](weeks/week10/lecture-notes.md)
-* [Exercises](weeks/week10/exercises.md)
 * [Check-in meeting](weeks/week10/check-in-meeting.md)
 * [Homework](weeks/week10/homework.md)
