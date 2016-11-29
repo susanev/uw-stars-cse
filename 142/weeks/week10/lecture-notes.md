@@ -131,7 +131,7 @@ public static void removeEvenLength(ArrayList<String> list) {
 * Multiple levels of inheritance in a hierarchy are allowed
 * __polymorphism__: Ability for the same code to be used with different types of objects and behave differently with each
 * Note: In Stuart's version of CSE 142 you are not required to understand how to use `super.`, he will cover this in CSE 143
-* All classes except for `Object` extend `Object`; you don't have to code it, Java automatically adds it in.
+* All classes except for `Object` extend `Object`; you don't have to code it, Java automatically adds it in
 
 #### Syntax
 
