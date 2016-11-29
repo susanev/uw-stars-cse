@@ -5,19 +5,38 @@
 Actual Final: Wednesday, December 14, 12:30 - 2:20PM
 
 #### Actual Exam Rules and Information
-* You will have an assigned seat and you must sit in that seat. If you arrive for the exam and find someone else in your seat, ask them to move because we will move students to their assigned seats. We will take pictures of the room to help us verify that students sit in their assigned seats (please contact us if you have a concern about this). Students are expected to make a reasonable effort to sit in their assigned seat. Students who demonstrate an egregious disregard for the seating assignments will receive a 5-point penalty (e.g., if a student goes to the wrong room or refuses to move when asked to).
-* We may ask to check your UW ID card during the exam so please have it ready.
-* We will distribute the exam early and you can read and fill out the cover page of the exam, but you should not look at the exam questions until you are told to begin. At the end when time is called, you are required to stop writing and close your exam. Students who look at the exam before being told to begin and students who make changes to their exam after time is called will receive a 10-point penalty. Students who do not close their exam booklet when time is called may also receive a 10-point penalty.
-* The exam is closed-book and closed-note. You must work alone and may not use any computing devices of any kind including calculators or digital copies of the textbook. Cell phones, music players, and other electronic devices may NOT be out during the exam for any reason.
-* There will be a cheat sheet included as the last page of the exam. You may remove this from your exam if you wish once the exam begins, but be sure to hold the staple when you remove the exam because otherwise your exam is likely to come apart. Space will be provided for your answers and you may use the back of the cheat sheet as scratch paper. If you need additional scratch paper, raise your hand and a TA will give it to you. You are not allowed to use your own paper during the exam.
-* Unless a question specifically mentions otherwise, the code you write will be graded purely on external correctness (proper behavior and output) and not on internal correctness (style). So, for example, redundancy or lack of comments will not reduce your score.
-* You are allowed to abbreviate "Always", "Never," and "Sometimes" as "A", "N", and "S" for the assertions question, but you should otherwise NOT use any abbreviations on the exam.
-* You don't need to write any import statements in your exam code.
-* You are not allowed to use advanced material to solve exam problems. For the midterm, you are limited to the constructs described in chapters 1 through 5 of the textbook. For the final, you are limited to the constructs described in chapters 1 through 10 of the textbook.
-* You are not allowed to use break statements or to have a return from a void method.
-* For standard Java classes such as Math and String, you are limited to the methods listed on the cheat sheet. You are not allowed to use the Arrays class or other standard classes and methods that aren't included on the cheat sheet.
-* Please be sure that your answer is clearly indicated. This is particularly important if you provide more than one answer or if you have notes in addition to your answer. You can draw a box around the answer you want to have graded and you can draw an "X" through anything that you do not want to have graded.
-* You may remove the exam cheat sheet from the test. You do not need to turn in scratch paper or the exam cheat sheet unless you have all or part of an answer on that sheet of paper (you can take these sheets of paper with you). If you have a sheet of paper with all or part of an answer, please write your name on that sheet of paper, staple it to your test (a stapler will be available), and clearly indicate under the corresponding problem that your answer is attached on an extra sheet of paper.
+* You will have an assigned seat and you must sit in that seat
+	* If you arrive for the exam and find someone else in your seat ask them to move
+	* We will take pictures of the room to help us verify that students sit in their assigned seats (please contact us if you have a concern about this)
+	* Students are expected to make a reasonable effort to sit in their assigned seat
+	* Students who demonstrate an egregious disregard for the seating assignments will receive a 5-point penalty (e.g., if a student goes to the wrong room or refuses to move when asked to)
+* We may ask to check your UW ID card during the exam so please have it ready
+* We will distribute the exam early and you can read and fill out the cover page of the exam, but you should not look at the exam questions until you are told to begin
+	* At the end when time is called, you are required to stop writing and close your exam. 
+	* Students who look at the exam before being told to begin and students who make changes to their exam after time is called will receive a 10-point penalty
+	* Students who do not close their exam booklet when time is called may also receive a 10-point penalty.
+* The exam is closed-book and closed-note
+	* You must work alone and may not use any computing devices of any kind including calculators or digital copies of the textbook
+	* Cell phones, music players, and other electronic devices may NOT be out during the exam for any reason
+* There will be a cheat sheet included as the last page of the exam
+	* You may remove this from your exam if you wish once the exam begins
+	* Space will be provided for your answers and you may use the back of the cheat sheet as scratch paper
+	* If you need additional scratch paper, raise your hand and a TA will give it to you
+	* You are not allowed to use your own paper during the exam.
+* Unless a question specifically mentions otherwise, the code you write will be graded purely on external correctness (proper behavior and output) and not on internal correctness (style)
+	* So, for example, redundancy or lack of comments will not reduce your score
+* No abbreviations are allowed on the exam
+* You don't need to write any import statements in your exam code
+* You are not allowed to use advanced material to solve exam problems
+	* You are limited to the constructs described in chapters 1 through 10 of the textbook
+* You are not allowed to use break statements or to have a return from a void method
+* For standard Java classes such as Math and String, you are limited to the methods listed on the cheat sheet
+	* You are not allowed to use the Arrays class or other standard classes and methods that aren't included on the cheat sheet
+* Please be sure that your answer is clearly indicated
+	* This is particularly important if you provide more than one answer or if you have notes in addition to your answer
+	* You can draw a box around the answer you want to have graded and you can draw an "X" through anything that you do not want to have graded
+* You do not need to turn in scratch paper or the exam cheat sheet unless you have all or part of an answer on that sheet of paper (you can take these sheets of paper with you)
+	* If you have a sheet of paper with all or part of an answer, please write your name on that sheet of paper, staple it to your test (a stapler will be available), and clearly indicate under the corresponding problem that your answer is attached on an extra sheet of paper
 * Please be quiet during the exam. If you have a question or need assistance, please raise your hand.
 * When you have finished the exam, please turn in your exam quietly and leave the room.
 
@@ -240,91 +259,70 @@ Actual Final: Wednesday, December 14, 12:30 - 2:20PM
 
 	Notice that the values (99, 2) are unchanged in position because they were not part of a sequence of three values. You may not construct any extra data structures to solve this problem. You must solve it by manipulating the ArrayList you are passed as a parameter.
 
-8. Critters, 15 points.  Write a class called Raccoon that extends the Critter
-   class.  The instances of the Raccoon class always infect when an enemy is in
-   front of them and otherwise randomly choose between turning left and turning
-   right, with each choice being equally likely.  Their appearance changes over
-   time. Each Raccoon initially displays as a less-than followed by a dash
-   followed by a greater-than ("<->").  Then as each Raccoon chooses a move, it
-   changes its appearance to match that move. If its most recent move was an
-   infect, it displays as "<I>". If its most recent move was to turn left, it
-   displays as "<L>". And if its most recent move was to turn right, it
-   displays as "<R>".  Its color should alternate between blue and red.  It
-   should be blue initially when it is displayed as "<->" and then it should
-   alternate between the two colors (red after the first move, blue after the
-   second move, etc.).
+8. Critters, 15 points.  Write a class called Raccoon that extends the Critter class. The instances of the Raccoon class always infect when an enemy is in front of them and otherwise randomly choose between turning left and turning right, with each choice being equally likely.  Their appearance changes over time. Each Raccoon initially displays as a less-than followed by a dash followed by a greater-than ("<->"). Then as each Raccoon chooses a move, it changes its appearance to match that move. If its most recent move was an infect, it displays as "<I>". If its most recent move was to turn left, it displays as "<L>". And if its most recent move was to turn right, it displays as "<R>". Its color should alternate between blue and red. It should be blue initially when it is displayed as "<->" and then it should alternate between the two colors (red after the first move, blue after the second move, etc.).
 
-   As in assignment 8, all fields must be declared private and fields that need
-   to be initialized to a non-default value must be set in a constructor.  If
-   you want to use a Random object, you should make it a field so that you only
-   construct it once for each Raccoon.
+	As in assignment 8, all fields must be declared private and fields that need to be initialized to a non-default value must be set in a constructor. If you want to use a Random object, you should make it a field so that you only construct it once for each Raccoon.
 
-9. Arrays, 15 points.  Write a static method called collapse that takes an
-   array of integers as a parameter and that returns a new array that contains
-   the result of collapsing the original list by replacing each successive pair
-   of integers with the sum of the pair.  For example, if a variable called
-   list stores this sequence of values:
+9. Arrays, 15 points. Write a static method called collapse that takes an array of integers as a parameter and that returns a new array that contains the result of collapsing the original list by replacing each successive pair of integers with the sum of the pair.  For example, if a variable called list stores this sequence of values:
 
-        [7, 2, 8, 9, 4, 13, 7, 1, 9, 10]
+	```java
+	[7, 2, 8, 9, 4, 13, 7, 1, 9, 10]
+	```
 
-    Then the following call:
+	Then the following call:
 
-        collapse(list)
+	```java
+	collapse(list);
+	```
 
-    Should return a new array containing the following values:
+	Should return a new array containing the following values:
 
-        [9, 17, 17, 8, 19]
+	```java
+	[9, 17, 17, 8, 19]
+	```
 
-    The first pair from the original list is collapsed into 9 (7 + 2), the
-    second pair is collapsed into 17 (8 + 9), the third pair is collapsed into
-    17 (4 + 13) and so on.
+	The first pair from the original list is collapsed into 9 (7 + 2), the second pair is collapsed into 17 (8 + 9), the third pair is collapsed into 17 (4 + 13) and so on.
 
-    If the list stores an odd number of elements, the final element is not
-    collapsed.  For example, if the list had been:
+	If the list stores an odd number of elements, the final element is not collapsed.  For example, if the list had been:
 
-        [1, 2, 3, 4, 5]
+	```java
+	[1, 2, 3, 4, 5]
+	```
 
-   Then the call on collapse would produce the following list:
+	Then the call on collapse would produce the following list:
 
-        [3, 7, 5]
+	```java
+	[3, 7, 5]
+	```
 
-   with the 5 at the end of the list unchanged.  The method should not
-   construct any extra data structures other than the array to be returned and
-   it should not alter its parameter.
+	with the 5 at the end of the list unchanged. The method should not construct any extra data structures other than the array to be returned and it should not alter its parameter.
 
-10.   Write a static method called printReversed that
-    takes a String as a parameter and that prints a line of output to
-    System.out with all words in the String reversed.  For this problem, we
-    will define words as nonempty sequences of characters separated by one or
-    more spaces.  For example, if we make the following calls:
+10. Programming, 10 points. Write a static method called printReversed that takes a String as a parameter and that prints a line of output to System.out with all words in the String reversed. For this problem, we will define words as nonempty sequences of characters separated by one or more spaces. For example, if we make the following calls:
 
+	```java
 	printReversed("four score and seven years ago");
 	printReversed("our fathers brought forth on this continent");
+	```
 
-    We should get the following output:
+	We should get the following output:
 
-        ruof erocs dna neves sraey oga
-        ruo srehtaf thguorb htrof no siht tnenitnoc
+	```
+	ruof erocs dna neves sraey oga
+	ruo srehtaf thguorb htrof no siht tnenitnoc
+	```
 
-    Notice that the words appear in the same order as in the Strings that were
-    passed as parameters, but each individual word is reversed ("four" has
-    become "ruof", "score" has become "erocs" and so on).
+	Notice that the words appear in the same order as in the Strings that were passed as parameters, but each individual word is reversed ("four" has become "ruof", "score" has become "erocs" and so on).
 
-    The String you are passed might have leading or trailing spaces which
-    should be printed exactly as they appear in the String.  For example, if we
-    make the following call:
+	The String you are passed might have leading or trailing spaces which should be printed exactly as they appear in the String. For example, if we make the following call:
 
+	```java
 	printReversed("   merry-go-round    is    one    word  ");
+	```
 
-    the following output should be produced:
+	the following output should be produced:
 
-           dnuor-og-yrrem    si    eno    drow  
+	```
+	dnuor-og-yrrem    si    eno    drow
+	```
 
-    This output has 3 spaces at the beginning of the line and 2 spaces at the
-    end of the line, just as in the String.
-
-    You are allowed to call the toCharArray method on the String to convert the
-    entire String into a char[] if you prefer to use array notation rather than
-    String notation in solving the problem.
-
-    Write your solution to printReversed below.
+	This output has 3 spaces at the beginning of the line and 2 spaces at the end of the line, just as in the String.
