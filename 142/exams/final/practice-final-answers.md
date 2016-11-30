@@ -97,3 +97,94 @@
 		}
 	}
    ```
+
+8. One possible answer is shown below.
+
+	```java
+	public class Raccoon extends Critter {
+		private Random r;
+		private String appearance;
+		private Color c;
+
+		public Raccoon() {
+			r = new Random();
+			appearance = "<->";
+			c = Color.BLUE;
+		}
+
+		public Color getColor() {
+			return c;
+		}
+
+		public Action getMove(CritterInfo info) {
+			toggleColor();
+			if (info.getFront() == Neighbor.OTHER) {
+				appearance = "<I>";
+				return Action.INFECT;
+			} else if(r.nextInt(2) == 0) {
+				appearance = "<R>";
+				return Action.RIGHT;
+			} else {
+				appearance = "<L>";
+				return Action.LEFT;
+			}
+		}
+
+		public String toString() {
+			return appearance;
+		}
+
+		private void toggleColor() {
+			if (c == Color.RED) {
+				c = Color.BLUE;
+			} else {
+				c = Color.RED;
+			}
+		}
+	}
+	```
+
+9. One possible answer is shown below.
+
+	```java
+	public static int[] collapse(int[] list) {
+		if (list.length < 2) {
+			return list;
+		}
+
+		int[] output = new int[list.length / 2 + list.length % 2];
+		int outputIndex = 0;
+
+		for (int i = 0; i < list.length - 1; i+=2) {
+			output[outputIndex] = list[i] + list[i + 1];
+			outputIndex++;
+		}
+
+		if (list.length % 2 == 1) {
+			output[outputIndex] = list[list.length - 1];
+		}
+
+		return output;
+	}
+	```
+
+10. One possible answer is shown below.
+
+	```java
+	public static void printReversed(String phrase) {
+		for (int i = 0; i < phrase.length(); i++) {
+			if (phrase.charAt(i) == ' ') {
+				System.out.print(" ");
+			} else {
+				String reverse = "";
+				while (i < phrase.length() && phrase.charAt(i) != ' ') {
+					reverse = phrase.charAt(i) + reverse;
+					i++;
+				}
+				i--;
+				System.out.print(reverse);
+			}
+		}
+		System.out.println();
+	}
+	```
