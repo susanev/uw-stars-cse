@@ -1,7 +1,7 @@
 # Practice Final Answers
 ## Week 10
 
-1. 
+1. __Reference Mystery (5 points)__
 
 	```
 	11 [21] 30,41
@@ -10,7 +10,7 @@
 	10 [23] 31,42
 	```
 
-2. 
+2. __Array Simulation (10 points)__
 
 	| Original List | Final List |
 	| :--- | :--- |
@@ -20,15 +20,17 @@
 	| `{4, 5, 8, 9, 3}` | `{4, 5, 12, 9, 15}` |
 	| `{1, 2, 8, 5, 10, 5, 4}` | `{1, 2, 9, 5, 19, 5, 23}` |
 
-3. 
+3. __Inheritance (6 points)__
 
 	```
-	a				c				a				c
+	a			c			a			c
 	a 1			c 1			a 1			d 1
 	b 2			c 2			c 2			c 2
 	```
 
-4. One possible answer shown below.
+4. __Token-Based Processing (10 points)__
+
+	One possible answer shown below.
 
 	```java
 	public static void printStrings(Scanner pairs) {
@@ -44,7 +46,9 @@
 	}
 	```
 
-5. One possible answer is shown below.
+5. __Line-Based File Processing (9 points)__ 
+
+	One possible answer is shown below.
 
 	```java
 	public static int analyzeParagraphs(Scanner input) {
@@ -66,8 +70,11 @@
 
 		return max;
 	}
+	```
 
-6. One possible answer is shown below.
+6. __Arrays (10 points)__
+
+	One possible answer is shown below.
 
 	```java
 	public static void minToFront(int[] list) {
@@ -86,7 +93,9 @@
 	}
 	```
 
-7. One possible answer is shown below.
+7. __ArrayList (10 points)__ 
+
+	One possible answer is shown below.
 
 	```java
 	public static void reverse3(ArrayList<Integer> list) {
@@ -98,7 +107,9 @@
 	}
    ```
 
-8. One possible answer is shown below.
+8. __Critters (15 points)__ 
+
+	One possible answer is shown below.
 
 	```java
 	public class Raccoon extends Critter {
@@ -144,7 +155,9 @@
 	}
 	```
 
-9. One possible answer is shown below.
+9. __Arrays (15 points)__ 
+
+	One possible answer is shown below.
 
 	```java
 	public static int[] collapse(int[] list) {
@@ -168,7 +181,9 @@
 	}
 	```
 
-10. One possible answer is shown below.
+10. __Programming (10 points)__ 
+
+	One possible answer is shown below.
 
 	```java
 	public static void printReversed(String phrase) {
