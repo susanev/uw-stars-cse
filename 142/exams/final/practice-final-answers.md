@@ -160,23 +160,13 @@
 	One possible answer is shown below.
 
 	```java
-	public static int[] collapse(int[] list) {
-		if (list.length < 2) {
-			return list;
+	public static int[] collapse(int[] list) {      
+		int[] output = new int[(list.length + 1) / 2];
+
+		for (int i = 0; i < list.length; i++) {
+			output[i / 2] += list[i];
 		}
-
-		int[] output = new int[list.length / 2 + list.length % 2];
-		int outputIndex = 0;
-
-		for (int i = 0; i < list.length - 1; i+=2) {
-			output[outputIndex] = list[i] + list[i + 1];
-			outputIndex++;
-		}
-
-		if (list.length % 2 == 1) {
-			output[outputIndex] = list[list.length - 1];
-		}
-
+		  
 		return output;
 	}
 	```
