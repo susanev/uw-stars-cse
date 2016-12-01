@@ -203,7 +203,7 @@ Actual Final: Wednesday, December 14, 12:30 - 2:20PM
 	1-line paragraph
 	```
 
-	It would assign max the value 3 because the method returns the maximum number of lines in any given paragraph. You must exactly reproduce the format of this output.  You may assume that the input file has no blank lines, that it contains at least one paragraph, and that each paragraph is terminated by a line containing just "".
+	It would assign max the value 3 because the method returns the maximum number of lines in any given paragraph. You must exactly reproduce the format of this output.  You may assume that the input file is not blank, that it contains at least one paragraph, and that each paragraph is terminated by a line containing just "".
 
 6. Arrays, 10 points.  Write a static method called minToFront that takes an array of integers as a parameter and that moves the minimum value in the list to the front by swapping its position with whatever is currently at the front of the list. For example, if a variable called list stores the following values:
 
