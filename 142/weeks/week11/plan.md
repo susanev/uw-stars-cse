@@ -2,6 +2,7 @@
 ## Week 11
 
 * Announcements
+	* No check-in meetings next week
 	* Final Review
 		* Monday 12/12 3p – 7p
 		* Room CSE 203
