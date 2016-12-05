@@ -88,3 +88,11 @@ __Topics__: critters, ArrayList, inheritance
 * [Exercises](week10/exercises.md)
 * [Check-in meeting](week10/check-in-meeting.md)
 * [Homework](week10/homework.md)
+
+## [Week 11](week11)
+__Topics__: advanced arrays, final review
+* [Plan](week11/plan.md)
+* [Quiz](week11/quiz.md)
+* [Lecture notes](week11/lecture-notes.md)
+* [Exercises](week11/exercises.md)
+* [Check-in meeting](week11/check-in-meeting.md)
