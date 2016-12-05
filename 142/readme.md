@@ -113,3 +113,11 @@ __Topics__: critters, ArrayList, inheritance
 * [Lecture notes](weeks/week10/lecture-notes.md)
 * [Check-in meeting](weeks/week10/check-in-meeting.md)
 * [Homework](weeks/week10/homework.md)
+
+### [Week 11](weeks/week11)
+__Topics__: advanced arrays, final review
+* [Plan](weeks/week11/plan.md)
+* [Quiz](weeks/week11/quiz.md)
+* [Lecture notes](weeks/week11/lecture-notes.md)
+* [Exercises](weeks/week11/exercises.md)
+* [Check-in meeting](weeks/week11/check-in-meeting.md)
