@@ -22,7 +22,8 @@ public static boolean isSorted(int[] list) {
 ```
 
 ```java
-// rotateLeft takes an array of integers and returns all values to the left by one position, rotating the first to the back.
+// rotateLeft takes an array of integers and returns all values to the left by one position
+// rotating the first to the back.
 public static void rotateLeft(int[] list) {
   if (list.length > 0) {
     int temp = list[0];
@@ -50,7 +51,8 @@ public static void rotateLeft(int[] list) {
 ```
 
 ```java
-// interleave takes two arrays of integers and returns a new array that contains the result of interleaving the elements of the two arrays
+// interleave takes two arrays of integers and returns a new array
+// that contains the result of interleaving the elements of the two arrays
 public static int[] interleave(int[] a1, int[] a2) {
   int bounds = Math.min(a1.length, a2.length);
   int[] result = new int[bounds * 2];
