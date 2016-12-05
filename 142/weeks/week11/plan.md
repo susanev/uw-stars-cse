@@ -8,9 +8,9 @@
 		* Pizza Provided
 		* Optional, but you should plan to attend if you had a low final practice score
 	* Many of you owe me practice it homework; please finish and send me screen shots by this weekend
-* Quiz
+* [Quiz](quiz.md)
 	* Critters
 	* ArrayList
 * Quiz Review
 * Break (6:20—10 minutes)
-* Exercises (in pairs)
+* [Exercises](exercises.md)(in pairs)
