@@ -92,7 +92,8 @@ __Topics__: critters, ArrayList, inheritance
 ## [Week 11](week11)
 __Topics__: advanced arrays, final review
 * [Plan](week11/plan.md)
-* [Quiz](week11/quiz.md)
 * [Lecture notes](week11/lecture-notes.md)
-* [Exercises](week11/exercises.md)
 * [Check-in meeting](week11/check-in-meeting.md)
+* [Quiz](week11/quiz.md)
+* [Quiz Answers](week11/quiz-answers.md)
+* [Exercises](week11/exercises.md)
