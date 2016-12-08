@@ -12,6 +12,6 @@
 * [Quiz](quiz.md)
 	* Critters
 	* ArrayList
-* Quiz Review
+* [Quiz Review](quiz-answers.md)
 * Break (6:20—10 minutes)
 * [Exercises](exercises.md)(in pairs)
