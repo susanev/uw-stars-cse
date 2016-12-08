@@ -3,6 +3,6 @@ _CSE 142_
 __Topics__: toString, constructors, encapsulation, functional programming
 * [Plan](plan.md)
 * [Lecture notes](lecture-notes.md)
-* [Exercises](exercises.md)
 * [Check-in meeting](check-in-meeting.md)
+* [Exercises](exercises.md)
 * [Homework](homework.md)
