@@ -124,3 +124,4 @@ __Topics__: advanced arrays, final review
 * [Quiz](weeks/week11/quiz.md)
 * [Quiz Answers](weeks/week11/quiz-answers.md)
 * [Exercises](weeks/week11/exercises.md)
+* [Exercise Answers](weeks/week11/exercise-answers.md)

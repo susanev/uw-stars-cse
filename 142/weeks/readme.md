@@ -98,3 +98,4 @@ __Topics__: advanced arrays, final review
 * [Quiz](week11/quiz.md)
 * [Quiz Answers](week11/quiz-answers.md)
 * [Exercises](week11/exercises.md)
+* [Exercise Answers](week11/exercise-answers.md)

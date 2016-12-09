@@ -6,3 +6,4 @@ __Topics__: arrays, final review
 * [Quiz](quiz.md)
 * [Quiz Answers](quiz-answers.md)
 * [Exercises](exercises.md)
+* [Exercise Answers](exercise-answers.md)
