@@ -5,7 +5,7 @@ _This week you will be completing the whiteboard problems in pairs. Work togethe
 
 __Partners__: Edward+Jonny, Marie+Cheyenne, Vanessa+Jorge, Kevin+Connor, Jayden+Lisa, Courtney+Donavan
 
-1. Critters. Write a class called Eagle that extends the Critter class.  The instances of the Eagle class switch back and forth between red and blue in an increasing pattern. They should be red for one move and then blue for one move. Then they should be red for two moves and then blue for two moves.  Then they should be red for three moves and then blue for three moves.  Then they should be red for four moves and then blue for four moves. And so on, each time increasing the number of moves at a particular color by one.  
+1. Critters. Write a class called Eagle that extends the Critter class. The instances of the Eagle class switch back and forth between red and blue in an increasing pattern. They should be red for one move and then blue for one move. Then they should be red for two moves and then blue for two moves. Then they should be red for three moves and then blue for three moves. Then they should be red for four moves and then blue for four moves. And so on, each time increasing the number of moves at a particular color by one.  
 
 	They should be displayed using a less-than character followed by a greater-than character (&#60;&#62;).
 
