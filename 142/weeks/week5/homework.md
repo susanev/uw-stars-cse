@@ -11,4 +11,4 @@ This homework assignment should be completed before your check-in meeting. You s
 3. [if/else Simulation](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm9/ifElseSimulation)
 4. [while Loop Mystery](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm8/whileLoopMystery)
 5. [Assertions](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm8/assertions)
-6. [Programming](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm11/lucky)
+6. [lucky](http://practiceit.cs.washington.edu/problem/view/cs1/exams/midterms/midterm11/lucky)
