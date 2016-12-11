@@ -1,7 +1,6 @@
 # Final Resources
-[Study Sheet](study-sheet.md)
-
-[Final Cheat Sheet](final-cheat-sheet.md)
+* [Study Sheet](study-sheet.md)
+* [Final Cheat Sheet](final-cheat-sheet.md)
 
 ## Types of Questions
 
