@@ -27,7 +27,7 @@ public class FileProcessing {
 		// matchIndex(new Scanner("The quick brown fox\nThose achy down socks\nWheels on the school bus go round\nThe wipers go swish swish swish\nHis name is Robert Paulson\nSo long 'n thanks for all the fish\nHumpty Dumpty sat on a wall\nAnd then he also had a great fall\nbooyakasha\nBruno Ali G Borat"));
 
 		// Test for mostUnique
-		System.out.printf("mostUnique returned %d\n", mostUnique(new Scanner("	10 10 10 9 9 8 3\n3 3 8 10 9 7 7 6 6\n4 1 9 9 10 7 7\n10 10 10 10")));
+		// System.out.printf("mostUnique returned %d\n", mostUnique(new Scanner("	10 10 10 9 9 8 3\n3 3 8 10 9 7 7 6 6\n4 1 9 9 10 7 7\n10 10 10 10")));
 	}
 
 	public static void reportScore(Scanner input) {
@@ -147,10 +147,3 @@ public class FileProcessing {
 		return max;
 	}
 }
-
-
-
-
-
-
-
