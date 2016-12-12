@@ -46,8 +46,6 @@
 	| `{1, 2, 3, 2, 4, 5, 6}` | `false`
 	| `{3, 3, 3}` | `true`
 
-	You may use the Math.abs method to find the absolute value.
-
 3. Write a static method isSumArray that accepts an array of integers and returns whether for every group of three elements in the array, the first two elements sum up to the third. If the size of the array cannot be divided into groups of three, then the array does not pass the test.
 
 	For example, given the following arrays:
@@ -71,14 +69,13 @@
 	In the first array, for every group of three numbers (1-2-3, 8-7-15, and 9-3-12), the first two numbers add up to the third. The second array cannot be divided into groups of three. The third array can be divided, but the first two numbers do not add up to the third.
 
 ### Hard
-
 1. Write a static method named delta that accepts an array of integers as a parameter and returns a new array formed by inserting between each pair of values the difference between those values. For example, given this array:
 
 	```java
 	int[] numbers = {3, 8, 15};
 	```
 
-	The call of delta(numbers) should return the following array (new elements are bolded):
+	The call of delta(numbers) should return the following array:
 
 	```
 	{3, 5, 8, 7, 15}
