@@ -45,9 +45,9 @@
 1. Inheritance
 
 	```
-	sock		sock		lamp		sock
+	sock			sock		lamp		sock
 	sock 1 book 2	pen 1		lamp 1		sock 1 lamp 2
-	book 2		lamp 2		lamp 2		lamp 2
+	book 2			lamp 2		lamp 2		lamp 2
 	```
 
 2. Inheritance 
