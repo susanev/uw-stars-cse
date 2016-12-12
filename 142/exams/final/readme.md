@@ -29,7 +29,7 @@
 | Problems | Answers | Code |
 | :--- | :--- | :--- |
 | [Mechanical](study-session/mechanical.md) | [Answers](study-session/mechanical-answers.md) | |
-| [File Processing](study-session/file-processing.md) | [Answers](study-session/file-processing-answers.md) | [Code](study-sessioncode/FinalFileProcessing.java) |
+| [File Processing](study-session/file-processing.md) | [Answers](study-session/file-processing-answers.md) | [Code](study-session/code/FinalFileProcessing.java) |
 | [Arrays](study-session/arrays.md) | [Arrays](study-session/arrays-answers.md) | [Code](study-session/code/FinalArray.java) |
 | [ArrayList and Critters](study-session/arraylist-critters.md) | [Answers](study-session/arraylist-critters-answers.md) | [ArrayList Code](study-session/code/FinalArrayList.java) [Critters Code](study-session/code/critters) |
 | [Hard Programming](study-session/hard-programming.md) | [Answers](study-session/hard-programming-answers.md) | [Code](study-session/code/FinalHardProgramming.java)
