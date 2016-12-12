@@ -68,10 +68,10 @@
 
 	| Call | Output |
 	| :--- | :--- |
-	| `printWinner(input1);' | charlie is the winner! |
-	| `printWinner(input2);' | Everyone busted! |
-	| `printWinner(input3);' | Everyone busted! |
-	| `printWinner(input4);' | hotel is the winner! |
+	| `printWinner(input1);` | charlie is the winner! |
+	| `printWinner(input2);` | Everyone busted! |
+	| `printWinner(input3);` | Everyone busted! |
+	| `printWinner(input4);` | hotel is the winner! |
 
 	In the first example, the respective sums for alpha, bravo, and charlie are 24 (10 + 5 + 9), 8 (8), and 20 (11 + 9). The highest sum that is less than or equal to 21 belongs to charlie. In the second example, the sums are 22 (10 + 3 + 9) and 24 (3 + 1 + 10 + 10). Since no sum is less than or equal to 21, everyone busted.
 
