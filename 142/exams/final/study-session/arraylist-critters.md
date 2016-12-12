@@ -64,23 +64,27 @@
 	["(to, be)", "(or, not)", "(to, be)", "hamlet"]
 	```
 
-3. Write a static method called split that takes an ArrayList of integer values as a parameter and that replaces each value in the list with a pair of values, each half the original. If a number in the original list is odd, then the first number in the new pair should be one higher than the second so that the sum equals the original number. For example, if a variable called list stores this sequence of values:
+3. Write a static method called expand that takes an ArrayList of integer values as a parameter and that replaces pairs of integer values with sequences of numbers. In particular, the ArrayList will contain pairs of numbers that indicate the number of occurrences of a particular value (in that order). For example, suppose a variable called list stores this sequence of values:
 
 	```
-	[18, 7, 4, 24, 11]
+	[2, 4, 3, 5, 1, 9, 12, 8]
 	```
 
-	The number 18 is split into the pair (9, 9), the number 7 is split into (4, 3), the number 4 is split into (2, 2), the number 24 is split into (12, 12) and the number 11 is split into (6, 5). Thus, the call:
+	The first pair indicates that we want 2 occurrences of the number 4. The second pair indicates that we want 3 occurrences of the number 5. The third pair indicates that we want 1 occurrence of the number 9. The final pair indicates that we want 12 occurrences of the number 8.  If we make the call:
 
 	```java
-	split(list);
+	expand(list);
 	```
-	
-	should cause list to store the following sequence of values afterwards:
+
+	We expect that the ArrayList will store these values afterwards:
 
 	```
-	[9, 9, 4, 3, 2, 2, 12, 12, 6, 5]
+	[4, 4, 5, 5, 5, 9, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
 	```
+
+	You may assume that the ArrayList stores a legal sequence of values, which means that it has an even length and all of the counts are greater than or equal to 1.
+
+	You may not construct any extra data structures to solve this problem. You must solve it by manipulating the ArrayList you are passed as a parameter
 
 ### Critters
 1. Write a class called Ferret that extends the Critter class. The instances of the Ferret class always infect when an enemy is in front of them, otherwise hop if possible, and otherwise randomly choose between turning left and turning right (each choice equally likely). Their appearance changes based on whether they recently attempted to infect. They initially display as "I=0" indicating that they have not attempted to infect recently. After an infect move, they should display as "I=5". As the ferret makes other moves that are not infecting, this display should change to "I=4", "I=3", "I=2", "I=1", and "I=0". It should then stay at "I=0". Notice, however, that it can go back to "I=5" in the middle of this process because it might infect again before reaching "I=0". The ferrets should be blue when they are displaying as "I=0" and red otherwise.
