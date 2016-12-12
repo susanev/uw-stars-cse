@@ -86,7 +86,7 @@
 	| `"t.e.p*"` | twerp, trespass, thespians |
 	| `".o*e."` | poem, token, wolves, voucher, toothbrushes |
 
-	You are allowed to create new strings, but otherwise you are not allowed to construct extra data structures to solve this problem (no array, ArrayList, Scanner, etc). You are limited to the string methods listed on the cheat sheet (otherwise this problem can be solved in one line of code).
+	You are allowed to create new strings, but otherwise you are not allowed to construct extra data structures to solve this problem (no array, ArrayList, Scanner, etc). You are limited to the string methods listed on the cheat sheet.
 
 6. Write a static method rearrange that takes an array of integers as an argument and that rearranges the values so that all of the multiples of 3 come first followed by numbers that are one greater than a multiple of 3 followed by numbers that are two greater than a multiple of 3. For example, if a variable called "list" stores this sequence of values:
 
