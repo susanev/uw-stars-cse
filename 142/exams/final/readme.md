@@ -26,10 +26,10 @@
 
 ## [Study Session](study-session)
 
-| Problems | Answers |
-| :--- | :--- |
-| [Mechanical](study-session/mechanical.md) | [Mechanical Answers](study-session/mechanical-answers.md) |
-| [File Processing](study-session/file-processing.md) | [File Processing Answers](study-session/file-processing-answers.md) |
-| [Arrays](study-session/arrays.md) | [Arrays Answers](study-session/arrays-answers.md) |
-| [ArrayList and Critters](study-session/arraylist-critters.md) | [ArrayList and Critters Answers](study-session/arraylist-critters-answers.md) |
-| [Hard Programming](study-session/hard-programming.md) | [Hard Programming Answers](study-session/hard-programming-answers.md) |
+| Problems | Answers | Code |
+| :--- | :--- | :--- |
+| [Mechanical](study-session/mechanical.md) | [Answers](study-session/mechanical-answers.md) | |
+| [File Processing](study-session/file-processing.md) | [Answers](study-session/file-processing-answers.md) | [Code](study-sessioncode/FinalFileProcessing.java) |
+| [Arrays](study-session/arrays.md) | [Arrays](study-session/arrays-answers.md) | [Code](study-sessioncode/FinalArray.java) |
+| [ArrayList and Critters](study-session/arraylist-critters.md) | [Answers](study-session/arraylist-critters-answers.md) | [ArrayList Code](study-sessioncode/FinalArrayList.java) [Critters Code](study-sessioncode/critters) |
+| [Hard Programming](study-session/hard-programming.md) | [Answers](study-session/hard-programming-answers.md) | [Code](study-sessioncode/FinalHardProgramming.java)
