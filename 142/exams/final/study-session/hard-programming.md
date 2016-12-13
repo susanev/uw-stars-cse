@@ -1,7 +1,7 @@
 # Hard Programming
 ## Final Study Session
 
-1. Write a static method blackjack that prints random numbers in the range of 1—10 until the sum of all integers generated are greater than or equal to 17. The sum is subsequently printed. If the sum is greater than 21, then the method prints out "Busted!"; if the sum is equal to 21, then the method prints out "BLACKJACK!". The method returns whether the sum was less than or equal to 21.
+1. Write a static method blackjack that prints random numbers in the range of 1—10 until the sum of all integers generated are greater than or equal to 17. Then the sum is printed. If the sum is greater than 21, then the method prints out "Busted!"; if the sum is equal to 21, then the method prints out "BLACKJACK!". The method returns whether the sum was less than or equal to 21.
 
 	Here are some example calls on blackjack():
 
