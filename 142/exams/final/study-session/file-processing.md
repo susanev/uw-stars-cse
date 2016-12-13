@@ -104,8 +104,8 @@
 	Chandler, Adam: 75.0% plus
 	Martin, Jake: 100.0% plus
 	Dillon, Amanda: 62.5% plus
-	You must exactly reproduce this format.
 	```
+	You must exactly reproduce this format.
 
 2. Write a static method named matchIndex that accepts as its parameter a Scanner for an input file. Your method should compare each neighboring pair of lines (the first and second lines, then the third and fourth lines, and so on) looking for places where the character at a given 0-based index from the two lines is the same. For example, in the strings "hello" and "belt", the characters at indexes 1 ('e') and 2 ('l') match. Your code should be case-sensitive; for example, "J" does not match "j".
 
