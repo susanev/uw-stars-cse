@@ -167,7 +167,7 @@ public class FinalHardProgramming {
 				targetIndex++;
 			}
 		}
-		return patternIndex == pattern.length();
+		return true;
 	}
 
 	public static void rearrange(int[] list) {
