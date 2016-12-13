@@ -43,17 +43,29 @@ public class FinalHardProgramming {
 		// for (int i = 0; i < c.length; i++) {
 		// 	System.out.println(isMatch(".a..", c[i]));
 		// }
-		// String[] d = {"tot", "that", "trot", "tiniest"};
+		// String[] d = {"a", "an", "at", "and", "ant", "atom", "aunt", "apple", "army", "aura"};
 		// for (int i = 0; i < d.length; i++) {
-		// 	System.out.println(isMatch("t*t", d[i]));
+		// 	System.out.println(isMatch("a*", d[i]));
 		// }
-		// String[] e = {"saga", "lava", "saliva", "tarantula", "nausea"};
+		// String[] e = {"tot", "that", "trot", "tiniest"};
 		// for (int i = 0; i < e.length; i++) {
-		// 	System.out.println(isMatch(".a*a", e[i]));
+		// 	System.out.println(isMatch("t*t", e[i]));
 		// }
-		// String[] f = {"poem", "token", "wolves", "voucher", "toothbrushes"};
+		// String[] f = {"the", "then", "there", "therefore", "thermal", "thespians"};
 		// for (int i = 0; i < f.length; i++) {
-		// 	System.out.println(isMatch(".o*e.", f[i]));
+		// 	System.out.println(isMatch("the*", f[i]));
+		// }
+		// String[] g = {"saga", "lava", "saliva", "tarantula", "nausea"};
+		// for (int i = 0; i < g.length; i++) {
+		// 	System.out.println(isMatch(".a*a", g[i]));
+		// }
+		// String[] h = {"twerp", "trespass", "thespians"};
+		// for (int i = 0; i < h.length; i++) {
+		// 	System.out.println(isMatch("t.e.p*", h[i]));
+		// }
+		// String[] j = {"poem", "token", "wolves", "voucher", "toothbrushes"};
+		// for (int i = 0; i < j.length; i++) {
+		// 	System.out.println(isMatch(".o*e.", j[i]));
 		// }
 
 		// Tests for rearrange
@@ -139,10 +151,12 @@ public class FinalHardProgramming {
 		boolean seenStar = false;
 		int patternIndex = 0;
 		int targetIndex = 0;
-		while (patternIndex < pattern.length() && targetIndex < target.length()) {
+		while (patternIndex < pattern.length()) {
 			if (pattern.charAt(patternIndex) == '*') {
 				seenStar = true;
 				patternIndex++;
+			} else if (targetIndex >= target.length()) {
+					return false;
 			} else { 
 				if (pattern.charAt(patternIndex) == target.charAt(targetIndex) ||
 									pattern.charAt(patternIndex) == '.') {
