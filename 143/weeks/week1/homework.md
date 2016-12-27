@@ -9,7 +9,7 @@ _All problems should be completed in (Practice-It)[http://practiceit.cs.washingt
 1. [constructorRectangle](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter8/e19-constructorRectangle)
 1. [containsRectangle](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter8/e20-containsRectangle)
 1. [unionRectange](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter8/e21-unionRectangle)
-1. [intersectionRectanlge](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter8/e22-intersectionRectangle)
+1. [intersectionRectangle](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter8/e22-intersectionRectangle)
 
 ### ArrayList Review
 1. [filterRange](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter10/e15-filterRange)
