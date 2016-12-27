@@ -2,7 +2,7 @@ _CSE 143_
 # Homework
 ## Week 1
 
-_All problems should be completed in (Practice-It)[http://practiceit.cs.washington.edu/]. When you finish, take screen shots of both your code and the green-check mark showing completion and submit on canvas._
+_All problems should be completed in (Practice-It)[http://practiceit.cs.washington.edu/]. When you finish, take screen shots of both your code and the green-check mark showing completion and [submit on canvas](https://canvas.uw.edu/courses/1143086/assignments/3525138)._
 
 ### Classes Review
 1. [classRectangle](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter8/e18-classRectangle) _Note: Only complete if you did not complete during CSE 142_
