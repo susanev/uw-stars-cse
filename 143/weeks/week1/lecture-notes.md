@@ -8,79 +8,33 @@ _CSE 143_
 ### Upcoming Assignments
 * The first two assignments will review arrays([week 7](../../../142/weeks/week7) and [week 8](../../../142/weeks/week8)), and classes([week 8](../../../142/weeks/week8) and [week 9](../../../142/weeks/week9))
 
+### Classes
+* Collect together, related data
+* Fields of a class store the state of the class
+
 ### Constructors
-* Every time you use the `new` keyword, Java calls a special method called a __constructor__.
+* Every time you use the `new` keyword, Java calls a special method called a _constructor_
 * Constructor's have the same name as their class, and have no return type
 * If you do not define a constructor, then Java provides one for you with no parameters
-* Code to initialize fields should be placed in your constructor even though Java does auto-initialization the CSE142 Style standards require you to explicitly initialize your fields
+* Code to initialize fields should be placed in your constructor even though Java does auto-initialization the CSE143 Style standards require you to explicitly initialize your fields inside of your constructor
 * Do not restate the type of the fields you are initializing, this will cause a local variable to be declared and your field will not be initialized
 
 ### ArrayIntList
 * `ArrayIntList` was discussed in detail, which is something that Stuart uses to introduce ArrayLists
 
-#### Code 
-
-```java
-// ArrayIntList Client
-public class ArrayIntListClient {
-	public static void main(String[] args) {
-		ArrayIntList list1 = new ArrayIntList(200);
-		ArrayIntList list2 = new ArrayIntList(500);
-		list1.add(1);
-		list1.add(82);
-		list1.add(97);
-		list2.add(7);
-		list2.add(-8);
-		System.out.println(list1);
-		System.out.println(list2);
-	}
-}
-```
-
-```java
-// ArrayIntList Class
-public class ArrayIntList {
-	private int[] elementData;
-	private int size;
-
-	public ArrayIntList(int capacity) {
-		// notice that we do not restate int[]
-		elementData = new int[capacity];
-		size = 0;
-	}
-
-	public void add(int value) {
-		elementData[size] = value;
-		size++;
-	}
-
-	public String toString() {
-		if (size == 0) {
-			return "[]";
-		} else {
-			String result = "[" + elementData[0];
-			for (int i = 1; i < size; i++) {
-				result += ", " + elementData[i];
-			}
-			result += "]";
-			return result;
-		}
-	}
-}
-```
-
 ### Encapsulation
 * An object encapsulates state and behavior
-	* In programming, state usually means variables (data) and behaviour usually means methods
+	* State is the data (the variables)
+	* Behaviour is the methods
 * You can encapsulate the state by placing the `private` keyword before all of your fields
 
 ### toString
-* You can explicitly call the toString method (e.g., `object.toString()`) but if you don't then Java will call it implicitly for you
+* You can explicitly call the toString method (e.g., `object.toString()`) but if you don't, then Java will call it implicitly for you
 
 ### Pre/Post Conditions
 * A way to describe the contract a method has with the client
 * __Preconditions__ are assumptions that the method makes (i.e, dependencies)
-	* It is important to document every precondition, every assumption that you are making about the method you are writing
+	* It is important to document every precondition (assumption) that you are making about the method you are writing
 	* You can throw an exception if the client violates a precondition
 	* When an exception is thrown it will stop the method from executing
 * __Postconditions__ describe what the method accomplishes assuming the preconditions are met
@@ -123,9 +77,7 @@ if (indexOf(value) >= 0) {
 return indexOf(value) >= 0;
 ```
 
-### Updated ArrayIntList
-
-#### Code
+### ArrayIntList
 
 ```java
 // ArrayIntList Client
@@ -279,9 +231,9 @@ public class ArrayIntList {
 ### ArrayList
 * CSE 142 [ArrayList Lecture](https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d303014e-610a-48fe-a1b0-eaa20661ec53)
 * CSE 142 [ArrayList Notes](../../142/weeks/week10/lecture-notes.md)
-* Reminder that ArrayIntList was created to introduce you to ArrayLists
-* Declare ArrayList<E> where E is some type (think of E as being short for "Element type")
-	* The "E" is a type parameter that can be filled in with the name of any class (e.g., `ArrayList<String>`)
+* Reminder that Stuart created ArrayIntList to introduce you to ArrayLists
+* Declare `ArrayList<E>` where `E` is some type (think of `E` as being short for "Element type")
+	* The `E` is a type parameter that can be filled in with the name of any class (e.g., `ArrayList<String>`)
 
 #### Construction Example
 
@@ -290,6 +242,7 @@ ArrayList<String> list = new ArrayList<String>();
 ```
 
 #### Traversal Loops
+Traversal loops, loop through an entire data structure looking at and doing something with each element (in this case, printing each element).
 
 ```java
 // standard traversal
@@ -307,27 +260,28 @@ for (String s : list) {
 ```
 
 ### Iterators
-* An iterator is what we would call a lightweight object. You can use the iterator to gain access to everything in the structure, but it doesn't store the data itself
-* It has full access to the underlying structure and it keeps track of how much of the structure it has traversed, but that's not the same thing as being the structure
+* You can use the iterator to gain access to everything in the structure, but it doesn't store the data itself
+* It has full access to the underlying structure and it keeps track of how much of the structure it has traversed
 
 | Method | Description |
 | :--- | :--- |
 | `hasNext()` | returns true if there are values left, otherwise false |
 | `next()` | returns the next value and advances to the one beyond |
-} `remove()` | removes from the structure the value that was most recently returned by a call on `next` |
+| `remove()` | removes from the structure the value that was most recently returned by a call on `next` |
 
 #### Sample Code
 
 ```java
-	Iterator<String> i = list.iterator();
-	while (i.hasNext()) {
-	    System.out.println(i.next());
-	}
+Iterator<String> itr = list.iterator();
+while (itr.hasNext()) {
+    System.out.println(itr.next());
+}
 ```
 
 ### Interfaces
 * An interface is a description of a set of behaviors
-* To make your programs flexible, you should declare your variables, parameters, fields, and method return types using interfaces
+* To make your programs flexible, you should declare your variables, parameters, fields, and method return types using interfaces (not with specific Classes, like `ArrayList`)
+* The two interfaces you should be aware of now are `List` and `Set`
 
 ```java
 // instead of ...
@@ -339,19 +293,18 @@ List<String> list = new ArrayList<String>();
 
 ### Primitive data versus Objects
 * Review the CSE 142 [Week 10 Lecture Notes](../../142/weeks/week10/lecture-notes.md)
-* Even though we can construct an ArrayList<E> for any class E, we can't construct an ArrayList<int> because int is a primitive type, not a class
-* To get around this problem, Java has a set of classes that are known as "wrapper" classes that "wrap up" primitive values like ints to make them an object
-* If you want to put int values into an ArrayList, you have to remember to use the type `ArrayList<Integer>` rather than `ArrayList<int>`
-* Every primitive type has a corresponding wrapper class
+* Even though we can construct an `ArrayList<E>` for any class `E`, we can't construct an `ArrayList<int>` because `int` is a primitive type, not a class
+* To get around this problem, Java has a set of classes that are known as _wrapper_ classes that "wrap up" primitive values like ints to make them an object
+* If you want to put `int` values into an `ArrayList`, use the type `ArrayList<Integer>` rather than `ArrayList<int>`
+* Every primitive type has a corresponding _wrapper_ class
 
 ### Sets
 * There is an interface that defines the behaviors of a set known as `Set<E>`
-* For now, all of the sets we will construct all of our sets using the `TreeSet<E>` class
+* For now, all of the sets we will construct will use the `TreeSet<E>` class
 * Sets don't allow duplicates
-* Sets also don't allow the client to control the order of elements
+* Sets are unordered
 * Sets do not have the notion of indexing
 * You cannot remove at an index, but can remove a specific value
-* The `TreeSet` class keeps things in sorted order
 * You can add to a set, get its size, ask for an iterator, use it with a foreach loop
 
 #### Example Code
@@ -371,11 +324,11 @@ System.out.println("numbers2 = " + numbers2);
 ```
 
 ```java
-Iterator<Integer> i2 = numbers2.iterator();
-while (i2.hasNext()) {
-	int n = i2.next();
-	if (n % 3 == 0) {
-		i2.remove();
+Iterator<Integer> itr2 = numbers2.iterator();
+while (itr2.hasNext()) {
+	if (i2tr.next() % 3 == 0) {
+		// note, we use the iterator to remove!
+		itr2.remove();
 	}
 }
 System.out.println("numbers2 = " + numbers2);
