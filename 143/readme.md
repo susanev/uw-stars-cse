@@ -13,3 +13,4 @@ __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each
 * [Check-in meeting](weeks/week1/check-in-meeting.md)
 * [Quiz](weeks/week1/quiz.md)
 * [Exercises](weeks/week1/exercises.md)
+* [Homework](weeks/week1/homework.md)
