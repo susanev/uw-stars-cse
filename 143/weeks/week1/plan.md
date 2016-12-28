@@ -12,5 +12,5 @@ _CSE 143_
 	* If you need more or less support you absolutely must reach out and talk to me; I can not know if you are annoyed by the walk to class, or need more time in your check-in meetings unless you come talk to me
 * Review syllabus and grading
 * Reminders about academic misconduct
-* Quiz
-* White-board Exercises
+* [Quiz](quiz.md)
+* [White-board Exercises](exercises.md)
