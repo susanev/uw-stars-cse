@@ -2,21 +2,48 @@ _CSE 143_
 # Exercises
 ## Week 1
 
-1. Consider the task of representing types of tickets to campus events. Each ticket has a unique number and price. There are three types of tickets: walk-up tickets, advance tickets, and student advance tickets.
+1. Write a method called stutter that doubles the size of a list of integers by replacing every integer in the list with two of that integer. For example, if a variable called list stores the following:
 
-	* Walk-up tickets are purchased the day of the event and cost $50
-	* Advanced tickets purchased 10 or more days before the event cost $30, and advance tickets purchased fewer than 10 days before the event cost $40
-	* Student advance tickets are sold at half-the-price of normal advance tickets (when they are purchased 10 or more days early they cost $15, and when they are purchased fewer than 10 days early they cost $20)
+	```
+	[1, 8, 19, 4, 17]
+	```
 
-	1. Consider the classes you will need to create and draw a diagram demonstrating how they are connected.
+	and we make the following call:
 
-	1. Implement a Ticket class that will serve as the superclass for all three types of tickets. Define all operations shown below, and specify the operations in such a way that every subclass can implement them.
-		* The ability to construct a ticket by number
-		* The ability to ask for a ticket's price
-		* The ability to print a ticket object as a String (e.g., `Number: 17, Price: 50.0`)
+	```
+	list.stutter();
+	```
 
-	1. Implement a class called WalkupTicket to represent a walk-up event ticket. Walk-up tickets are constructed by number.
+	then it should store the following sequence of integers after the call:
 
-	1. Implement a class called AdvanceTicket to represent tickets purchased in advance. Advance tickets are constructed with a ticket number, and with the number of days in advance that the ticket was purchased.
+	```
+	[1, 1, 8, 8, 19, 19, 4, 4, 17, 17]
+	```
 
-	1. Implement a class called StudentAdvanceTicket to represent tickets purchased in advance by students. When a student advance ticket is printed, the String should mention that the student mush show their ID.
+	You are writing a method for the ArrayIntList class discussed in lecture.
+
+	You may not call any other methods of the ArrayIntList class to solve this problem, you are not allowed to define any auxiliary data structures (no array, String, ArrayList, etc), and your solution must run in O(n) time. You may assume that elementData is large enough to fit the longer list.
+
+1. Write a method called mirror that doubles the size of a list of integers by appending the mirror image of the original sequence to the end of the list. The mirror image is the same sequence of values in reverse order. For example, if a variable called list stores this sequence of values:
+
+	```
+	[1, 3, 2, 7]
+	```
+
+	and you make the following call:
+
+	```java
+	list.mirror();
+	```
+
+	then it should store the following values after the call:
+
+	```
+	[1, 3, 2, 7, 7, 2, 3, 1]
+	```
+
+	Notice that it has been doubled in size by having the original sequence appearing in reverse order at the end of the list.
+
+	You are writing a method for the ArrayIntList class discussed in lecture.
+
+	You are not to call any other ArrayIntList methods to solve this problem, you are not allowed to define any auxiliary data structures (no array, ArrayList, etc). You may assume that the array has sufficient capacity to store the new values.
