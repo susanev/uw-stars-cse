@@ -2,7 +2,7 @@ _CSE 143_
 # Homework
 ## Week 2
 
-_All problems should be completed on [Practice-It](http://practiceit.cs.washington.edu/). When you finish, take screen shots of both your code and the green-check mark showing completion and [submit on canvas](https://canvas.uw.edu/courses/1143086/assignments/3525138)._
+_All problems should be completed on [Practice-It](http://practiceit.cs.washington.edu/). When you finish, take screen shots of both your code and the green-check mark showing completion and [submit on canvas](https://canvas.uw.edu/courses/1143086/assignments/3528698)._
 
 ### Stacks and Queues
 1. [stackQueueUsage1](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s13-stackQueueUsage1)
