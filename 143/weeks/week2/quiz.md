@@ -1,3 +1,6 @@
 _CSE 143_
 # Quiz
-## Week 1
+## Week 2
+
+boolean zen questions
+never use == true

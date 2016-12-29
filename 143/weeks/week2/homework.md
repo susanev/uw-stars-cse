@@ -6,14 +6,14 @@ _All problems should be completed on [Practice-It](http://practiceit.cs.washingt
 
 ### Stacks and Queues
 1. [stackQueueUsage1](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s13-stackQueueUsage1)
-2. [stackQueueUsage2](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s14-stackQueueUsage2)
-3. [stackQueueMystery1](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s16-stackQueueMystery1)
-4. [stackQueueMystery2](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s17-stackQueueMystery2)
-5. [stutter](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/e2-stutter)
-6. [collapse](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/e4-collapse)
+1. [stackQueueUsage2](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s14-stackQueueUsage2)
+1. [stackQueueMystery1](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s16-stackQueueMystery1)
+1. [stackQueueMystery2](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s17-stackQueueMystery2)
+1. [stutter](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/e2-stutter)
+1. [collapse](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/e4-collapse)
 
 ### Linked Lists
 1. [linkedNodes12](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s12-linkedNodes12)
-2. [linkedNodes14](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s14-linkedNodes14)
-3. [firstLast](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s30-firstLast)
-4. [isSorted](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/e3-isSorted)
+1. [linkedNodes14](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s14-linkedNodes14)
+1. [firstLast](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s30-firstLast)
+1. [isSorted](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/e3-isSorted)
