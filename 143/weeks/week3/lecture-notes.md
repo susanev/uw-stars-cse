@@ -8,12 +8,14 @@ _CSE 143_
 
 ### Printing values of a Linked List
 * Suppose we have a variable list that stores `[3, 5, 2]`
+
 	```
 	                +------+------+      +------+------+      +------+------+
 	     +---+      | data | next |      | data | next |      | data | next |
 	list | +-+--->  |   3  |   +--+--->  |   5  |   +--+--->  |   2  |   /  |
 	     +---+      +------+------+      +------+------+      +------+------+
 	```
+	
 * Create a local variable of type ListNode to move through the list
 
 	```java
