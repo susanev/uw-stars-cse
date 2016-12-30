@@ -2,7 +2,7 @@ _CSE 143_
 # Homework
 ## Week 3
 
-_All problems should be completed on [Practice-It](http://practiceit.cs.washington.edu/). When you finish, take screen shots of both your code and the green-check mark showing completion and [submit on canvas](https://canvas.uw.edu/courses/1143086/assignments/3528698)._
+_All problems should be completed on [Practice-It](http://practiceit.cs.washington.edu/). When you finish, take screen shots of both your code and the green-check mark showing completion and [submit on canvas](https://canvas.uw.edu/courses/1143086/assignments/3532003)._
 
 ### Linked Lists
 1. [linkedNodes9](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s9-linkedNodes9)
