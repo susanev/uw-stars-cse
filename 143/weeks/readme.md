@@ -26,3 +26,13 @@ __Topics__: Advanced Linked lists
 * [Quiz](week3/quiz.md)
 * [Exercises](week3/exercises.md)
 * [Homework](week3/homework.md)
+
+## [Week 4](week4)
+__Topics__: Binary search, Complexity, Maps
+* [Plan](week4/plan.md)
+* [Lecture notes](week4/lecture-notes.md)
+* [Check-in meeting](week4/check-in-meeting.md)
+* [Quiz](week4/quiz.md)
+* [Exercises](week4/exercises.md)
+* [Homework](week4/homework.md)
+
