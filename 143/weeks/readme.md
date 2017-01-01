@@ -36,3 +36,11 @@ __Topics__: Binary search, Complexity, Maps
 * [Exercises](week4/exercises.md)
 * [Homework](week4/homework.md)
 
+## [Week 5](week5)
+__Topics__: Recursion, Regular Expressions, Grammars
+* [Plan](week5/plan.md)
+* [Lecture notes](week5/lecture-notes.md)
+* [Check-in meeting](week5/check-in-meeting.md)
+* [Quiz](week5/quiz.md)
+* [Exercises](week5/exercises.md)
+* [Homework](week5/homework.md)

@@ -38,7 +38,15 @@ __Topics__: Binary search, Complexity, Maps
 * [Plan](weeks/week4/plan.md)
 * [Lecture notes](weeks/week4/lecture-notes.md)
 * [Check-in meeting](weeks/week4/check-in-meeting.md)
-* [Quiz](weeks/week4/quiz.md)
+* [Practice Midterm](weeks/week4/practice-midterm.md)
 * [Exercises](weeks/week4/exercises.md)
 * [Homework](weeks/week4/homework.md)
 
+### [Week 5](weeks/week5)
+__Topics__: Recursion, Regular Expressions, Grammars
+* [Plan](weeks/week5/plan.md)
+* [Lecture notes](weeks/week5/lecture-notes.md)
+* [Check-in meeting](weeks/week5/check-in-meeting.md)
+* [Quiz](weeks/week5/quiz.md)
+* [Exercises](weeks/week5/exercises.md)
+* [Homework](weeks/week5/homework.md)
