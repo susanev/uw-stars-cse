@@ -20,22 +20,33 @@ _CSE 143_
 * Removing operation is called _pop_
 * All operations occur at the top of the stack
 
-###### Basic Operations
-* `public void push(E value);`
-* `public E pop();`
-* `public boolean isEmpty();`
-* `public int size();`
+###### Stack Methods
+| Method | Description |
+| :--- | :--- |
+| `Stack<E>()` | Constructs a new stack with elements of type `E` |
+| `push(val)` | Places val on top of the stack |
+| `pop()` | Removes top value from the stack and returns 
+it; throws `NoSuchElementException` if stack is
+empty |
+| `peek()` | Returns top value from the stack without removing
+it; throws `NoSuchElementException` if
+stack is empty |
+| `size()` | Returns the number of elements in the stack |
+| `isEmpty()` | Returns true if the stack has no elements |
+
 
 ##### Queues
 * FIFO (first-in-first-out)
 * Works similarly to a line at a grocery store
 * For `Queue<E>` we will use `LinkedList<E>` for the implementation (e.g., `Queue<Integer> q = new LinkedList<Integer>()`)
 
-###### Basic Operations
-* `public void add(E value);`
-* `public E remove();`
-* `public boolean isEmpty();`
-* `public int size();`
+###### Queue with LinkedList implementation methods
+| Method | Description |
+| :--- | :--- |
+| `public void add(E value);` | Adds val to the back of the queue |
+| `public E remove();` | Removes the first value from the queue; throws a `NoSuchElementException` if the queue is empty |
+| `public boolean isEmpty();` | Returns true if the queue has no elements |
+| `public int size();` | Returns the number of elements in the queue | 
 
 ##### Example 1
 
