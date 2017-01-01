@@ -29,15 +29,15 @@ _CSE 143_
 * The resource that computer scientists most often refer to when talking about complexity is time (sepcifically the growth rate as the input size increases)
 * When calculating the complexity, ignore constant multipliers and lower order terms—focus on the main term
 
-| Complexity | Description |
-| :--- | :--- |
-| `O(1)` | Constant time algorithms that don't depend on `n` |
-| `O(log n)` | Logarithmic algorithms like binary search |
-| `O(n)` | Linear algorithms like linear search |
-| `O(n log n)` | Log-linear algorithms like merge sort |
-| `O(n&#178;)` | Quadratic algorithms; n insertions that each take on average O(n) work, e.g., insertion sort |
-| `O(n&#179;)` | Cubic algorithms  |
-| `O(2<sup>n</sup>)` | Exponential algorithms; usually not practical |
+| Complexity | Name | Description | Example |
+| :--- | :--- | :--- | :--- |
+| `O(1)` | Constant | The time does not depend on `n` | |
+| `O(log n)` | Logarithmic |  | Binary search |
+| `O(n)` | Linear |  If you double `n`, the number of steps doubles | Linear search |
+| `O(n log n)` | Log-linear | | Merge sort |
+| `O(n&#178;)` | Quadratic | If you double `n`, the number of steps quadruples | Insertion sort |
+| `O(n&#179;)` | Cubic algorithms | |
+| `O(2<sup>n</sup>)` | Exponential | Usually not practical | |
 
 #### Example
 Given an array, find the maximum sum of a contiguous sequence. Suppose you have an array that stores these values:
