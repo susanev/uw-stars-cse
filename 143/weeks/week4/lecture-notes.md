@@ -26,7 +26,7 @@ _CSE 143_
 	* Space: How much computer memory the algorithm/code consumes
 * We can generally make a program work with less memory if we're willing to have it take more time to run
 * We can also generally get programs to run faster if we're willing to allocate some extra memory to the task
-* The resource that computer scientists most often refer to when talking about complexity is time (sepcifically the growth rate as the input size increases)
+* The resource that computer scientists most often refer to when talking about complexity is time (specifically the growth rate as the input size increases)
 * When calculating the complexity, ignore constant multipliers and lower order terms—focus on the main term
 
 | Complexity | Name | Description | Example |
