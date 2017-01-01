@@ -117,6 +117,8 @@ for (int i = 0; i < list.length; i++) {
 }
 ```
 
+_Note: [MaxSum.java](code/MaxSum.java) has the code altogether in one file
+
 ### Sets
 * Unordered collection of unique values
 * No repeats, only adds unique values
@@ -281,7 +283,7 @@ String name2) {
 }
 ```
 
-### String Review
+### String Review (Helpful for Evil Hangman)
 
 #### Example: Insert dashes
 
@@ -295,3 +297,6 @@ public static String dashes(String s) {
 	return result;
 }
 ```
+
+### Assignment Reminders
+* If you create a method that is not described in the assignment writeup (often called a _helper method_) that method should be `private` instead of `public`
