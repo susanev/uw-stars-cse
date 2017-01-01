@@ -117,7 +117,7 @@ for (int i = 0; i < list.length; i++) {
 }
 ```
 
-_Note: [MaxSum.java](code/MaxSum.java) has the code altogether in one file
+_Note: [MaxSum.java](code/MaxSum.java) has the code altogether in one file_
 
 ### Sets
 * Unordered collection of unique values
@@ -131,12 +131,12 @@ _Note: [MaxSum.java](code/MaxSum.java) has the code altogether in one file
 | Method | Description |
 | :--- | :--- |
 | `add(val)` | Adds val to the set |
-| `contains(val) | Returns true if val is a member of the set | 
-| `remove(val) | Removes val from the set |
-| `clear() | Removes all elements from the set |
-| `size() | Returns the number of elements in the set |
-| `isEmpty() | Returns true whenever the set contains no elements |
-| `toString() | Returns a string representation |
+| `contains(val)` | Returns true if val is a member of the set | 
+| `remove(val)` | Removes val from the set |
+| `clear()` | Removes all elements from the set |
+| `size()` | Returns the number of elements in the set |
+| `isEmpty()` | Returns true whenever the set contains no elements |
+| `toString()` | Returns a string representation |
 
 #### Iterating over a set
 
