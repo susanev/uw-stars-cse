@@ -2,6 +2,8 @@ _CSE 143_
 # Exercises
 ## Week 1
 
+_These problems are intended to be completed in pairs, you may work with anyone you like. However, if you begin these exercises before others have finished the quiz, please work in silence until everyone has finished_
+
 1. Write a method called stutter that doubles the size of a list of integers by replacing every integer in the list with two of that integer. For example, if a variable called list stores the following:
 
 	```
