@@ -31,13 +31,13 @@ _CSE 143_
 
 | Complexity | Name | Description | Example |
 | :--- | :--- | :--- | :--- |
-| `O(1)` | Constant | The time does not depend on `n` | |
-| `O(log n)` | Logarithmic |  | Binary search |
-| `O(n)` | Linear |  If you double `n`, the number of steps doubles | Linear search |
-| `O(n log n)` | Log-linear | | Merge sort |
-| `O(n&#178;)` | Quadratic | If you double `n`, the number of steps quadruples | Insertion sort |
-| `O(n&#179;)` | Cubic algorithms | |
-| `O(2<sup>n</sup>)` | Exponential | Usually not practical | |
+| O(1) | Constant | The time does not depend on `n` | |
+| O(log n) | Logarithmic |  | Binary search |
+| O(n) | Linear |  If you double `n`, the number of steps doubles | Linear search |
+| O(n log n) | Log-linear | | Merge sort |
+| O(n&#178;) | Quadratic | If you double `n`, the number of steps quadruples | Insertion sort |
+| O(n&#179;) | Cubic algorithms | |
+| O(2<sup>n</sup>) | Exponential | Usually not practical | |
 
 #### Example
 Given an array, find the maximum sum of a contiguous sequence. Suppose you have an array that stores these values:
