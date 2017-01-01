@@ -2,7 +2,7 @@ _CSE 143_
 # Homework
 ## Week 5
 
-_All problems should be completed on [Practice-It](http://practiceit.cs.washington.edu/). When you finish, take screen shots of both your code and the green-check mark showing completion and [submit on canvas](https://canvas.uw.edu/courses/1143086/assignments/3536437)._
+_All problems should be completed on [Practice-It](http://practiceit.cs.washington.edu/). When you finish, take screen shots of both your code and the green-check mark showing completion and [submit on canvas](https://canvas.uw.edu/courses/1143086/assignments/3536700)._
 
 ### Recursion
 1. [mystery1](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/s3-mystery1)
