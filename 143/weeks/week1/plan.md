@@ -8,6 +8,7 @@ _CSE 143_
 	* Workshop quizzes
 	* Practice exams
 	* White-board exercises
+	* Posting Answers (quiz, exercises, check-in meetings)
 	* Check-in meetings (for some)
 		* M 4p – 5p
 		* T 6:30p – 7:30p (not recommended!)
