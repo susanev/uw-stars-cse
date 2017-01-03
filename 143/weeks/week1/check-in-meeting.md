@@ -71,14 +71,6 @@ _CSE 143_
 	| `var1.method3();` | |
 	| `var2.method3();` | |
 	| `var3.method3(); ` | |
-	| `((Fork)var6).method1();` | |
-	| `((Dish)var3).method2();` | |
-	| `((Fork)var4).method2();` | |
-	| `((Fork)var3).method2();` | |
-	| `((Bowl)var3).method2();` | |
-	| `((Fork)var1).method1();` | |
-	| `((Dish)var4).method3();` | |
-	| `((Soap)var6).method3(); ` | |
 
 2. Write a method called insertAt that takes an index, an integer n, and a value as parameters, and that inserts n copies of the given value at the given index in a list of integers. For example, if a variable called list stores this sequence:
 
