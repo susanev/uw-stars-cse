@@ -12,7 +12,7 @@ _CSE 143_
 			System.out.print(n + ", ");
 			if (n % 2 == 0) {
 				mystery(n / 2);
-			} else {
+			} else { 
 				mystery(3 * n + 1);
 			}
 		}
@@ -93,11 +93,3 @@ _CSE 143_
 	| `var4.method2();` | |
 	| `var5.method2();` | |
 	| `var6.method2();` | |
-	| `((Water)var4).method2();` | |
-	| `((Fire)var4).method2();` | |
-	| `((Air)var6).method3();` | |
-	| `((Earth)var1).method3();` | |
-	| `((Water)var1).method3();` | |
-	| `((Water)var2).method3();` | |
-	| `((Earth)var1).method2();` | |
-	| `((Water)var6).method3();` | |

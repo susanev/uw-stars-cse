@@ -28,11 +28,3 @@ _CSE 143_
 	| `var4.method2();` | compiler error |
 	| `var5.method2();` | Fire 2/Water 1|
 	| `var6.method2();` | Fire 2/Fire 1|
-	| `((Water)var4).method2();` | runtime error |
-	| `((Fire)var4).method2();` | Fire 2/Earth 1/Fire 1 |
-	| `((Air)var6).method3();` | Air 3 |
-	| `((Earth)var1).method3();` | compiler error |
-	| `((Water)var1).method3();` | Water 3|
-	| `((Water)var2).method3();` | runtime error |
-	| `((Earth)var1).method2();` | Fire 2/Water 1|
-	| `((Water)var6).method3();` | runtime error |
