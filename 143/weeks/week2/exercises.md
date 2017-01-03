@@ -2,6 +2,8 @@ _CSE 143_
 # Exercises
 ## Week 2
 
+_These problems are intended to be completed in pairs, you may work with anyone you like. However, if you begin these exercises before others have finished the quiz, please work in silence until everyone has finished_
+
 1. 	Write a method shift that takes a stack of integers and an integer n as parameters and that shifts n values from the bottom of the stack to the top of the stack.
 
 	For example, if a variable called s stores the following sequence of values:
