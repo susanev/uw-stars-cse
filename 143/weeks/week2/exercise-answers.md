@@ -1,6 +1,6 @@
 _CSE 143_
 # Exercise Answers
-## Week 2
+## Week 2 
 
 1. One possible answer is shown below.
 
