@@ -2,33 +2,25 @@ _CSE 143_
 # Check-in Meeting
 ## Week 2
 
-1. Write a method isPalindrome that takes a Queue of integers as a parameter and that returns whether or not the numbers in the queue represent a palindrome (true if they do, false otherwise).  A sequence of numbers is considered a palindrome if it is the same in reverse order.
-   
-  For example, suppose a Queue called q stores this sequence of values:
+1. Write a method isConsecutive that takes a stack of integers as a parameter and that returns whether or not the stack contains a sequence of consecutive integers starting from the bottom of the stack (returning true if it does, returning false if it does not). Consecutive integers are integers that come one after the other, as in 5, 6, 7, 8, 9, etc. So if a stack s stores the following values:
 
 	```
-	front [3, 8, 17, 9, 17, 8, 3] back
+	bottom [3, 4, 5, 6, 7, 8, 9, 10] top
 	```
 
-	Then the following call:
-
-	```java
-	isPalindrome(q);
-	```
-
-	should return true because this sequence is the same in reverse order. If the list had instead stored these values:
+	Then the call of isConsecutive(s) should return true. If the stack had instead contained this set of values:
 
 	```
-	front [3, 8, 17, 9, 4, 17, 8, 3] back
+	bottom [3, 4, 5, 6, 7, 8, 9, 10, 12] top
 	```
 
-	the call on isPalindrome would instead return false because this sequence is not the same in reverse order (the 9 and 4 in the middle don't match).
+	Then the call should return false because the numbers 10 and 12 are not consecutive. Notice that we look at the numbers starting at the bottom of the stack. The following sequence of values would be consecutive except for the fact that it appears in reverse order, so the method would return false:
 
-	The empty queue should be considered a palindrome. You may not make any assumptions about how many elements are in the queue and your method must restore the queue so that it stores the same sequence of values after the call as it did before.
+	```
+	bottom [3, 2, 1] top
+	```
 
-	You are to use one stack as auxiliary storage to solve this problem. You may not use any other auxiliary data structures to solve this problem, although you can have as many simple variables as you like. You also may not solve the problem recursively.
-
-	In writing your method, assume that you are using the Stack and Queue interfaces and the ArrayStack and LinkedQueue implementations discussed in lecture.
+	Your method must restore the stack so that it stores the same sequence of values after the call as it did before. Any stack with fewer than two values should be considered to be a list of consecutive integers. You may use one queue as auxiliary storage to solve this problem.
 
 1. 	Write the code necessary to convert the following sequences of ListNode objects:
 
