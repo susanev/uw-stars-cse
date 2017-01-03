@@ -15,6 +15,8 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 ### [CSE 143](143)
 __Course Description__: Support class for [STARS](https://www.engr.washington.edu/current/stars) students enrolled in CSE143 to ensure success. This will include reinforcing concepts through lecture, practice quizzes and problem sets. Select students will also be expected to attend a check-in meeting each week to evaluate their progress and determine additional supports needed.
 
+[Syllabus](143/syllabus.md)
+
 ## FAQ
 1. Can I use these materials in my own class?
 
