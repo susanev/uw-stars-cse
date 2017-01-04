@@ -5,6 +5,7 @@ _CSE 143_
 * Changes in this workshop
 	* 5:00 – 6:30
 			* If you want more time in this workshop, you can stay as late as 7:30 pm
+	* Lecture notes
 	* Workshop quizzes
 	* Practice exams
 	* White-board exercises
