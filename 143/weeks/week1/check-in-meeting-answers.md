@@ -15,9 +15,9 @@ _CSE 143_
 	| `var1.method2();` | compiler error |
 	| `var2.method2();` | Fork 2 |
 	| `var3.method2();` | compiler error |
-	| `var1.method3();` | Dish 3/Soap 3|
-	| `var2.method3();` | Fork 3|
-	| `var3.method3(); ` | Bowl 3|
+	| `var1.method3();` | Dish 3/Soap 3 |
+	| `var2.method3();` | Fork 3 |
+	| `var3.method3(); ` | Bowl 3 |
 
 1. One possible answer is shown below.
 
