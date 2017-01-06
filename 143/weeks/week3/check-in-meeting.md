@@ -34,13 +34,15 @@ _CSE 143_
 1. 	Write the code necessary to convert the following sequences of ListNode objects:
 
 	```
-	p -> [1] -> [2] -> [3] /q -> [4] -> [5] /
+	p -> [1] -> [2] -> [3] /
+	q -> [4] -> [5] /
 	```
 
 	Into this sequence of ListNode objects:
 
 	```
-	p -> [3] -> [1] -> [5] /q -> [4] -> [2] /
+	p -> [3] -> [1] -> [5] /
+	q -> [4] -> [2] /
 	```
 
 	There may be more than one way to write the code, but you are NOT allowed to change any existing node's data field value. You also should not create new ListNode objects unless necessary to add new values to the chain, but you may create a single ListNode variable to refer to any existing node if you like. If a variable does not appear in the "after" picture, it doesn't matter what value it has after the changes are made.
