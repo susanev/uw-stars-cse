@@ -34,7 +34,8 @@ _CSE 143_
 1. 	Write the code necessary to convert the following sequences of ListNode objects:
 
 	```
-	p -> [1] -> [2] -> [3] /q -> [4] -> [5] /
+	p -> [1] -> [2] -> [3] /
+	q -> [4] -> [5] /
 	```
 
 	Into this sequence of ListNode objects:
