@@ -2,7 +2,7 @@ _CSE 143_
 # Check-in Meeting Answers
 ## Week 1
 
-1.
+1. A table of answers is shown below.
 
 	| Statement | Output |
 	| :--- | :--- |
