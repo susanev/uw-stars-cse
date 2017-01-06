@@ -17,14 +17,14 @@ _CSE 143_
 	| Statement | Output |
 	| :--- | :--- |
 	| `var1.method1();` | Water 1 |
-	| `var2.method1();` | Earth 1/Fire 1|
+	| `var2.method1();` | Earth 1/Fire 1 |
 	| ` var3.method1();` | Fire 1 |
-	| `var4.method1();` | compiler error|
+	| `var4.method1();` | compiler error |
 	| `var5.method1();` | Water 1 |
 	| `var6.method1();` | Fire 1 |
-	| `var1.method2();` | Fire 2/Water 1|
-	| `var2.method2();` | Fire 2/Earth 1/Fire 1|
-	| `var3.method2();` | Fire 2/Fire 1|
+	| `var1.method2();` | Fire 2/Water 1 |
+	| `var2.method2();` | Fire 2/Earth 1/Fire 1 |
+	| `var3.method2();` | Fire 2/Fire 1 |
 	| `var4.method2();` | compiler error |
-	| `var5.method2();` | Fire 2/Water 1|
-	| `var6.method2();` | Fire 2/Fire 1|
+	| `var5.method2();` | Fire 2/Water 1 |
+	| `var6.method2();` | Fire 2/Fire 1 |
