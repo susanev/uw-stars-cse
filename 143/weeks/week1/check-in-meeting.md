@@ -28,7 +28,7 @@ _CSE 143_
 	public class Soap {
 		public void method1() {
 			System.out.println("Soap 1");
-		method3();
+			method3();
 		}
 
 		public void method3() {
