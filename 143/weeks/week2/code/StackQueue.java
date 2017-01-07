@@ -31,7 +31,7 @@ public class StackQueue {
 
 	// pre : count >= 0
 	// post: returns a queue of count multiples of n
-		public static Queue<Integer> makeQueueOfMultiples(int count, int n) {
+	public static Queue<Integer> makeQueueOfMultiples(int count, int n) {
 		Queue<Integer> q = new LinkedList<Integer>();
 		for (int i = 1; i <= count; i++)
 		 	q.add(i * n);
