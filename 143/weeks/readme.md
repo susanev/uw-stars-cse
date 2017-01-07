@@ -4,9 +4,9 @@ _CSE 143_
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
 * [Plan](week1/plan.md)
 * [Lecture notes](week1/lecture-notes.md)
-* [Check-in meeting](week1/check-in-meeting.md)
-* [Quiz](week1/quiz.md)
-* [Exercises](week1/exercises.md)
+* [Check-in meeting](week1/check-in-meeting.md) ([Answers](week1/check-in-meeting-answers.md))
+* [Quiz](week1/quiz.md) ([Answers](week1/quiz-answers.md))
+* [Exercises](week1/exercises.md) ([Answers](week1/exercise-answers.md))
 * [Homework](week1/homework.md)
 
 ## [Week 2](week3)
