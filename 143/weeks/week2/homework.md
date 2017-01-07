@@ -16,6 +16,7 @@ _All problems should be completed on [Practice-It](http://practiceit.cs.washingt
 1. [linkedNodes12](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s12-linkedNodes12)
 1. [linkedNodes14](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s14-linkedNodes14)
 
-### Optional (1pt extra credit)
+### Optional
+_You will receive 1 point extra credit in homework if you complete both of these problems successfully._
 1. [firstLast](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/s30-firstLast)
 1. [isSorted](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter16/e3-isSorted)
