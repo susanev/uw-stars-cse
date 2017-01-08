@@ -43,3 +43,13 @@ __Topics__: Recursion, Regular Expressions, Grammars
 * [Quiz](week5/quiz.md)
 * [Exercises](week5/exercises.md)
 * [Homework](week5/homework.md)
+
+## [Week 6](week6)
+__Topics__: Inheritance, Merge Sort
+* [Plan](week6/plan.md)
+* [Lecture notes](week6/lecture-notes.md)
+* [Check-in meeting](week6/check-in-meeting.md)
+* [Quiz](week6/quiz.md)
+* [Exercises](week6/exercises.md)
+* [Homework](week6/homework.md)
+
