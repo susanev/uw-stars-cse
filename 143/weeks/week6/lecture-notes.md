@@ -53,15 +53,23 @@ _When can one object substitute for another?_
 	* Even though the actual object has that behavior, if it is not included in the A class, then we can't call the method
 
 ##### Casting
+* A way to tell Java .. _Trust me, the object will be of this other type_; this delays the check until after compiling
 * We can in effect renegotiate our contract with Java and let it know that we expect the actual object to be of a different type than what the variable would indicate
 * `((B)x).behaviorOfB();` tells Java that you are substituting B-like behavior in place of the original contract
 * The cast does not affect anything other than this one specific method call; the variable isn't changed
 
 #### Errors
-* First the compiler sees whether the method you are calling is included as part of the contract for the variable you are working with. If there is no cast, the compiler looks at the type of the variable. If there is a cast, it looks at the type you are casting to.
-* If you pass the compiler error checking, there is still a potential error when there is a cast. You are claiming that the object will actually be of a different type. Java is willing to let you get past the compiler, but it will check to see if you told the truth when the program is actually run. If the actual object turns out not to be something that can fill the role you have described, then you get a different kind of error known as a runtime error.
-* First see if you pass the compiler. If there is no casting involved, the compiler looks at the type of the variable. If there is a cast, then the compiler uses that type instead. The compiler makes sure that the type involved (the role) includes the method you are calling. If not, you get a compiler error.
-* Next see if there is a possible runtime error. This happens only when a cast is involved. When you cast, you are saying to Java, "Trust me. The object will be of this other type." Java isn't a trusting language. By casting, you can delay the check, but the runtime system will make sure that your claim is true (that the object in question can fill the role that you are casting it into). If the cast is inappropriate for the actual object involved, then you get a runtime error (a ClassCastException). This is like my example of renegotiating the contract from a secretary to a legal secretary.
+* First compiler errors are considered, and then runtime errors
+
+##### Compiler Errors
+* If the type involved does not include the method you are calling then you get a compiler error
+	* If there is no cast, the compiler looks at the type of the variable
+	* If there is a cast, it looks at the type you are casting to 
+
+##### Runtime Errors
+* Only happen when casting is involved
+* If the actual object turns out to not be something that can fill the role as described, then you get a runtime error
+* If the cast is inappropriate for the actual object involved, then you get a runtime error (a ClassCastException)
 
 #### Example
 
@@ -112,29 +120,6 @@ Object var6 = new One();
 
 In the table below, indicate in the right-hand column the output produced by the statement in the left-hand column.  If the statement produces more than one line of output, indicate the line breaks with slashes as in "a/b/c" to indicate three lines of output with "a" followed by "b" followed by "c". If the statement causes an error, fill in the right-hand column with either the phrase "compiler error" or "runtime error" to indicate when the error would be detected.
 
-| Statement | Output |
-| :--- | :--- |
-| `var1.method1();` | |
-| `var2.method1();` | |
-| `var3.method1();` | |
-| `var4.method1();` | |
-| `var5.method1();` | |
-| `var6.method1();` | |
-| `var4.method2();` | |
-| `var4.method3();` | |
-| `((Two)var1).method2();` | |
-| `((Three)var1).method2();` | |
-| `((Two)var1).method3();` | |
-| `((Four)var2).method1();` | |
-| `((Four)var3).method1();` | |
-| `((Four)var4).method3();` | |
-| `((One)var5).method1();` | |
-| `((Four)var5).method2();` | |
-| `((Three)var5).method2();` | |
-| `((One)var6).method1();` | |
-| `((One)var6).method2();` | |
-| `((Two)var6).method3();` | |
-
 ##### Step 1: Draw the Diagram
 
 ```
@@ -177,25 +162,48 @@ Two    Three
 	* All that matters is what kind of object you have
 	* Objects always behave in the same way no matter what the variable type is and no matter what kind of casting you've done
 
-* The first question you have to consider is whether you pass the compiler check. To figure that out, you have to look at the types of the variables. The types of the objects don't matter to the compiler. The variables determine the contract. The variables of type One and Three are okay because both the One class and the Three class include a method1.
-* But the two variables of type Object are a problem because the Object class does not include a method1. Even though the objects themselves can do this, the contract was for a generic Object, so the compiler is going to complain.
-* So the fifth and six answers are "compiler error". The first four pass the compiler and have no casting, so we don't have to worry about runtime errors. The only thing left is to figure out what the individual objects do when method1 is called.
+##### Step 3: Consider Errors
+* The first question you have to consider is whether you pass the compiler check
+	* To figure that out, you have to look at the types of the variables
+* The types of the objects don't matter to the compiler
+* The variables determine the contract
+* The variables of type One and Three are okay because both the One class and the Three class include a method1
+* The two variables of type Object are a problem because the Object class does not include a method1
+	* Even though the objects themselves can do this, the contract was for a generic Object, so the compiler is going to complain
 
+##### Step 4: Consider Casting
 * `((Two)var1).method2();`
-	* The variable var1 is declared to be of type "One", so in the absence of a cast, we'd be looking at the One role to figure out this contract. But there is a cast, so we use that instead. We are casting to Two, which means we have renegotiated the contract. So the question becomes, does the Two role include a method2? The answer is no. So even with this cast, we get a compiler error (the role we have contracted for does not include this method).
-
+	* The variable var1 is declared to be of type "One", so in the absence of a cast, we'd be looking at the One role to figure out this contract
+	* But there is a cast, so we use that instead
+	* We are casting to Two, which means we have renegotiated the contract
+	* So the question becomes, does the Two role include a method2, no
+	* So even with this cast, we get a compiler error (the role we have contracted for does not include this method)
 
 * `((Three)var1).method2();`
-	* Here we are using a cast to Three to renegotiate the contract. So the question becomes, does the Three role include a method2? The answer is yes. So we pass the compiler (step 1). Then we ask whether the cast is actually legal (step 2). What kind of object do we have? The variable var1 is referring to a Two object. Can a Two object be cast to a Three? In other words, can a Two substitute for a Three? The answer is no. This would be like giving someone a bicycle when they were expecting an Accord (it's a cast across, which is illegal). So even though we pass the compiler, we don't pass the runtime system. So this generates a runtime error.
-
+	* Here we are using a cast to Three to renegotiate the contract
+	* So the question becomes, does the Three role include a method2, yes
+	* So we pass the compiler (step 1)
+	* Then we ask whether the cast is actually legal
+	* What kind of object do we have? 
+		* The variable var1 is referring to a Two object
+	* Can a Two object be cast to a Three?
+	* In other words, can a Two substitute for a Three, no
+	* So even though we pass the compiler, we don't pass the runtime system, we generate a runtime error
 
 * `((Four)var5).method2();`
-	* We have a cast, so we look at the Four role to determine whether this is legal as far as the compiler is concerned (step 1). The answer is yes. The Four role includes a method2. So we pass the compiler. But what about the second step? We have to consider whether the cast is legal. The actual object is a Three object. Can a Three object substitute for a Four object? The answer is no. A Four object can substitute for a Three, but not the other way around. So this generates a runtime error because of the illegal cast.
-
-
+	* We have a cast, so we look at the Four role to determine whether this is legal as far as the compiler is concerned, the answer is yes
+	* The Four role includes a method2, so we pass the compiler
+	* We have to consider whether the cast is legal
+	* The actual object is a Three object
+	* Can a Three object substitute for a Four object, no
+	* A Four object can substitute for a Three, but not the other way around
+	* So this generates a runtime error because of the illegal cast
 
 * `((Three)var5).method2();`
-	* So in a sense we have "overcast" in the first case. We didn't need to claim that it will be a Four. We only needed to claim that it was a Three. But if you overclaim, Java will call you on it. It will make sure that all of your casts actually work out.
+	* We have "overcast", we didn't need to claim that it will be a Four
+	* We only needed to claim that it was a Three
+	* But if you overclaim, Java will call you on it
+	* It will make sure that all of your casts actually work out.
 
 | Call | Output | Explanation |
 | :--- | :--- | :--- |
@@ -219,4 +227,3 @@ Two    Three
 | `((One)var6).method1();` | One1 | cast is to One, One role includes method1, actual object is a One which can fill the One role, so cast is okay and a One object writes "One1" when method1 is called |
 | `((One)var6).method2();` | compiler error | cast is to One, One role does not include method2 |
 | `((Two)var6).method3();` | runtime error | cast is to Two, Two role includes method3, actual object is a One, which can't fill the Two role |
-
