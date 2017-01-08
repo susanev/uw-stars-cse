@@ -35,17 +35,16 @@ _When can one object substitute for another?_
 * An object can fill many roles
 * An object call fill every role that appears as you go up the inheritance chain to the top.
 * Using the example above ...
-	* These are valid
 
-		```java
-		// valid
-		A x = new A();
-		B y = new B();
-		A x = new B(); // okay, B can fill A role
+	```java
+	// valid
+	A x = new A();
+	B y = new B();
+	A x = new B(); // okay, B can fill A role
 
-		// invalid
-		B y = new A(); // A cannot fill B role
-		```
+	// invalid
+	B y = new A(); // A cannot fill B role
+	```
 
 ##### Java Contracts
 * `A x = new B();` is valid, a B object can substitute when we were expecting an A object, but Java expects that we will only request _A type_ behaviors when we use this variable
