@@ -148,6 +148,7 @@ Two    Three
 ##### Step 2: Fill in a Table
 
 | | method1 | method2 | method3 |
+| :--- | :--- | :--- | :--- |
 | One | One1 | | |
 | Two | One1 | | Two3 |
 | Three | One1 | Three2/method1() | |
@@ -166,7 +167,7 @@ Two    Three
 * Defines method2 as printing "Three2" and then calls method1
 * The Three class had no definition for method3
 
-##### Four Class
+###### Four Class
 * method1 of the Four class we call super, so method1 of the Three class Three which has no method1 so we keep looking up the inheritance chain until we find the definition in the class One
 * method2 is the inherited method that prints out "Three2" and then calls method1
 * method3 prints out "Four3"
@@ -213,7 +214,7 @@ Two    Three
 | `((Four)var3).method1();` | Four1/One1 | cast is to Four, Four role includes method1, actual object is a Four which can fill the Four role, so cast is okay and a Four object writes "Four1/One1" when method1 is called |
 | `((Four)var4).method3();` | Four3 | cast is to Four, Four role includes method3, actual Object is a Four, which can fill the Four role, so cast is okay and a Four object writes "Four3" when method3 is called |
 | `((One)var5).method1();` | One1 | cast is to One, One role includes method1, actual object is a Three, which can fill the One role, so cast is okay and a Three object writes "One1" when method1 is called |
-| `((Four)var5).method2();` | runtime error	cast is to Four, Four role includes method2, actual object is a Three which can't fill the Four role |
+| `((Four)var5).method2();` | runtime error | cast is to Four, Four role includes method2, actual object is a Three which can't fill the Four role |
 | `((Three)var5).method2();` | Three2/One1 | cast is to Three, Three role includes method2, actual object is a Three which can fill the Three role and a Three object writes "Three2/One1" when method2 is called |
 | `((One)var6).method1();` | One1 | cast is to One, One role includes method1, actual object is a One which can fill the One role, so cast is okay and a One object writes "One1" when method1 is called |
 | `((One)var6).method2();` | compiler error | cast is to One, One role does not include method2 |
