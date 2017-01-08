@@ -117,8 +117,6 @@ Object var5 = new Three();
 Object var6 = new One();
 ```
 
-In the table below, indicate in the right-hand column the output produced by the statement in the left-hand column.  If the statement produces more than one line of output, indicate the line breaks with slashes as in "a/b/c" to indicate three lines of output with "a" followed by "b" followed by "c". If the statement causes an error, fill in the right-hand column with either the phrase "compiler error" or "runtime error" to indicate when the error would be detected.
-
 ##### Step 1: Draw the Diagram
 
 ```
