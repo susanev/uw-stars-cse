@@ -259,12 +259,12 @@ public static void main(String[] args) {
 ### Assignment suggestions (Guitar Hero)
 
 #### Methods
-* a playNote method that plays a specific note given its pitch
-* a hasString method that can be used to test whether the guitar recognizes a certain character as corresponding to one of its strings
-* a pluck method that plucks one of the strings
-* a sample method that will return the current sound sample
-* a tic method that will advance the simulation one step
-* a time method that will return the number of times tic has been called
+* a `playNote` method that plays a specific note given its pitch
+* a `hasString` method that can be used to test whether the guitar recognizes a certain character as corresponding to one of its strings
+* a `pluck` method that plucks one of the strings
+* a `sample` method that will return the current sound sample
+* a `tic` method that will advance the simulation one step
+* a `time` method that will return the number of times tic has been called
 
 #### Interface
 
