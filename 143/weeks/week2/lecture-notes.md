@@ -197,7 +197,7 @@ _Note: This code does not use curly braces for loops with single statements; thi
 
 ### Interfaces
 * Interfaces specify certain behaviours without actually implementing them; they specify the _what_ without specifying the _how_
-* In Java, the interface must explicitly state the interfaces they implement
+* In Java, classes must explicitly state the interfaces they implement
 
 #### IntList Interface
 
