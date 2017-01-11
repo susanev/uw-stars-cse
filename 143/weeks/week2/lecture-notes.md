@@ -39,10 +39,10 @@ _CSE 143_
 ###### Queue with LinkedList implementation methods
 | Method | Description |
 | :--- | :--- |
-| `public void add(E value);` | Adds val to the back of the queue |
-| `public E remove();` | Removes the first value from the queue; throws a `NoSuchElementException` if the queue is empty |
-| `public boolean isEmpty();` | Returns true if the queue has no elements |
-| `public int size();` | Returns the number of elements in the queue | 
+| `add(E value)` | Adds val to the back of the queue |
+| `remove()` | Removes the first value from the queue; throws a `NoSuchElementException` if the queue is empty |
+| `isEmpty()` | Returns true if the queue has no elements |
+| `size()` | Returns the number of elements in the queue | 
 
 ##### Example 1
 
