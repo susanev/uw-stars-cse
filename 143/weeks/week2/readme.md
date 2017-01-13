@@ -6,5 +6,7 @@ __Topics__: Stacks, Queues, Arrays of Objects, Interfaces, Linked Lists
 	* [Code](code)
 * [Check-in meeting](check-in-meeting.md)
 * [Quiz](quiz.md)
+* [Quiz Answers](quiz-answers.md)
 * [Exercises](exercises.md)
+* [Exercise Answers](exercise-answers.md)
 * [Homework](homework.md)
