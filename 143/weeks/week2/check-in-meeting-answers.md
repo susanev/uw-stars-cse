@@ -5,31 +5,38 @@ _CSE 143_
 1. One possible answer is shown below.
 
 	```java
-	public boolean isConsecutive(Stack<Integer> s) {
-        Queue<Integer> q = new LinkedList<Integer>();
-        boolean isConsecutive = true;
-        while (!s.isEmpty()) {
-            int value = s.pop();
-            if (!s.isEmpty()) {
-                isConsecutive &= value - 1 == s.peek();
-            }
-            q.add(value);
+    public boolean isConsecutive(Stack<Integer> s) {
+        if (s.size() < 2) {
+            return false;
         }
         
-        while (!q.isEmpty()) {
-            s.push(q.remove());
-        }
+        Queue<Integer> q = new LinkedList<Integer>();
+        boolean isConsecutive = true;
         
-        while (!s.isEmpty()) {
-            q.add(s.pop());
-        }
+        int curr = s.pop();
+        while (!s.isEmpty()) {
+            int next = s.pop();
+            isConsecutive &= curr - 1 == next;
+            q.add(curr);
+            curr = next;
+        }
         
-        while (!q.isEmpty()) {
-            s.push(q.remove());
-        }
-        
-        return isConsecutive;
-	}
+        q.add(curr);
+        
+        while (!q.isEmpty()) {
+            s.push(q.remove());
+        }
+        
+        while (!s.isEmpty()) {
+            q.add(s.pop());
+        }
+        
+        while (!q.isEmpty()) {
+            s.push(q.remove());
+        }
+        
+        return isConsecutive;
+    }
 	```
 
 1. One possible answer is shown below.
