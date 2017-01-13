@@ -42,12 +42,11 @@ _CSE 143_
 1. One possible answer is shown below.
 
 	```java
-	ListNode temp = q.next;
-	q.next = q.next.next;
-	q.next.next = p.next.next;
-	p.next.next = null;
-	temp.next = p.next;
-	p.next = null;
-	temp.next.next = p;
-	p = temp;
+    ListNode temp = q.next;
+    q.next = q.next.next;
+    q.next.next = p.next.next;
+    temp.next = p.next;
+    temp.next.next = p;
+    temp.next.next.next = null;
+    p = temp;
 	```
