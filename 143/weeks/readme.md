@@ -13,9 +13,9 @@ __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each
 __Topics__: Stacks, Queues, Arrays of Objects, Interfaces, Linked Lists
 * [Plan](week2/plan.md)
 * [Lecture notes](week2/lecture-notes.md)
-* [Check-in meeting](week2/check-in-meeting.md)
-* [Quiz](week2/quiz.md)
-* [Exercises](week2/exercises.md)
+* [Check-in meeting](week2/check-in-meeting.md) ([Answers](week2/check-in-meeting-answers.md))
+* [Quiz](week2/quiz.md) ([Answers](week2/quiz-answers.md))
+* [Exercises](week2/exercises.md) ([Answers](week2/exercise-answers.md))
 * [Homework](week2/homework.md)
 
 ## [Week 3](week3)
