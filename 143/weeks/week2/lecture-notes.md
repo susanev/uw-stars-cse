@@ -25,14 +25,10 @@ _CSE 143_
 | :--- | :--- |
 | `Stack<E>()` | Constructs a new stack with elements of type `E` |
 | `push(val)` | Places val on top of the stack |
-| `pop()` | Removes top value from the stack and returns 
-it; throws `NoSuchElementException` if stack is
-empty |
-| `peek()` | Returns top value from the stack without removing
-it; throws `NoSuchElementException` if
-stack is empty |
-| `size()` | Returns the number of elements in the stack |
+| `pop()` | Removes top value from the stack and returns it; throws `NoSuchElementException` if stack is empty |
+| `peek()` | Returns top value from the stack without removing it; throws `NoSuchElementException` if stack is empty |
 | `isEmpty()` | Returns true if the stack has no elements |
+| `size()` | Returns the number of elements in the stack |
 
 
 ##### Queues
@@ -43,10 +39,10 @@ stack is empty |
 ###### Queue with LinkedList implementation methods
 | Method | Description |
 | :--- | :--- |
-| `public void add(E value);` | Adds val to the back of the queue |
-| `public E remove();` | Removes the first value from the queue; throws a `NoSuchElementException` if the queue is empty |
-| `public boolean isEmpty();` | Returns true if the queue has no elements |
-| `public int size();` | Returns the number of elements in the queue | 
+| `add(E value)` | Adds val to the back of the queue |
+| `remove()` | Removes the first value from the queue; throws a `NoSuchElementException` if the queue is empty |
+| `isEmpty()` | Returns true if the queue has no elements |
+| `size()` | Returns the number of elements in the queue | 
 
 ##### Example 1
 
@@ -201,7 +197,7 @@ _Note: This code does not use curly braces for loops with single statements; thi
 
 ### Interfaces
 * Interfaces specify certain behaviours without actually implementing them; they specify the _what_ without specifying the _how_
-* In Java, the interface must explicitly state the interfaces they implement
+* In Java, classes must explicitly state the interfaces they implement
 
 #### IntList Interface
 
@@ -263,12 +259,12 @@ public static void main(String[] args) {
 ### Assignment suggestions (Guitar Hero)
 
 #### Methods
-* a playNote method that plays a specific note given its pitch
-* a hasString method that can be used to test whether the guitar recognizes a certain character as corresponding to one of its strings
-* a pluck method that plucks one of the strings
-* a sample method that will return the current sound sample
-* a tic method that will advance the simulation one step
-* a time method that will return the number of times tic has been called
+* a `playNote` method that plays a specific note given its pitch
+* a `hasString` method that can be used to test whether the guitar recognizes a certain character as corresponding to one of its strings
+* a `pluck` method that plucks one of the strings
+* a `sample` method that will return the current sound sample
+* a `tic` method that will advance the simulation one step
+* a `time` method that will return the number of times tic has been called
 
 #### Interface
 
