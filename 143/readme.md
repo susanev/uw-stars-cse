@@ -5,6 +5,13 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 ## Course Documents
 * [Anonymous Feedback Form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
 
+## [Exams](exams)
+### [Midterm](exams/midterm)
+__Topics__: Recursive Tracing, Recursive Programming, Inheritance, Linked Lists, Stacks/Queues, ArrayIntList Programming
+* [Midterm Cheat Sheet](exams/midterm/midterm-cheat-sheet.md)
+* [Practice Midterm](exams/midterm/practice-midterm.md)
+* [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
+
 ## [Weeks](weeks)
 ### [Week 1](weeks/week1)
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
@@ -19,9 +26,9 @@ __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each
 __Topics__: Stacks, Queues, Arrays of Objects, Interfaces, Linked Lists
 * [Plan](weeks/week2/plan.md)
 * [Lecture notes](weeks/week2/lecture-notes.md)
-* [Check-in meeting](weeks/week2/check-in-meeting.md)
-* [Quiz](weeks/week2/quiz.md)
-* [Exercises](weeks/week2/exercises.md)
+* [Check-in meeting](weeks/week2/check-in-meeting.md) ([Answers](weeks/week2/check-in-meeting-answers.md))
+* [Quiz](weeks/week2/quiz.md) ([Answers](weeks/week2/quiz-answers.md))
+* [Exercises](weeks/week2/exercises.md) ([Answers](weeks/week2/exercise-answers.md))
 * [Homework](weeks/week2/homework.md)
 
 ### [Week 3](weeks/week3)
@@ -39,7 +46,6 @@ __Topics__: Binary search, Complexity, Maps
 * [Lecture notes](weeks/week4/lecture-notes.md)
 * [Check-in meeting](weeks/week4/check-in-meeting.md)
 * [Practice Midterm](weeks/week4/practice-midterm.md)
-* [Exercises](weeks/week4/exercises.md)
 * [Homework](weeks/week4/homework.md)
 
 ### [Week 5](weeks/week5)
@@ -50,3 +56,14 @@ __Topics__: Recursion, Regular Expressions, Grammars
 * [Quiz](weeks/week5/quiz.md)
 * [Exercises](weeks/week5/exercises.md)
 * [Homework](weeks/week5/homework.md)
+
+### [Week 6](weeks/week6)
+__Topics__: Inheritance, Merge Sort
+* [Plan](weeks/week6/plan.md)
+* [Lecture notes](weeks/week6/lecture-notes.md)
+* [Check-in meeting](weeks/week6/check-in-meeting.md)
+* [Quiz](weeks/week6/quiz.md)
+* [Exercises](weeks/week6/exercises.md)
+* [Homework](weeks/week6/homework.md)
+
+
