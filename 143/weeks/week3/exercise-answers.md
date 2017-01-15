@@ -12,22 +12,6 @@ _CSE 143_
 1. One possible answer is shown below.
 
 	```java
-	public int countDuplicates() {
-    int duplicates = 0;
-    ListNode curr = front;    
-    while (curr != null && curr.next != null) {
-        if (curr.data == curr.next.data) {
-            duplicates ++;
-        }
-        curr = curr.next;
-    }
-    return duplicates;
-	}
-	```
-
-1. One possible answer is shown below.
-
-	```java
 	public int deleteBack() {
 	    ListNode curr = front;
 	    if (curr == null) {
@@ -44,5 +28,41 @@ _CSE 143_
 	    int value = curr.next.data;
 	    curr.next = null;
 	    return value;
+	}
+	```
+
+1. One possible answer is shown below.
+
+	```java
+	public String starString(int n) {
+		if (n < 0) {
+			throw new IllegalArgumentException();
+		}
+		if (n == 0) {
+			return "*";
+		} else {
+			return starString(n-1) + starString(n - 1);
+		}
+	}
+	```
+
+1. One possible answer is shown below.
+
+	```java
+	public int digitMatch (int x, int y) {
+		if (x < 0 || y < 0) {
+			throw new IllegalArgumentException();
+		}
+		if (x < 10 || y < 10) {
+			if (x % 10 == y % 10) {
+				return 1;
+			} else {
+				return 0;
+			}
+		} else if (x % 10 == y % 10) {
+			return 1 + digitMatch(x / 10, y / 10);
+		} else {
+			return digitMatch(x / 10, y / 10);
+		}
 	}
 	```

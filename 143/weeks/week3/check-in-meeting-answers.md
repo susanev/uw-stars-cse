@@ -27,17 +27,35 @@ _CSE 143_
 	q.next.next = null;
 	```
 
-3. One possible answer is shown below.
+3. Two possible answers are shown below.
 
 	```java
-	public boolean hasTwoConsecutive() {
-    ListNode curr = front;
-    while (curr != null && curr.next != null) {
-        if (curr.data + 1 == curr.next.data) {
-            return true;
-        }
-        curr = curr.next;
-    }
-    return false;
+	public static int largestDigit(int n) {
+		if (n < 0) {
+			return largestDigit(-n);
+		} else if (n < 10) {
+			return n;
+		} else {
+			int last = n % 10;
+			int rest = largestDigit(n / 10);
+			if (last > rest) {
+				return last;
+			} else {
+				return rest;
+			}
+		}
+	}
+	```
+
+	```
+	public static int largestDigit(int n) {
+		if (n < 0) {
+			return largestDigit(-n);
+		}
+		if (n < 10) {
+			return n;
+		} else {
+			return Math.max(n % 10, largestDigit(n / 10));
+		}
 	}
 	```
