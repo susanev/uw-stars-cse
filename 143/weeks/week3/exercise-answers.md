@@ -26,7 +26,7 @@ _CSE 143_
 	        curr = curr.next;
 	    }
 	    int value = curr.next.data;
-	    curr.next = null;
+	    curr.next = null;
 	    return value;
 	}
 	```

@@ -59,7 +59,7 @@ _CSE 143_
 	1 0 7 2 5 0 3 8 9 1
 	    | | | | | | | |
 	    6 2 5 3 0 8 4 1
-  ```
+	```
 
 	The method should return 4 in this case because 4 of these pairs match (2-2, 5-5, 8-8, and 1-1). Below are more examples:
 

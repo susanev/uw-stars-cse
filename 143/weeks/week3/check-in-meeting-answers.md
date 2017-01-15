@@ -47,7 +47,7 @@ _CSE 143_
 	}
 	```
 
-	```
+	```java
 	public static int largestDigit(int n) {
 		if (n < 0) {
 			return largestDigit(-n);
