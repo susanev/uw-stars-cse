@@ -57,25 +57,19 @@ _CSE 143_
 		public ListNode() { ... }
 	```
 
-1. Write a method hasTwoConsecutive that returns whether or not a list of integers has two adjacent numbers that are consecutive integers (true if such a pair exists and false otherwise). For example, if a variable list stores the following sequence of values, then the call list.hasTwoConsecutive() should return true because the list contains the adjacent numbers (7, 8) which are a pair of consecutive numbers:
+1. Write a recursive method largestDigit that accepts an integer parameter and returns the largest digit value that appears in that integer. Your method should work for both positive and negative numbers. If a number contains only a single digit, that digit's value is by definition the largest. The following table shows several example calls:
 
-	```
-	[1, 18, 2, 7, 8, 39, 18, 40]
-	```
-
-	If the list had stored the following sequence of values, then the method should return false:
-
-	```
-	[1, 18, 17, 2, 7, 39, 18, 40, 8]
-	```
-
-	This sequence contains some pairs of numbers that could represent consecutive integers (e.g., 1 and 2, 7 and 8, 39 and 40), but those pairs of numbers are not adjacent in the sequence. The list also has a pair of adjacent numbers (18, 17) that are not in the right order to be considered consecutive. You may not make any assumptions about how many elements are in the list.
-
-	Assume that you are adding this method to the LinkedIntList class as defined below:
-
-	```java
-	public class LinkedIntList {
-	    private ListNode front;   // null for an empty list
-	    ...
-	}
-	```
+	| Call | Returns |
+	| :--- | :--- |
+	| `largestDigit(14263203)` | `6` |
+	| `largestDigit(845)` | 8` |
+	| `largestDigit(52649)` | 9` |
+	| `largestDigit(3)` | 3` |
+	| `largestDigit(0)` | 0` |
+	| `largestDigit(-573026)` | 7` |
+	| `largestDigit(-2)` | 2` |
+	
+	For full credit, obey the following restrictions in your solution. A solution that disobeys them may get partial credit.
+	* You may not use a String, Scanner, array, or any data structure (list, stack, map, etc.).
+	* Your method must be recursive and not use any loops (for, while, etc.).
+	* Your solution should run in no worse than O(N) time, where N is the number of digits in the number.
