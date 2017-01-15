@@ -5,6 +5,13 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 ## Course Documents
 * [Anonymous Feedback Form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
 
+## [Exams](exams)
+### [Midterm](exams/midterm)
+__Topics__: Recursive Tracing, Recursive Programming, Inheritance, Linked Lists, Stacks/Queues, ArrayIntList Programming
+* [Midterm Cheat Sheet](exams/midterm/midterm-cheat-sheet.md)
+* [Practice Midterm](exams/midterm/practice-midterm.md)
+* [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
+
 ## [Weeks](weeks)
 ### [Week 1](weeks/week1)
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
