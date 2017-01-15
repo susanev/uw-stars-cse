@@ -5,5 +5,5 @@ __Topics__: Binary search, Complexity, Maps
 * [Lecture notes](lecture-notes.md)
 	* [Code](code)
 * [Check-in meeting](check-in-meeting.md)
-* [Practice Midterm](practice-midterm.md)
+* [Practice Midterm](../../exams/midterm/practice-midterm.md)
 * [Homework](homework.md)
