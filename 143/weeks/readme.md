@@ -4,18 +4,18 @@ _CSE 143_
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
 * [Plan](week1/plan.md)
 * [Lecture notes](week1/lecture-notes.md)
-* [Check-in meeting](week1/check-in-meeting.md)
-* [Quiz](week1/quiz.md)
-* [Exercises](week1/exercises.md)
+* [Check-in meeting](week1/check-in-meeting.md) ([Answers](week1/check-in-meeting-answers.md))
+* [Quiz](week1/quiz.md) ([Answers](week1/quiz-answers.md))
+* [Exercises](week1/exercises.md) ([Answers](week1/exercise-answers.md))
 * [Homework](week1/homework.md)
 
 ## [Week 2](week3)
 __Topics__: Stacks, Queues, Arrays of Objects, Interfaces, Linked Lists
 * [Plan](week2/plan.md)
 * [Lecture notes](week2/lecture-notes.md)
-* [Check-in meeting](week2/check-in-meeting.md)
-* [Quiz](week2/quiz.md)
-* [Exercises](week2/exercises.md)
+* [Check-in meeting](week2/check-in-meeting.md) ([Answers](week2/check-in-meeting-answers.md))
+* [Quiz](week2/quiz.md) ([Answers](week2/quiz-answers.md))
+* [Exercises](week2/exercises.md) ([Answers](week2/exercise-answers.md))
 * [Homework](week2/homework.md)
 
 ## [Week 3](week3)
@@ -32,8 +32,7 @@ __Topics__: Binary search, Complexity, Maps
 * [Plan](week4/plan.md)
 * [Lecture notes](week4/lecture-notes.md)
 * [Check-in meeting](week4/check-in-meeting.md)
-* [Quiz](week4/quiz.md)
-* [Exercises](week4/exercises.md)
+* [Practice Midterm](week4/practice-midterm.md)
 * [Homework](week4/homework.md)
 
 ## [Week 5](week5)
@@ -44,3 +43,13 @@ __Topics__: Recursion, Regular Expressions, Grammars
 * [Quiz](week5/quiz.md)
 * [Exercises](week5/exercises.md)
 * [Homework](week5/homework.md)
+
+## [Week 6](week6)
+__Topics__: Inheritance, Merge Sort
+* [Plan](week6/plan.md)
+* [Lecture notes](week6/lecture-notes.md)
+* [Check-in meeting](week6/check-in-meeting.md)
+* [Quiz](week6/quiz.md)
+* [Exercises](week6/exercises.md)
+* [Homework](week6/homework.md)
+

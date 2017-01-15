@@ -7,7 +7,7 @@ public class ArrayIntList {
 
 	// post: constructs an empty list of default capacity
 	public ArrayIntList() {
-		// calls the constructor above, passing 100
+		// calls the constructor below, passing 100
 		this(DEFAULT_CAPACITY);
 	}
 
