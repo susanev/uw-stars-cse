@@ -117,7 +117,7 @@ _CSE 143_
   ```
 
 * Reminder that the fields of LinkedIntList should be private but the fields of the Node class are allowed to be public
-* With add method ...
+* Add method
 
 	```java
 	public class LinkedIntList {
