@@ -52,7 +52,7 @@ _CSE 143_
 	```
 
 	```
-	//  First time through the loop: prints 3
+	// First time through the loop we print 3
 	
 	// Next time through the loop we print 5
 	                   +------+------+      +------+------+      +------+------+
