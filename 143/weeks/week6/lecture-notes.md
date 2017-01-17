@@ -183,8 +183,7 @@ Two    Three
 	* Then we ask whether the cast is actually legal
 	* What kind of object do we have? 
 		* The variable var1 is referring to a Two object
-	* Can a Two object be cast to a Three?
-	* In other words, can a Two substitute for a Three, no
+	* Can a Two object be cast to a Three? In other words, can a Two substitute for a Three, no
 	* So even though we pass the compiler, we don't pass the runtime system, we generate a runtime error
 
 * `((Four)var5).method2();`
