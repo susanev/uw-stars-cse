@@ -1,6 +1,7 @@
 _CSE 143_
 
 # Midterm Cheat Sheet
+You will be provided a cheat sheet with the information below on your midterm. If you are interested in the actual format of the document, check out [last year's version](https://courses.cs.washington.edu/courses/cse143/16wi/handouts/15.html).
 
 Queues should be constructed using the `Queue<E>` interface and the `LinkedList<E>` implementation.  For example, to construct a queue of String values, you would say:
 
