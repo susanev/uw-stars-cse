@@ -52,4 +52,5 @@ For Queue<E> you are allowed the following operations:
   ```
 
 YOU ARE NOT ALLOWED TO USE FOREACH LOOPS OR ITERATORS FOR EITHER STRUCTURE.
+
 ---
