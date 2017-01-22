@@ -127,61 +127,66 @@ _CSE 143_
    type ListNode (often called "temp" variables).  You are limited to at most
    two variables of type ListNode for each of the four subproblems below.
 
-   You are writing code for the ListNode class discussed in lecture:
+	You are writing code for the ListNode class discussed in lecture:
 
-        public class ListNode {
-            public int data;       // data stored in this node
-            public ListNode next;  // link to next node in the list
+	```java
+	public class ListNode {
+		public int data;       // data stored in this node
+		public ListNode next;  // link to next node in the list
 
-            <constructors>
-        }
+		<constructors>
+	}
+	```
 
-   As in the lecture examples, all lists are terminated by null and the
+	As in the lecture examples, all lists are terminated by null and the
    variables p and q have the value null when they do not point to anything.
 
-        before                   after                      code
------------------------+-----------------------+-------------------------------
-                       |                       |
-                       |                       |
- p->[1]->[2]->[3]      | p->[2]->[3]           |
-                       |                       |
-                       |                       |
- q                     | q->[1]                |
-                       |                       |
------------------------+-----------------------+-------------------------------
-                       |                       |
-                       |                       |
- p->[1]->[2]->[3]      | p->[1]->[3]           |
-                       |                       |
-                       |                       |
- q                     | q->[2]                |
-                       |                       |
------------------------+-----------------------+-------------------------------
-                       |                       |
-                       |                       |
- p->[1]->[2]           | p->[3]->[2]->[1]      |
-                       |                       |
-                       |                       |
- q->[3]->[4]           | q->[4]                |
-                       |                       |
-                       |                       |
-                       |                       |
-                       |                       |
------------------------+-----------------------+-------------------------------
-                       |                       |
-                       |                       |
- p->[1]->[2]->[3]      | p->[2]->[5]->[3]      |
-                       |                       |
-                       |                       |
- q->[4]->[5]           | q->[4]->[1]           |
-                       |                       |
-                       |                       |
-                       |                       |
-                       |                       |
-                       |                       |
-                       |                       |
-                       |                       |
------------------------+-----------------------+-------------------------------
+	```
+
+	        before                   after                      code
+	-----------------------+-----------------------+-------------------------------
+	                       |                       |
+	                       |                       |
+	 p->[1]->[2]->[3]      | p->[2]->[3]           |
+	                       |                       |
+	                       |                       |
+	 q                     | q->[1]                |
+	                       |                       |
+	-----------------------+-----------------------+-------------------------------
+	                       |                       |
+	                       |                       |
+	 p->[1]->[2]->[3]      | p->[1]->[3]           |
+	                       |                       |
+	                       |                       |
+	 q                     | q->[2]                |
+	                       |                       |
+	-----------------------+-----------------------+-------------------------------
+	                       |                       |
+	                       |                       |
+	 p->[1]->[2]           | p->[3]->[2]->[1]      |
+	                       |                       |
+	                       |                       |
+	 q->[3]->[4]           | q->[4]                |
+	                       |                       |
+	                       |                       |
+	                       |                       |
+	                       |                       |
+	-----------------------+-----------------------+-------------------------------
+	                       |                       |
+	                       |                       |
+	 p->[1]->[2]->[3]      | p->[2]->[5]->[3]      |
+	                       |                       |
+	                       |                       |
+	 q->[4]->[5]           | q->[4]->[1]           |
+	                       |                       |
+	                       |                       |
+	                       |                       |
+	                       |                       |
+	                       |                       |
+	                       |                       |
+	                       |                       |
+	-----------------------+-----------------------+-------------------------------
+	```
 
 5. Stacks/Queues, 25 points. Write a method isReverseAlphabetical that takes a Stack of chars as a parameter and returns true if the stack is in reverse alphabetical order (and false otherwise). Reverse alphabetical order means that no characters are missing (and there are no repeats) between the top and bottom.
 

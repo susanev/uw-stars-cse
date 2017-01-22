@@ -16,7 +16,6 @@ _CSE 143_
 
 * Faster than linear search
 
-
 #### Linear search
 * Looking for an item by starting at the beginning and going one-by-one until it is found
 
