@@ -31,7 +31,7 @@ _CSE 143_
 	        +---+             |
 	current | +-+------>------+
 	        +---+
-  ```
+ 	```
 
 * Basic loop structure
 
@@ -51,9 +51,10 @@ _CSE 143_
 	}
 	```
 
-* First time through the loop: prints 3 ...
-
 	```
+	// First time through the loop we print 3
+	
+	// Next time through the loop we print 5
 	                   +------+------+      +------+------+      +------+------+
 	        +---+      | data | next |      | data | next |      | data | next |
 	   list | +-+--->  |   3  |   +--+--->  |   5  |   +--+--->  |   2  |   /  |
@@ -64,9 +65,8 @@ _CSE 143_
 	        +---+
 	```
 
-* Next time through the loop we print 5 ...
-
 	```
+	// Next time through the loop we print 2
 	                   +------+------+      +------+------+      +------+------+
 	        +---+      | data | next |      | data | next |      | data | next |
 	   list | +-+--->  |   3  |   +--+--->  |   5  |   +--+--->  |   2  |   /  |
@@ -75,11 +75,10 @@ _CSE 143_
 	        +---+                                                       |
 	current | +-+------>------>------>------>------>------>------>------+
 	        +---+
-  ```
-
-* Next time through the loop we print 2 ...
+ 	```
 
 	``` 
+	// current is now pointing to null so we break out of the loop
 	                   +------+------+      +------+------+      +------+------+
 	        +---+      | data | next |      | data | next |      | data | next |
 	   list | +-+--->  |   3  |   +--+--->  |   5  |   +--+--->  |   2  |   /  |
@@ -90,13 +89,13 @@ _CSE 143_
 	        +---+
 	```
 
-* Note that current is now pointing to null so we break out of the loop
-
-        int i = 0;
-        while (i < size) {
-            System.out.println(elementData[i]);
-            i++;
-        }
+	```java
+	int i = 0;
+	while (i < size) {
+	    System.out.println(elementData[i]);
+	    i++;
+	}
+	```
 
 * Common steps to follow when looking through a Linked List
 	* Go to front of the list: `ListNode current = list;`
@@ -118,7 +117,7 @@ _CSE 143_
   ```
 
 * Reminder that the fields of LinkedIntList should be private but the fields of the Node class are allowed to be public
-* With add method ...
+* Add method
 
 	```java
 	public class LinkedIntList {

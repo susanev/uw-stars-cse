@@ -62,12 +62,12 @@ _CSE 143_
 	| Call | Returns |
 	| :--- | :--- |
 	| `largestDigit(14263203)` | `6` |
-	| `largestDigit(845)` | 8` |
-	| `largestDigit(52649)` | 9` |
-	| `largestDigit(3)` | 3` |
-	| `largestDigit(0)` | 0` |
-	| `largestDigit(-573026)` | 7` |
-	| `largestDigit(-2)` | 2` |
+	| `largestDigit(845)` | `8` |
+	| `largestDigit(52649)` | `9` |
+	| `largestDigit(3)` | `3` |
+	| `largestDigit(0)` | `0` |
+	| `largestDigit(-573026)` | `7` |
+	| `largestDigit(-2)` | `2` |
 	
 	For full credit, obey the following restrictions in your solution. A solution that disobeys them may get partial credit.
 	* You may not use a String, Scanner, array, or any data structure (list, stack, map, etc.).

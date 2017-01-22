@@ -35,9 +35,9 @@ __Topics__: Stacks, Queues, Arrays of Objects, Interfaces, Linked Lists
 __Topics__: Advanced Linked lists
 * [Plan](weeks/week3/plan.md)
 * [Lecture notes](weeks/week3/lecture-notes.md)
-* [Check-in meeting](weeks/week3/check-in-meeting.md)
-* [Quiz](weeks/week3/quiz.md)
-* [Exercises](weeks/week3/exercises.md)
+* [Check-in meeting](weeks/week3/check-in-meeting.md) ([Answers](weeks/week3/check-in-meeting-answers.md))
+* [Quiz](weeks/week3/quiz.md) ([Answers](weeks/week3/quiz-answers.md))
+* [Exercises](weeks/week3/exercises.md) ([Answers](weeks/week3/exercise-answers.md))
 * [Homework](weeks/week3/homework.md)
 
 ### [Week 4](weeks/week4)
