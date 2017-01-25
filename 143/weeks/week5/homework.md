@@ -14,5 +14,6 @@ _All problems should be completed on [Practice-It](http://practiceit.cs.washingt
 
 ### Optional
 _You will receive 1 point extra credit in homework if you complete both of these problems successfully._
+
 1. [writeNums](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e2-writeNums)
 1. [digitMatch](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e10-digitMatch)
