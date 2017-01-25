@@ -8,8 +8,12 @@ _All problems should be completed on [Practice-It](http://practiceit.cs.washingt
 1. [mystery1](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/s3-mystery1)
 1. [mysteryXY](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/s6-mysteryXY)
 1. [starString](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e1-starString)
-1. [writeNums](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e2-writeNums)
 1. [sumTo](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e9-sumTo)
-1. [digitMatch](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e10-digitMatch)
 1. [isReverse](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e12-isReverse)
 1. [maxSum](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e21-maxSum)
+
+### Optional
+_You will receive 1 point extra credit in homework if you complete both of these problems successfully._
+
+1. [writeNums](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e2-writeNums)
+1. [digitMatch](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter12/e10-digitMatch)
