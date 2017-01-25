@@ -16,5 +16,6 @@ _All problems should be completed on [Practice-It](http://practiceit.cs.washingt
 
 ### Optional
 _You will receive 1 point extra credit in homework if you complete both of these problems successfully._
+
 1. [mapMystery3](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter11/s21-mapMystery3)
 1. [alternate](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter11/e2-alternate)
