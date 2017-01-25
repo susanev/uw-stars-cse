@@ -32,7 +32,7 @@ __Topics__: Binary search, Complexity, Maps
 * [Plan](week4/plan.md)
 * [Lecture notes](week4/lecture-notes.md)
 * [Check-in meeting](week4/check-in-meeting.md)
-* [Practice Midterm](week4/practice-midterm.md)
+* [Practice Midterm](week4/practice-midterm.md) ([Answers](week4/practice-midterm-answers.md))
 * [Homework](week4/homework.md)
 
 ## [Week 5](week5)
