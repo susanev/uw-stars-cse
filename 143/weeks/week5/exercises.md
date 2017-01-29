@@ -45,6 +45,7 @@ _CSE 143_
 1. Write a recursive method parenthesize that accepts an int n as a parameter and prints out the numbers 1 through n inclusive in a particular pattern that looks like a set of mathematical additions wrapped in parentheses. The order of the numbers should begin with all of the evens in downward order, followed by all of the odds upward from 1. Each time a number is added to the pattern, a new set of parentheses and a + sign are added too. You may assume that the number passed to your method is greater or equal to 0. Look at the pattern in the calls below to see the print format.
 
 	| Call | Output |
+	| :--- | :--- |
 	| `parenthesize(0);` | `0` |
 	| `parenthesize(1);` | `1` |
 	| `parenthesize(2);` | `(2 + 1)` |
