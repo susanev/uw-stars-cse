@@ -1,4 +1,4 @@
-_CSE 143_
+W_CSE 143_
 # Lecture Notes
 ## Week 1
 
@@ -18,6 +18,23 @@ _CSE 143_
 * If you do not define a constructor, then Java provides one for you with no parameters
 * Code to initialize fields should be placed in your constructor even though Java does auto-initialization the CSE143 Style standards require you to explicitly initialize your fields inside of your constructor
 * Do not restate the type of the fields you are initializing, this will cause a local variable to be declared and your field will not be initialized
+* By default Java includes a constructor in all classes without one, that takes no parameters
+	* But if you add a constructor, then this default constructor is no longer provided
+* Constructors can be defined in terms of other constructors, and this is a good style solution 
+
+	```java
+	// Two constructors in the same class
+	// first instructor calls the second using the this keyword
+	// Note: constructors must be different, so they must take in different parameters
+	public ArrayIntList() {
+		this(100);
+	}
+
+	public ArrayIntList(int capacity) {
+		elementData = new int[capacity];
+		size = 0;
+	}
+	```
 
 ### ArrayIntList
 * `ArrayIntList` was discussed in detail, which is something that Stuart uses to introduce ArrayLists
@@ -51,11 +68,6 @@ public int get(int index) {
   return elementData[index];
 }
 ```
-
-### Constructors
-* By default Java includes a constructor in all classes without one, that takes no parameters
-	* But if you add a constructor, then this default constructor is no longer provided
-* Constructors can be defined in terms of other constructors, and this is a good style solution 
 
 ### Constants
 * It is okay to have public constants, because they are declared to be final and cannot be changed

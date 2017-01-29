@@ -2,7 +2,7 @@ _CSE 143_
 # Plan
 ## Week 2
 
-* Stacks and Queues review
 * [Quiz](quiz.md)
+* Stacks and Queues overview
 * LinkedList overview
 * [White-board Exercises](exercises.md)
