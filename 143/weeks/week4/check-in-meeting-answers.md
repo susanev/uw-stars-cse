@@ -2,10 +2,6 @@ _CSE 143_
 # Check-in Meeting Answers
 ## Week 4
 
-_CSE 143_
-# Check-in Meeting Answers
-## Week 4
-
 1. One possible answer is shown below.
 
 	```java
