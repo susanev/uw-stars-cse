@@ -44,8 +44,8 @@ __Topics__: Advanced Linked lists
 __Topics__: Binary search, Complexity, Maps
 * [Plan](weeks/week4/plan.md)
 * [Lecture notes](weeks/week4/lecture-notes.md)
-* [Check-in meeting](weeks/week4/check-in-meeting.md)
-* [Practice Midterm](exams/midterm/practice-midterm.md)
+* [Check-in meeting](weeks/week4/check-in-meeting.md) ([Answers](weeks/week4/check-in-meeting-answers.md))
+* [Practice Midterm](exams/midterm/practice-midterm.md) ([Answers](exams/midterm/practice-midterm-answers.md))
 * [Homework](weeks/week4/homework.md)
 
 ### [Week 5](weeks/week5)
