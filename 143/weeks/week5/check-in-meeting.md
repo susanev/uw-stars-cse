@@ -40,9 +40,7 @@ _CSE 143_
 
 	You are not allowed to construct any structured objects other than Strings (no array, List, Scanner, etc.). You are not allowed to use the string replace or replaceAll methods. You may not use any loops to solve this problem; you must use recursion.
 
-1. Linked Lists
-
-	Fill in the "Code" column in the table providing a solution that will turn the "Before" picture into the "After" picture by modifying links between the nodes. You are not allowed to change any node's data field and you are not allowed to construct new nodes; you are allowed to declare and use variables of type ListNode ("temp" variables).
+1. Fill in the "Code" column in the table providing a solution that will turn the "Before" picture into the "After" picture by modifying links between the nodes. You are not allowed to change any node's data field and you are not allowed to construct new nodes; you are allowed to declare and use variables of type ListNode ("temp" variables).
 
 	You are writing code for the ListNode class discussed in lecture:
 
