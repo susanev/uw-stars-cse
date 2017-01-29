@@ -4,9 +4,41 @@ _CSE 143_
 
 ### Recursive Programming
 
-1. Using recursion, write a method times that takes two integers `a` and `b` as parameters and returns their product, i.e., `a * b`. You are to multiply them by using a series of additions. You may use `+`, `-`, comparison operators (`>`, `>=`, `<`, `<=`, `==`, `!=`), and Boolean operators (`&&`, `||`). You may NOT use `*`, `/`, any loops (i.e., for or while) or any method from the Java library.
+1. Write a recursive method indexOf that accepts two Strings as parameters and that returns the starting index of the first occurrence of the second String inside the first String (or -1 if not found). The table below lists several calls to your method and their expected return values. Notice that case matters, as in the last example that returns -1.
 
-	You may find the following equality useful: `a * b = b + (a – 1) * b`
+	| Call | Value returned |
+	| :--- | :--- |
+	| `indexOf("Barack Obama", "Bar")` | `0` |
+	| `indexOf("Barack Obama", "ck")` | `4` |
+	| `indexOf("Barack Obama", "a")` | `1` |
+	| `indexOf("Barack Obama", "McCain")` | `-1` |
+	| `indexOf("Barack Obama", "BAR")` | `-1` |
+
+	Strings have an indexOf method, but you are not allowed to call it. You are limited to these methods:
+
+	| Method | Description |
+	| :--- | :--- |
+	| `equals(other)` | returns true if the two strings contain the same characters |
+	| `length()` | returns the number of characters in the string
+	| `substring(fromIndex, toIndex)` `substring(fromIndex)` | returns a new string containing the characters from this string from fromIndex (inclusive) to toIndex (exclusive), or to the end of the string if toIndex is omitted |
+
+	You are not allowed to construct any structured objects other than Strings (no array, List, Scanner, etc.) and you may not use any loops to solve this problem; you must use recursion.
+
+1. Write a recursive method called digitsSorted that takes an integer as a parameter and returns true if the digits of the integer are sorted and false otherwise. The digits must be sorted in non-decreasing order (i.e. increasing order with duplicate digits allowed) when read from left to right. An integer that consists of a single digit is sorted by definition. The method should be also able to handle negative numbers. Negative numbers are also considered sorted if their digits are in non-decreasing order. The following table shows several calls to your method and their expected return values
+
+	| Call | Value returned |
+	| :--- | :--- |
+	| `digitsSorted(0)` | `true` |
+	| `digitsSorted(2345)` | `true` |
+	| `digitsSorted(-2345)` | `true` |
+	| `digitsSorted(22334455)` | `true` |
+	| `digitsSorted(-5)` | `true` |
+	| `digitsSorted(4321)` | `false` |
+	| `digitsSorted(24378)` | `false` |
+	| `digitsSorted(21)` | `false` |
+	| `digitsSorted(-33331)` | `false` |
+
+	You are not allowed to construct any structured objects other than strings (no array, List, Scanner, etc.) and you may not use any loops to solve this problem; you must use recursion.
 
 1. For this problem, write a method, mirrorString, that prints the parameter string both forward and backward on the same line as shown below. Notice in all cases that the final character in the string is only printed once (at the exact middle of the mirrored string) whereas all other characters are printed twice. If mirrorString is passed an empty string, it should not print anything.
 
@@ -41,23 +73,6 @@ _CSE 143_
 	| `nthFromEnd(1234567890, 9)` | `1` |
 
 	Your method should throw an IllegalArgumentException if either of the two parameters is negative. You are not allowed to construct any structured objects to solve this problem (no array, String, StringBuilder, ArrayList, etc) and you may not use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
-
-1. Write a recursive method parenthesize that accepts an int n as a parameter and prints out the numbers 1 through n inclusive in a particular pattern that looks like a set of mathematical additions wrapped in parentheses. The order of the numbers should begin with all of the evens in downward order, followed by all of the odds upward from 1. Each time a number is added to the pattern, a new set of parentheses and a + sign are added too. You may assume that the number passed to your method is greater or equal to 0. Look at the pattern in the calls below to see the print format.
-
-	| Call | Output |
-	| :--- | :--- |
-	| `parenthesize(0);` | `0` |
-	| `parenthesize(1);` | `1` |
-	| `parenthesize(2);` | `(2 + 1)` |
-	| `parenthesize(3);` | `((2 + 1) + 3)` |
-	| `parenthesize(4);` | `(4 + ((2 + 1) + 3))` |
-	| `parenthesize(5);` | `((4 + ((2 + 1) + 3)) + 5)` |
-	| `parenthesize(6);` | `(6 + ((4 + ((2 + 1) + 3)) + 5))` |
-	| `parenthesize(7);` | `((6 + ((4 + ((2 + 1) + 3)) + 5)) + 7)` |
-	| `parenthesize(8);` | `(8 + ((6 + ((4 + ((2 + 1) + 3)) + 5)) + 7))` |
-	| `parenthesize(9);` | `((8 + ((6 + ((4 + ((2 + 1) + 3)) + 5)) + 7)) + 9)` |
-
-	You are not allowed to construct any structure objects (no array, List, Scanner, etc.) and you may not use any loops to solve this problem; you must use recursion. If you like, you may declare other methods to help you solve this problem, subject to the previous rules.
 
 1. Write a recursive method called sameDashes that takes two equal length strings as parameters and that returns whether or not they have dashes in the same positions (returning true if they do and returning false otherwise). For example, below are four pairs of strings that have the same pattern of dashes.
 
