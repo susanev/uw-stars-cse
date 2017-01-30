@@ -7,13 +7,13 @@ _CSE 143_
 	```java
 	public void mystery(int n) {
 		if (n <= 0) {
-			System.out.print(‘a’);
-		} else if (n%2 == 1) {
-			System.out.print((char)(‘a’+n));
-			mystery(n-1);
+			System.out.print('a');
+		} else if (n % 2 == 1) {
+			System.out.print((char)('a' + n));
+			mystery(n - 1);
 		} else {
-			mystery(n-1);
-			System.out.print((char)(‘a’+n));
+			mystery(n - 1);
+			System.out.print((char)('a' + n));
 		}
 	}
 	```
