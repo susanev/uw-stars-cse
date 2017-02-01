@@ -20,11 +20,11 @@ _CSE 143_
 
 	| Call | Output |
 	| :--- | :--- |
-	| `mystery(“sce”, “c”);` | | 
-	| `mystery(“static”, “t”);` | |  
-	| `mystery(“banana”, “a”);` | |  
-	| `mystery(“java”, “j”);` | |  
-	| `mystery(“ALL”, “L”);` | | 
+	| `mystery("sce", 'c');` | | 
+	| `mystery("static", 't');` | |  
+	| `mystery("banana", 'a');` | |  
+	| `mystery("java", 'j');` | |  
+	| `mystery("ALL", 'L');` | | 
 
 1. Write what the method returns, given the specified inputs. If the method will enter an infinite recursion, say "infinite recursion".
 
@@ -32,11 +32,12 @@ _CSE 143_
 	public static String mystery(int x, int y) {
 	    if(x == y)
 	        return "!";
-	    if(x == y+1)
+	    if(x == y + 1)
 	        return "**";
-	    return mystery(x+1,y) + mystery(x+2,y);
+	    return mystery(x + 1, y) + mystery(x + 2, y);
 	}
 	```
+	
 	| Call | Output |
 	| :--- | :--- |
 	| `mystery(6,5);` | |
