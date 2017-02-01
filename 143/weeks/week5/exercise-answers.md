@@ -65,7 +65,8 @@ _CSE 143_
 		if (str1.length() <= 1) {
 			return str1.equals(str2);
 		} else {
-			return isReversal(str1.substring(0, 1), str2.substring(str2.length() - 1)) && isReversal(str1.substring(1), str2.substring(0, str2.length() - 1));
+			return isReversal(str1.substring(0, 1), str2.substring(str2.length() - 1)) &&
+				isReversal(str1.substring(1), str2.substring(0, str2.length() - 1));
 		}
 	}
 	```
@@ -90,16 +91,16 @@ _CSE 143_
 
 	```java
 	public boolean sameDashes(String str1, String str2) {
-    if (str1.length() != str2.length()) {
-        throw new IllegalArgumentException();
-    }
-    
-    if (str1.length() == 1) {
-        return ((str1.equals("-") && str2.equals("-")) || (!str1.equals("-") && !str2.equals("-")));
-    } else {
-        return sameDashes(str1.substring(0, 1), str2.substring(0, 1)) && 
-            sameDashes(str1.substring(1), str2.substring(1));
-    }
+		if (str1.length() != str2.length()) {
+			throw new IllegalArgumentException();
+		}
+
+		if (str1.length() == 1) {
+			return ((str1.equals("-") && str2.equals("-")) || (!str1.equals("-") && !str2.equals("-")));
+		} else {
+			return sameDashes(str1.substring(0, 1), str2.substring(0, 1)) && 
+				sameDashes(str1.substring(1), str2.substring(1));
+		}
 	}
 	```
 
