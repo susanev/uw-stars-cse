@@ -1,7 +1,7 @@
 _CSE 143_
 
 # ArrayIntList
-# Midterm Study Session
+## Midterm Study Session
 
 1. Write a method removeFront that takes an integer n as a parameter and that removes the first n values from a list of integers. For example, if a variable called list stores this sequence of values:
 

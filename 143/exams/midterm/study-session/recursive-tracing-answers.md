@@ -1,29 +1,19 @@
 _CSE 143_
 
-# Recursive Tracing
+# Recursive Tracing Answers
 ## Midterm Study Session
 
-1. Consider the following method:
-
-	```java
-	public int mystery(int x, int y) {
-		if (x % 2 == 1 || y % 2 == 1) {
-			return 1;
-		} else {
-			return 2 * mystery(x / 2, y / 2);
-		}
-	}
-	```
+1. Recursive Tracing 1
 
 	For each call below, indicate what value is returned:
 
 	| Method Call | Output |
 	| :--- | :--- |
-	| `mystery(4, 19);` | |
-	| `mystery(32, 56);` | |
-	| `mystery(12, 20);` | |
-	| `mystery(4, 18);` | |
-	| `mystery(48, 128);` | |
+	| `mystery(4, 19);` | `1` |
+	| `mystery(32, 56);` | `8` |
+	| `mystery(12, 20);` | `4` |
+	| `mystery(4, 18);` | `2` |
+	| `mystery(48, 128);` | `16` |
 
 1. For each call to the following recursive method, indicate what output is produced:
 
@@ -45,11 +35,11 @@ _CSE 143_
 
 	| Method Call | Output |
 	| :--- | :--- |
-	| `mystery(7);` | |
-	| `mystery(825);` | |
-	| `mystery(38947);` | |
-	| `mystery(612305);` | |
-	| `mystery(-12345678);` | |
+	| `mystery(7);` | `7` |
+	| `mystery(825);` | `258` |
+	| `mystery(38947);` | `47893` |
+	| `mystery(612305);` | `0523610` |
+	| `mystery(-12345678);` | `-785634120` |
 
 1. For each of the calls to the following recursive method below, indicate what value is returned:
 
@@ -67,8 +57,8 @@ _CSE 143_
 
 	| Method Call | Output |
 	| :--- | :--- |
-	| `mystery(7, 1);` | |
-	| `mystery(4, 2);` | |
-	| `mystery(4, 3);` | |
-	| `mystery(5, 3);` | |
-	| `mystery(5, 4);` | | 
+	| `mystery(7, 1);` | `7` |
+	| `mystery(4, 2);` | `6` |
+	| `mystery(4, 3);` | `4` |
+	| `mystery(5, 3);` | `10` |
+	| `mystery(5, 4);` | `5` | 

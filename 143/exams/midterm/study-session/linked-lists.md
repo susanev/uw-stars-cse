@@ -1,7 +1,7 @@
 _CSE 143_
 
 # Linked Lists
-# Midterm Study Session
+## Midterm Study Session
 
 1. Fill in the second column in the following table by providing a solution that will turn the "before" picture into the "after" picture. You may introduce up to two ListNode variables per before/after subproblem to refer to any existing node, but you may not construct new list nodes or change an existing node’s data field.
 

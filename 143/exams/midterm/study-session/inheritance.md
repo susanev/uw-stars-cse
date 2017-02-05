@@ -1,11 +1,9 @@
 _CSE 143_
 
 # Inheritance
-# Midterm Study Session
+## Midterm Study Session
 
-1. Gulp
-
-	Assuming that the following classes have been defined:
+1. Assuming that the following classes have been defined:
 
 	```java
 	public class Drink extends Bite {
@@ -83,9 +81,7 @@ _CSE 143_
 	| `((Drink)var4).method2();` | |
 	| `((Bite)var3).method1();` | |
 
-1. Blue
-
-	Assuming that the following classes have been defined:
+1. Assuming that the following classes have been defined:
 
 	```java
 	public class Green extends Red {
@@ -163,9 +159,7 @@ _CSE 143_
 	| `((Blue)var6).method3();` | |
 	| `((Green)var6).method3();` | |
 
-1. Chair
-
-	Assuming that the following classes have been defined:
+1. Assuming that the following classes have been defined:
 
 	```java
 	public class Couch extends Table {
@@ -244,9 +238,7 @@ _CSE 143_
 	| `((Couch)var5).method3();` | |
 	| `((Table)var5).method3();` | |
 
-1. Gandalf
-	
-	Assuming that the following classes have been defined:
+1. Assuming that the following classes have been defined:
 
 	```java
 	public class Frodo extends Bilbo {
@@ -300,29 +292,27 @@ _CSE 143_
 	| Method Call | Output |
 	| :--- | :--- |
 	| `var1.method1();` | |
-	var2.method1();		
-	var3.method1();		
-	var4.method1();		
-	var5.method1();		
-	var6.method1();		
-	var1.method2();		
-	var2.method2();		
-	var3.method2();		
-	var4.method2();		
-	var5.method2();		
-	var6.method2();		
-	((Bilbo)var1).method3();		
-	((Gandalf)var1).method2();		
-	((Frodo)var4).method1();		
-	((Gandalf)var6).method2();		
-	((Gandalf)var4).method1();		
-	((Frodo)var6).method3();		
-	((Frodo)var3).method3();		
-	((Frodo)var5).method3();
+	| `var2.method1();` | |
+	| `var3.method1();` | |
+	| `var4.method1();` | |
+	| `var5.method1();` | |
+	| `var6.method1();` | |
+	| `var1.method2();` | |
+	| `var2.method2();` | |
+	| `var3.method2();` | |
+	| `var4.method2();` | |
+	| `var5.method2();` | |
+	| `var6.method2();` | |
+	| `((Bilbo)var1).method3();` | |
+	| `((Gandalf)var1).method2();` | |
+	| `((Frodo)var4).method1();` | |
+	| `((Gandalf)var6).method2();` | |
+	| `((Gandalf)var4).method1();` | |
+	| `((Frodo)var6).method3();` | |
+	| `((Frodo)var3).method3();` | |
+	| `((Frodo)var5).method3();` | |
 
-1. Paper
-
-	Assuming that the following classes have been defined:
+1. Assuming that the following classes have been defined:
 
 	```java
 	public class Clip extends Paper {
@@ -380,22 +370,22 @@ _CSE 143_
 	| Method Call | Output |
 	| :--- | :--- |
 	| `var1.method2();` | |	
-	var2.method2();		
-	var3.method2();		
-	var4.method2();		
-	var5.method2();		
-	var6.method2();		
-	var1.method1();		
-	var2.method1();		
-	var3.method1();		
-	var1.method3();		
-	var2.method3();		
-	var3.method3();		
-	var4.method3();		
-	((Pen)var1).method1();		
-	((Stapler)var3).method1();		
-	((Clip)var3).method3();		
-	((Clip)var5).method1();		
-	((Pen)var5).method1();		
-	((Clip)var6).method2();		
-	((Stapler)var6).method3();
+	| `var2.method2();` | |
+	| `var3.method2();` | |
+	| `var4.method2();` | |
+	| `var5.method2();` | |
+	| `var6.method2();` | |
+	| `var1.method1();` | |
+	| `var2.method1();` | |
+	| `var3.method1();` | |
+	| `var1.method3();` | |
+	| `var2.method3();` | |
+	| `var3.method3();` | |
+	| `var4.method3();` | |
+	| `((Pen)var1).method1();` | |
+	| `((Stapler)var3).method1();` | |
+	| `((Clip)var3).method3();` | |
+	| `((Clip)var5).method1();` | |
+	| `((Pen)var5).method1();` | |
+	| `((Clip)var6).method2();` | |
+	| `((Stapler)var6).method3();` | |

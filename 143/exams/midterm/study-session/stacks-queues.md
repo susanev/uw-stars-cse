@@ -1,7 +1,7 @@
 _CSE 143_
 
 # Stacks and Queues
-# Midterm Study Session
+## Midterm Study Session
 
 1. Write a method rotateBy that accepts a stack of integers and an integer n as parameters and that rotates the elements in the stack by n positions. Rotating the stack by a single position entails moving the element at the bottom of the stack to the top of the stack. To rotate by n positions, this process repeats n times.
 
