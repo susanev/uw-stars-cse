@@ -223,3 +223,87 @@ Two    Three
 | `((One)var6).method1();` | One1 | cast is to One, One role includes method1, actual object is a One which can fill the One role, so cast is okay and a One object writes "One1" when method1 is called |
 | `((One)var6).method2();` | compiler error | cast is to One, One role does not include method2 |
 | `((Two)var6).method3();` | runtime error | cast is to Two, Two role includes method3, actual object is a One, which can't fill the Two role |
+
+### Merge sort
+
+* Both insertion sort and selection sort are O(n^2) sorting techniques
+	* They work fine for small values of n, but they become far too expensive for large values of n
+* The idea of merge sort is to divide the list in half, then sort each half, and then merge the two sorted halves back together
+	* This is often referred to as _divide and conquer_ by computer scientists
+	* Usually written recursively 
+	* Merge sort is a stable sort
+		* A stable sort has the property that it preserves the relative order of data values that are considered equal
+		* Excel uses a stable sorting algorithm and the sorting routine in the Java class libraries is also a stable sort
+	* Merge sort by definition is the log to the base 2 of n
+		* The total number of levels will be on the order of log n; each level requires work on the order of n, so the total work will be n times log n, or O(n log n)
+		* This is much faster than O(n^2)
+
+#### Visual Example
+
+```
+     [13, 42, 97, -3, 53, 18, 92, 50]
+          /                       \
+         /                         \
+  [13, 42, 97, -3]         [53, 18, 92, 50]
+     /          \            /          \
+    /            \          /            \
+ [13, 42]    [97, -3]    [53, 18]    [92, 50]
+   /   \       /   \      /   \       /   \
+  /     \     /     \    /     \     /     \
+[13]  [42]  [97]  [-3]  [53]  [18]  [92]  [50]
+  \    /      \    /      \    /      \    /
+   \  /        \  /        \  /        \  /
+ [13, 42]   [-3, 97]    [18, 53]    [50, 92]
+     \         /            \          /
+      \       /              \        /
+  [-3, 13, 42, 97]         [18, 50, 53, 92]
+          \                       /
+           \                     /
+     [-3, 13, 18, 42, 50, 53, 92, 97]
+```
+
+#### `compareTo`
+* Method of the Object class
+* Example: `obj1.equals(obj2);`
+	* Returns a negative value, if obj1 is less than obj2
+	* Returns zero, if obj1 is equal to obj2
+	* Returns a positive value if obj1 is greater than obj2
+
+#### Mergesort Code
+
+```java
+// post: list is in sorted (nondecreasing) order
+public static void sort(Queue<String> list) {
+	if (list.size() > 1) {
+		Queue<String> half1 = new LinkedList<String>();
+		Queue<String> half2 = new LinkedList<String>();
+		int size1 = list.size() / 2;
+		int size2 = list.size() - size1;
+		for (int i = 0; i < size1; i++)
+			half1.add(list.remove());
+		for (int i = 0; i < size2; i++)
+			half2.add(list.remove());
+		sort(half1);
+		sort(half2);
+		mergeInto(list, half1, half2);
+	}
+}
+
+// pre : result is empty; list1 is sorted; list2 is sorted
+// post: result contains the result of merging the sorted lists;
+//       list1 is empty; list2 is empty
+private static void mergeInto(Queue<String> result,
+	Queue<String> list1,
+	Queue<String> list2) {
+	while (!list1.isEmpty() && !list2.isEmpty()) {
+		if (list1.peek().compareTo(list2.peek()) <= 0)
+			result.add(list1.remove());
+		else
+			result.add(list2.remove());
+	}
+	while (!list1.isEmpty())
+		result.add(list1.remove());
+	while (!list2.isEmpty())
+		result.add(list2.remove());
+}
+```
