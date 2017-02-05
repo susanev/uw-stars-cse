@@ -20,7 +20,7 @@ _CSE 143_
 | :--- | :--- |
 | [Practice Midterm](practice-midterm.md) | [Practice Midterm Answers](practice-midterm-answers.md) |
 
-## Study Session
+## [Study Session](study-session)
 
 | Problems | Answers |
 | :--- | :--- |
