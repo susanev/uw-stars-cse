@@ -9,8 +9,8 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 ### [Midterm](exams/midterm)
 __Topics__: Recursive Tracing, Recursive Programming, Inheritance, Linked Lists, Stacks/Queues, ArrayIntList Programming
 * [Midterm Cheat Sheet](exams/midterm/midterm-cheat-sheet.md)
-* [Practice Midterm](exams/midterm/practice-midterm.md)
-* [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
+* [Practice Midterm](exams/midterm/practice-midterm.md) ([Answers](exams/midterm/practice-midterm-answers.md))
+* [Study Session](exams/midterm/study-session)
 
 ## [Weeks](weeks)
 ### [Week 1](weeks/week1)
@@ -52,9 +52,9 @@ __Topics__: Binary search, Complexity, Maps
 __Topics__: Recursion, Regular Expressions, Grammars
 * [Plan](weeks/week5/plan.md)
 * [Lecture notes](weeks/week5/lecture-notes.md)
-* [Check-in meeting](weeks/week5/check-in-meeting.md)
-* [Quiz](weeks/week5/quiz.md)
-* [Exercises](weeks/week5/exercises.md)
+* [Check-in meeting](weeks/week5/check-in-meeting.md) ([Answers](weeks/week5/check-in-meeting-answers.md))
+* [Quiz](weeks/week5/quiz.md) ([Answers](weeks/week5/quiz-answers.md))
+* [Exercises](weeks/week5/exercises.md) ([Answers](weeks/week5/exercise-answers.md))
 * [Homework](weeks/week5/homework.md)
 
 ### [Week 6](weeks/week6)
