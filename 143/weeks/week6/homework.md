@@ -16,6 +16,7 @@ _All problems should be completed on [Practice-It](http://practiceit.cs.washingt
 ### Sorting
 1. [mergeSortTracing1](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter13/s30-mergeSortTracing1)
 1. [sortingStatements](http://practiceit.cs.washington.edu/problem/view/bjp4/chapter13/s29-sortingStatements)
+1. [mergeSort](http://practiceit.cs.washington.edu/problem/view/cs2/exams/finals/final8/mergeSort)
 
 ### Optional
 _You will receive up to 4 points extra credit in homework if you complete these problems successfully._
