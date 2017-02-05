@@ -52,3 +52,21 @@ __Topics__: Inheritance, Merge Sort
 * [Exercises](week6/exercises.md)
 * [Homework](week6/homework.md)
 
+## [Week 7](week7)
+__Topics__: Recursive backtracking
+* [Plan](week7/plan.md)
+* [Lecture notes](week7/lecture-notes.md)
+* [Check-in meeting](week7/check-in-meeting.md) ([Answers](week7/check-in-meeting-answers.md))
+* [Quiz](week7/quiz.md) ([Answers](week7/quiz-answers.md))
+* [Exercises](week7/exercises.md) ([Answers](week7/exercise-answers.md))
+* [Homework](week7/homework.md)
+
+## [Week 8](week8)
+__Topics__: Binary trees, Binary search trees
+* [Plan](week8/plan.md)
+* [Lecture notes](week8/lecture-notes.md)
+* [Check-in meeting](week8/check-in-meeting.md) ([Answers](week8/check-in-meeting-answers.md))
+* [Quiz](week8/quiz.md) ([Answers](week8/quiz-answers.md))
+* [Exercises](week8/exercises.md) ([Answers](week8/exercise-answers.md))
+* [Homework](week8/homework.md)
+
