@@ -9,21 +9,21 @@ _CSE 143_
 
 #### Example
 
-	```
-	    12
-	   /  \
-	  /    \
-	18      7
-	       / \
-	      /   \
-	     4    13
-	```
+```
+    12
+   /  \
+  /    \
+18      7
+       / \
+      /   \
+     4    13
+```
 
-	* The root node is storing `12`
-	* The nodes storing `12` and `7` are called __branch nodes__ because they have values stored under them
-	* The nodes storing `18`, `4`, and `13` are __leaf nodes__ because there is nothing stored underneath them
-	* We also say, that the node storing `12` is the __parent node__ of `18` and `7` and that `18` and `7` are the __children__ of `12`
-	* Nodes on the same level are referred to as __sibilings__, so `18` and `7` 
+* The root node is storing `12`
+* The nodes storing `12` and `7` are called __branch nodes__ because they have values stored under them
+* The nodes storing `18`, `4`, and `13` are __leaf nodes__ because there is nothing stored underneath them
+* We also say, that the node storing `12` is the __parent node__ of `18` and `7` and that `18` and `7` are the __children__ of `12`
+* Nodes on the same level are referred to as __sibilings__, so `18` and `7` 
 
 #### Recursive definition
 * A tree is either ..
@@ -70,15 +70,15 @@ public class IntTreeNode {
 ```
 
 #### [IntTree Class](code/IntTree.java)
-	* See the full [IntTreeClass](code/IntTree.java)
+* See the full [IntTreeClass](code/IntTree.java)
 
-	```java
-	public class IntTree {
-		private IntTreeNode overallRoot;
+```java
+public class IntTree {
+	private IntTreeNode overallRoot;
 
-		...
-	}
-	```
+	...
+}
+```
 
 ##### IntTree Class Printing Methods
 * Note that these recursive methods use the public/private pair approach
@@ -166,17 +166,17 @@ public class IntTreeClient {
 		* Inorder traversal: `6, 7, 5, 0, 2, 8, 1, 3, 9, 4`
 		* Postorder traversal: `6, 5, 7, 0, 8, 1, 4, 9, 3, 2`
 
-		```
-	                     +---+
-	                     | 2 |
-	                     +---+
-	                   /       \
-	                 /           \
-	           +---+               +---+
-	           | 0 |               | 3 |
-	           +---+               +---+
-	          /                   /     \
-	         /                   /       \
+	```
+			     +---+
+			     | 2 |
+			     +---+
+			   /       \
+			 /           \
+		   +---+               +---+
+		   | 0 |               | 3 |
+		   +---+               +---+
+		  /                   /     \
+		 /                   /       \
 	      +---+               +---+     +---+
 	      | 7 |               | 1 |     | 9 |
 	      +---+               +---+     +---+
