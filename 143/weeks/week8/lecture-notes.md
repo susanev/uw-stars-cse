@@ -45,8 +45,11 @@ _CSE 143_
 	+----------+   +----------+
 	```
 
+* The simplest possible tree is an empty tree
+
 #### Node Class for Binary Tress of ints
 * Note: This class is not encapsulated (with private fields) because we'll have a second object for storing a tree; any external client will deal with the IntTree object and won't ever the tree node objects
+* Note: Proper style when using multiple constructors, is for the additional constructors to call other constructors when possible using `this()`
 
 ```java
 public class IntTreeNode {
@@ -76,6 +79,59 @@ public class IntTreeNode {
 		...
 	}
 	```
+
+##### IntTree Class Printing Methods
+* Note that these recursive methods use the public/private pair approach
+
+```java
+// post: prints the tree contents using a preorder traversal
+public void printPreorder() {
+	System.out.print("preorder:");
+	printPreorder(overallRoot);
+	System.out.println();
+}
+
+// post: prints in preorder the tree with given root
+private void printPreorder(IntTreeNode root) {
+	if (root != null) {
+		System.out.print(" " + root.data);
+		printPreorder(root.left);
+		printPreorder(root.right);
+	}
+}
+
+// post: prints the tree contents using an inorder traversal
+public void printInorder() {
+	System.out.print("inorder:");
+	printInorder(overallRoot);
+	System.out.println();
+}
+
+// post: prints in inorder the tree with given root
+private void printInorder(IntTreeNode root) {
+	if (root != null) {
+		printInorder(root.left);
+		System.out.print(" " + root.data);
+		printInorder(root.right);
+	}
+}
+
+// post: prints the tree contents using a postorder traversal
+public void printPostorder() {
+	System.out.print("postorder:");
+	printPostorder(overallRoot);
+	System.out.println();
+}
+
+// post: prints in postorder the tree with given root
+private void printPostorder(IntTreeNode root) {
+	if (root != null) {
+		printPostorder(root.left);
+		printPostorder(root.right);
+		System.out.print(" " + root.data);
+	}
+}
+```
 
 #### [IntTreeClient](code/IntTreeClient.java)
 
@@ -133,6 +189,7 @@ public class IntTreeClient {
 
 ### Binary Search Trees
 * Binary Search Trees a particular kind of binary tree that have a special property that is sometimes referred to as the binary search tree property
+* Binary Search Trees store nodes in sorted order
 * In particular, we want to guarantee that for every subtree, the following relationship holds:
 
 	```
@@ -184,6 +241,11 @@ public class IntSearchTreeClient {
 #### add method in [IntTreeNode](code/IntTreeNode.java)
 
 	```java
+	public void add(int value) {
+		overallRoot = add(overallRoot, value);
+	}
+
+	```java
 	private IntTreeNode add(IntTreeNode root, int value) {
 		if (root == null) {
 			root = new IntTreeNode(value);
@@ -195,3 +257,8 @@ public class IntSearchTreeClient {
 		return root;
 	}
 	```
+
+#### `x = change(x)`
+* An approach to recording the change of `x` back into the `x` variable
+* This technique will update the value of x, whereas if you just had `change(x)` it would not change the value of `x`
+* You can see this modeled above with the lines of code `overallRoot = add(overallRoot, value);`, `root.left = add(root.left, value);` and `root.right = add(root.right, value);`
