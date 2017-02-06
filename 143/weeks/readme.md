@@ -66,7 +66,23 @@ __Topics__: Binary trees, Binary search trees
 * [Plan](week8/plan.md)
 * [Lecture notes](week8/lecture-notes.md)
 * [Check-in meeting](week8/check-in-meeting.md) ([Answers](week8/check-in-meeting-answers.md))
-* [Quiz](week8/quiz.md) ([Answers](week8/quiz-answers.md))
-* [Exercises](week8/exercises.md) ([Answers](week8/exercise-answers.md))
+* [Practice Final](../exams/final/practice-final.md) ([Answers](../exams/final/practice-final-answers.md))
 * [Homework](week8/homework.md)
 
+## [Week 9](week9)
+__Topics__: Comparable interface, Generic binary search tress, Huffman assignment, Abstract classes
+* [Plan](week9/plan.md)
+* [Lecture notes](week9/lecture-notes.md)
+* [Check-in meeting](week9/check-in-meeting.md) ([Answers](week9/check-in-meeting-answers.md))
+* [Quiz](week9/quiz.md) ([Answers](week9/quiz-answers.md))
+* [Exercises](week9/exercises.md) ([Answers](week9/exercise-answers.md))
+* [Homework](week9/homework.md)
+
+## [Week 10](week10)
+__Topics__: __Topics__: IntList case study, Hashing, Functional Programming
+* [Plan](week10/plan.md)
+* [Lecture notes](week10/lecture-notes.md)
+* [Check-in meeting](week10/check-in-meeting.md) ([Answers](week10/check-in-meeting-answers.md))
+* [Quiz](week7/quiz.md) ([Answers](week10/quiz-answers.md))
+* [Exercises](week10/exercises.md) ([Answers](week10/exercise-answers.md))
+* [Homework](week10/homework.md)
