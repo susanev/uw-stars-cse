@@ -103,12 +103,12 @@ _CSE 143_
   * So we can search more efficiently if we go row by row or column by column.
 
 ##### Methods of the Board class
-* public Board(int size)
-* public boolean safe(int row, int col)
-* public void place(int row, int col)
-* public void remove(int row, int col)
-* public void print()
-* public int size()
+* `public Board(int size)`
+* `public boolean safe(int row, int col)`
+* `public void place(int row, int col)`
+* `public void remove(int row, int col)`
+* `public void print()`
+* `public int size()`
 
 ##### Recursive Backtracking Code
 
