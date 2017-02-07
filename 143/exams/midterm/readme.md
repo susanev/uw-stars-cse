@@ -28,5 +28,5 @@ _CSE 143_
 | [Recursive Programming](study-session/recursive-programming.md) | [Answers](study-session/answers/recursive-programming-answers.md) |
 | [Inheritance](study-session/inheritance.md) | [Answers](study-session/answers/inheritance-answers.md) |
 | [Linked Lists](study-session/linked-lists.md) | [Answers](study-session/answers/linked-lists-answers.md) |
-| [Stacks and Queues](study-session/stacks-queues.md) | [Answers](study-session/answers/stacks-queues-answers.md) |
 | [ArrayIntList](study-session/arrayintlist.md) | [Answers](study-session/answers/arrayintlist-answers.md) |
+| [Stacks and Queues](study-session/stacks-queues.md) | [Answers](study-session/answers/stacks-queues-answers.md) |
