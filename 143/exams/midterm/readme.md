@@ -11,8 +11,8 @@ _CSE 143_
 | 2 | 15 | Recursive Programming |
 | 3 | 20 | Details of Inheritance |
 | 4 | 15 | Linked Lists |
-| 5 | 25 | Stacks/Queues |
-| 6 | 10 | Array Programming |
+| 5 | 10 | Array Programming |
+| 6 | 25 | Stacks/Queues |
 
 ## Practice Midterm
 
