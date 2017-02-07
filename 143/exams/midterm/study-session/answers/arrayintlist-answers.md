@@ -87,7 +87,7 @@ _CSE 143_
 	}
 	```
 
-1.
+1. takeMax. One possible answer is shown below.
 
 	```java
 	public void takeMax(ArrayIntList list) {
