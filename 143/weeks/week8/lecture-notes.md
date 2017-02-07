@@ -245,7 +245,6 @@ public void add(int value) {
 	overallRoot = add(overallRoot, value);
 }
 
-```java
 private IntTreeNode add(IntTreeNode root, int value) {
 	if (root == null) {
 		root = new IntTreeNode(value);
