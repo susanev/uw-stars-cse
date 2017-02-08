@@ -91,3 +91,126 @@ _CSE 143_
 	Your method should throw an IllegalArgumentException if the two strings are not of the same length.
 
 	You are not allowed to construct any structured objects other than Strings (no array, ArrayList, StringBuilder, Scanner, etc) and you may not use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
+
+1. Write a method writeSquares that takes an integer n as a parameter and that writes the first n squares to System.out separated by commas with the odd squares in descending order followed by the even squares in ascending order. For example, the call:
+
+	```java
+	writeSquares(5);
+	```
+
+	should produce the following output:
+
+	```
+	25, 9, 1, 4, 16
+	```
+
+	The odd squares (25, 9, and 1) appear first in descending order followed by the even squares (4 and 16) in ascending order. Notice that commas are used to separate consecutive values in the list. Your method should send its output to System.out and should not call println. For example, the following calls:
+
+	```java
+	writeSquares(5);
+	System.out.println();  // to complete the line of output
+	writeSquares(1);
+	System.out.println();  // to complete the line of output
+	writeSquares(8);
+	System.out.println();  // to complete the line of output
+	```
+
+	should produce exactly three lines of output:
+
+	```
+	25, 9, 1, 4, 16
+	1
+	49, 25, 9, 1, 4, 16, 36, 64
+	```
+
+	You must exactly reproduce the format of these examples. Your method should throw an IllegalArgumentException if passed a value less than 1. You may NOT use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
+
+1. Write a method countToBy that takes integer parameters n and m and that produces output indicating how to count to n in increments of m. For example, to count to 10 by 1 you'd say:
+
+	```java
+	countToBy(10, 1);
+	```
+
+	which should produce the following output:
+
+	```
+	1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+	```
+
+	The increment does not have to be 1. For example, the following call indicates that we want to count to 25 in increments of 4:
+
+	```java
+	countToBy(25, 4);
+	```
+
+	which produces this output:
+
+	```
+	1, 5, 9, 13, 17, 21, 25
+	```
+
+	It will not always be possible to start counting at 1. The first number should always be in the range of 1 to m inclusive. So if you instead count to 30 by 4, you have to start with 2. So this call:
+
+	```java
+	countToBy(30, 4);
+	```
+
+	produces this output:
+
+	```
+	2, 6, 10, 14, 18, 22, 26, 30
+	```
+
+	It is possible that only one number will be printed. All output should appear on the same line. For example, the following calls:
+
+	```java
+	countToBy(34, 5); System.out.println(); // to complete the line of output countToBy(3, 6); System.out.println(); // to complete the line of output countToBy(17, 3); System.out.println(); // to complete the line of output
+	```
+
+	should produce the following output:
+
+	```
+	4, 9, 14, 19, 24, 29, 34
+	3
+	2, 5, 8, 11, 14, 17
+	```
+
+	You must exactly reproduce the format of the examples above. Your method should throw an IllegalArgumentException if either m or n is less than 1.
+
+	You may NOT use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
+
+1. Write a recursive method called digitProduct, that takes an integer n as a parameter and returns the product of all non-zero digits of n. For example, digitProduct(384) should return 96, which is 3 * 8 * 4. Because zeros are not included, digitProduct(3084) should also be 96.
+
+	If passed a negative number, the method should return the negative product of the digits. For example, digitProduct(-384) should return -96.
+
+	Below are more examples of calls and the value returned.
+
+	| Method Call | Value Returned |
+	| :--- | :--- |
+	| `digitProduct(1);` | `1` |
+	| `digitProduct(19);` | `9` |
+	| `digitProduct(108);` | `8` |
+	| `digitProduct(62);` | `12` |
+	| `digitProduct(-151);` | `-5` |
+	| `digitProduct(12345);` | `120` |
+	| `digitProduct(-30551);` | `-75` |
+	| `digitProduct(-192);` | `-18` |
+
+	The method should throw an IllegalArgumentException if passed 0.
+
+1. Write a recursive method called dedup that takes a string as a parameter and that returns a new string obtained by replacing every sequence of repeated adjacent letters with one of that letter. For example, the string "bookkkkkeeper" has three repeated adjacent letters ("oo", "kkkkk", and "ee"), so dedup("bookkkkkeeper") should return the string "bokeper". Below are more sample calls:
+
+	| Method Call | Value Returned |
+	| :--- | :--- |
+	| `dedup("odegaard");` | `"odegard"` |
+	| `dedup("ooops");` | `"ops"` |
+	| `dedup("baz");` | `"baz"` |
+	| `dedup("apple");` | `"aple"` |
+	| `dedup("hissssssss");` | `"his"` |
+	| `dedup("theses");` | `"theses"` |
+	| `dedup("zzzzzzz");` | `"z"` |
+	| `dedup("shellless");` | `"sheles"` |
+	| `dedup("mississippi");` | `"misisipi"` |
+	| `dedup("puppy");` | `"pupy"` |
+
+	You may assume that the string is composed entirely of lowercase letters, as in the examples above. If you are passed an empty string ("") you should throw an IllegalArgumentException. You are not allowed to construct any structured objects other than Strings (no array, ArrayList, StringBuilder, Scanner, etc) and you may not use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
