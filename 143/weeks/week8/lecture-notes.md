@@ -240,23 +240,22 @@ public class IntSearchTreeClient {
 
 #### add method in [IntTreeNode](code/IntTreeNode.java)
 
-	```java
-	public void add(int value) {
-		overallRoot = add(overallRoot, value);
-	}
+```java
+public void add(int value) {
+	overallRoot = add(overallRoot, value);
+}
 
-	```java
-	private IntTreeNode add(IntTreeNode root, int value) {
-		if (root == null) {
-			root = new IntTreeNode(value);
-		} else if (value <= root.data) {
-			root.left = add(root.left, value);
-		} else {
-			root.right = add(root.right, value);
-		}
-		return root;
+private IntTreeNode add(IntTreeNode root, int value) {
+	if (root == null) {
+		root = new IntTreeNode(value);
+	} else if (value <= root.data) {
+		root.left = add(root.left, value);
+	} else {
+		root.right = add(root.right, value);
 	}
-	```
+	return root;
+}
+```
 
 #### `x = change(x)`
 * An approach to recording the change of `x` back into the `x` variable
