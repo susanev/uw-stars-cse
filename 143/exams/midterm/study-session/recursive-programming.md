@@ -164,7 +164,12 @@ _CSE 143_
 	It is possible that only one number will be printed. All output should appear on the same line. For example, the following calls:
 
 	```java
-	countToBy(34, 5); System.out.println(); // to complete the line of output countToBy(3, 6); System.out.println(); // to complete the line of output countToBy(17, 3); System.out.println(); // to complete the line of output
+	countToBy(34, 5);
+	System.out.println(); // to complete the line of output 
+	countToBy(3, 6); 
+	System.out.println(); // to complete the line of output
+	countToBy(17, 3);
+	System.out.println(); // to complete the line of output
 	```
 
 	should produce the following output:
