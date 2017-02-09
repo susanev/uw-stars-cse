@@ -3,7 +3,7 @@ _CSE 143_
 # Recursive Programming Answers
 ## Midterm Study Session
 
-1. One possible answer is shown below.
+1. indexOf. One possible answer is shown below.
 
 	```java
 	public int indexOf(String str, String sub) {
@@ -23,7 +23,7 @@ _CSE 143_
 	}
 	```
 
-1. One possible answer is shown below.
+1. digitsSorted. One possible answer is shown below.
 
 	```java
 	public boolean digitsSorted(int num) {
@@ -39,7 +39,7 @@ _CSE 143_
 	}
 	```
 
-1. One possible answer is shown below.
+1. mirrorString. One possible answer is shown below.
 
 	```java
 	public void mirrorString(String str) {
@@ -53,7 +53,7 @@ _CSE 143_
 	}
 	```
 
-1. One possible answer is shown below.
+1. isReversal. One possible answer is shown below.
 
 	```java
 	public boolean isReversal(String str1, String str2) {
@@ -70,7 +70,7 @@ _CSE 143_
 	}
 	```
 
-1. One possible answer is shown below.
+1. nthFromEnd. One possible answer is shown below.
 
 	```java
 	public int nthFromEnd(int num, int n) {
@@ -86,7 +86,7 @@ _CSE 143_
 	}
 	```
 
-1. One possible answer is shown below.
+1. sameDashes. One possible answer is shown below.
 
 	```java
 	public boolean sameDashes(String str1, String str2) {
@@ -99,6 +99,78 @@ _CSE 143_
 		} else {
 			return sameDashes(str1.substring(0, 1), str2.substring(0, 1)) && 
 				sameDashes(str1.substring(1), str2.substring(1));
+		}
+	}
+	```
+
+1. writeSquares. One possible answer is shown below.
+
+	```java
+	public void writeSquares(int n) {
+    if (n < 1) {
+        throw new IllegalArgumentException();
+    }
+    if (n == 1) {
+        System.out.print(n);
+    } else if (n % 2 == 1) {
+        System.out.print(n * n + ", ");
+        writeSquares(n - 1);
+    } else {
+        writeSquares(n - 1);
+        System.out.print(", " + n * n);
+    }
+	}
+	```
+
+1. countToBy. One possible answer is shown below.
+
+	```java
+	public static void countToBy(int n, int m) {
+	    if (m <= 0 || n <= 0)
+	        throw new IllegalArgumentException();
+	    else if (n <= m)
+	        System.out.print(n);
+	    else {
+	        countToBy(n - m, m);
+	        System.out.print(", " + n);
+	    }
+	}
+	```
+
+1. digitProduct. One possible answer is shown below. 
+
+	```java
+	public int digitProduct(int n) {
+		if (n == 0) {
+			throw new IllegalArgumentException();
+		}
+
+		if (n < 0) {
+			return -1 * digitProduct(-n);
+		} else if (n < 10) {
+			return n;
+		} else if (n % 10 != 0) {
+			return digitProduct(n % 10) * digitProduct(n / 10);
+		} else {
+			return digitProduct(n / 10);
+		}
+	}
+	```
+
+1. dedup. One possible answer is shown below.
+
+	```java
+	public String dedup(String str) {
+		if (str.length() == 0) {
+			throw new IllegalArgumentException();
+		}
+
+		if (str.length() == 1) {
+			return str;
+		} else if (str.charAt(0) == str.charAt(1)) {
+			return dedup(str.substring(1));
+		} else {
+			return str.charAt(0) + dedup(str.substring(1));
 		}
 	}
 	```
