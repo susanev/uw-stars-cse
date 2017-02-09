@@ -48,8 +48,8 @@ __Topics__: Recursion, Regular Expressions, Grammars
 __Topics__: Inheritance, Merge Sort
 * [Plan](week6/plan.md)
 * [Lecture notes](week6/lecture-notes.md)
-* [Quiz](week6/quiz.md)
-* [Exercises](week6/exercises.md)
+* [Quiz](week6/quiz.md) ([Answers](week6/quiz-answers.md))
+* [Exercises](week6/exercises.md) ([Answers](week6/exercise-answers.md))
 * [Homework](week6/homework.md)
 
 ## [Week 7](week7)
