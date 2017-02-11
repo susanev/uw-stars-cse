@@ -10,6 +10,7 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 __Topics__: Recursive Tracing, Recursive Programming, Inheritance, Linked Lists, Stacks/Queues, ArrayIntList Programming
 * [Midterm Cheat Sheet](exams/midterm/midterm-cheat-sheet.md)
 * [Practice Midterm](exams/midterm/practice-midterm.md) ([Answers](exams/midterm/practice-midterm-answers.md))
+* [Practice Midterm 2](exams/midterm/practice-midterm-2.md) ([Answers](exams/midterm/practice-midterm-2-answers.md))
 * [Study Session](exams/midterm/study-session)
 
 ## [Weeks](weeks)
