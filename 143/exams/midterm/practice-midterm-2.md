@@ -21,11 +21,11 @@ _CSE 143_
 
 	| Call | Output produced |
 	| :--- | :--- |
-	| `mystery(10, 28)` | |
-	| `mystery(5, 17)` | |
-	| `mystery(2, 10)` | |
-	| `mystery(4, -15)` | |
-	| `mystery(-3, -23)` | |
+	| `mystery(10, 28);` | |
+	| `mystery(5, 17);` | |
+	| `mystery(2, 10);` | |
+	| `mystery(4, -15);` | |
+	| `mystery(-3, -23);` | |
 
 2. Recursive Programming, 15 points. Write a method printTwos that takes an integer n as a parameter and that prints an expression composed of a single odd number multiplied by twos that is equal to n. The twos should surround the odd number with an equal number of twos on either side if possible. For example, the call:
 
