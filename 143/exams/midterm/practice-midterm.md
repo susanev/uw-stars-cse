@@ -121,10 +121,10 @@ _CSE 143_
 
 4. Linked Lists, 15 points.  Fill in the "code" column in the following table
    providing a solution that will turn the "before" picture into the "after"
-   picture by modifying links between the nodes shown.  You are not allowed to
+   picture by modifying links between the nodes shown. You are not allowed to
    change any existing node's data field value and you are not allowed to
    construct any new nodes, but you are allowed to declare and use variables of
-   type ListNode (often called "temp" variables).  You are limited to at most
+   type ListNode (often called "temp" variables). You are limited to at most
    two variables of type ListNode for each of the four subproblems below.
 
 	You are writing code for the ListNode class discussed in lecture:
@@ -138,8 +138,7 @@ _CSE 143_
 	}
 	```
 
-	As in the lecture examples, all lists are terminated by null and the
-   variables p and q have the value null when they do not point to anything.
+	As in the lecture examples, all lists are terminated by null and the variables p and q have the value null when they do not point to anything.
 
 	```
 
