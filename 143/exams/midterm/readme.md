@@ -14,11 +14,12 @@ _CSE 143_
 | 5 | 10 | Array Programming |
 | 6 | 25 | Stacks/Queues |
 
-## Practice Midterm
+## Practice Midterms
 
 | __Problems__ | __Answers__ |
 | :--- | :--- |
 | [Practice Midterm](practice-midterm.md) | [Practice Midterm Answers](practice-midterm-answers.md) |
+| [Practice Midterm 2](practice-midterm-2.md) | [Practice Midterm 2 Answers](practice-midterm-2-answers.md) |
 
 ## [Study Session](study-session)
 
