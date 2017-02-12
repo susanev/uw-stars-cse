@@ -13,6 +13,10 @@ __Topics__: Recursive Tracing, Recursive Programming, Inheritance, Linked Lists,
 * [Practice Midterm 2](exams/midterm/practice-midterm-2.md) ([Answers](exams/midterm/practice-midterm-2-answers.md))
 * [Study Session](exams/midterm/study-session)
 
+### [Final](exams/final)
+__Topics__: Binary Tree Traversal, Binary Search Tree, Collections Mystery, Collections Programming, Binary Trees, Collections Programming, Comparable class, Binary Trees, Linked Lists
+* [Final Cheat Sheet](exams/final/final-cheat-sheet.md)
+
 ## [Weeks](weeks)
 ### [Week 1](weeks/week1)
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
