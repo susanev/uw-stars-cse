@@ -4,22 +4,22 @@ _CSE 143_
 You will be provided a cheat sheet with the information below on your midterm. If you are interested in the actual format of the document, check out [last year's version](https://courses.cs.washington.edu/courses/cse143/16wi/handouts/27.html).
 
 
-## Linked Lists
+### Linked Lists
 Below is an example of a method that could be added to the LinkedIntList class to compute the sum of the list:
 
-	```java
-	public int sum() {
-		int sum = 0;
-		ListNode current = front;
-		while (current != null) {
-			sum += current.data;
-			current = current.next;
-		}
-		return sum;
+```java
+public int sum() {
+	int sum = 0;
+	ListNode current = front;
+	while (current != null) {
+		sum += current.data;
+		current = current.next;
 	}
-	```
+	return sum;
+}
+```
 
-## Math Methods
+### Math Methods
 _Mathematical operations_
 
 | Method | Description |
@@ -30,7 +30,7 @@ _Mathematical operations_
 | `Math.round(value)` | nearest whole number |
 | `Math.pow(b, e)` | b to the e power |
 
-## Two-dimensional Arrays
+### Two-dimensional Arrays
 * construct a rectangular array with 4 rows and 6 columns:
 	
 	```java
@@ -50,14 +50,13 @@ _Mathematical operations_
 
 	| Code | Description |
 	| :--- | :--- |
-	| `data` | 
-entire array
+	| `data` | entire array |
 	| `data[2]` | row 2 |
 	| `data[2][3]` | value in row 2 and column 3 |
 	| `data.length` | number of rows |
 	| `data[2].length` | number of columns in row 2 |
 
-## Iterator<E> Methods
+### `Iterator<E>` Methods
 _An object that lets you examine the contents of any collection_
 
 | Method | Description |
@@ -66,7 +65,7 @@ _An object that lets you examine the contents of any collection_
 | `next()` | reads and returns the next element from the collection |
 | `remove()` | removes the last element returned by next from the collection |
 
-## List<E> Methods
+### `List<E>` Methods
 _An ordered sequence of values_
 
 | Method | Description |
@@ -86,8 +85,8 @@ _An ordered sequence of values_
 | `removeAll(list)` | removes any elements found in the given collection from this list |
 | `iterator()` | returns an object used to examine the contents of the list |
 
-## Set<E> Methods
-_ A fast-searchable set of unique values_
+### `Set<E>` Methods
+_A fast-searchable set of unique values_
 
 | Method | Description |
 | :--- | :--- |
@@ -103,7 +102,7 @@ _ A fast-searchable set of unique values_
 | `retainAll(collection)` | removes any elements not found in the given collection from this set |
 | `iterator()` | returns an object used to examine the contents of the set |
 
-## Map<K, V> Methods
+### `Map<K, V>` Methods
 _A fast mapping between a set of keys and a set of values_
 
 | Method | Description |
@@ -119,7 +118,7 @@ _A fast mapping between a set of keys and a set of values_
 | `values()` | returns a Collection of all values in the map |
 | `putAll(map)` | adds all key/value pairs from the given map to this map |
 
-## Point Methods
+### `Point` Methods
 _an object for storing integer x/y coordinates_
 
 | Method | Description |
@@ -131,7 +130,7 @@ _an object for storing integer x/y coordinates_
 | `equals(other)` | returns true if this Point stores the same x/y values as the other |
 | `translate(dx, dy)` | translates the coordinates by the given amount |
 
-## String Methods
+### `String` Methods
 _An object for storing a sequence of characters_
 
 | Method | Description |
@@ -145,7 +144,7 @@ _An object for storing a sequence of characters_
 | `startsWith(other)` | returns true if this string starts with the given text |
 | `substring(start, stop)` | returns a new string composed of characters from start index (inclusive) to stop index (exclusive) |
 
-## Collections Implementations
+### Collections Implementations
 
 | Collection | Implementation |
 | :--- | :--- |
