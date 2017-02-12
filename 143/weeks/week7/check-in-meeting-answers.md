@@ -21,7 +21,7 @@ _CSE 143_
 1. RiggedDice.
 
 	```java
-		public class RiggedDice extends Dice implements Comparable<RiggedDice> {
+	public class RiggedDice extends Dice implements Comparable<RiggedDice> {
 		private int min;
 
 		public RiggedDice(int count, int min) {

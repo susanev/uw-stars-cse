@@ -15,13 +15,14 @@ _CSE 143_
 		return sum;
 	}
 	```
+
 	Suppose that a variable called grid has been declared as follows:
 
 	```java
 	int[][] grid = {{2, 2, 6, 7, 7, 5}, {6, 3, 4, 7, 9, 3},
 									{7, 6, 1, 2, 3, 6}, {9, 3, 6, 6, 9, 4},
 									{3, 1, 8, 8, 2, 7}, {5, 7, 9, 2, 1, 6}};
-	```java
+	```
 
 	which means it will store the following 6-by-6 grid of values:
 
