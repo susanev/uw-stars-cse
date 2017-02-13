@@ -138,4 +138,4 @@ _CSE 143_
 	bottom [7] top
 	```
 
-	If the stack is empty, your method should not change it. You are to use one queue as auxiliary storage to solve this problem. You may not use any other auxiliary data structures to solve this problem, although you can have as many simple variables as you like. You may not use recursion to solve this problem and your solution must run in O(n) time. Use the Stack and Queue interfaces and the ArrayStack and LinkedQueue implementations discussed in lecture.
+	If the stack is empty, your method should not change it. You are to use one queue as auxiliary storage to solve this problem. You may not use any other auxiliary data structures to solve this problem, although you can have as many simple variables as you like. You may not use recursion to solve this problem and your solution must run in O(n) time.
