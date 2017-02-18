@@ -63,7 +63,6 @@ __Topics__: Recursive backtracking
 
 ## [Week 8](week8)
 __Topics__: Binary trees, Binary search trees
-* [Plan](week8/plan.md)
 * [Lecture notes](week8/lecture-notes.md)
 * [Check-in meeting](week8/check-in-meeting.md) ([Answers](week8/check-in-meeting-answers.md))
 * [Practice Final](../exams/final/practice-final.md) ([Answers](../exams/final/practice-final-answers.md))
