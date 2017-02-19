@@ -358,6 +358,7 @@ _CSE 143_
 
 ### Abstract Classes
 * Note: This topic will not be covered on the Final Exam
+* Review: A class can only extend one other class, but it can implement multiple interfaces
 * An abstract class sits somewhere in the middle, typically having some methods that are filled in and some methods that are abstract
 * You can think of this as a spectrum from concrete to purely abstract, with abstract classes in the middle:
 
