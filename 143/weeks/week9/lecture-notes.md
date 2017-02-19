@@ -544,4 +544,4 @@ _CSE 143_
 * The final version of the shape hierarchy makes both the compareTo and toString methods final, which means that subclasses can't override this shared behavior of shape objects
 * This can be useful to prevent malicious or careless errors
 	* For example, you wouldn't want to have most of your shape objects comparing themselves in one way while some others are comparing in some other way
-	* You also wouldn't want to let a shape subclass modify the toString method because then it could masquerade as something other than what it is.
+	* You also wouldn't want to let a shape subclass modify the toString method because then it could masquerade as something other than what it is
