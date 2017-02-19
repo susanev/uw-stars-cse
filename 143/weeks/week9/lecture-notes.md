@@ -134,16 +134,16 @@ _CSE 143_
 		```
 
 #### Including a `toString` method
-	* When we ran this program, it produced `[Angle@42719c, Angle@30c221]`
-	* We need to add a `toString` method to get better output, ideally we would show something like 23 degrees and 26 minutes using the standard symbols used for degrees and minutes: 23d 26m
+* When we ran this program, it produced `[Angle@42719c, Angle@30c221]`
+* We need to add a `toString` method to get better output, ideally we would show something like 23 degrees and 26 minutes using the standard symbols used for degrees and minutes: 23d 26m
 
-		```java
-		public String toString() {
-			return degrees + "d " + minutes + "m";
-		}
-		```
+	```java
+	public String toString() {
+		return degrees + "d " + minutes + "m";
+	}
+	```
 
-	* When we ran the client code again, it produced the following output: `[23d 26m, 15d 48m]`
+* When we ran the client code again, it produced the following output: `[23d 26m, 15d 48m]`
 
 #### Including an `add` method
 * We'd like to be able to say in the client code is something like this:
