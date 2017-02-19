@@ -53,38 +53,26 @@ _CSE 143_
 	```
 	You are writing a method that will become part of the IntTree class. You may define private helper methods to solve this problem, but otherwise you may not call any other methods of the class. You may not construct any extra data structures to solve this problem.
 
-1. Programming, 10 points. Write a recursive method called printSubsets that takes an array of integer values and that prints all subsets of the list. For example, if we have:
+1. Collections Programming, 10 points.  Write a method called recordDate that records information about a date between two people. For each person, the map records an ordered list of people that person has dated. For example, the map might record these entries for two people
+
+	```
+	Michael => [Ashley, Samantha, Joshua, Brittany, Amanda, Amanda]
+	Amanda  => [Michael, Daniel, Michael]
+	```
+
+	The dates are listed in reverse order. The list for Michael indicates that he most recently dated Ashley and before that Samantha and before that Joshua, and so on.  Notice that he has dated Amanda twice. The list for Amanda incidates that she most recently dated Michael and before that Daniel and before that Michael. All names are stored as string values.
+
+	The method takes three parameters: the map, the name of the first person, and the name of the second person. It should record the date for each person and should return what date number this is (1 for a first date, 2 for a second date, and so on). Given the entries above, if we make this call:
 
 	```java
-	int[] list = {1, 2, 3};
+	int n = recordDate(dates, "Michael", "Amanda");
 	```
 
-	and we make the call:
-
-	```java
-	printSubsets(list);
-	```
-
-	The method should print the 8 subsets:
+	The method would record the new date at the front of each list:
 
 	```
-	[]
-	[3]
-	[2]
-	[2, 3]
-	[1]
-	[1, 3]
-	[1, 2]
-	[1, 2, 3]
+	Michael => [Amanda, Ashley, Samantha, Joshua, Brittany, Amanda, Amanda]
+	Amanda  => [Michael, Michael, Daniel, Michael]
 	```
 
-	Your method can print the subsets in any order, but you should preserve the order of the values from the list.  For example, the subsets of [42, 23] should be listed as:
-
-	```
-	[]
-	[23]
-	[42]
-	[42, 23]
-	```
-
-	You may assume the list has no duplicate values. You are allowed to have your method construct exactly one collection of your choice from the collections we have studied (one array, list, set, map, stack, or queue), but you are otherwise not allowed to construct any other structured objects to solve this problem (note that only one structure is to be constructed in total for each call a client makes on your method).  Your method should not alter the contents of the array that is passed as a parameter and you may not use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
+	The method would return the value 3 indicating that this is the third date for this pair of people.  When someone is first added to the map, you should construct a LinkedList object (we use LinkedList instead of ArrayList because it has fast insertion at the front of the list).
