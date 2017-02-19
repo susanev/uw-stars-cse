@@ -2,7 +2,7 @@ _CSE 143_
 # Exercises
 ## Week 8
 
-1. Binary Search Tree, 4 points.  Draw a picture below of the binary search tree that would result from inserting the following words into an empty binary search tree in the following order: Karl, Chris, Simon, John, Zoe, Anton, Zach.  Assume the search tree uses alphabetical ordering to compare words.
+1. Binary Search Tree, 4 points. Draw a picture below of the binary search tree that would result from inserting the following words into an empty binary search tree in the following order: Karl, Chris, Simon, John, Zoe, Anton, Zach. Assume the search tree uses alphabetical ordering to compare words.
 
 1. Binary Trees, 10 points. Write a method called hasPathSum that takes an integer n as a parameter and that returns true if there is some nonempty path from the overall root of a tree to a node of the tree in which the sum of the data stored in the nodes adds up to n (returning false if no such path exists). For example if the variable t refers to the following tree:
 
