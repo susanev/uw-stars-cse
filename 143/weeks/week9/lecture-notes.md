@@ -45,7 +45,7 @@ _CSE 143_
 	                   +------------+     +---------+
 	```
 
-	When we exited the program, it wrote this information to question.txt:
+	When we exited the program, it wrote this information to question.txt
 
 	```
 	Q:
@@ -79,7 +79,7 @@ _CSE 143_
 	* When the program finishes executing, you write out the contents to question.txt using a preorder traversal
 	* That way, if the user wants to, they can start the next time with this as the initial tree
 	* That would allow you to grow this tree bigger and bigger each time the game is played.
-	* We saw that after adding this second object, the program wrote the following to question.txt:
+	* We saw that after adding this second object, the program wrote the following to question.txt
 
 		```
 		Q:
@@ -92,7 +92,7 @@ _CSE 143_
 		cat
 		A:
 		table
-		``
+		```
 
 	* The zip file for the assignment includes a file called bigquestion.txt that has almost 10 thousand entries for animals. You have to rename the file to question.txt, but then your program should be able to read it in and play the game.
 
