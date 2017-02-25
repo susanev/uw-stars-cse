@@ -84,7 +84,7 @@ __Topics__: Binary trees, Binary search trees
 * [Lecture notes](weeks/week8/lecture-notes.md)
 * [Check-in meeting](weeks/week8/check-in-meeting.md) ([Answers](weeks/week8/check-in-meeting-answers.md))
 * [Quiz](weeks/week8/quiz.md) ([Answers](weeks/week8/quiz-answers.md))
-* [Exercises](weeks/week8/exercises.md) ([Answers](weeks/week7/exercise-answers.md))
+* [Exercises](weeks/week8/exercises.md) ([Answers](weeks/week8/exercise-answers.md))
 * [Homework](weeks/week8/homework.md)
 
 ### [Week 9](weeks/week9)
