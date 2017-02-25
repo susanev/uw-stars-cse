@@ -5,6 +5,5 @@ __Topics__: Comparable interface, Generic binary search tress, Huffman assignmen
 * [Lecture notes](lecture-notes.md)
 	* [Code](code)
 * [Check-in meeting](check-in-meeting.md) ([Answers](check-in-meeting-answers.md))
-* [Quiz](quiz.md) ([Answers](quiz-answers.md))
-* [Exercises](exercises.md) ([Answers](exercise-answers.md))
+* [Practice Final](../../exams/final/practice-final.md)  ([Answers](../../exams/final/practice-final-answers.md))
 * [Homework](homework.md)
