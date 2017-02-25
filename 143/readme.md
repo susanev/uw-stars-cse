@@ -83,7 +83,8 @@ __Topics__: Recursive backtracking
 __Topics__: Binary trees, Binary search trees
 * [Lecture notes](weeks/week8/lecture-notes.md)
 * [Check-in meeting](weeks/week8/check-in-meeting.md) ([Answers](weeks/week8/check-in-meeting-answers.md))
-* [Practice Final](exams/final/practice-final.md) ([Answers](exams/final/practice-final-answers.md))
+* [Quiz](weeks/week8/quiz.md) ([Answers](weeks/week8/quiz-answers.md))
+* [Exercises](weeks/week8/exercises.md) ([Answers](weeks/week7/exercise-answers.md))
 * [Homework](weeks/week8/homework.md)
 
 ### [Week 9](weeks/week9)
@@ -91,8 +92,7 @@ __Topics__: Comparable interface, Generic binary search tress, Huffman assignmen
 * [Plan](weeks/week9/plan.md)
 * [Lecture notes](weeks/week9/lecture-notes.md)
 * [Check-in meeting](weeks/week9/check-in-meeting.md) ([Answers](weeks/week9/check-in-meeting-answers.md))
-* [Quiz](weeks/week9/quiz.md) ([Answers](weeks/week9/quiz-answers.md))
-* [Exercises](weeks/week9/exercises.md) ([Answers](weeks/week9/exercise-answers.md))
+* [Practice Final](exams/final/practice-final.md) ([Answers](exams/final/practice-final-answers.md))
 * [Homework](weeks/week9/homework.md)
 
 ### [Week 10](weeks/week10)
