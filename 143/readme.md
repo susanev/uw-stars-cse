@@ -97,7 +97,6 @@ __Topics__: Comparable interface, Generic binary search tress, Huffman assignmen
 
 ### [Week 10](weeks/week10)
 __Topics__: IntList case study, Hashing, Functional Programming
-* [Plan](weeks/week10/plan.md)
 * [Lecture notes](weeks/week10/lecture-notes.md)
 * [Check-in meeting](weeks/week10/check-in-meeting.md) ([Answers](weeks/week10/check-in-meeting-answers.md))
 * [Quiz](weeks/week10/quiz.md) ([Answers](weeks/week10/quiz-answers.md))
