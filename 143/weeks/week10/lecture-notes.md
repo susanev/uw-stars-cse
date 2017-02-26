@@ -136,22 +136,22 @@ public void removeAll(IntList other) {
 
 ##### Java's Hash Function for Strings
 
-	```java
-	public int hashCode() {
-		int h = hash;
-		if (h == 0 && count > 0) {
-			int off = offset;
-			char val[] = value;
-			int len = count;
+```java
+public int hashCode() {
+	int h = hash;
+	if (h == 0 && count > 0) {
+		int off = offset;
+		char val[] = value;
+		int len = count;
 
-			for (int i = 0; i < len; i++) {
-				h = 31*h + val[off++];
-			}
-			hash = h;
+		for (int i = 0; i < len; i++) {
+			h = 31*h + val[off++];
 		}
-		return h;
+		hash = h;
 	}
-	```
+	return h;
+}
+```
 
 #### Load Factor
 * One of the other basic ideas in hashing is to have a table that has extra room, relative to the data you are going to include
@@ -175,7 +175,7 @@ public void removeAll(IntList other) {
 	      +---------+
 	[...] |   ...   |
 	      +---------+
-	[9999] |         |
+	[9999]|         |
 	      +---------+
 	```
 
@@ -194,11 +194,11 @@ public void removeAll(IntList other) {
 	      +---------+
 	[...] |   ...   |
 	      +---------+
-	[9842] | "Reges" |
+	[9842]| "Reges" |
 	      +---------+
 	[...] |   ...   |
 	      +---------+
-	[9999] |         |
+	[9999]|         |
 	      +---------+
 	```
 
