@@ -17,7 +17,7 @@ _CSE 143_
 | 8 | 20 | Binary Trees |
 | 9 | 20 | Linked Lists |
 
-#### Tips
+## Tips
 * Do the 20pt questions first, if you run out of time and do not get to these questions it will not be possible to pass the test
   * Use the mechanical problems as a break from the 20pt problems, if your brain needs it
 * It's easy to make a mistake on the Binary Search Tree problem, and its difficult for the graders to award partial credit, do check this problem closely before moving on
