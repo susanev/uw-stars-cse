@@ -58,15 +58,16 @@ __Topics__: Recursive backtracking
 __Topics__: Binary trees, Binary search trees
 * [Lecture notes](week08/lecture-notes.md)
 * [Check-in meeting](week08/check-in-meeting.md) ([Answers](week08/check-in-meeting-answers.md))
-* [Practice Final](../exams/final/practice-final.md) ([Answers](../exams/final/practice-final-answers.md))
+* [Quiz](week08/quiz.md) ([Answers](week08/quiz-answers.md))
+* [Exercises](week08/exercises.md) ([Answers](week08/exercise-answers.md))
+
 * [Homework](week08/homework.md)
 
 ## [Week 9](week09)
 __Topics__: Comparable interface, Generic binary search tress, Huffman assignment, Abstract classes
 * [Lecture notes](week09/lecture-notes.md)
 * [Check-in meeting](week09/check-in-meeting.md) ([Answers](week09/check-in-meeting-answers.md))
-* [Quiz](week09/quiz.md) ([Answers](week09/quiz-answers.md))
-* [Exercises](week09/exercises.md) ([Answers](week09/exercise-answers.md))
+* [Practice Final](../exams/final/practice-final.md) ([Answers](../exams/final/practice-final-answers.md))
 * [Homework](week09/homework.md)
 
 ## [Week 10](week10)
