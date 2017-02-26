@@ -96,7 +96,7 @@ public static void sum() {
     ```
 
 #### String test methods
-_Note: These notes are repeated from [week4](../week4/lecture-notes.md) beacause they were discussed in more detail this week._
+_Note: These notes are repeated from [week4](../week04/lecture-notes.md) beacause they were discussed in more detail this week._
 
 | __Methods__ | __Description__ |
 | :--- | :--- |

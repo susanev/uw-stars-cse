@@ -222,8 +222,8 @@ _CSE 143_
 
 
 
-[one-two-three]: https://github.com/susanev/UWStarsCSE/blob/master/143/weeks/week7/images/OneTwoThree.png "OneTwoThree"
+[one-two-three]: https://github.com/susanev/UWStarsCSE/blob/master/143/weeks/week07/images/OneTwoThree.png "OneTwoThree"
 
-[ne2]: https://github.com/susanev/UWStarsCSE/blob/master/143/weeks/week7/images/ne2.png "ne2"
+[ne2]: https://github.com/susanev/UWStarsCSE/blob/master/143/weeks/week07/images/ne2.png "ne2"
 
-[ne5]: https://github.com/susanev/UWStarsCSE/blob/master/143/weeks/week7/images/ne5.png "ne5"
+[ne5]: https://github.com/susanev/UWStarsCSE/blob/master/143/weeks/week07/images/ne5.png "ne5"
