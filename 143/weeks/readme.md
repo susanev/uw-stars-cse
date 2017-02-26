@@ -2,7 +2,6 @@ _CSE 143_
 # Weeks
 ## [Week 1](week01)
 __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each loop
-* [Plan](week01/plan.md)
 * [Lecture notes](week01/lecture-notes.md)
 * [Check-in meeting](week01/check-in-meeting.md) ([Answers](week01/check-in-meeting-answers.md))
 * [Quiz](week01/quiz.md) ([Answers](week01/quiz-answers.md))
@@ -11,7 +10,6 @@ __Topics__: ArrayIntList, pre/post conditions, exceptions, Lists, Sets, for-each
 
 ## [Week 2](week03)
 __Topics__: Stacks, Queues, Arrays of Objects, Interfaces, Linked Lists
-* [Plan](week02/plan.md)
 * [Lecture notes](week02/lecture-notes.md)
 * [Check-in meeting](week02/check-in-meeting.md) ([Answers](week02/check-in-meeting-answers.md))
 * [Quiz](week02/quiz.md) ([Answers](week02/quiz-answers.md))
@@ -20,7 +18,6 @@ __Topics__: Stacks, Queues, Arrays of Objects, Interfaces, Linked Lists
 
 ## [Week 3](week03)
 __Topics__: Advanced Linked lists
-* [Plan](week03/plan.md)
 * [Lecture notes](week03/lecture-notes.md)
 * [Check-in meeting](week03/check-in-meeting.md) ([Answers](week03/check-in-meeting-answers.md))
 * [Quiz](week03/quiz.md) ([Answers](week03/quiz-answers.md))
@@ -29,7 +26,6 @@ __Topics__: Advanced Linked lists
 
 ## [Week 4](week04)
 __Topics__: Binary search, Complexity, Maps
-* [Plan](week04/plan.md)
 * [Lecture notes](week04/lecture-notes.md)
 * [Check-in meeting](week04/check-in-meeting.md) ([Answers](week04/check-in-meeting-answers.md))
 * [Practice Midterm](../exams/midterm/practice-midterm.md) ([Answers](../exams/midterm/practice-midterm-answers.md))
@@ -37,7 +33,6 @@ __Topics__: Binary search, Complexity, Maps
 
 ## [Week 5](week05)
 __Topics__: Recursion, Regular Expressions, Grammars
-* [Plan](week05/plan.md)
 * [Lecture notes](week05/lecture-notes.md)
 * [Check-in meeting](week05/check-in-meeting.md) ([Answers](week05/check-in-meeting-answers.md))
 * [Quiz](week05/quiz.md) ([Answers](week05/quiz-answers.md))
@@ -46,7 +41,6 @@ __Topics__: Recursion, Regular Expressions, Grammars
 
 ## [Week 6](week06)
 __Topics__: Inheritance, Merge Sort
-* [Plan](week06/plan.md)
 * [Lecture notes](week06/lecture-notes.md)
 * [Quiz](week06/quiz.md) ([Answers](week06/quiz-answers.md))
 * [Exercises](week06/exercises.md) ([Answers](week06/exercise-answers.md))
@@ -54,7 +48,6 @@ __Topics__: Inheritance, Merge Sort
 
 ## [Week 7](week07)
 __Topics__: Recursive backtracking
-* [Plan](week07/plan.md)
 * [Lecture notes](week07/lecture-notes.md)
 * [Check-in meeting](week07/check-in-meeting.md) ([Answers](week07/check-in-meeting-answers.md))
 * [Quiz](week07/quiz.md) ([Answers](week07/quiz-answers.md))
@@ -70,7 +63,6 @@ __Topics__: Binary trees, Binary search trees
 
 ## [Week 9](week09)
 __Topics__: Comparable interface, Generic binary search tress, Huffman assignment, Abstract classes
-* [Plan](week09/plan.md)
 * [Lecture notes](week09/lecture-notes.md)
 * [Check-in meeting](week09/check-in-meeting.md) ([Answers](week09/check-in-meeting-answers.md))
 * [Quiz](week09/quiz.md) ([Answers](week09/quiz-answers.md))
@@ -78,7 +70,7 @@ __Topics__: Comparable interface, Generic binary search tress, Huffman assignmen
 * [Homework](week09/homework.md)
 
 ## [Week 10](week10)
-__Topics__: IntList case study, Hashing, Functional Programming
+__Topics__: IntList case study, Hashing
 * [Lecture notes](week10/lecture-notes.md)
 * [Check-in meeting](week10/check-in-meeting.md) ([Answers](week10/check-in-meeting-answers.md))
 * [Quiz](week07/quiz.md) ([Answers](week10/quiz-answers.md))

@@ -1,7 +1,6 @@
 _CSE 143_
 # Week 5
 __Topics__: Recursion, Regular Expressions, Grammars
-* [Plan](plan.md)
 * [Lecture notes](lecture-notes.md)
 	* [Code](code)
 * [Check-in meeting](check-in-meeting.md) ([Answers](check-in-meeting-answers.md))

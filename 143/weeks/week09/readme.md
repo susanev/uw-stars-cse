@@ -1,7 +1,6 @@
 _CSE 143_
 # Week 9
 __Topics__: Comparable interface, Generic binary search tress, Huffman assignment, Abstract classes
-* [Plan](plan.md)
 * [Lecture notes](lecture-notes.md)
 	* [Code](code)
 * [Check-in meeting](check-in-meeting.md) ([Answers](check-in-meeting-answers.md))
