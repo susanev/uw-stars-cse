@@ -36,6 +36,7 @@ _CSE 143_
 
 | __Problems__ | __Answers__ |
 | :--- | :--- |
+| [Practice Final 1](practice-final.md) | [Answers](practice-final-answers.md) |
 
 ## Study Session
 
