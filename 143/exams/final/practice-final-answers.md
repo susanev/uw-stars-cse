@@ -78,6 +78,23 @@ _CSE 143_
 
 1. Collections Programming. 10 points. recordScore.
 
+	```java
+	public static double recordScore(Map<String, List<Integer>> scores, String name, int score) {
+		if (score < 0 || score > 30) {
+			throw new IllegalArgumentException();
+		}
+		if (!scores.containsKey(name)) {
+			scores.put(name, new LinkedList<Integer>());
+		}
+		scores.get(name).add(0, score);
+		int total = 0;
+		for (int i : scores.get(name)) {
+			total += i;
+		}
+		return (int) Math.round((1000.0) * total / (scores.get(name).size() * 30)) / 10.0;
+	}
+	```
+
 1. Comparable Class. 20 points. ClockTime.
 
 	```java
