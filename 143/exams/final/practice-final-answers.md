@@ -46,7 +46,7 @@ _CSE 143_
 1. Collections Programming. 5 points. retainEvenLength.
 
 	```java
-	public static void retainEvenLength(Set<String> set) {
+	public void retainEvenLength(Set<String> set) {
 		Iterator<String> itr = set.iterator();
 		while (itr.hasNext()) {
 			String s = itr.next();
@@ -79,7 +79,7 @@ _CSE 143_
 1. Collections Programming. 10 points. recordScore.
 
 	```java
-	public static double recordScore(Map<String, List<Integer>> scores, String name, int score) {
+	public double recordScore(Map<String, List<Integer>> scores, String name, int score) {
 		if (score < 0 || score > 30) {
 			throw new IllegalArgumentException();
 		}
