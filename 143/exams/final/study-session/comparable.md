@@ -7,12 +7,12 @@ _CSE 143_
 
 	| Method | Description |
 	| :--- | :--- |
-	| `TeamData(name, problems) | constructs a TeamData object with the given team name and the given number of problems |
-	| `success(problem, time) | record the successful completion of the given problem with the given time |
-	| `solved() | returns the total number of problems solved |
-	| `time() | returns the total time for problems solved |
-	| `percentCorrect() | returns the percent of problems solved |
-	| `toString() | returns a String with name, problems solved, total problems, and total time |
+	| `TeamData(name, problems)` | constructs a TeamData object with the given team name and the given number of problems |
+	| `success(problem, time)` | record the successful completion of the given problem with the given time |
+	| `solved()` | returns the total number of problems solved |
+	| `time()` | returns the total time for problems solved |
+	| `percentCorrect()` | returns the percent of problems solved |
+	| `toString()` | returns a String with name, problems solved, total problems, and total time |
 
 	Each time a team solves a problem, the success method for the team will be called once giving the problem number and the time for that problem. The TeamData object must keep track of the total number of problems solved and the sum of all of the times. It does NOT have to keep track of which problems have been solved. Below is an example of a typical usage:
 
