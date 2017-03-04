@@ -50,7 +50,7 @@ _CSE 143_
 	{20=David and Zack and Erik, 25=Grace, 28=Paul, 35=Marty and Jessica, 40=Helene}
 	```
 
-	For full credit, obey the following restrictions in your solution. A solution that disobeys them can get partial credit. • You will need to construct a map to store your results, but you may not use any other structures (arrays, lists, etc.) as auxiliary storage. (You can have as many simple variables as you like.) • You should not modify the contents of the map passed to your method. • Your solution should run in no worse than O(N log N) time, where N is the number of pairs in the map.
+	For full credit, obey the following restrictions in your solution. A solution that disobeys them can get partial credit. You will need to construct a map to store your results, but you may not use any other structures (arrays, lists, etc.) as auxiliary storage. (You can have as many simple variables as you like.) You should not modify the contents of the map passed to your method. Your solution should run in no worse than O(N log N) time, where N is the number of pairs in the map.
 
 1. Write a method extractShorterThan that takes as parameters a set of strings and an integer. The method will remove from the set all strings whose length is strictly less than the given integer length, and return those strings as a new set. For example, if the set s stored the following values:
 
