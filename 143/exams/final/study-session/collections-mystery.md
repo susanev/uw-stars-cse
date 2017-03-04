@@ -100,6 +100,7 @@ _CSE 143_
 	For each call below, indicate what value is returned. If the method call results in an exception being thrown, write "exception" instead.
 
 	| Method Call | Value Returned |
+	| :--- | :--- |
 	| `mystery(grid, 5);` | |
 	| `mystery(grid, 3);` | |
 	| `mystery(grid, 1);` | |
