@@ -42,3 +42,10 @@ _CSE 143_
 
 | Problems | Answers |
 | :--- | :--- |
+| [Collections Mystery](study-session/collections-mystery.md) | [Answers](study-session/answers/collections-mystery-answers.md) |
+| [Collections Programming](study-session/collections-programming.md) | [Answers](study-session/answers/collections-programming-answers.md) |
+| [Binary Trees](study-session/binary-trees.md) | [Answers](study-session/answers/binary-trees-answers.md) |
+| [Collections Programming Hard](study-session/collections-programming-hard.md) | [Answers](study-session/answers/collections-programming-hard-answers.md) |
+| [Comparable class](study-session/comparable.md) | [Answers](study-session/answers/comparable-answers.md) |
+| [Binary Trees Hard](study-session/binary-trees-hard.md) | [Answers](study-session/answers/binary-trees-hard-answers.md) |
+| [Linked Lists](study-session/linked-lists.md) | [Answers](study-session/answers/linked-lists-answers.md) |

@@ -3,8 +3,6 @@ _CSE 143_
 
 | Problems | Answers |
 | :--- | :--- |
-| [Binary Tree Traversals](binary-tree-traversals.md) | [Answers](answers/rbinary-tree-traversals-answers.md) |
-| [Binary Search Trees](binary-search-trees.md) | [Answers](answers/binary-search-trees-answers.md) |
 | [Collections Mystery](collections-mystery.md) | [Answers](answers/collections-mystery-answers.md) |
 | [Collections Programming](collections-programming.md) | [Answers](answers/collections-programming-answers.md) |
 | [Binary Trees](binary-trees.md) | [Answers](answers/binary-trees-answers.md) |
