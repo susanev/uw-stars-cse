@@ -10,7 +10,7 @@ _CSE 143_
 		Set<Point> result = new HashSet<Point>();
 		for (Point p : data)
 			if (p.getX() == p.getY())
-		result.add(p);
+				result.add(p);
 		return result;
 	}
 	```

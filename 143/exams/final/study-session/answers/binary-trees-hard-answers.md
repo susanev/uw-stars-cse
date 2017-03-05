@@ -73,6 +73,24 @@ _CSE 143_
 
 1. stretch. One possible answer is shown below.
 
+	```java
+	public void stretch() {
+		overallRoot = stretch(overallRoot);
+	}
+
+	private IntTreeNode stretch(IntTreeNode root) {
+		if (root != null) {
+			root.left = stretch(root.left);
+			root.right = stretch(root.right);
+			if (root.left != null && root.right == null)
+				root = new IntTreeNode(1, root, null);
+			else if (root.left == null && root.right != null)
+				root = new IntTreeNode(1, null, root);
+		}
+		return root;
+	}
+	```
+
 1. flip. One possible answer is shown below.
 
 	```java

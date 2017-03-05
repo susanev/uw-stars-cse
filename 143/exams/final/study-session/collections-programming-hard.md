@@ -3,30 +3,6 @@ _CSE 143_
 # Collections Programming Hard
 ## Final Study Session
 
-1. Write a method named whereInTheWorld that accepts two parameters:
-	1. a String representing the name of a person
-	1. a Map in which keys represent names of cities and values represent the set of which friends have visited the city
-
-	Your method should return a set of the cities where the given person has been. The set returned should be sorted alphabetically.
-
-	For example, given the following map called places:
-
-	```
-	{"Joe"=["New York", "San Francisco"], "Samantha"=["London"],
-	 "Elias"=["London", "New York", "San Francisco", "Singapore"],
-	 "Myra"=["Beijing", "Beirut", "Nashville", "Phoenix"]}
-  ```
-
-	The call to whereInTheWorld("New York", places) should return the set:
-
-	```
-	["Joe", "Elias"]
-	```
-
-	because Joe and Elias have visited New York.
-
-	Your method should return only names that match the city exactly, including case. Your method should not modify the contents of the map. You may assume that the map passed to your method is not null and that it does not contain any null values.
-
 1. Write a method byAge that accepts three parameters: 1) a Map where each key is a person's name (a string) and the associated value is that person's age (an integer); 2) an integer for a minimum age; and 3) an integer for a max age. Your method should return a new map with information about people with ages between the min and max, inclusive.
 
 	In your result map, each key is an integer age, and the value for that key is a string with the names of all people at that age, separated by "and" if there is more than one person of that age. Include only ages between the min and max inclusive, where there is at least one person of that age in the original map. If the map passed in is empty, or if there are no people in the map between the min/max ages, return an empty map.

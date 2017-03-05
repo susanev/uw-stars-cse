@@ -3,8 +3,6 @@ _CSE 143_
 # Collections Programming Hard Answers
 ## Final Study Session
 
-1. whereInTheWorld.
-
 1. byAge. One possible solution appears below.
 
 	```java
@@ -20,7 +18,6 @@ _CSE 143_
 				}
 			}
 		}
-
 		return result;
 	}
 	```

@@ -30,14 +30,14 @@ _CSE 143_
 		if (value == 0) {
 			throw new IllegalArgumentException();
 		}
-			return countMultiples(overallRoot, value);
-		}
+		return countMultiples(overallRoot, value);
+	}
 
-		private int countMultiples(IntTreeNode root, int value) {
-			if (root == null) {
+	private int countMultiples(IntTreeNode root, int value) {
+		if (root == null) {
 				return 0;
-			} else {
-				int sum = countMultiples(root.left, value) + countMultiples(root.right, value);
+		} else {
+			int sum = countMultiples(root.left, value) + countMultiples(root.right, value);
 			if (root.data % value == 0) {
 				return 1 + sum;
 			} else {
@@ -48,3 +48,19 @@ _CSE 143_
 	```
 
 1. pairsOfTwins. One possible answer is shown below.
+
+	```java
+	public int pairsOfTwins() {
+		return pairsOfTwins(overallRoot);
+	}
+
+	private int pairsOfTwins(IntTreeNode node) {
+		if (node == null)
+			return 0;
+		else if (node.left != null && node.right != null &&
+				node.left.data == node.right.data)
+			return 1 + pairsOfTwins(node.left) + pairsOfTwins(node.right);
+		else
+			return pairsOfTwins(node.left) + pairsOfTwins(node.right);
+	}
+	```

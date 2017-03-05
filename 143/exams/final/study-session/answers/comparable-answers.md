@@ -5,6 +5,51 @@ _CSE 143_
 
 1. TeamData. One possible solution appears below.
 
+	```java
+	public class TeamData implements Comparable<TeamData> {
+		private String name;
+		private int solved;
+		private int totalTime;
+		private int problems;
+
+		public TeamData(String name, int problems) {
+			this.name = name;
+			this.problems = problems;
+			this.totalTime = 0;
+			this.solved = 0;
+		}
+
+		public void success(int problem, int time) {
+			solved++;
+			totalTime += time;
+		}
+
+		public String toString() {
+			return name + " solved " + solved + " of " + problems + " in "
+					+ totalTime + " minutes";
+		}
+
+		public int solved() {
+			return solved;
+		}
+
+		public int time() {
+			return totalTime;
+		}
+
+		public double percentCorrect() {
+			return 100.0 * solved / problems;
+		}
+
+		public int compareTo(TeamData other) {
+			if (solved != other.solved)
+				return other.solved - solved;
+			else
+				return totalTime - other.totalTime;
+		}
+	}
+	```
+
 1. RadioStation. One possible solution appears below.
 
 	```java
@@ -59,6 +104,64 @@ _CSE 143_
 	```
 
 1. AdmissionsEntry. One possible solution appears below.
+
+	```java
+	public class AdmissionsEntry implements Comparable<AdmissionsEntry> {
+		private String ID;
+		private int ratings;
+		private double total;
+		private boolean discuss;
+
+		public AdmissionsEntry(String ID) {
+			this.ID = ID;
+			this.ratings = 0;
+			this.total = 0.0;
+			this.discuss = false;
+		}
+
+		public void rate(double rating) {
+			ratings++;
+			total += rating;
+			if (rating >= 4) {
+				discuss = true;
+			}
+		}
+
+		public void flag() {
+			discuss = true;
+		}
+
+		public String getID() {
+			return ID;
+		}
+
+		public double getRating() {
+			if (ratings == 0) {
+				return 0.0;
+			} else {
+				return total / ratings;
+			}
+		}
+
+		public String toString() {
+			return ID + ": " + Math.round(100 * getRating()) / 100.0;
+		}
+
+		public int compareTo(AdmissionsEntry other) {
+			if (discuss && !other.discuss) {
+				return -1;
+			} else if (!discuss && other.discuss) {
+				return 1;
+			} else if (getRating() > other.getRating()) {
+				return -1;
+			} else if (getRating() < other.getRating()) {
+				return 1;
+			} else {
+				return ID.compareTo(other.ID);
+			}
+		}
+	}
+	```
 
 1. RentalCar. One possible solution appears below.
 

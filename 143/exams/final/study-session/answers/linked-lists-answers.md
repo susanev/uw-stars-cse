@@ -18,10 +18,10 @@ _CSE 143_
 		}
 		while (current2 != null) {
 			if (current1.data > current2.data) {
-			return false;
-		}
-		current1 = current1.next;
-		current2 = current2.next;
+				return false;
+			}
+			current1 = current1.next;
+			current2 = current2.next;
 		}
 		return true;
 	} 
@@ -98,3 +98,19 @@ _CSE 143_
 	```
 
 1. interleave. One possible answer is shown below.
+
+	```java
+	public void interleave(LinkedIntList other) {
+		ListNode list1 = front;
+		ListNode list2 = other.front;
+
+		while (list1 != null && list2 != null) {
+			ListNode temp1 = list1.next;
+			ListNode temp2 = list2.next;
+			list1.next = list2;
+			list2.next = temp1;
+			list1 = temp1;
+			list2 = temp2;
+		}
+	}
+	```
