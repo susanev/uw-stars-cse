@@ -16,7 +16,7 @@ __Topics__: Recursive Tracing, Recursive Programming, Inheritance, Linked Lists,
 ### [Final](exams/final)
 __Topics__: Binary Tree Traversal, Binary Search Tree, Collections Mystery, Collections Programming, Binary Trees, Collections Programming, Comparable class, Binary Trees, Linked Lists
 * [Final Cheat Sheet](exams/final/final-cheat-sheet.md)
-* [Practice Midterm](exams/final/practice-final.md) ([Answers](exams/final/practice-final-answers.md))
+* [Practice Final](exams/final/practice-final.md) ([Answers](exams/final/practice-final-answers.md))
 * [Study Session](exams/final/study-session)
 
 ## [Weeks](weeks)
