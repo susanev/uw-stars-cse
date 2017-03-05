@@ -33,87 +33,55 @@ _CSE 143_
 	$99.99: Microphone Check
 	```
 
-1. Write a method called double that creates two new nodes for each node in a binary tree of integers. Specifically, each node in the original tree will be given new left and right child nodes that each contain a value twice that of its parent. The left child of the original node will be made the left child of the new left child and the right child of the original node will be made the right child of the new right child. Only nodes from the original tree will be modified in this manner, do not continue modifying new nodes. For example, suppose a variable t stores a reference to the following tree:
+1. Write a method construct that could be added to the IntTree class from lecture and section. The method accepts a sorted array of integers as a parameter and constructs a balanced binary search tree containing those integers. The tree should be constructed so that for every node, either the left/right subtrees have the same number of nodes, or the left subtree has one more node than the right.
+
+	For example, if you have an IntTree variable called t and an array called a storing values [1, 2, 3, 4, 5, 6, 7], and call of t.construct(a); is made, t should store the tree below.
 
 	```
-	           +----+
-	           |  2 |
-	           +----+
-	         /        \
-	       /            \
-	+----+               +----+
-	| -6 |               |  7 |
-	+----+               +----+
-	      \                  
-	       \                 
-	      +----+             
-	      | 23 |             
-	      +----+ 
-	```            
-
-	After a call to double:
-
-	```java
-	t.double();
+	            +---+
+	            | 4 |
+	            +---+
+	           /     \
+	          /       \
+	      +---+        +---+
+	      | 2 |        | 6 |
+	      +---+        +---+
+	      /   \        /   \
+	     /     \      /     \
+	  +---+  +---+  +---+  +---+
+	  | 1 |  | 3 |  | 5 |  | 7 |
+	  +---+  +---+  +---+  +---+
 	```
 
-	The new tree should look like this:
+
+	If the array stores [3, 8, 19, 27, 34, 42, 49, 53, 67, 74], the tree below is constructed.
 
 	```
-	                         +----+
-	                         |  2 |
-	                         +----+
-	                       /        \
-	                     /            \
-	              +----+                +----+
-	              |  4 |                |  4 |
-	              +----+                +----+
-	             /                            \
-	            /                              \
-	      +----+                              +----+
-	      | -6 |                              |  7 |
-	      +----+                              +----+
-	     /      \                            /      \             
-	    /        \                          /        \     
-	+----+      +----+                  +----+      +----+ 
-	|-12 |      |-12 |                  | 14 |      | 14 | 
-	+----+      +----+                  +----+      +----+ 
-	                  \      
-	                   \
-	                 +----+
-	                 | 23 |
-	                 +----+
-	                /      \      
-	               /        \     
-	            +----+     +----+ 
-	            | 46 |     | 46 | 
-	            +----+     +----+ 
+		             +----+
+		             | 42 |
+		             +----+
+		            /      \
+		           /        \
+		      +----+        +----+
+		      | 19 |        | 67 |
+		      +----+        +----+
+		      /    \         /   \
+		     /      \       /     \
+		  +----+  +----+ +----+  +----+
+		  |  8 |  | 34 | | 53 |  | 74 |
+		  +----+  +----+ +----+  +----+
+		  /      /       /
+		 /      /       /
+	+----+  +----+  +----+
+	| 3  |  | 27 |  | 49 |
+	+----+  +----+  +----+
 	```
 
-	You are writing a public method for a binary tree class defined as follows:
+	Notice that when it is not possible to have left and right subtrees of equal size, the extra value always ends up in the left subtree, as in the overall tree which has 5 nodes in the left subtree and 4 in the right.
 
-	```java
-	public class IntTreeNode {
-		public int data;          // data stored in this node
-		public IntTreeNode left;  // reference to left subtree
-		public IntTreeNode right; // reference to right subtree
+	The new tree should replace any old tree. For full credit, your solution must run in O(N) time, where N is the number of elements in the array. You may assume that the values in the array appear in sorted order.
 
-		// post: constructs an IntTreeNode with the given data and links
-		public IntTreeNode(int data, IntTreeNode left, IntTreeNode right) {
-			this.data = data;
-			this.left = left;
-			this.right = right;
-		}
-	}
-
-	public class IntTree {
-		private IntTreeNode overallRoot;
-
-		<methods>
-	}
-	```
-
-	You are writing a method that will become part of the IntTree class. You may define private helper methods to solve this problem, but otherwise you may not assume that any particular methods are available. You are NOT to change the data field of the existing nodes in the tree. You will, however, construct new nodes to be inserted into the tree and you will change the links of the tree to include these new nodes.
+	You may define private helper methods to solve this problem, but otherwise you may not call any other methods of the class nor create any data structures such as arrays, lists, etc. You also may not alter the array that you are passed. 
 
 1. Write a method takeSmallerFrom that compares two lists of integers, making sure that the first list has smaller values in corresponding positions. For example, suppose the the variables list1 and list2 refer to lists that contain the following values:
 
