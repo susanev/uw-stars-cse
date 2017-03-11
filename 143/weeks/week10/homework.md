@@ -18,7 +18,7 @@ _All problems should be completed on [Practice-It](http://practiceit.cs.washingt
 1. [countMultiplies](https://practiceit.cs.washington.edu/problem/view/cs2/exams/finals/final2/countMultiples)
 
 ### Optional
-_You will receive 2 points extra credit in homework if you complete both of these problems successfully._
+_You will receive 3 points extra credit in homework if you complete all of these problems successfully._
 
 1. [Playa](https://practiceit.cs.washington.edu/problem/view/cs2/exams/finals/final3/Playa)
 1. [HistoryList](https://practiceit.cs.washington.edu/problem/view/cs2/exams/finals/final4/HistoryList)
