@@ -108,9 +108,12 @@ _CSE 143_
 			ListNode temp1 = list1.next;
 			ListNode temp2 = list2.next;
 			list1.next = list2;
-			list2.next = temp1;
+			if (temp1 != null) {
+				list2.next = temp1;
+			}
 			list1 = temp1;
 			list2 = temp2;
 		}
+		other = null;
 	}
 	```
