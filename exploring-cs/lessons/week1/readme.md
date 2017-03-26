@@ -6,8 +6,6 @@ _HCDE 598 Winter 2017_
 * Review the [syllabus](https://github.com/susanev/uw-hcde-creative-computing/blob/master/syllabus.md)
 * Complete the [course survey](https://goo.gl/forms/kjdQvKnmWT7DBY3T2)
 * Join our [slack team](https://hcde598-winter-2017.slack.com) and introduce yourself
-* Create a [Github](https://github.com/) account
-* Setup your [portfolio](portfolio.md)
 
 ## Goals
 * Learn about the course and your classmates
@@ -43,10 +41,6 @@ _HCDE 598 Winter 2017_
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
 
-## Resources
-* [How to add projects to your Github portfolio video](https://youtu.be/M-bNnVwBHUY)
-* [Week 1 exercises video](https://youtu.be/TNEm5U8tnhQ)
-* [Week 1 homework video](https://youtu.be/QhvBb-69quY)
 
 ## Homework
 * [Personal values](homework/personal_values.md) Due Sunday, 01/15

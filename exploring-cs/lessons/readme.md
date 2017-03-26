@@ -5,7 +5,6 @@ _STARS Exploring CS_
 _Topics: Install Processing, environment setup, using the reference, digital color, coordinate system_
 
 * [Overview](week1)
-* [Portfolio Setup](week1/portfolio.md)
 * [Exercises](week1/exercises)
 * [Homework: Personal Values](week1/homework/personal_values.md)
 * [Homework: Digitize an analog piece of art](week1/homework/digitize.md)

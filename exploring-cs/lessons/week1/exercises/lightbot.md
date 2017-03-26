@@ -1,9 +1,9 @@
-_HCDE 598 Winter 2017_
+_STARS Exploring CS_
 # Week 1 Exercise
 ## Exploring Lightbot 
 
 ### Goal
-The point of this exercise is to have fun and to set the context for the second lecture. Have fun!
+The point of this exercise is to have fun and to start exploring programming.
 
 ### Task
 * Choose one computer to use with your partner
@@ -19,4 +19,4 @@ The point of this exercise is to have fun and to set the context for the second 
 * What was your approach to solving these problems?
 * What did you learn?
 
-[lightbot]: https://github.com/susanev/2016_Winter_UWHCDE_p5/blob/master/lessons/week1/exercises/images/lightbot.png "Lightbot screen for Part A"
+[lightbot]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week1/exercises/images/lightbot.png "Lightbot screen for Part A"
