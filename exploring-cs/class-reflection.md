@@ -1,4 +1,4 @@
-_STARS Exploring CS Spring 2017_
+_STARS Exploring CS_
 # Class Reflection
 
 _[Due Saturday, 03/18, at 9pm](https://canvas.uw.edu/courses/1099807/assignments/3624554)_

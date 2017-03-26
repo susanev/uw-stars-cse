@@ -1,4 +1,4 @@
-_HCDE 598 Winter 2017_
+_STARS Exploring CS_
 # Week 1 Homework
 
 ## Connecting To Your Principles 
@@ -18,6 +18,13 @@ Start by taking notes or brainstorming a list of what you value. Then move to a 
 ### Notes
 * You will earn full credit based on your sincere effort to complete the exercise not on the content of your writing
 * Your writing will be private between you and the instructor, your response will not be shared with the class
+
+### Grading Rubric
+
+| Description | Points |
+| :--- | :--- |
+| Student demonstrate a sincere effort to meet the assignment objects | 8 pts |
+| Student wrote about one page single-spaced or more | 2 pts |
 
 ### Submission
 Your personal values paper should be submitted on [Canvas](https://canvas.uw.edu/courses/1099807/assignments/3544127) as a `.pdf`. If you need help creating a `.pdf` let us know.

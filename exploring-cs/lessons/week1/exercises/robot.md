@@ -1,4 +1,4 @@
-_HCDE 598 Winter 2017_
+_STARS Exploring CS_
 # Week 1 Exercise
 
 ## Building a Robot
@@ -6,7 +6,7 @@ _HCDE 598 Winter 2017_
 This exercise is designed to explain the difference between a static program and a dynamic program and to practice using the Processing language by coloring a robot. 
 ### Part 1: Color The Robot
 <img align="right" src="https://github.com/susanev/2016_Winter_UWHCDE_p5/blob/master/lessons/week1/exercises/images/robot.png" alt="Black, white, and gray robot">
-* Program the code given below in your own p5.js sketch. Run it after every few lines to make sure you did not mistype and create an error. 
+* Program the code given below in your own Processing sketch. Run it after every few lines to make sure you did not mistype and create an error. 
 * Make the robot more interesting by coloring it with a theme (e.g., sports team, favorite food, or cartoon character).
 * Most parts of the robot should be colored with something other than black, white, or gray. Your coloring theme should be unique, please do not copy another person's work, show us your own creativity and style!
 * Add a comment to every line of your code clearly describing what it does
@@ -57,7 +57,7 @@ If you want to challenge yourself with this project try out any of the items bel
 * Give your robot some extra features, or even a side-kick!
 
 ### Reference
-This assignment is inspired by the robot code provided by [Casey Reas](http://reas.com/) and [Ben Fry](http://benfry.com/) in the Make:Getting Started with Processing book.
+This assignment is inspired by the robot code provided by [Casey Reas](http://reas.com/) and [Ben Fry](http://benfry.com/) in the Make: Getting Started with Processing book.
 
 [static]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week1/exercises/images/code_not_dynamic.png "Code that is not dynamic"
 

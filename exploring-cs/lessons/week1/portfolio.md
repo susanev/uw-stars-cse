@@ -1,4 +1,4 @@
-_HCDE 598 Winter 2017_
+_STARS Exploring CS_
 
 # Creating Your Portfolio
 These steps will guide you through setting up your portfolio on [Github](https://github.com/). These instructions are more complicated than we would like, if you have any trouble at all please reach out to your instructor.
@@ -30,7 +30,7 @@ You can either complete the steps by following the text described here, or watch
 1. Navigate to https://username.github.io/repositoryname/ where you replace _username_ with your github username, and replace _repsoitoryname_ with your repository name
 1. Congratulate yourself on setting up your portfolio website, this website is live and you can share the link with others. We will be posting our class projects to our portfolios throughout the quarter.
 
-## Extension
+## Optional
 _This is optional, but encouraged if you have some extra time_
 
 * Try out codecademy's [HTML Course](https://www.codecademy.com/courses/html-one-o-one/0/1) to learn the syntax for your `index.html` file
