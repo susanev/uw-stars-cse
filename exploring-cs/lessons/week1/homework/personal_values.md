@@ -3,6 +3,7 @@ _STARS Exploring CS_
 
 ## Connecting To Your Principles 
 ### Personal Values
+_[Due Tuesday, April 4th, 9:00pm](https://canvas.uw.edu/courses/1158649/assignments/3672954)_
 
 Think about the things that are important to who you are. Some ideas to get your started are listed below (you don’t need to use these, they are only listed to help get you thinking).
 * Honesty
@@ -26,5 +27,5 @@ Start by taking notes or brainstorming a list of what you value. Then move to a 
 | Student demonstrate a sincere effort to meet the assignment objects | 8 pts |
 | Student wrote about one page single-spaced or more | 2 pts |
 
-### Submission
-Your personal values paper should be submitted on [Canvas](https://canvas.uw.edu/courses/1099807/assignments/3544127) as a `.pdf`. If you need help creating a `.pdf` let us know.
+### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672954)
+Your personal values paper should be submitted on [Canvas](https://canvas.uw.edu/courses/1158649/assignments/3672954) as a `.pdf`. If you need help creating a `.pdf` reach out to your instructional staff.

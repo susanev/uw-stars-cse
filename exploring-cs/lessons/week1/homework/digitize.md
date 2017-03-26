@@ -2,6 +2,8 @@ _STARS Exploring CS_
 # Week 1 Homework
 
 ## Digitize an analog piece of art
+_[Due Friday, April 7th, 9:00pm](https://canvas.uw.edu/courses/1158649/assignments/3672949)_
+
 ### Goal 
 In this programming assignment you will practice all the skills you learned in the first day of class, by recreating an analog piece of art in a digital format using Processing
 
@@ -37,8 +39,8 @@ In most situations we expect you to use many different kinds of Processing funct
 | Program is indented correctly | 1 pt |
 | Student included original art image in their submission | 1 pt |
 
-### Submission
-Make sure your code has a comment on most every line and then add your project to your Github portfolio website. If you have any trouble adding it to your portfolio please reach out to your instructor. Then you should submit your reference image and link to your Github portfolio on [canvas](https://canvas.uw.edu/courses/1099807/assignments/3544132).
+### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672949)
+Make sure your code has a comment on most every line and then upload your .pde file to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672949), along with the image file of the original artwork. If you need any help saving and uploading your files please reach out to your instructional staff.
 
 ### Student Examples
 * [Kalemba II—Santiago](https://lusquared.github.io/HCDE-598-Portfolio/Week1_Digitized%20Art/)
