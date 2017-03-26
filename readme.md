@@ -6,6 +6,8 @@ _This repository holds the curriculum for a series of computer science support c
 ### [Exploring CS](exploring-cs)
 _Course Description_: Introduction to computer science class for [STARS](https://www.engr.washington.edu/current/stars) students considering enrolling in the 142/143 sequence during their second year. Course content will focus on programming with the [Processing](https://processing.org/) language. Students will be expected to attend class two times a week and complete numerous projects. Topics covered include methods, parameters, conditionals, loops, arrays, and an introduction to objects.
 
+[Syllabus](exploring-cs/syllabus.md)
+
 ### Pre-CSE 142
 
 Coming soon ...
