@@ -8,7 +8,7 @@ _HCDE 598 Winter 2017_
 * Join our [slack team](https://cse-stars.slack.com)
 
 ## Goals
-* Learn about the course and your classmates
+* Learn about the course and expectations
 * Start learning the fundamentals of programming
 * Practice using the reference
 * Understand and be able to write code to draw shapes, and use different colors
@@ -40,5 +40,5 @@ _HCDE 598 Winter 2017_
 * What can be improved for future classes?
 
 ## Homework
-* [Personal values](homework/personal_values.md) Due Sunday, 01/15
-* [Digitize an analog piece of art](homework/digitize.md) Due Saturday, 01/21
+* [Personal values](homework/personal_values.md) Due Tuesday, April 4th, 9:00pm
+* [Digitize an analog piece of art](homework/digitize.md) Due Friday, April 7th, 9:00pm
