@@ -59,10 +59,10 @@ This assignment is inspired by the robot code provided by [Casey Reas](http://re
 
 [static]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week1/exercises/images/code_not_dynamic.png "Code that is not dynamic"
 
-[dynamic]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week1/exercises/images/code_dynamic.png "Code that is dynamic"
+[dynamic]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week1/exercises/images/code_dynamic.png "Code that is dynamic"
 
-[diagram]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week1/exercises/images/diagram.png "diagram showing how setup and draw flow"
+[diagram]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week1/exercises/images/diagram.png "diagram showing how setup and draw flow"
 
-[part 3 code]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week1/exercises/images/part3_code.png "Additional lines of code to add"
+[part 3 code]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week1/exercises/images/part3_code.png "Additional lines of code to add"
 
 
