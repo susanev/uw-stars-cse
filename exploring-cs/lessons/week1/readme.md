@@ -3,9 +3,9 @@ _HCDE 598 Winter 2017_
 # Week 1
 
 ## Prep Work
-* Review the [syllabus](https://github.com/susanev/uw-hcde-creative-computing/blob/master/syllabus.md)
-* Complete the [course survey](https://goo.gl/forms/kjdQvKnmWT7DBY3T2)
-* Join our [slack team](https://hcde598-winter-2017.slack.com) and introduce yourself
+* Review the [syllabus](https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/syllabus.md)
+* Complete the [course survey](https://goo.gl/forms/V75p1GdRxW1qq4Jn2)
+* Join our [slack team](https://cse-stars.slack.com)
 
 ## Goals
 * Learn about the course and your classmates
@@ -15,11 +15,9 @@ _HCDE 598 Winter 2017_
 
 ## Warm up
 * Introductions
-* Paper coding activity
 * [Lightbot](exercises/lightbot.md) in pairs
 
 ## Lessons
-* All the languages! Why p5.js?
 * Environment setup
 * How to use the reference
 * Digital color
@@ -40,7 +38,6 @@ _HCDE 598 Winter 2017_
 * What topics are you still struggling with?
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
-
 
 ## Homework
 * [Personal values](homework/personal_values.md) Due Sunday, 01/15

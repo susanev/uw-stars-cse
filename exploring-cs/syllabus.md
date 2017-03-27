@@ -10,7 +10,7 @@ __Offering__: Spring 2017
 
 __Class__: [180 minutes] Wednesdays 5:00 – 6:30 and Fridays 4:30 – 6:00, location TBD
 
-__Holidays__: No class on 01/16 (Martin Luther King Day) and 02/20 (Presidents Day)
+__Special Dates__: Class ends early on 03/31 at 5:25pm, No class on 04/05 (Susan at conference) 
 
 __Credit Hours__: 2 (CR/NC)
 
