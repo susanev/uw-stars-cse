@@ -8,7 +8,7 @@ __Course Title__: Exploring Computer Science
 
 __Offering__: Spring 2017
 
-__Class__: [180 minutes] Wednesdays 5:00 – 6:30 and Fridays 4:30 – 6:00, location TBD
+__Class__: [180 minutes] Wednesdays 5:00 – 6:30 and Fridays 4:30 – 6:00, location MGH 030
 
 __Special Dates__: Class ends early on 03/31 at 5:25pm, No class on 04/05 (Susan at conference) 
 
