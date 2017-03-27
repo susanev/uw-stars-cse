@@ -62,14 +62,16 @@ Students will need regular access to a computer with Processing installed, it is
 
 The grade weighting is as follows:
 * Programming assignments: 50%
-* Final Project: 25%
 * Participation: 25%
+* Final Project: 25%
 
-The programming assignments will include weekly individual and pair programming assignments, as well as your portfolio work to showcase your programming assignments.
+You must earn an 80% or higher to receive credit for this course.
+
+The programming assignments will include weekly individual and pair programming assignments. Participation will include coming to class and actively participating, it will also include a view writing assignments, and a course survey. The [final project](final-project.md) will be a paired assignment, spanning 3 weeks of in-class time.
 
 If you have a problem with a grade you received or if you feel the grade you received is incorrect please email the instructor for an appointment to discuss the assignment and your grade in detail. 
 
-The gradebook on Canvas will be updated regularly; please check it to be sure scores have been recorded correctly.
+The grade book on Canvas will be updated regularly; please check it to be sure scores have been recorded correctly.
 
 ### Participation
 Your participation grade will include your active participation in class, as well as your participation on Slack. We expect students to come to class with relevant ideas, and questions related to the class topics.
