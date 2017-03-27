@@ -2,7 +2,7 @@ _HCDE 598 Winter 2017_
 # Week 2 Homework
 
 ## Lego Family
-_[Due Saturday, 01/28, at 9pm](https://canvas.uw.edu/courses/1099807/assignments/3586665)_
+_[Due Sunday, 04/16, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672953)_
 
 ### Goals
 You will program your very own Lego family. You can base it off a TV show (Simpsons is shown below), a movie, a comic, or even your own family if you want. Check [Imagine by Lego](https://www.prote.in/journal/articles/imagine-by-lego) for more inspiration. This assignment will also help you practice with functions, variables, declarations and assignment statements. These ideas help make computations dynamic in interesting ways.
@@ -19,9 +19,11 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 
 #### Variables
 * A variable holds a value that can change through the program
+* In Processing (and Java) you must declare the type of your variables
+	* Use `int` for integers, and `float` for numbers with decimals
 * Variables are important to dynamic programs, because values change all the time
-* If more than one function needs access to a variable you should declare it at the top of your code (.e.g, `var position = 0;`) for now
-	* Declaring and initializing a variable tells p5.js that `position` is a variable that will be used in the program and that `position` starts with the value `0`
+* If more than one function needs access to a variable you should declare it at the top of your code (.e.g, `int position = 0;`) for now
+	* Declaring and initializing a variable tells Processing that `position` is a variable that will be used in the program and that `position` starts with the value `0`
 	* If the variable `position` holds the value `21`, `position = 21;` and then later in the program, we write `position = 23;` then the value of position has changed from what it was (21) to 23
 
 ### Specification
@@ -56,12 +58,26 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 	* Finally, you will want to program your family to stop once it has reached the center
 	* To do this you will want to use the `min` or `max` functions as shown in class
 
-### [Submission](https://canvas.uw.edu/courses/1099807/assignments/3586665)
+### Grading Rubric
+
+| Description | Points |
+| :--- | :--- |
+| Lego family consists of at least 3 characters and uses at least 3 different fill colors | 1 pt |
+| Each Lego character is defined in its own function, and the functions are called correctly from draw | 2 pts |
+| Characters start in the corners | 1 pt |
+| Characters move to the center | 2 pts |
+| Characters stop once they have reached the center | 2 pts |
+| Code is indented properly | 1 pt |
+| Top of program has a comment block, each line in setup and draw has a comment, and each function besides setup and draw has a top comment | 2 pts |
+| Sketches showing planning is included in submission or added to portfolio | 2 pts |
+| Extra Credit: Uses parameters correctly | 1 pt |
+
+
+### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672953)
 * Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
 * Each line in setup and draw should have a comment
 * Each function that you created should have a top comment briefly explaining what that function does (note that setup and draw do not need top comments)
-* Add your Lego family to your Github portfolio and submit a link to this project on canvas along with an image of your sketches
-	* If you are comfortable with HTML and CSS also add your sketches to your portfolio
+* Upload your .pde file to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672953)
 
 ### Extra Challenge
 * Add more custom details to your family
