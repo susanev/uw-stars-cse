@@ -7,15 +7,14 @@ _HCDE 598 Winter 2017_
 * Review and be prepared to talk with others about your [Lego family](../week2/homework/lego-family.md) assignment
 
 ## Learning Objectives
-* Review and practice using functions and parameters
+* Review and practice using methods and parameters
 * Continue to practice using max and min
-* Understand and be able to use the functions random, dist, mousePressed, and mouseReleased
+* Understand and be able to use the methods random, dist, mousePressed, and mouseReleased
 * Continue to learn and practice with conditional statements
 * Understand and be able to use logical operators (and, or)
-* Understand and be able to use p5.js built in variables: mouseX, mouseY, mouseIsPressed, frameCount
+* Understand and be able to use Processing built in variables: mouseX, mouseY, mousePressed, frameCount
 
 ## Warm up
-* Student expectations
 * Meet your new partner
 * Share your [Lego Families](../week2/homework/lego-family.md)
 * Lego family review, and work-time
@@ -23,7 +22,7 @@ _HCDE 598 Winter 2017_
 ## Lessons
 * Events
 * Conditional statement structure
-* Functions: random, dist, mousePressed, mouseReleased
+* Methods: random, dist, mousePressed, mouseReleased
 
 ## Exercises
 * Add restart button to Lego Family
@@ -38,14 +37,8 @@ _HCDE 598 Winter 2017_
 * What did you especially enjoy about today's class?
 * What can be improved for future classes?
 
-## Resources
-* [Class Recording](https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=588f522d-9c3c-4cc2-9e6f-5aa4e3342ac5)
-* [Code Examples](code)
-* Daniel Shiffman Videos
-	* [p5.js Variables Video](https://vimeo.com/138327548)
-	* [p5.js Functions Video](https://vimeo.com/139587733)
-	* [Intro to Conditionals Video](https://vimeo.com/138935676)
-	* [More Conditionals Video](https://vimeo.com/138935678)
+## Resources)
+* [Code Examples]()
 
 ## Homework
-* [Interactive Monster](homework/interactive-monster.md) Due Saturday, 02/04, 9pm
+* [Interactive Monster](homework/interactive-monster.md) Due Sunday, 04/23, 9pm
