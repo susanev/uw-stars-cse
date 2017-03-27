@@ -1,4 +1,4 @@
-_HCDE 598 Winter 2017_
+_STARS Exploring CS_
 
 # Week 1
 
