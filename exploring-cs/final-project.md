@@ -1,9 +1,9 @@
 _STARS Exploring CS Spring 2017_
 # Final Project
 
-_[Code Due Sunday, 03/12, at 9pm](https://canvas.uw.edu/courses/1099807/assignments/3624548)_
+_[Code Due Sunday, 05/28, at 9pm]()_
 
-_[Presentation, Monday, 03/13, at 6pm](https://canvas.uw.edu/courses/1099807/assignments/3624549)_
+_[Presentation, Friday, 06/02, at 4:30pm]()_
 
 ### Goals
 * Demonstrate success and learning in Processing
@@ -19,7 +19,7 @@ _[Presentation, Monday, 03/13, at 6pm](https://canvas.uw.edu/courses/1099807/ass
 * Post your ideas to the Slack channel to share with others and find a partner
 
 ### Specification
-* You must maintain a Trello board throughout the project that tracks what you are planning to do, what you are wokring on, and what you are done with (along with anything else your group would like to track)
+* You must maintain a Trello board throughout the project that tracks what you are planning to do, what you are working on, and what you are done with (along with anything else your group would like to track)
 * Your project must be unique and based on your own ideas, consulting web resources is highly recommended, but make sure your project is not the same as something else you found
 * Your project must demonstrate your ability to use variables, methods, parameters, conditional statements, loops, and arrays in your code
 * You must conduct at least 5 informal usability sessions, to get user feedback and make changes (this is required content for your presentation)
@@ -36,7 +36,6 @@ _[Presentation, Monday, 03/13, at 6pm](https://canvas.uw.edu/courses/1099807/ass
 * Each line in setup and draw should have a comment
 * Each method that you created should have a top comment briefly explaining what that function does (note that setup and draw do not need top comments)
 * Any complicated parts of your code should have line comments
-* Add your final project to your Github personal portfolio and submit a link to your project on Canvas
 
 ### Grading Rubric
 
@@ -45,8 +44,7 @@ _[Presentation, Monday, 03/13, at 6pm](https://canvas.uw.edu/courses/1099807/ass
 | Criteria | Points |
 | :--- | :--- |
 | Group demonstrated progress after the first week of work | 1 pt |
-| Group used Trello to track progress and tasks | 1 pt |
-| Group pushed to Github often (at least 10 commits) | 1 pt |
+| Group used Trello to track progress and tasks | 2 pts |
 | Showcased a complete project, that runs without errors | 2 pts |
 | Showcased a well-executed, creative project | 3 pts |
 | Used variables as appropriate | 1 pt |

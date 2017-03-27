@@ -15,5 +15,5 @@ _STARS Exploring CS_
 * Using media (images, sound)
 * Loops
 * Arrays
-* Data visuzlization and reading from a file
+* Data visualization and reading from a file
 * Basic overview/introduction to classes/objects

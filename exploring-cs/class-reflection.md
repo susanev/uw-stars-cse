@@ -1,7 +1,7 @@
 _STARS Exploring CS_
 # Class Reflection
 
-_[Due Saturday, 03/18, at 9pm](https://canvas.uw.edu/courses/1099807/assignments/3624554)_
+_[Due Wednesday, 06/07, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672946)_
 
 ## Specification
 Your task is to produce a reflection that address the points below. You may use any media source to create your reflection, you might make a video, write a poem or a song, write a program, draw a comic, write an essay, or something else you decide. You can use any medium you desire. Note: If you decide to write an essay, I am expecting about a page, single spaced.
