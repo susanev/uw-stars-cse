@@ -42,14 +42,14 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 2. Program basic family
 	* Program your family in the center of the screen, making sure each character lines up on the same baseline (reference the Simpson family portrait below)
 
-![alt text][simpsons-middle]
+	![alt text][simpsons-middle]
 	
 3. Add variables
 	* At the top of your code add an x position and y position variable for each family member, then add these variables into your code to reposition your family at the corners of your canvas
 	* If you have 3 characters, pick your 3 corners, if you have 4 characters use all 4 corners, if you have more than 4 characters you can have multiple characters start in a corner
 	* Run your code, and make sure each character is now starting in a corner
 
-![alt text][simpsons-corners]
+	![alt text][simpsons-corners]
 
 4. Move your family
 	* Program your family to move to the center of the screen
@@ -92,4 +92,4 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 
 [simpsons-middle]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week2/homework/images/simpsons_middle.png "Simpsons Lego Family in the middle of the screen"
 
-[simpsons-corners]: hhttps://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week2/homework/images/simpsons_corners.png "Simpsons Lego Family in the corners of the screen"
+[simpsons-corners]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week2/homework/images/simpsons_corners.png "Simpsons Lego Family in the corners of the screen"
