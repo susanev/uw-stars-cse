@@ -24,7 +24,7 @@ _Topics: Environment setup, using the reference, digital color, coordinate syste
 _Topics: Programming flow, animation loops, methods, parameters, variables, max, min_
 
 * [Overview](lessons/week2)
-* [Code](lessons/week2/code)
+* [Code]()
 * [Exercises](lessons/week2/exercises)
 * [Homework: Custom Lego Family](lessons/week2/homework/lego-family.md)
 
@@ -32,5 +32,5 @@ _Topics: Programming flow, animation loops, methods, parameters, variables, max,
 _Topics: Conditional statements, logical operators, events, mouseX, mouseY, mouesIsPressed, frameCount, random, dist, mousePressed, mouseReleased_
 
 * [Overview](lessons/week3)
-* [Code](lessons/week3/code)
+* [Code]()
 * [Homework: Interactive Monster](lessons/week3/homework/interactive-monster.md)
