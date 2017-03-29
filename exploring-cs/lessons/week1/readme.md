@@ -15,7 +15,7 @@ _STARS Exploring CS_
 
 ## Warm up
 * Introductions
-* [Lightbot](exercises/lightbot.md) in pairs
+* Syllabus review
 
 ## Lessons
 * Environment setup

@@ -15,16 +15,18 @@ _STARS Exploring CS_
 * 15 mins: Talk about how this course will work
 	* Wed: new topics, work through problems in pairs, introduce that weeks hw
 	* Fri: led by Edward and Courtney, work on hw, get feedback and help
-	* Review syllabus
 	* We will go until 6:30, and 6, respectively
-* 10 mins: Lightbot (in pairs)
-* 5 minute break
-* 5 mins: Overview of Processing
+	* Review syllabus
+		* I will push you hard, you need to reach out to me or the TAs if you need extra support, we want to support you but we need you to speak up if you need some extra support
+* 10 mins: Overview of Processing
 	* Talk about interface
 	* Saving files
 	* Running code
 	* Reference
-* 20 mins: Robot assignment in pairs
+	* Coordinate system (0, 0)
+	* RGB color
+* 5 minute break
+* 25 mins: Robot assignment in pairs
 	* Taijitu if pairs have time (optional)
 * 5 mins: Review homework assignment
 * 5 mins: Debrief
