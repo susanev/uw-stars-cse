@@ -35,12 +35,13 @@ In most situations we expect you to use many different kinds of Processing funct
 | :--- | :--- |
 | Student created a unique and creative digitization of a piece of art work | 4 pts |
 | Student uses a variety of p5.js functions correctly as necessary | 3 pts |
-| Program includes comments on almost every line | 3 pts |
+| Program includes comments on almost every line | 2 pts |
 | Program is indented correctly | 1 pt |
+| Student included their planning sketch with their submission | 1 pt |
 | Student included original art image in their submission | 1 pt |
 
 ### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672949)
-Make sure your code has a comment on most every line and then upload your .pde file to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672949), along with the image file of the original artwork. If you need any help saving and uploading your files please reach out to your instructional staff.
+Make sure your code has a comment on most every line and then upload your .pde file to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672949), along with your planning sketch and the image file of the original artwork. If you need any help saving and uploading your files please reach out to your instructional staff.
 
 ### Student Examples
 * [Kalemba II—Santiago](https://lusquared.github.io/HCDE-598-Portfolio/Week1_Digitized%20Art/)
