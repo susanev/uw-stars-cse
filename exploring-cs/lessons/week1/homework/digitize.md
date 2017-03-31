@@ -5,10 +5,10 @@ _STARS Exploring CS_
 _[Due Friday, April 7th, 9:00pm](https://canvas.uw.edu/courses/1158649/assignments/3672949)_
 
 ### Goal 
-In this programming assignment you will practice all the skills you learned in the first day of class, by recreating an analog piece of art in a digital format using Processing
+In this programming assignment you will practice all the skills you learned in the first day of class, by recreating an analog piece of art in a digital format using Processing.
 
 ### Part 1: Choose a piece of art
-Locate a piece of art that inspires you, for this project it is best if you choose a painting or drawing with geometric like shapes. A few resources are linked below, but feel free to look elsewhere
+Locate a piece of art that inspires you, for this project it is best if you choose an artwork with geometric like shapes. A few resources are linked below, but feel free to look elsewhere
 
 * [Harvard Art Museums Collections](http://www.harvardartmuseums.org/collections?)
 * [Museum of Modern Art Collections](http://www.moma.org/collection/)
