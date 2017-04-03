@@ -29,7 +29,7 @@ __Final__: No standard final, instead a final project.
 
 | Courtney McKee, TA |
 | :--- |
-| Office hours: Tuesday late afternoon/evening |
+| Office hours: Tuesdays 4:30 – 6:30 |
 | Office location: TBD |
 | Mail: cmmckee4@uw.edu |
 
