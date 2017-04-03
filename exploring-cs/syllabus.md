@@ -29,14 +29,14 @@ __Final__: No standard final, instead a final project.
 
 | Courtney McKee, TA |
 | :--- |
-| Office hours: TBD |
+| Office hours: Tuesday late afternoon/evening |
 | Office location: TBD |
 | Mail: cmmckee4@uw.edu |
 
 | Edward Lou, TA |
 | :--- |
-| Office hours: TBD |
-| Office location: TBD |
+| Office hours:  Mondays 6:10p – 7:10p and Fridays 4:45p – 5:45p |
+| Office location: Maple hall meeting room 218 |
 | Mail: louw@uw.edu |
 
 
