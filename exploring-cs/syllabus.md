@@ -30,12 +30,12 @@ __Final__: No standard final, instead a final project.
 | Courtney McKee, TA |
 | :--- |
 | Office hours: Tuesdays 4:30 – 6:30 |
-| Office location: CSE 674 (not yet confirmed) |
+| Office location: HUB (by Starbucks) |
 | Mail: cmmckee4@uw.edu |
 
 | Edward Lou, TA |
 | :--- |
-| Office hours:  Mondays 6:10p – 7:10p and Fridays 4:45p – 5:45p |
+| Office hours:  Mondays 6:10p – 7:10p |
 | Office location: Maple hall lobby |
 | Mail: louw@uw.edu |
 
