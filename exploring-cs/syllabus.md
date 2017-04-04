@@ -35,7 +35,7 @@ __Final__: No standard final, instead a final project.
 
 | Edward Lou, TA |
 | :--- |
-| Office hours:  Mondays 6:10p – 7:10p |
+| Office hours:  Mondays 6:10p – 7:10p and Thursdays 9p – 10p |
 | Office location: Maple hall lobby |
 | Mail: louw@uw.edu |
 

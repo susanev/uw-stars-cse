@@ -18,6 +18,7 @@ _STARS Exploring CS_
 	* We will go until 6:30, and 6, respectively
 	* Review syllabus
 		* I will push you hard, you need to reach out to me or the TAs if you need extra support, we want to support you but we need you to speak up if you need some extra support
+		* Slack!
 * 10 mins: Overview of Processing
 	* Talk about interface
 	* Saving files
