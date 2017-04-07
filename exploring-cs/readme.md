@@ -27,14 +27,14 @@ _No class Wednesday, work day Friday to finish and submit Digitize_
 ### [Week 3](lessons/week3)
 _Topics: Programming flow, animation loops, methods, parameters, variables, max, min_
 
-* [Overview](lessons/week2)
+* [Overview](lessons/week3)
 * [Code]()
-* [Exercises](lessons/week2/exercises)
-* [Homework: Custom Lego Family](lessons/week2/homework/lego-family.md)
+* [Exercises](lessons/week3/exercises)
+* [Homework: Custom Lego Family](lessons/week3/homework/lego-family.md)
 
 ### [Week 4](lessons/week4)
 _Topics: Conditional statements, logical operators, events, mouseX, mouseY, mouesIsPressed, frameCount, random, dist, mousePressed, mouseReleased_
 
-* [Overview](lessons/week3)
+* [Overview](lessons/week4)
 * [Code]()
-* [Homework: Interactive Monster](lessons/week3/homework/interactive-monster.md)
+* [Homework: Interactive Monster](lessons/week4/homework/interactive-monster.md)
