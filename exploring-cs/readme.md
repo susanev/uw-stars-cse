@@ -20,7 +20,11 @@ _Topics: Environment setup, using the reference, digital color, coordinate syste
 * [Homework: Personal Values](lessons/week1/homework/personal_values.md)
 * [Homework: Digitize an analog piece of art](lessons/week1/homework/digitize.md)
 
-### [Week 2](lessons/week2)
+### Week 2
+_No class Wednesday, work day Friday to finish and submit Digitize_
+* [Homework: Digitize an analog piece of art](lessons/week1/homework/digitize.md)
+
+### [Week 3](lessons/week3)
 _Topics: Programming flow, animation loops, methods, parameters, variables, max, min_
 
 * [Overview](lessons/week2)
@@ -28,7 +32,7 @@ _Topics: Programming flow, animation loops, methods, parameters, variables, max,
 * [Exercises](lessons/week2/exercises)
 * [Homework: Custom Lego Family](lessons/week2/homework/lego-family.md)
 
-### [Week 3](lessons/week3)
+### [Week 4](lessons/week4)
 _Topics: Conditional statements, logical operators, events, mouseX, mouseY, mouesIsPressed, frameCount, random, dist, mousePressed, mouseReleased_
 
 * [Overview](lessons/week3)
