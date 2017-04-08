@@ -2,7 +2,7 @@ _HCDE 598 Winter 2017_
 # Week 2 Homework
 
 ## Lego Family
-_[Due Sunday, 04/16, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672953)_
+_[Due Friday, 04/21, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672953)_
 
 ### Goals
 You will program your very own Lego family. You can base it off a TV show (Simpsons is shown below), a movie, a comic, or even your own family if you want. Check [Imagine by Lego](https://www.prote.in/journal/articles/imagine-by-lego) for more inspiration. This assignment will also help you practice with functions, variables, declarations and assignment statements. These ideas help make computations dynamic in interesting ways.

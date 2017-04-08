@@ -34,4 +34,4 @@ _STARS Exploring CS_
 * [Code examples]()
 
 ## Homework
-* [Custom Lego family](homework/lego-family.md) Due Sunday, 04/16, 9pm
+* [Custom Lego family](homework/lego-family.md) Due Friday, 04/21, 9pm
