@@ -2,7 +2,7 @@ _HCDE 598 Winter 2017_
 # Week 3 Homework
 
 ## Interactive Monster
-_[Due Sunday, 04/23, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672952)_
+_[Due Friday, 04/28, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672952)_
 
 ### Goals
 This assignment will help you practice using if-statements, to allow your program to perform different operations without interference. You will be creating a custom monster, with a moving eye(s), and jumping interactions. 

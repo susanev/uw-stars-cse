@@ -41,4 +41,4 @@ _STARS Exploring CS_
 * [Code Examples]()
 
 ## Homework
-* [Interactive Monster](homework/interactive-monster.md) Due Sunday, 04/23, 9pm
+* [Interactive Monster](homework/interactive-monster.md) Due Friday, 04/28, 9pm
