@@ -11,7 +11,7 @@ _Topics: Install Processing, environment setup, using the reference, digital col
 
 ## Week 2
 _No class Wednesday, work day Friday to finish and submit Digitize_
-* [Homework: Digitize an analog piece of art](/week1/homework/digitize.md)
+* [Homework: Digitize an analog piece of art](week1/homework/digitize.md)
 
 ## [Week 3](week3)
 _Topics: Programming flow, animation loops, methods, parameters, variables, max, min_
