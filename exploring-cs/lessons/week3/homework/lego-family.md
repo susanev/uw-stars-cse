@@ -15,7 +15,7 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 * `noStroke();` will remove the outlines around your shapes
 * Positions on the screen are numbered from (0, 0) in the upper left corner and increase to the right and down
 * A shape’s color is set with the `fill`, and once set all shapes are filled with that color until a new `fill` command changes the color
-* Use Help > Reference if you are having trouble or want to look up how to use a function
+* Use Help > Reference if you are having trouble or want to look up how to use a method
 
 #### Variables
 * A variable holds a value that can change through the program
