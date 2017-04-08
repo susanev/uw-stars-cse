@@ -1,6 +1,6 @@
 _STARS Exploring CS_
 
-# Week 2
+# Week 3
 
 ## Prep Work
 * Review the comments you received on your [Digitize](../week1/homework/digitize.md) assignment and update your code to address the comments if time allows

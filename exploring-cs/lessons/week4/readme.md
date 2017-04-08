@@ -1,6 +1,6 @@
 _STARS Exploring CS_
 
-# Week 3
+# Week 4
 
 ## Prep Work
 * Review the comments you received on your [Lego family](../week2/homework/lego-family.md) assignment and update your code to address the comments if time allows
