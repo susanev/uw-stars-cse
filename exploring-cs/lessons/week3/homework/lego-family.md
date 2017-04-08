@@ -18,20 +18,20 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 * Use Help > Reference if you are having trouble or want to look up how to use a method
 
 #### Variables
-* A variable holds a value that can change through the program
+* A variable holds a value that can change throughout the program
 * In Processing (and Java) you must declare the type of your variables
 	* Use `int` for integers, and `float` for numbers with decimals
 * Variables are important to dynamic programs, because values change all the time
-* If more than one function needs access to a variable you should declare it at the top of your code (.e.g, `int position = 0;`) for now
+* If more than one methods needs access to a variable you should declare it at the top of your code (e.g., `int position = 0;`)
 	* Declaring and initializing a variable tells Processing that `position` is a variable that will be used in the program and that `position` starts with the value `0`
 	* If the variable `position` holds the value `21`, `position = 21;` and then later in the program, we write `position = 23;` then the value of position has changed from what it was (21) to 23
 
 ### Specification
-* Your canvas size should take up at least 3/4 of your screen size; work big .. not small!
+* Your canvas size should be around 800x800, but adjust as it makes sense for your project
 * Each character should be made out of rectangles, but feel free to add in more details with other shapes (like Maggie's pacifier—an ellipse)
 * At least 3 different fill colors should be used for your family
 * Your family needs to consist of a minimum of 3 characters
-* Your code must use functions to structure your code (i.e, each family member should be defined in its own function)
+* Your code must use methods to structure your code (i.e, each family member should be defined in its own method)
 * The use of parameters is optional but encouraged
 
 ### Task
@@ -46,7 +46,7 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 	
 3. Add variables
 	* At the top of your code add an x position and y position variable for each family member, then add these variables into your code to reposition your family at the corners of your canvas
-	* If you have 3 characters, pick your 3 corners, if you have 4 characters use all 4 corners, if you have more than 4 characters you can have multiple characters start in a corner
+	* If you have 3 characters, pick 3 corners, if you have 4 characters use all 4 corners, if you have more than 4 characters you can have multiple characters start in a corner
 	* Run your code, and make sure each character is now starting in a corner
 
 	![alt text][simpsons-corners]
@@ -78,12 +78,13 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 * Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
 * Each line in setup and draw should have a comment
 * Each function that you created should have a top comment briefly explaining what that function does (note that setup and draw do not need top comments)
-* Upload your .pde file to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672953)
+* Upload your .pde file along with your planning sketch to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672953)
 
 ### Extra Challenge
 * Add more custom details to your family
 * Add an interesting moving background
 * After the family meets in the middle, send them back to the edges, and repeat forever
+* Use parameters in your methods (this is work 1pt extra credit)
 
 ### Reference
 * [Imagine by Lego](https://www.prote.in/journal/articles/imagine-by-lego)

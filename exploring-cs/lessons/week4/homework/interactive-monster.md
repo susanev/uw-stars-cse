@@ -8,24 +8,24 @@ _[Due Friday, 04/28, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3
 This assignment will help you practice using if-statements, to allow your program to perform different operations without interference. You will be creating a custom monster, with a moving eye(s), and jumping interactions. 
 
 ### Specification
-* Your canvas size should take up at least 3/4 of your screen size; work big .. not small!
+* Your canvas size should be around 800x800, but adjust as it makes sense for your project
 * Your monster should be created with a series of methods using parameters
 * Your monster must be able to switch between jumping and eye movements when the user clicks the mouse
 
 ### Tasks
-1. Create a own customized monster, it should have it's very own method with parameters to control its position. It should have at least 1 leg and at least 1 eye, but everything else is up to you. Some inspiration is shown below, but remember this monster should be your very own and not a copy of someone else's. As usual please sketch your ideas before you start to code and save those sketches as you will be submitting them with your portfolio link.
+1. Create a your own customized monster, it should have it's very own method with parameters to control its position. It should have at least 1 leg and at least 1 eye, but everything else is up to you. Some inspiration is shown below, but remember this monster should be your very own and not a copy of someone else's. As usual please sketch your ideas before you start to code and save those sketches as you will be submitting them.
 
 	![alt text][robot]
 	![alt text][monster-1]
 	![alt text][monster-2]
 
-	Feel free to also explore the [monster code](../code/monster) we reviewed in class to review methods, parameters, style, and commenting.
+	Feel free to also explore the [monster code](../code/monster.pde) we reviewed in class to review methods, parameters, style, and commenting.
 
 	Make sure to run your code, and ensure your monster looks as intended before moving on to the next step.
 
-1. Setup the if statements to control whether your program will display a monster with moving eyes, or a jumping monster. First start by creating a variable named `page` at the top of your code, you should set its starting value to 0. Then add the code below to draw.
+1. Setup the if statements to control whether your program will display a monster with moving eyes, or a jumping monster. First start by creating an `int` variable named `page` at the top of your code, you should set its starting value to 0. Then add the code below to draw.
 
-	```javascript
+	```java
 	// call your monster method
 	if (page == 0) {
 		// add code here as you complete step 4
@@ -42,11 +42,11 @@ This assignment will help you practice using if-statements, to allow your progra
 
 	Run your code, you won't see any changes yet because you haven't written code to tell your monster to jump or move its eye but you should still see your monster and have no errors before moving on to the next step.
 
-1. Write code to move your eye(s). First add a float variable at the top named `eyeDirection` and set its value to `0`. 
+1. Write code to move your eye(s). First add a float variable at the top of your code named `eyeDirection` and set its value to `0.0`. 
 
 	Then find where your eye method is called from and add `eyeDirection` to your x value being passed into that eye method.
 
-	Before proceeding, temporarily initialize `eyeDirection` to `10` and to `-10`, and notice that the eye should look right and then left; then set it back to `0`. If its not moving then you have a bug, try and fix it and if you are stuck reach out for help.
+	Before proceeding, temporarily initialize `eyeDirection` to `10.0` and to `-10.0`, and notice that the eye should look right and then left; then set it back to `0.0`. If its not moving then you have a bug, try and fix it and if you are stuck reach out for help.
 
 	Add code to draw as indicated in step 2. This code should consist of conditional statements to determine if the eye should move left or right based on the mouse's x-position (hint: you will use the Processing built in variable named `mouseX`). Notice that you will probably want to increment your eyeDirection variable by 0.5 instead of 1 so it moves slowly.
 
@@ -54,7 +54,7 @@ This assignment will help you practice using if-statements, to allow your progra
 
 	Test your code. The eye should move when the mouse is on each side. You can decide whether the eyes should still move when the mouse is between them.
 
-	If its working correctly, when you click it should stop you from moving the eyes, if you click again it should let you move the eyes again.
+	If its working correctly, when you click it should stop your eye(s) from moving, if you click again it should let you move the eyes again.
 
 1. Write code so that your monster jumps up and down. To start define two variables at the top: `jumpValue`, and `jumpDir`, you decide on the values for your monster.
 
@@ -66,7 +66,7 @@ This assignment will help you practice using if-statements, to allow your progra
 * Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
 * Each line in setup and draw should have a comment
 * Each method that you created should have a top comment briefly explaining what that method does (note that setup and draw do not need top comments)
-* Upload your pde file to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672952) for final submission
+* Upload your pde file and your planning sketch to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672952)
 
 ### Extra Challenge
 * Add code to make it look like the monster is bending its knees as it jumps (hint: you can achieve this effect my varying the length of the monster's leg(s))
@@ -74,9 +74,6 @@ This assignment will help you practice using if-statements, to allow your progra
 * Add some more interactive elements by adding more buttons and more monster versions
 * Add more custom details to your monster
 * Add an interesting moving background
-
-### Resources
-
 
 [robot]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week3/homework/images/robot.png "Robot"
 

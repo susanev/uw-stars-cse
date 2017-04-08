@@ -11,7 +11,7 @@ _HCDE 598 Winter 2017_
 
 ### Task
 * Together with your partner create a face, it can be a human face, a robot face, an animal face, or something else
-* The different parts of your face should be structured into functions, for similar facial parts use parameters within your functions
+* The different parts of your face should be structured into methods, for similar facial parts use parameters within your functions
 * Use the sound library, along with variables and conditionals to make your face interactive
 
 ### Reference

@@ -13,13 +13,14 @@ _STARS Exploring CS_
 * Understand how the animation loop works in Processing
 * Be able to create and use variables in your code
 * Be able to increment (add a value), and decrement (subtract a value) from a variable
-* Understand and be able to use the max and min functions
+* Understand and be able to use the max and min methods
 
 ## Warm up
-* Digitize review
+* Digitize style review
+* Add methods to your Digitize
 
 ## Lessons
-* Functions and Parameters
+* Methods and Parameters
 
 ## Exercise
 * [Responsive face](exercises/face.md)
