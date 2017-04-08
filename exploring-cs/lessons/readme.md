@@ -27,3 +27,10 @@ _Topics: Conditional statements, logical operators, events, mouseX, mouseY, moue
 * [Overview](week4)
 * [Code]()
 * [Homework: Interactive Monster](week4/homework/interactive-monster.md)
+
+## [Week 5](week5)
+_Topics: keyPressed events, for loops, using text and fonts, using images_
+
+* [Overview](week5)
+* [Code]()
+* [Homework: Interactive Monster](week5/homework/creativity-exploration.md)
