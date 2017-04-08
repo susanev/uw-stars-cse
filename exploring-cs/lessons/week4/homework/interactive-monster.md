@@ -62,6 +62,22 @@ This assignment will help you practice using if-statements, to allow your progra
 
 	If its working you should now be able to click to switch between your moving eyes and jumping monster.
 
+### Grading Rubric
+
+| Description | Points |
+| :--- | :--- |
+| Your monster is defined as a series of methods, and those methods are called correctly | 2 pts |
+| Parameters are used correctly throughout the entire program | 2 pts |
+| All variables mentioned in the assignment are created and used correctly, including: page, eyeDirection, jumpValue, and jumpDir | 1 pts |
+| With a mouse click the monster switches between jumping and eye movements | 1 pts |
+| Eye movements work correclty | 2 pts |
+| Jumping works correctly | 2 pts
+| Conditional statements are used correctly | 1 pts |
+| Code is commented as described in the assignment with a top comment block, line comments in setup and draw, and top method comments | 2 pts |
+| Code is indented correctly | 2 pts |
+| Digital or paper sketch included to show process and planning | 1 pts |
+| Extra credit: Goes above and beyond and implemented some of the extra challenges or went above and beyond to create an exceptional piece | 2pts |
+
 ### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672952)
 * Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
 * Each line in setup and draw should have a comment
