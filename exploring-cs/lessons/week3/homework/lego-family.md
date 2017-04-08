@@ -88,8 +88,8 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 ### Reference
 * [Imagine by Lego](https://www.prote.in/journal/articles/imagine-by-lego)
 
-[simpsons]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week2/homework/images/simpsons.png "Simpsons Lego Family"
+[simpsons]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week3/homework/images/simpsons.png "Simpsons Lego Family"
 
-[simpsons-middle]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week2/homework/images/simpsons_middle.png "Simpsons Lego Family in the middle of the screen"
+[simpsons-middle]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week3/homework/images/simpsons_middle.png "Simpsons Lego Family in the middle of the screen"
 
-[simpsons-corners]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week2/homework/images/simpsons_corners.png "Simpsons Lego Family in the corners of the screen"
+[simpsons-corners]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week3/homework/images/simpsons_corners.png "Simpsons Lego Family in the corners of the screen"
