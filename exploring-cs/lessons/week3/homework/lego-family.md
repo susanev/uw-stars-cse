@@ -84,7 +84,7 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 * Add more custom details to your family
 * Add an interesting moving background
 * After the family meets in the middle, send them back to the edges, and repeat forever
-* Use parameters in your methods (this is work 1pt extra credit)
+* Use parameters in your methods (this is worth 1pt extra credit)
 
 ### Reference
 * [Imagine by Lego](https://www.prote.in/journal/articles/imagine-by-lego)
