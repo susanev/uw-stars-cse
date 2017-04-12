@@ -34,7 +34,7 @@ In most situations we expect you to use many different kinds of Processing funct
 | Description | Points |
 | :--- | :--- |
 | Student created a unique and creative digitization of a piece of art work | 4 pts |
-| Student uses a variety of p5.js functions correctly as necessary | 3 pts |
+| Student uses a variety of p5.js shape methods correctly as necessary (4 or more) | 3 pts |
 | Program includes comments on almost every line | 2 pts |
 | Program is indented correctly | 1 pt |
 | Student included their planning sketch with their submission | 1 pt |

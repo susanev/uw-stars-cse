@@ -1,6 +1,6 @@
 _STARS Exploring CS_
 
-# Week 2
+# Week 3
 
 ## Prep Work
 * Review the comments you received on your [Digitize](../week1/homework/digitize.md) assignment and update your code to address the comments if time allows
@@ -13,13 +13,14 @@ _STARS Exploring CS_
 * Understand how the animation loop works in Processing
 * Be able to create and use variables in your code
 * Be able to increment (add a value), and decrement (subtract a value) from a variable
-* Understand and be able to use the max and min functions
+* Understand and be able to use the max and min methods
 
 ## Warm up
-* Digitize review
+* Digitize style review
+* Add methods to your Digitize
 
 ## Lessons
-* Functions and Parameters
+* Methods and Parameters
 
 ## Exercise
 * [Responsive face](exercises/face.md)
@@ -34,4 +35,4 @@ _STARS Exploring CS_
 * [Code examples]()
 
 ## Homework
-* [Custom Lego family](homework/lego-family.md) Due Sunday, 04/16, 9pm
+* [Custom Lego family](homework/lego-family.md) Due Friday, 04/21, 9pm

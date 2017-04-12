@@ -1,10 +1,9 @@
 _STARS Exploring CS_
 
-# Week 3
+# Week 4
 
 ## Prep Work
-* Review the comments you received on your [Lego family](../week2/homework/lego-family.md) assignment and update your code to address the comments if time allows
-* Review and be prepared to talk with others about your [Lego family](../week2/homework/lego-family.md) assignment
+* Continue work on your Lego assignment
 
 ## Learning Objectives
 * Review and practice using methods and parameters
@@ -15,9 +14,7 @@ _STARS Exploring CS_
 * Understand and be able to use Processing built in variables: mouseX, mouseY, mousePressed, frameCount
 
 ## Warm up
-* Meet your new partner
-* Share your [Lego Families](../week2/homework/lego-family.md)
-* Lego family review, and work-time
+
 
 ## Lessons
 * Events
@@ -25,7 +22,6 @@ _STARS Exploring CS_
 * Methods: random, dist, mousePressed, mouseReleased
 
 ## Exercises
-* Add restart button to Lego Family
 * Dot Drawing
 * Line Drawing
 * Growing Ellipse
@@ -41,4 +37,4 @@ _STARS Exploring CS_
 * [Code Examples]()
 
 ## Homework
-* [Interactive Monster](homework/interactive-monster.md) Due Sunday, 04/23, 9pm
+* [Interactive Monster](homework/interactive-monster.md) Due Friday, 04/28, 9pm
