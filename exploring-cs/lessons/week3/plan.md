@@ -1,5 +1,5 @@
 # Week 3 plan
-* Check in with Diallo
+* Check in with Dante
 
 ## (5 minutes) Announcements
 * Check Slack!
