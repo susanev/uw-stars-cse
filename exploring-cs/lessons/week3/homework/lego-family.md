@@ -1,5 +1,5 @@
 _HCDE 598 Winter 2017_
-# Week 2 Homework
+# Week 3 Homework
 
 ## Lego Family
 _[Due Friday, 04/21, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672953)_
