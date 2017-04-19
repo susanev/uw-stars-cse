@@ -91,8 +91,8 @@ This assignment will help you practice using if-statements, to allow your progra
 * Add more custom details to your monster
 * Add an interesting moving background
 
-[robot]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week3/homework/images/robot.png "Robot"
+[robot]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/robot.png "Robot"
 
-[monster-1]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week3/homework/images/monster_2.png "Monster Example 1"
+[monster-1]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/monster_2.png "Monster Example 1"
 
-[monster-2]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week3/homework/images/monster_2.png "Monster Example 2"
+[monster-2]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week4/homework/images/monster_2.png "Monster Example 2"
