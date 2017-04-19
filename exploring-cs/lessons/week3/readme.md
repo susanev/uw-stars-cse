@@ -32,7 +32,7 @@ _STARS Exploring CS_
 * What can be improved for future classes?
 
 ## Resources
-* [Code examples]()
+* [Code examples](code)
 
 ## Homework
 * [Custom Lego family](homework/lego-family.md) Due Friday, 04/21, 9pm

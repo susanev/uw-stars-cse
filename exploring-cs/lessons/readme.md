@@ -17,7 +17,7 @@ _No class Wednesday, work day Friday to finish and submit Digitize_
 _Topics: Programming flow, animation loops, methods, parameters, variables, max, min_
 
 * [Overview](week3)
-* [Code]()
+* [Code](week3/code)
 * [Exercise: Responsive face](week3/exercises/face.md)
 * [Homework: Custom Lego Family](week3/homework/lego-family.md)
 
