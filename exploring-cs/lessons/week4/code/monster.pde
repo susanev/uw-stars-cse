@@ -11,75 +11,53 @@ void setup() {
 }
 
 void draw() {
-  background(209, 153, 185);  // sets the background color to pink
-  monster(225, 150);          // draws the monster at 225, 150
-}
+  // sets the background color to pink
+  background(209, 153, 185);  
 
-// draws a monster at the x,y location passed
-// this monster includes a body, head, and wheels
-void monster(int x, int y) {
-  body(x, y + 180);
-  head(x, y);
-  wheels(x, y + 450);
-}
-
-// draws the body of the monster at thhe x, y location
-void body(int x, int y) {
+  // draws the body of the monster 
   noStroke();
   fill(183, 255, 229);
-  rect(x, y + 45, 350, 150, 7);
-  rect(x, y, 25, 450, 7);
-}
-
-// draws the head at the x, y location
-// the head includes the ears and the eyes
-void head(int x, int y) {
-  ears(x, y);
+  rect(225, 375, 350, 150, 7);
+  rect(225, 330, 25, 450, 7);
+  
+  // draws the head, including the ears and the eyes
+  // draws the ears
   fill(183, 255, 229);
-  rect(x, y, 250, 150, 7);
-  ellipse(x, y - 25, 125, 125);
+  rect(225, 150 + 25, 300, 75, 7);
+  fill(209, 153, 185);
+  rect(225, 150 + 25, 280, 55, 7);
+  // draws the head
+  fill(183, 255, 229);
+  rect(225, 150, 250, 150, 7);
+  ellipse(225, 150 - 25, 125, 125);
   stroke(183, 255, 229);
   strokeWeight(5);
-  line(x - 15, y - 75, x - 50, y - 130);
-  line(x + 15, y - 75, x + 50, y - 130);
-  eyes(x, y);
-  rect(x, y + 50, 40, 20, 7);
-}
-
-// draws the ears at the x, y location
-void ears(int x, int y) {
-  fill(183, 255, 229);
-  rect(x, y + 25, 300, 75, 7);
-  fill(209, 153, 185);
-  rect(x, y + 25, 280, 55, 7);
-}
-
-// draws the eyes at the x, y location
-void eyes(int x, int y) {
+  line(225 - 15, 150 - 75, 225 - 50, 150 - 130);
+  line(225 + 15, 150 - 75, 225 + 50, 150 - 130);
+  // draws the eyes
   noStroke();
   fill(183, 255, 229);
   // outside part of eyes
   fill(209,153,185);
-  ellipse(x + 40, y + 15, 55, 55);
-  ellipse(x - 45, y + 15, 55, 55);
+  ellipse(225 + 40, 150 + 15, 55, 55);
+  ellipse(225 - 45, 150 + 15, 55, 55);
   // middle part of eyes
   fill(225,225,225);
-  ellipse(x + 40, y + 15, 40, 40);
-  ellipse(x - 45, y + 15, 40, 40); 
+  ellipse(225 + 40, 150 + 15, 40, 40);
+  ellipse(225 - 45, 150 + 15, 40, 40); 
   // inner part of eyes
   fill(209,153,185);
-  ellipse(x + 40, y + 15, 25, 25);
-  ellipse(x - 45, y + 15, 25, 25);
-}
-
-// draws the wheels at the x, y location
-void wheels(int x, int y) {
+  ellipse(225 + 40, 150 + 15, 25, 25);
+  ellipse(225 - 45, 150 + 15, 25, 25);  
+  rect(225, 150 + 50, 40, 20, 7);
+  
+  // draws the wheels
   fill(183, 255, 229);
   stroke(209, 153, 185);
   strokeWeight(2);
-  ellipse(x, y, 125, 125);
+  ellipse(225, 600, 125, 125);
   fill(225, 225, 225);
   strokeWeight(4);
-  ellipse(x, y, 100, 100);
-  ellipse(x, y, 75, 75);
+  ellipse(225, 600, 100, 100);
+  ellipse(225, 600, 75, 75);
 }

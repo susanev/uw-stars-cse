@@ -57,7 +57,7 @@ This assignment will help you practice using if-statements, to allow your progra
 
 	If its working correctly, when you click it should stop your eye(s) from moving, if you click again it should let you move the eyes again.
 
-1. Write code so that your monster jumps up and down. To start define two variables at the top: `jump`, and `jumpDirection`, you decide on the values for your monster.
+1. Write code so that your monster jumps up and down. To start define two int variables at the top: `jump`, and `jumpDirection`, you decide on the values for your monster.
 
 	In draw (inside of the else), add an if statement to determine which way the monster should be jumping. When it hits the top it should come back down, and when it hits the bottom it should come back up. `jump` is the value you are adding to the `y` position of your monster and `jumpDirection` represents the speed and direction your monster is moving.
 
