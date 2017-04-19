@@ -14,7 +14,7 @@ _STARS Exploring CS_
 * Understand and be able to use Processing built in variables: mouseX, mouseY, mousePressed, frameCount
 
 ## Warm up
-
+* Add methods and parameters to a monster example
 
 ## Lessons
 * Events
