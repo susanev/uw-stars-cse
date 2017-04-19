@@ -11,21 +11,22 @@ _STARS Exploring CS_
 * Understand and be able to use the methods random, dist, mousePressed, and mouseReleased
 * Continue to learn and practice with conditional statements
 * Understand and be able to use logical operators (and, or)
-* Understand and be able to use Processing built in variables: mouseX, mouseY, mousePressed, frameCount
+* Understand and be able to use Processing built in variables: mouseX, mouseY, mousePressed
 
 ## Warm up
 * Add methods and parameters to a monster example
 
 ## Lessons
 * Events
-* Conditional statement structure
+* Conditional statement structure, logical operators
+* Built in variables, mouseX, mouseY, mousePressed
 * Methods: random, dist, mousePressed, mouseReleased
 
 ## Exercises
 * Dot Drawing
 * Line Drawing
 * Growing Ellipse
-* Working with text
+* Rect hover
 
 ## Debrief
 * What new things did you learn today?
