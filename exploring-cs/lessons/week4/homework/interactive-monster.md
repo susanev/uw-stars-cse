@@ -93,6 +93,6 @@ This assignment will help you practice using if-statements, to allow your progra
 
 [robot]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/robot.png "Robot"
 
-[monster-1]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/monster_2.png "Monster Example 1"
+[monster-1]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/monster_1.png "Monster Example 1"
 
 [monster-2]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/monster_2.png "Monster Example 2"
