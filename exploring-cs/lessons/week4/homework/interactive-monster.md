@@ -1,11 +1,11 @@
 _HCDE 598 Winter 2017_
-# Week 3 Homework
+# Week 4 Homework
 
 ## Interactive Monster
 _[Due Friday, 04/28, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672952)_
 
 ### Goals
-This assignment will help you practice using if-statements, to allow your program to perform different operations without interference. You will be creating a custom monster, with a moving eye(s), and jumping interactions. 
+This assignment will help you practice using if-statements, to allow your program to make decisions and perform different operations. You will be creating a custom monster, with at least one moving eye, and jumping interactions. 
 
 ### Specification
 * Your canvas size should be around 800x800, but adjust as it makes sense for your project
@@ -13,7 +13,7 @@ This assignment will help you practice using if-statements, to allow your progra
 * Your monster must be able to switch between jumping and eye movements when the user clicks the mouse
 
 ### Tasks
-1. Create a your own customized monster, it should have it's very own method with parameters to control its position. It should have at least 1 leg and at least 1 eye, but everything else is up to you. Some inspiration is shown below, but remember this monster should be your very own and not a copy of someone else's. As usual please sketch your ideas before you start to code and save those sketches as you will be submitting them.
+1. Create your own customized monster, it should have it's very own method with parameters to control its position. It should have at least 1 leg and at least 1 eye, but everything else is up to you. Some inspiration is shown below, but remember this monster should be your very own and not a copy of someone else's. As usual please sketch your ideas before you start to code and save those sketches as you will be submitting them.
 
 	![alt text][robot]
 	![alt text][monster-1]
@@ -34,9 +34,9 @@ This assignment will help you practice using if-statements, to allow your progra
 	}
 	```
 
-	Notice, that your `draw` method should have a total of 1 call to your monster method.
+	Notice, that your `draw` method should have only 1 call to your monster method.
 
-1. Add a `mousePressed` method that will switch between your two pages. If your monster is jumping and you user clicks then it should switch to the moving eye monster, if they click again it should switch back to the jumping monster .. and so on.
+1. Add a `mousePressed` method that will switch between your two pages. If your monster is jumping and the user clicks then it should switch to the moving eye monster, if they click again it should switch back to the jumping monster .. and so on.
 
 	To do this you will add `page = 1 - page;` into your `mousePressed` method.
 
@@ -86,7 +86,7 @@ This assignment will help you practice using if-statements, to allow your progra
 
 ### Extra Challenge
 * Add code to make it look like the monster is bending its knees as it jumps (hint: you can achieve this effect my varying the length of the monster's leg(s))
-* We are changing monsters by clicking, as an improvement add some buttons that allows the user to switch by clicking a button instead of just any mouse click
+* Add a button that allows the user to switch by clicking on a button instead of just any mouse click
 * Add some more interactive elements by adding more buttons and more monster versions
 * Add more custom details to your monster
 * Add an interesting moving background
