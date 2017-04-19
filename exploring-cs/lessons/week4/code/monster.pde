@@ -5,14 +5,14 @@
 */
 
 void setup() {
-  size(450, 850);     // creates a vertical rectangle canvas
+  size(450, 850);             // creates a vertical rectangle canvas
   background(209, 153, 185);  // sets the background color to pink
   rectMode(CENTER);           // sets rects to be drawn from the center
 }
 
 void draw() {
-  background(209, 153, 185);
-  monster(225, 150);        // draws the monster at 225, 150
+  background(209, 153, 185);  // sets the background color to pink
+  monster(225, 150);          // draws the monster at 225, 150
 }
 
 // draws a monster at the x,y location passed
