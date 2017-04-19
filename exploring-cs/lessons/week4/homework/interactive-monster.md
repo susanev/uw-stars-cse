@@ -95,4 +95,4 @@ This assignment will help you practice using if-statements, to allow your progra
 
 [monster-1]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/monster_2.png "Monster Example 1"
 
-[monster-2]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week4/homework/images/monster_2.png "Monster Example 2"
+[monster-2]: https://github.com/susanev/uw-stars-cse/blob/master/exploring-cs/lessons/week4/homework/images/monster_2.png "Monster Example 2"
