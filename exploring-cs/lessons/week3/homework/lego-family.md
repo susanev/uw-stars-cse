@@ -68,7 +68,7 @@ You will program your very own Lego family. You can base it off a TV show (Simps
 | Characters start in the corners | 1 pt |
 | Characters move to the center | 2 pts |
 | Characters stop once they have reached the center | 2 pts |
-| Code is indented properly | 1 pt |
+| Code uses good style, including proper indentation and spacing (as discussed in class) | 1 pt |
 | Top of program has a comment block, each line in setup and draw has a comment, and each function besides setup and draw has a top comment | 2 pts |
 | Sketches showing planning is included in submission or added to portfolio | 2 pts |
 | Extra Credit: Uses parameters correctly | 1 pt |
