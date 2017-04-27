@@ -46,10 +46,10 @@ In this program a stick figure is animated to walk forward over an abyss. Notice
 
 
 ### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672947)
-* Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
+* Both projects should have a top comment block with your names, last edited date, and a brief description of the entire program
 * Each line in setup and draw should have a comment
 * Each method that you created should have a top comment briefly explaining what that function does (note that setup and draw do not need top comments)
-* Upload your pde files and your planning sketchs to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672952)
+* Zip up each project folder and upload those along with your planning sketchs to [canvas](https://canvas.uw.edu/courses/1158649/assignments/3672952) (Note: If you need help with this step please plan to come to office hours)
 
 [rain]: https://github.com/susanev/uw-hcde-creative-computing/blob/master/lessons/week4/homework/images/seattle_rain.png "Seattle Rain Project"
 

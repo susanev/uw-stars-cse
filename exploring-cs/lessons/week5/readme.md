@@ -14,18 +14,13 @@ _HCDE 598 Winter 2017_
 * Practice writing and using for loops
 
 ## Warm up
-
-
-## Lessons
-* keyPressed events
-* Working with text
-* Using images
-* for loops
+* Share and critque each other's Lego Families
 
 ## Exercises
-* Key Pressed Examples
-* Font Example
-* Image Example
+* keyPressed examples
+* Font example
+* Image example
+* for loop examples
 
 ## Debrief
 * What new things did you learn today?
@@ -35,9 +30,6 @@ _HCDE 598 Winter 2017_
 
 ## Resources
 * [Code Examples](code)
-* [Overivew, Key Events, Fonts, Images Video](https://youtu.be/7Y0rrE-sUAg)
-* [For Loops, Gradients Video](https://youtu.be/NrExb3VUHBc)
-* [Git and Github Video](https://youtu.be/1FQNTda9s8M)
 
 ## Homework
 * [Creativity Exploration](homework/creativity-exploration.md) Due Saturday, 05/05, 9pm
