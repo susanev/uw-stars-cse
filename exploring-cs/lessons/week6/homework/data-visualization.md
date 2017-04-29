@@ -36,14 +36,14 @@ This is a much more challenging assignment then past assignments so please plan 
 | Description | Points |
 | :--- | :--- |
 | Student created a unique, visually interesting, and interactive data visualization using Processing | 4 pts |
-| Students program dynamically interacts with the data | 4pts |
-| Student used at least one array to hold and access their data and used array syntax correctly throughout their code | 4pts |
-| Student used loops correctly throughout their code when appropriate | 2pts |
-| Student used methods and parameters throughout their code when appropriate | 2pts |
-| Student fully commented their code as described in the assignment | 2pts |
-| Student used good style practices, including descriptive names, white space, and indentation | 2pts |
-| Extra Credit: Student read data from a .csv into their array | 1pt |
-| Extra Credit: Student built in interactions that allowed the user to manipulate the visualization | 2pts |
+| Students program dynamically interacts with the data | 4 pts |
+| Student used at least one array to hold and access their data and used array syntax correctly throughout their code | 4 pts |
+| Student used loops correctly throughout their code when appropriate | 2 pts |
+| Student used methods and parameters throughout their code when appropriate | 2 pts |
+| Student fully commented their code as described in the assignment | 2 pts |
+| Student used good style practices, including descriptive names, white space, and indentation | 2 pts |
+| Extra Credit: Student read data from a .csv into their array | 1 pt |
+| Extra Credit: Student built in interactions that allowed the user to manipulate the visualization | 2 pts |
 
 ### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672948)
 * Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
