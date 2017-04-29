@@ -7,6 +7,13 @@ _[Due Friday, 05/12, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3
 ### Goals
 The purpose of this exercise is to give you a chance to create a data visualization using Processing.
 
+### Inspiration
+* [Dear Data](http://www.dear-data.com/theproject)
+* [Information is Beautiful](http://www.informationisbeautiful.net/)
+* [Data Visualizations](http://feltron.com/) by Nick Feltron
+* [Data Visualizations](http://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic) by William Edward Burghardt, 1868-1963
+* Udacity Visualization [Blog Post](http://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html)
+
 ### Specification
 In this assignment you should create a unique data visualization using a small set of data (of any kind). Your program must dynamically create the visualization from the data set (this means I should be able to change your data, and the visualization will change too). Your visualization should be graphically interesting, and should include some sort of user interaction or changes based on actions the user takes.
 
@@ -24,14 +31,21 @@ This is a much more challenging assignment then past assignments so please plan 
 * Learn how to read your data from a .csv into an array, instead of storing the data directly in your program
 * Build tools that let your users manipulate the data visualization on screen
 
+### Grading Rubric
+
+| Description | Points |
+| :--- | :--- |
+| Student created a unique, visually interesting, and interactive data visualization using Processing | 4 pts |
+| Students program dynamically interacts with the data | 4pts |
+| Student used at least one array to hold and access their data and used array syntax correctly throughout their code | 4pts |
+| Student used loops correctly throughout their code when appropriate | 2pts |
+| Student used methods and parameters throughout their code when appropriate | 2pts |
+| Student fully commented their code as described in the assignment | 2pts |
+| Student used good style practices, including descriptive names, white space, and indentation | 2pts |
+| Extra Credit: Student read data from a .csv into their array | 1pt |
+| Extra Credit: Student built in interactions that allowed the user to manipulate the visualization | 2pts |
+
 ### [Submission](https://canvas.uw.edu/courses/1158649/assignments/3672948)
 * Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
 * Each line in setup and draw should have a comment
 * Each method that you created should have a top comment briefly explaining what that method does (note that setup and draw do not need top comments)
-
-### Inspiration
-* [Dear Data](http://www.dear-data.com/theproject)
-* [Information is Beautiful](http://www.informationisbeautiful.net/)
-* [Data Visualizations](http://feltron.com/) by Nick Feltron
-* [Data Visualizations](http://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic) by William Edward Burghardt, 1868-1963
-* Udacity Visualization [Blog Post](http://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html)
