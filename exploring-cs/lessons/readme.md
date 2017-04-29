@@ -25,12 +25,19 @@ _Topics: Programming flow, animation loops, methods, parameters, variables, max,
 _Topics: Conditional statements, logical operators, events, mouseX, mouseY, mouesPressed, frameCount, random, dist, mousePressed, mouseReleased_
 
 * [Overview](week4)
-* [Code]()
+* [Code](week4/code)
 * [Homework: Interactive Monster](week4/homework/interactive-monster.md)
 
 ## [Week 5](week5)
 _Topics: keyPressed events, for loops, using text and fonts, using images_
 
 * [Overview](week5)
-* [Code]()
+* [Code](week5/code)
 * [Homework: Creativity Exploration](week5/homework/creativity-exploration.md)
+
+## [Week 6](week6)
+_Topics: Review for loops, while loops, arrays_
+
+* [Overview](week6)
+* [Code](week6/code)
+* [Homework: Creativity Exploration](week6/homework/data-visualization.md)
