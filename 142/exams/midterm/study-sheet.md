@@ -15,7 +15,7 @@
 * Do not bring calculators or other electronics
 * Turn in your exam when you are done and leave the room
 
-###Concepts
+### Concepts
 _You should plan to be fully prepared for everything listed below_
 
 #### Using `Random` objects

@@ -1,7 +1,7 @@
 # Programming
-# Midterm Study Session
+## Midterm Study Session
 
-1. Programming. Write a static method called balanceCheckbook that takes a console Scanner as a parameter and that prompts a user for information about transactions for a bank account, reporting the new balance after each transaction and the minimum balance at the end and returning whether or not the account was ever overdrawn (true if it was, false if it was not). The user is prompted for an initial balance, the number of transactions to process, and the individual transaction amounts. Deposits to the account are entered as positive numbers and checks and ATM withdrawals are entered as negative numbers. A new balance is reported after each transaction.  For example, the method would be called as follows:
+1. Programming. Write a static method called balanceCheckbook that takes a console Scanner as a parameter and that prompts a user for information about transactions for a bank account, reporting the new balance after each transaction and the minimum balance at the end and returning whether or not the account was ever overdrawn (true if it was, false if it was not). The user is prompted for an initial balance, the number of transactions to process, and the individual transaction amounts. Deposits to the account are entered as positive numbers and checks and ATM withdrawals are entered as negative numbers. A new balance is reported after each transaction. For example, the method would be called as follows:
 
   ```java
   Scanner console = new Scanner(System.in);
@@ -25,7 +25,7 @@
                                           new balance = $32.5
                                           minimum balance = $-9.05
   ```
-  
+
   In the log to the left, the user enters 4 different transactions and the minimum balance is not negative, so the method would return false to indicate that the account was never overdrawn. In the log to the right, the user enters 5 transactions and the minimum balance is negative, so the method would return true to indicate that the account was overdrawn. You are to exactly reproduce the format of these logs. You may assume that the number of transactions entered by the user is at least 1.
 
 2. Programming. Write a static method called printTwoDigit that takes a Random object and an integer n as parameters and that prints a series of n randomly generated two-digit numbers. The method should use the Random object to select numbers in the range of 10 to 99 inclusive where each number is equally likely to be chosen. The method should indicate whether the number 42 was selected. For example, given the following code:
@@ -69,7 +69,7 @@
 
   Here are some example calls to the method and their resulting return values.
 
-  | __Call Value__ | __Returned__ |
+  | Call Value | Returned |
   | :--- | :--- |
   | `anglePairs(0, 90, 180)` | `true` |
   | `anglePairs(45, 135, 45)` | `true` |
@@ -91,7 +91,7 @@
  
   Here are some example calls to the method and their resulting return values:
 
-  | __Call Value__ |  __Returned__ |
+  | Call Value |  Returned |
   | :--- | :--- |
   | `graduation(3.87, 178, 16)` | "not graduating" |
   | `graduation(1.5, 199, 30)` |  "not graduating" |
@@ -124,7 +124,7 @@
     Go
   ```
   
-    __Call__
+  __Call__
   
   ```java
   cheerleader(4, 3);
@@ -139,7 +139,7 @@
         Go Team Go Team Go
   ```
   
-    __Call__
+  __Call__
   
   ```java
   cheerleader(2, 4);
@@ -158,7 +158,7 @@
 
   Here are some example calls to your method and their expected return results:
 
-  | __Call__ | __Value Returned__ |
+  | Call | Value Returned |
   | :--- | :--- |
   | `enoughTimeForLunch(11, 00, 11, 59)` | `true` |
   | `enoughTimeForLunch(12, 30, 13, 00)` | `false` |
@@ -186,7 +186,7 @@
   3, 6, 9, 12, 15, 18
   ```
   
-    __Call__
+  __Call__
   
   ```java
   printGrid(5, 3);
@@ -202,7 +202,7 @@
   5, 10, 15
   ```
   
-    __Call__
+  __Call__
   
   ```java
   printGrid(4, 1);
