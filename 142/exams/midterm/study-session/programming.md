@@ -69,7 +69,7 @@
 
   Here are some example calls to the method and their resulting return values.
 
-  | __Call Value__ | __Returned__ |
+  | Call Value | Returned |
   | :--- | :--- |
   | `anglePairs(0, 90, 180)` | `true` |
   | `anglePairs(45, 135, 45)` | `true` |
@@ -91,7 +91,7 @@
  
   Here are some example calls to the method and their resulting return values:
 
-  | __Call Value__ |  __Returned__ |
+  | Call Value |  Returned |
   | :--- | :--- |
   | `graduation(3.87, 178, 16)` | "not graduating" |
   | `graduation(1.5, 199, 30)` |  "not graduating" |
@@ -124,7 +124,7 @@
     Go
   ```
   
-    __Call__
+  __Call__
   
   ```java
   cheerleader(4, 3);
@@ -139,7 +139,7 @@
         Go Team Go Team Go
   ```
   
-    __Call__
+  __Call__
   
   ```java
   cheerleader(2, 4);
@@ -158,7 +158,7 @@
 
   Here are some example calls to your method and their expected return results:
 
-  | __Call__ | __Value Returned__ |
+  | Call | Value Returned |
   | :--- | :--- |
   | `enoughTimeForLunch(11, 00, 11, 59)` | `true` |
   | `enoughTimeForLunch(12, 30, 13, 00)` | `false` |
@@ -186,7 +186,7 @@
   3, 6, 9, 12, 15, 18
   ```
   
-    __Call__
+  __Call__
   
   ```java
   printGrid(5, 3);
@@ -202,7 +202,7 @@
   5, 10, 15
   ```
   
-    __Call__
+  __Call__
   
   ```java
   printGrid(4, 1);
