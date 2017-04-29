@@ -49,3 +49,12 @@ This is a much more challenging assignment then past assignments so please plan 
 * Your code should have a top comment block with your name, last edited date, and a brief description of the entire program
 * Each line in setup and draw should have a comment
 * Each method that you created should have a top comment briefly explaining what that method does (note that setup and draw do not need top comments)
+
+### Student Examples
+* [Books in Progress by Anna Casey](https://annarosecasey.github.io/hcde-portfolio/Book_Visualization/)
+* [Miss World by Jessica Bao](https://sijiabao.github.io/hcde598-portfolio/dataviz/)
+* [Seattle Violent Crime by Josh Leibsohn](https://joleibs.github.io/hcde-portfolio/Data-Visualization/)
+* [Perodic Table by Julie Stuart](https://jstu2.github.io/JS_HCDE_portfolio/Periodic_table/)
+* [Heart Rate by Layne Soike](https://lsoike.github.io/portfolio/heart_rate/)
+* [Gilmore Girls Coffee by Livia Claire](https://liviaclaire.github.io/hcde-portfolio/dataviz/)
+* [U.S. States by Sang Woo Nam](https://skatkddn.github.io/portfolio/Homework5/Data/)
