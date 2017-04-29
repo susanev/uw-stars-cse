@@ -1,7 +1,7 @@
 # Programming
 ## Midterm Study Session
 
-1. Programming. Write a static method called balanceCheckbook that takes a console Scanner as a parameter and that prompts a user for information about transactions for a bank account, reporting the new balance after each transaction and the minimum balance at the end and returning whether or not the account was ever overdrawn (true if it was, false if it was not). The user is prompted for an initial balance, the number of transactions to process, and the individual transaction amounts. Deposits to the account are entered as positive numbers and checks and ATM withdrawals are entered as negative numbers. A new balance is reported after each transaction.  For example, the method would be called as follows:
+1. Programming. Write a static method called balanceCheckbook that takes a console Scanner as a parameter and that prompts a user for information about transactions for a bank account, reporting the new balance after each transaction and the minimum balance at the end and returning whether or not the account was ever overdrawn (true if it was, false if it was not). The user is prompted for an initial balance, the number of transactions to process, and the individual transaction amounts. Deposits to the account are entered as positive numbers and checks and ATM withdrawals are entered as negative numbers. A new balance is reported after each transaction. For example, the method would be called as follows:
 
   ```java
   Scanner console = new Scanner(System.in);
