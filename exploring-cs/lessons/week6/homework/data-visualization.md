@@ -1,5 +1,5 @@
 _HCDE 598 Winter 2017_
-# Week 5 Homework
+# Week 6 Homework
 
 ## Data Visualization
 _[Due Friday, 05/12, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672948)_
