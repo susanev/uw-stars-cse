@@ -46,7 +46,7 @@ _Topics: keyPressed events, for loops, using text and fonts, using images_
 * [Code](lessons/week5/code)
 * [Homework: Creativity Exploration](lessons/week5/homework/creativity-exploration.md)
 
-## [Week 6](lessons/week6)
+### [Week 6](lessons/week6)
 _Topics: Review for loops, while loops, arrays_
 
 * [Overview](lessons/week6)
