@@ -14,6 +14,7 @@ _HCDE 598 Winter 2017_
 * Be able to create and access data stored in arrays
 
 ## Warm up
+* Share Interactive Monsters
 * By next Wednesday you should know if you want to work alone or with a partner on your final project, and have an idea of what your final project is; share project ideas on Slack
 * [Programming is hard, but you're doing great!](programming-is-hard-youre-doing-great.md)
 
