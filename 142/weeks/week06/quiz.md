@@ -178,13 +178,13 @@ _CSE 142_
 
 	The table below shows sample calls and the value that should be returned.
 
-  | __Method Call__ | __Value Returned__ |  __Method Call__ | __Value Returned__ |
-  | :--- | :--- | :--- | :--- |
-  | `isConsecutive(0)` | `true` | `isConsecutive(8)` | `true` |
-  | `isConsecutive(11)` | `false` | `isConsecutive(12)` | `true` |
-  | `isConsecutive(21)` | `false` | `isConsecutive(22)` | `false` |
-  | `isConsecutive(23)` | `true` | `isConsecutive(1235)` | `false` |
-  | `isConsecutive(1234)` | `true` | `isConsecutive(89)` | `true` |
-  | `isConsecutive(890)` | `false` | `isConsecutive(987)` | `false` |
+	| Method Call | Value Returned |  Method Call | Value Returned |
+	| :--- | :--- | :--- | :--- |
+	| `isConsecutive(0)` | `true` | `isConsecutive(8)` | `true` |
+	| `isConsecutive(11)` | `false` | `isConsecutive(12)` | `true` |
+	| `isConsecutive(21)` | `false` | `isConsecutive(22)` | `false` |
+	| `isConsecutive(23)` | `true` | `isConsecutive(1235)` | `false` |
+	| `isConsecutive(1234)` | `true` | `isConsecutive(89)` | `true` |
+	| `isConsecutive(890)` | `false` | `isConsecutive(987)` | `false` |
 
 	You may not use a String or other object to solve this problem. You may assume that the number passed to your method is not negative, but it might be 0.
