@@ -20,7 +20,6 @@ _HCDE 598 Winter 2017_
 
 ## Lessons
 * for loops
-* while loops
 * arrays
 
 ## Exercises
