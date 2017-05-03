@@ -7,25 +7,25 @@ _CSE 142_
 
 	Write a static method called randomWalk that takes a Random object and a target position as parameters and that simulates a random walk. Your method should keep track of a current position that is initialized to 0. It should use the provided Random object to generate numbers to be added to the position that are between -2 and 2 inclusive with all possible values being equally likely. The simulation should end when the position reaches the provided target value and should report the maximum and minimum positions seen. For example, the following call:
 
-```java
-Random r = new Random();
-randomWalk(r, 2); // indicates that the goal is 2
-```java
+	```java
+	Random r = new Random();
+	randomWalk(r, 2); // indicates that the goal is 2
+	```
 
-It should produce output like the following:
+	It should produce output like the following:
 
-```
-goal = 2, pos = 0
-adding -1, pos = -1
-adding 2, pos = 1
-adding 2, pos = 3
-adding 1, pos = 4
-adding 0, pos = 4
-adding -2, pos = 2
-min = -1, max = 4
-```
+	```
+	goal = 2, pos = 0
+	adding -1, pos = -1
+	adding 2, pos = 1
+	adding 2, pos = 3
+	adding 1, pos = 4
+	adding 0, pos = 4
+	adding -2, pos = 2
+	min = -1, max = 4
+	```
 
-Your method must exactly reproduce the format of this log.
+	Your method must exactly reproduce the format of this log.
 
 2. __highLow (15 points)__
 
