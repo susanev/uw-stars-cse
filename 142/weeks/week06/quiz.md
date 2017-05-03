@@ -167,10 +167,10 @@ _CSE 142_
 
 	| __Call__ | __Value Returned__ |
 	| :--- | :--- |
-  | `areReversals("hello", "goodbye")` | `false`
-  | `areReversals("hello", "olleh")` | `true`
-  | `areReversals("HELLO", "olleh")` | `true`
-  | `areReversals("hello", "aolleh")` | `false`
+  | `areReversals("hello", "goodbye")` | `false` |
+  | `areReversals("hello", "olleh")` | `true` |
+  | `areReversals("HELLO", "olleh")` | `true` |
+  | `areReversals("hello", "aolleh")` | `false` |
 
 6. __isConsecutive (9 points)__
 
