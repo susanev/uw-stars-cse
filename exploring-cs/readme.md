@@ -51,4 +51,4 @@ _Topics: Review for loops, while loops, arrays_
 
 * [Overview](lessons/week6)
 * [Code](lessons/week6/code)
-* [Homework: Creativity Exploration](lessons/week6/homework/data-visualization.md)
+* [Homework: Data Visualization](lessons/week6/homework/data-visualization.md)
