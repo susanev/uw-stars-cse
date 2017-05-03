@@ -145,7 +145,7 @@ _CSE 142_
 
 	Notice that if a particular digit place is absent from one number or the other, such as the 603 at the start of a above, no digit is carried over to c. The following table lists some more calls to your method and their expected return values:
 
-	| __Call__ | __Value Returned__ |
+	| Call | Value Returned |
 	| :--- | :--- |
 	| `largerDigits(172, 312)` | 372 |
 	| `largerDigits(21, 3)` | 3 |
@@ -165,12 +165,12 @@ _CSE 142_
 
 	Here are some example calls to the method and their expected return results:
 
-	| __Call__ | __Value Returned__ |
+	| Call | Value Returned |
 	| :--- | :--- |
-  | `areReversals("hello", "goodbye")` | `false` |
-  | `areReversals("hello", "olleh")` | `true` |
-  | `areReversals("HELLO", "olleh")` | `true` |
-  | `areReversals("hello", "aolleh")` | `false` |
+	| `areReversals("hello", "goodbye")` | `false` |
+	| `areReversals("hello", "olleh")` | `true` |
+	| `areReversals("HELLO", "olleh")` | `true` |
+	| `areReversals("hello", "aolleh")` | `false` |
 
 6. __isConsecutive (9 points)__
 
