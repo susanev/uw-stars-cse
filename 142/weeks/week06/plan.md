@@ -28,7 +28,7 @@ _CSE 142_
     return weaved;
   }
   ```
-* Review midterm [study sheet](../exams/midterm/study-sheet.md)
+* Review midterm [study sheet](../../exams/midterm/study-sheet.md)
 * [Quiz](quiz.md) (3 programming problems)
 * Live whiteboard code of Quiz solutions
 * Free time for midterm preparation
