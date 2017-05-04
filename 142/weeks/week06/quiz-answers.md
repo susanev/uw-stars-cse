@@ -7,21 +7,21 @@ _It is important to note that these are examples of correct solutions; there are
 
 	```java
 	public static void randomWalk(Random r, int goal) {
-	  int pos = 0;
-	  int min = 0;
-	  int max = 0;
-	  System.out.printf("goal = %d, pos = %d\n", goal, pos);
-	  while (goal != pos) {
-	     int value = r.nextInt(5) - 2;
-	     pos = pos + value; 
-			 System.out.printf("adding %d, pos = %d\n", value, pos);
-	     if (pos < min) {
-	        min = pos;
-	     } else if (pos > max) {
-	        max = pos;
-	     }
-	  }
-	  System.out.printf("min = %d, max = %d\n", min, max);
+		int pos = 0;
+		int min = 0;
+		int max = 0;
+		System.out.printf("goal = %d, pos = %d\n", goal, pos);
+		while (goal != pos) {
+			int value = r.nextInt(5) - 2;
+			pos = pos + value; 
+			System.out.printf("adding %d, pos = %d\n", value, pos);
+			if (pos < min) {
+				min = pos;
+			} else if (pos > max) {
+				max = pos;
+			}
+		}
+		System.out.printf("min = %d, max = %d\n", min, max);
 	}
 	```
 
