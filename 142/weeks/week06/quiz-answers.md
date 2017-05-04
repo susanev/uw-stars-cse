@@ -28,9 +28,9 @@ _It is important to note that these are examples of correct solutions; there are
 2. __highLow (15 points)__
 
 	```java
-	public static boolean highLow(int num) { 
-	  boolean low = num % 10;
-	  while (num != 0) {
+  	public static boolean highLow(int num) { 
+	  boolean low = num % 10 <= 4;
+	  while (num / 10 != 0) {
 	     num = num / 10;
 	     int digit = num % 10;
 	     if (digit <= 4 && low || digit > 4 && !low) {
