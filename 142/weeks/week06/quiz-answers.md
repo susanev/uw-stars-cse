@@ -12,7 +12,7 @@ _It is important to note that these are examples of correct solutions; there are
 	  int max = 0;
 	  System.out.printf("goal = %d, pos = %d\n", goal, pos);
 	  while (goal != pos) {
-	     value = r.nextInt(5) - 2;
+	     int value = r.nextInt(5) - 2;
 	     pos = pos + value; 
 	     if (pos < min) {
 	        min = pos;
