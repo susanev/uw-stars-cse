@@ -29,24 +29,14 @@ _It is important to note that these are examples of correct solutions; there are
 
 	```java
 	public static boolean highLow(int num) { 
-	  int lowHigh;
-	  if (num % 10 <= 4) {
-	     lowHigh = 1;
-	  } else {
-	     lowHigh = 0;
-	  }      
-	  
+	  boolean low = num % 10;
 	  while (num != 0) {
+	     num = num / 10;
 	     int digit = num % 10;
-	     if (digit <= 4) {
-	        lowHigh--;
-	     } else {
-	        lowHigh++;
-	     }
-	     if (lowHigh < 0 || lowHigh > 1) {
+	     if (digit <= 4 && low || digit > 4 && !low) {
 	        return false;
 	     }
-	     num = num / 10;	
+	     low = !low;
 	  }
 	  return true;
 	}
