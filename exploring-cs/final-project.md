@@ -1,9 +1,9 @@
 _STARS Exploring CS Spring 2017_
 # Final Project
 
-_[Code Due Sunday, 05/28, at 9pm]()_
+_[Code Due Sunday, 05/28, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672950)_
 
-_[Presentation, Friday, 06/02, at 4:30pm]()_
+_[Presentation, Friday, 06/02, at 4:30pm](https://canvas.uw.edu/courses/1158649/assignments/3672951)_
 
 ### Goals
 * Demonstrate success and learning in Processing
