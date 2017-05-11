@@ -16,7 +16,7 @@ _[Presentation, Friday, 06/02, at 4:30pm](https://canvas.uw.edu/courses/1158649/
 ### Prework
 * Generate a list or sketches (or both!) of your project ideas, think big, we will help you scope down your project if needed
 * General topics you might explore: Games, Puzzles, Choose-Your-Own-Adventure Stories, Digital Prototype, Data Visualizations, Text Generators, Educational experience, Twitter bot, Generative art ...
-* Post **all** of your ideas+sketches to the Slack channel to share with others
+* Post your top 2 – 3 ideas+sketches to the Slack channel to share with others
 
 ### Specification
 * You must maintain a Trello board throughout the project that tracks what you are planning to do, what you are working on, and what you are done with (along with anything else your group would like to track)
@@ -43,7 +43,7 @@ _[Presentation, Friday, 06/02, at 4:30pm](https://canvas.uw.edu/courses/1158649/
 
 | Criteria | Points |
 | :--- | :--- |
-| Group demonstrated progress after the first week of work | 1 pt |
+| Group demonstrated progress each week | 1 pt |
 | Group used Trello to track progress and tasks | 2 pts |
 | Showcased a complete project, that runs without errors | 2 pts |
 | Showcased a well-executed, creative project | 3 pts |
