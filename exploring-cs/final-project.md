@@ -1,9 +1,9 @@
 _STARS Exploring CS Spring 2017_
 # Final Project
 
-_[Code Due Sunday, 05/28, at 9pm]()_
+_[Code Due Sunday, 05/28, at 9pm](https://canvas.uw.edu/courses/1158649/assignments/3672950)_
 
-_[Presentation, Friday, 06/02, at 4:30pm]()_
+_[Presentation, Friday, 06/02, at 4:30pm](https://canvas.uw.edu/courses/1158649/assignments/3672951)_
 
 ### Goals
 * Demonstrate success and learning in Processing
@@ -14,9 +14,9 @@ _[Presentation, Friday, 06/02, at 4:30pm]()_
 * Practice presenting to others
 
 ### Prework
-* Generate a list or sketches (or both!) of your project ideas, think big, I will help you scope down your project next week
+* Generate a list or sketches (or both!) of your project ideas, think big, we will help you scope down your project if needed
 * General topics you might explore: Games, Puzzles, Choose-Your-Own-Adventure Stories, Digital Prototype, Data Visualizations, Text Generators, Educational experience, Twitter bot, Generative art ...
-* Post your ideas to the Slack channel to share with others and find a partner
+* Post your top 2 – 3 ideas+sketches to the Slack channel to share with others
 
 ### Specification
 * You must maintain a Trello board throughout the project that tracks what you are planning to do, what you are working on, and what you are done with (along with anything else your group would like to track)
@@ -24,7 +24,7 @@ _[Presentation, Friday, 06/02, at 4:30pm]()_
 * Your project must demonstrate your ability to use variables, methods, parameters, conditional statements, loops, and arrays in your code
 * You must conduct at least 5 informal usability sessions, to get user feedback and make changes (this is required content for your presentation)
 * You must work together with your partner for all aspects of the project, and you both must fully understand every aspect of the code
-* Your group must show movement forward in your project each week (you will demo your project to me each week)
+* Your group must show movement forward in your project each week (you will demo your project each week)
 
 ### Optionals
 * Create and submit a video showcasing your project (this can be anywhere from 2 - 6 minutes, depending on the project). The video should demonstrate a run-through of the program, with a voice talking through what is happening
@@ -43,12 +43,12 @@ _[Presentation, Friday, 06/02, at 4:30pm]()_
 
 | Criteria | Points |
 | :--- | :--- |
-| Group demonstrated progress after the first week of work | 1 pt |
+| Group demonstrated progress each week | 1 pt |
 | Group used Trello to track progress and tasks | 2 pts |
 | Showcased a complete project, that runs without errors | 2 pts |
 | Showcased a well-executed, creative project | 3 pts |
 | Used variables as appropriate | 1 pt |
-| Used functions and parameters as appropriate | 2 pts |
+| Used methods and parameters as appropriate | 2 pts |
 | Used conditional statements as appropriate | 2 pts |
 | Used loops and arrays as appropriate | 3 pts |
 | Code is fully commented as described in the _Code Submission_ section | 3 pts |

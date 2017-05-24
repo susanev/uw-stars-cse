@@ -51,7 +51,6 @@ This is a much more challenging assignment then past assignments so please plan 
 * Each method that you created should have a top comment briefly explaining what that method does (note that setup and draw do not need top comments)
 
 ### Student Examples
-* [Books in Progress by Anna Casey](https://annarosecasey.github.io/hcde-portfolio/Book_Visualization/)
 * [Miss World by Jessica Bao](https://sijiabao.github.io/hcde598-portfolio/dataviz/)
 * [Seattle Violent Crime by Josh Leibsohn](https://joleibs.github.io/hcde-portfolio/Data-Visualization/)
 * [Perodic Table by Julie Stuart](https://jstu2.github.io/JS_HCDE_portfolio/Periodic_table/)

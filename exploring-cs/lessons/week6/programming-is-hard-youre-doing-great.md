@@ -1,6 +1,6 @@
-_HCDE 598 Winter 2017_
+_Exploring CS_
 
-# Week 5
+# Week 6
 ## Programming is hard, but you're doing great!
 
 ![alt text][two-stages]
