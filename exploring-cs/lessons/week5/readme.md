@@ -3,8 +3,8 @@ _HCDE 598 Winter 2017_
 # Week 5
 
 ## Prep Work
-* Review the comments you received on your [Lego family](../week2/homework/lego-family.md) assignment and update your code to address the comments if time allows
-* Review and be prepared to talk with others about your [Lego family](../week2/homework/lego-family.md) assignment
+* Review the comments you received on your [Interactive Monster](../week4/homework/interactive-monster.md) assignment and update your code to address the comments if time allows
+* Review and be prepared to talk with others about your [Interactive Monster](../week4/homework/interactive-monster.md) assignment
 
 ## Learning Objectives
 * Understand keyPressed events and how to use them
