@@ -52,3 +52,20 @@ _Topics: Review for loops, while loops, arrays_
 * [Overview](lessons/week6)
 * [Code](lessons/week6/code)
 * [Homework: Data Visualization](lessons/week6/homework/data-visualization.md)
+
+### [Week 7](lessons/week7)
+_Topics: Introduction to Object-oriented Programming (OOP), final project work time_
+
+* [Overview](lessons/week7)
+* [Code](lessons/week7/code)
+* [Homework: Final Project](final-project.md)
+
+### Week 8
+_Topics: Final project work time_
+
+* [Homework: Final Project](final-project.md)
+
+### Week 9
+_Topics: Final project work time, final project presentations_
+
+* [Homework: Final Project](final-project.md)

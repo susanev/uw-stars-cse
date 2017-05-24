@@ -3,8 +3,8 @@ _HCDE 598 Winter 2017_
 # Week 6
 
 ## Prep Work
-* Review the comments you received on your [Interactive Monster](../week3/homework/interactive-monster.md) assignment and update your code to address the comments if time allows
-* Review and be prepared to talk with others about your [Interactive Monster](../week3/homework/interactive-monster.md) assignment
+* Review the comments you received on your [Creativity Exploration](../week5/homework/creativity-exploration.md) assignment and update your code to address the comments if time allows
+* Review and be prepared to talk with others about your [Creativity Exploration](../week5/homework/creativity-exploration.md) assignment
 
 ## Learning Objectives
 * Fully understand and be able to use for loops
