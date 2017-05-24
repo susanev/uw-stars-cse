@@ -23,9 +23,4 @@ class Ball {
     x = x + xDir;
     y = y + yDir;
   }
-  
-  void changetoOppDir() {
-    xDir = xDir * -1;
-    yDir = yDir * -1;
-  }
 }
