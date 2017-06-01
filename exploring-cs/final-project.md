@@ -59,7 +59,7 @@ _[Presentation, Friday, 06/02, at 4:30pm](https://canvas.uw.edu/courses/1158649/
 
 | Criteria | Points |
 | :--- | :--- |
-| Group's presentation was 5 - 10 minutes in length | 1 pt |
+| Group's presentation was 5 minutes in length | 1 pt |
 | Group was prepared, and professional during the presentation | 1 pt |
 | Group clearly presented an overview of their project | 1 pt |
 | Group clearly described their project process in detail | 2 pts |
