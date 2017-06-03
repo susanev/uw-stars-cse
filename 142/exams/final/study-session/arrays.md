@@ -138,7 +138,7 @@
 
 	```
 	  [7, 5]       		 [8, 5]    [9, 7, 2, 3]
-	  before sublist   sublist   after sublist
+	  before sublist         sublist   after sublist
 	  ```
 
 	The new array should contain the values after the sublist followed by the values in the sublist followed by the values before the sublist. For this example, it would return [9, 7, 2, 3, 8, 5, 7, 5]. You may assume that the indexes passed as parameters specify a legal sublist of the list, although it might be empty. The method should not construct any extra data structures other than the array to be returned and it should not alter its array parameter. You are not allowed to call methods of the Arrays class to solve this problem.
