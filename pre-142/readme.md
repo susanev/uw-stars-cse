@@ -1,6 +1,6 @@
-# Pre-142
+_STARS Pre-142 Spring 2017_
 
-## Topics
+# Topics
 * Using jGRASP
   * + Debugger
 * while loops
