@@ -8,7 +8,7 @@ _Course Description_: Introduction to computer science class for [STARS](https:/
 
 [Syllabus](exploring-cs/syllabus.md)
 
-### Pre-CSE 142
+### [Pre-CSE 142](pre-142)
 
 Coming soon ...
 
