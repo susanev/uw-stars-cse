@@ -67,7 +67,7 @@ The grade weighting is as follows:
 
 You must earn an 80% or higher to receive credit for this course.
 
-The programming assignments will include weekly individual and pair programming assignments. Participation will include coming to class and actively participating, it will also include a view writing assignments, and a course survey. The [final project](final-project.md) will be a paired assignment, spanning 3 weeks of in-class time.
+The programming assignments will include weekly individual and pair programming assignments. Participation will include coming to class and actively participating, it will also include a few writing assignments, and a course survey. The [final project](final-project.md) will be a paired assignment, spanning 3 weeks of in-class time.
 
 If you have a problem with a grade you received or if you feel the grade you received is incorrect please email the instructor for an appointment to discuss the assignment and your grade in detail. 
 
