@@ -50,7 +50,7 @@ General components that will influence your grade:
 * Attending and participating in check-in meetings
 * Reaching out if you are struggling with material in CSE142
 * Completing all homework assignments
-* Preparing and succeeding on in-class tests and quizzes
+* Preparing for and succeeding on in-class tests and quizzes
 
 The grade weighting is as follows:
 * 50% Attendance: Attending both class meetings and check-in appointments
