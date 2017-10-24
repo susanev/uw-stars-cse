@@ -165,7 +165,7 @@ Actual Midterm: Friday, November 4, 5:30-6:45PM
 
 	In this log, the user entered 5 answers (60, 82, 40, 13, 40).  All other text was produced as output by the method. Notice that there is a final line of output indicating the overall results. Your method must exactly reproduce the format of this log.
 
-  Your method should construct a Random object to use for making up random problems.  You may assume that the integer passed to your method is greater than 0 and that the user always enters an integer when prompted.
+	Your method should construct a Random object to use for making up random problems.  You may assume that the integer passed to your method is greater than 0 and that the user always enters an integer when prompted.
 
 7. Programming, 15 points.  Write a static method called printSequenceTo that takes a target value as a parameter and that prints terms from a particular numerical sequence until they add up to a value greater than or equal to the target and that returns the number of terms that were included. For example, if the following calls are made:
 
@@ -174,25 +174,25 @@ Actual Midterm: Friday, November 4, 5:30-6:45PM
 	int n2 = printSequenceTo(5.5);
 	```
 
-  The following output should be produced:
+  	The following output should be produced:
 
-  ```java
-  1/2 + 2/3 + 3/4 + 4/5 + 5/6 = 3.5500000000000003
-  1/2 + 2/3 + 3/4 + 4/5 + 5/6 + 6/7 + 7/8 + 8/9 = 6.171031746031746
-  ```
+	```java
+	1/2 + 2/3 + 3/4 + 4/5 + 5/6 = 3.5500000000000003
+	1/2 + 2/3 + 3/4 + 4/5 + 5/6 + 6/7 + 7/8 + 8/9 = 6.171031746031746
+	```
 
-  The variable n1 is set to 5 because it took 5 terms from the sequence to get a sum that is at least 3.0. The variable n2 would be set to 8 because it took 8 terms to get a sum that is at least 5.5. You are to exactly reproduce the format of this output. Notice that the sum is not rounded.
+	The variable n1 is set to 5 because it took 5 terms from the sequence to get a sum that is at least 3.0. The variable n2 would be set to 8 because it took 8 terms to get a sum that is at least 5.5. You are to exactly reproduce the format of this output. Notice that the sum is not rounded.
 
 8. Programming, 9 points. Write a static method called weave that that takes two integers as parameters and that returns the result of weaving their digits together to form a single integer. Two numbers x and y are weaved together as follows.  The last pair of digits in the result should be the last digit of x followed by the last digit of y. The second-to-the-last pair of digits in the result should be the second-to-the-last digit of x followed by the second-to-the-last digit of y. And so on.
 
 	For example, consider weaving 128 with 394. The last pair of digits in the result should be 84 (because the original numbers end in 8 and 4). The second-to-the-last pair of digits in the result should be 29 (because the second-to-the-last digits of the original numbers are 2 and 9). The third-to-the-last pair of digits in the result should be 13 (because the third-to-the-last digits of the original numbers are 1 and 3).  Thus:
 
-  ```java
-  weave(128, 394);
-  ```
+	```java
+	weave(128, 394);
+	```
 
 	should return 132984. Notice that the order of the arguments is important. The call weave(394, 128) would return 319248.
 
-  If one of the numbers has more digits than the other, you should imagine that leading zeros are used to make the numbers have equal length.  For example, weave(2384, 12) should return 20308142 (as if it were a call on weave(2384, 0012)).  Similarly, weave(9, 318) should return 30198 (as if it were a call on weave(009, 318)).
+	If one of the numbers has more digits than the other, you should imagine that leading zeros are used to make the numbers have equal length.  For example, weave(2384, 12) should return 20308142 (as if it were a call on weave(2384, 0012)).  Similarly, weave(9, 318) should return 30198 (as if it were a call on weave(009, 318)).
 
 	You may assume that the numbers passed to weave are non-negative. You may not use Strings to solve this problem; you must solve it using integer arithmetic.
