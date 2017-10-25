@@ -117,12 +117,12 @@
 
 	indicates that the values from the short list should be inserted into the big list starting at index 2. After the call, bigList should store the following sequence of values:
 
-  ```java
-  (1, 3, 2, 4, 6, 8, 5, 7, 9, 11)
-  ```
+	```java
+	(1, 3, 2, 4, 6, 8, 5, 7, 9, 11)
+	```
 
-	Notice that the values in the short list (2, 4, 6, 8) now appear in the big list starting at index 2.  Also notice that the values that used to be in those positions have been shifted right (5, 7, 9, 11).  As a result of this shifting, some values are no longer in the big list (13, 15, 17, 19).
+	Notice that the values in the short list (2, 4, 6, 8) now appear in the big list starting at index 2. Also notice that the values that used to be in those positions have been shifted right (5, 7, 9, 11). As a result of this shifting, some values are no longer in the big list (13, 15, 17, 19).
 
-	You may assume that there is room in the longer array to insert the values	from the shorter array starting at the given index.
+	You may assume that there is room in the longer array to insert the values from the shorter array starting at the given index.
 
 	You are not allowed to use an auxiliary data structure such as a temporary array or ArrayList to solve this problem.
