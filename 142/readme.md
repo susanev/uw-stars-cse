@@ -14,16 +14,14 @@ __Course Description__: Support class for [STARS](https://www.engr.washington.ed
 __Topics__: All material from weeks 1 – 5, except for Graphics
 * [Study Sheet](exams/midterm/study-sheet.md)
 * [Midterm Cheat Sheet](exams/midterm/midterm-cheat-sheet.md)
-* [Practice Midterm](exams/midterm/practice-midterm.md)
-* [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
+* [Practice Midterm](exams/midterm/practice-midterm.md) ([Answers](exams/midterm/practice-midterm-answers.md))
 * [Study Session](exams/midterm/study-session)
 
 ### [Final](exams/final)
 __Topics__: All material from weeks 1 – 11, except for Graphics
 * [Study Sheet](exams/final/study-sheet.md)
 * [Final Cheat Sheet](exams/final/final-cheat-sheet.md)
-* [Practice Final](exams/final/practice-final.md)
-* [Practice Final Answers](exams/final/practice-final-answers.md)
+* [Practice Final](exams/final/practice-final.md) ([Answers](exams/final/practice-final-answers.md))
 * [Study Session](exams/final/study-session)
 
 ## [Weeks](weeks)
@@ -32,8 +30,7 @@ __Topics__: Installing Java and jGRASP, success in CSE142, executable programs, 
 * [Plan](weeks/week01/plan.md)
 * [Lecture notes](weeks/week01/lecture-notes.md)
 * [Check-in meeting](weeks/week01/check-in-meeting.md)
-* [Quiz](weeks/week01/quiz.md)
-* [Quiz answers](weeks/week01/quiz-answers.md)
+* [Quiz](weeks/week01/quiz.md) ([Answers](weeks/week01/quiz-answers.md))
 * [Exercises](weeks/week01/exercises.md)
 
 ### [Week 2](weeks/week02)
@@ -67,8 +64,7 @@ __Topics__: while loops, fencepost/sentinel loops, pseudo-random numbers, assert
 * [Plan](weeks/week05/plan.md)
 * [Lecture notes](weeks/week05/lecture-notes.md)
 * [Check-in meeting](weeks/week05/check-in-meeting.md)
-* [Practice Midterm](exams/midterm/practice-midterm.md)
-* [Practice Midterm Answers](exams/midterm/practice-midterm-answers.md)
+* [Practice Midterm](exams/midterm/practice-midterm.md) ([Answers](exams/midterm/practice-midterm-answers.md))
 * [Homework](weeks/week05/homework.md)
 
 ### [Week 6](weeks/week06)
@@ -77,8 +73,7 @@ __Topics__: type boolean, more while loops, file input
 * [Midterm Evaluation](weeks/week06/midterm-evaluation.md)
 * [Lecture notes](weeks/week06/lecture-notes.md)
 * [Check-in meeting](weeks/week06/check-in-meeting.md)
-* [Quiz](weeks/week06/quiz.md)
-* [Quiz Answers](weeks/week06/quiz-answers.md)
+* [Quiz](weeks/week06/quiz.md) ([Answers](weeks/week06/quiz-answers.md))
 * [Homework](weeks/week06/homework.md)
 
 ### [Week 7](weeks/week07)
@@ -112,8 +107,7 @@ __Topics__: critters, ArrayList, inheritance
 * [Plan](weeks/week10/plan.md)
 * [Lecture notes](weeks/week10/lecture-notes.md)
 * [Check-in meeting](weeks/week10/check-in-meeting.md)
-* [Practice Final](exams/final/practice-final.md)
-* [Practice Final Answers](exams/final/practice-final-answers.md)
+* [Practice Final](exams/final/practice-final.md) ([Answers](exams/final/practice-final-answers.md))
 * [Homework](weeks/week10/homework.md)
 
 ### [Week 11](weeks/week11)
@@ -121,7 +115,5 @@ __Topics__: advanced arrays, final review
 * [Plan](weeks/week11/plan.md)
 * [Lecture notes](weeks/week11/lecture-notes.md)
 * [Check-in meeting](weeks/week11/check-in-meeting.md)
-* [Quiz](weeks/week11/quiz.md)
-* [Quiz Answers](weeks/week11/quiz-answers.md)
-* [Exercises](weeks/week11/exercises.md)
-* [Exercise Answers](weeks/week11/exercise-answers.md)
+* [Quiz](weeks/week11/quiz.md) ([Answers](weeks/week11/quiz-answers.md))
+* [Exercises](weeks/week11/exercises.md) ([Answers](weeks/week11/exercise-answers.md))
