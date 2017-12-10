@@ -19,11 +19,9 @@ __Description__: Students will receive support to ensure success in CSE 143, thi
 __Final__: No standard final
 
 ## Contact Information
-Course materials: <https://github.com/susanev/UWStarsCSE/tree/master/143>
-
-Course discussion: <https://cse-stars.slack.com>
-
-Anonymous feedback form: <https://goo.gl/forms/GENVWFVRAA0uEdWa2>
+[Course materials](https://github.com/susanev/UWStarsCSE/tree/master/143)
+[Course discussion](https://cse-stars.slack.com)
+[Anonymous feedback form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
 
 | Susan Evans, Instructor |
 | :--- |
@@ -35,7 +33,7 @@ Anonymous feedback form: <https://goo.gl/forms/GENVWFVRAA0uEdWa2>
 ### Computing Software (all free)
 Students will need regular access to a computer with Java and jGRASP installed, both are available to students for free.
 
-* Software install information: <https://courses.cs.washington.edu/courses/cse142/16au/working_at_home.shtml>
+* [Software install information](https://courses.cs.washington.edu/courses/cse142/16au/working_at_home.shtml)
 
 Students are expected to check Slack and GitHub daily for announcements, and discussions.
 
