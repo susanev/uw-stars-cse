@@ -20,7 +20,9 @@ __Final__: No standard final
 
 ## Contact Information
 [Course materials](https://github.com/susanev/UWStarsCSE/tree/master/143)
+
 [Course discussion](https://cse-stars.slack.com)
+
 [Anonymous feedback form](https://goo.gl/forms/GENVWFVRAA0uEdWa2)
 
 | Susan Evans, Instructor |
