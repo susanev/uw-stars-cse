@@ -43,7 +43,7 @@ System.out.println("You'll be 40 in " + (40 - age) + " years.");
 | __Operator__ | __Description__ | __Example__ | __Result__ |
 | :--- | :--- | :--- | :--- |
 | `&&` | and | `(2 == 3) && (-1 < 5)` | `false`|
-| `||` | or | `(2 == 3) || (-1 < 5)` | `true` |
+| `\|\|` | or | `(2 == 3) \|\| (-1 < 5)` | `true` |
 | `!` | not | `!(2 == 3)` | `true` |
 
 | __p__ | __q__ | __p && q__ | __p &#124;&#124; q__ |
