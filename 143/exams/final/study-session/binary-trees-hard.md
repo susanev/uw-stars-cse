@@ -6,13 +6,13 @@ _CSE 143_
 1. Write a method called limitPathSum that removes nodes from a binary tree of integers to guarantee that the sum of the values on any path from the root to a node does not exceed some maximum value. For example, suppose that a variable t stores a reference to the following tree:
 
 	```
-				   +----+
-				   | 29 |
-				   +----+
-				/           \
-			+----+                +----+
-			| 17 |                | 15 |
-			+----+                +----+
+			       +----+
+			       | 29 |
+			       +----+
+			/                  \
+		    +----+                +----+
+		    | 17 |                | 15 |
+		    +----+                +----+
 		   /      \              /      \
 		  +----+      +----+    +----+      +----+
 		  | -7 |      | 37 |    |  4 |      | 14 |
