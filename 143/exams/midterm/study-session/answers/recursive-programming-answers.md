@@ -107,18 +107,18 @@ _CSE 143_
 
 	```java
 	public void writeSquares(int n) {
-    if (n < 1) {
-        throw new IllegalArgumentException();
-    }
-    if (n == 1) {
-        System.out.print(n);
-    } else if (n % 2 == 1) {
-        System.out.print(n * n + ", ");
-        writeSquares(n - 1);
-    } else {
-        writeSquares(n - 1);
-        System.out.print(", " + n * n);
-    }
+		if (n < 1) {
+			throw new IllegalArgumentException();
+		}
+		if (n == 1) {
+			System.out.print(n);
+		} else if (n % 2 == 1) {
+			System.out.print(n * n + ", ");
+			writeSquares(n - 1);
+		} else {
+			writeSquares(n - 1);
+			System.out.print(", " + n * n);
+		}
 	}
 	```
 
