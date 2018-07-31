@@ -37,11 +37,11 @@ _CSE 142_
     }
     ```
 
-  List below the output produced by this program.
+    List below the output produced by this program.
 
 3. If/Else Simulation, 12 points.  Consider the following method.
-  ```java
-  public static void ifElseMystery(int a, int b) {
+    ```java
+    public static void ifElseMystery(int a, int b) {
       if (a % 10 == 0) {
           b = b * 10;
           a = a + 10;
@@ -52,19 +52,19 @@ _CSE 142_
           b++;
       }
       System.out.println(a + " " + b);
-  }
-  ```
-  
-  For each call below, indicate what output is produced.
-  
-  | __Method Call__ | __Output Produced__ |
-  | :--- | :--- |
-  | `ifElseMystery(20, 8);` | |	
-  | `ifElseMystery(30, 30);` | |	
-  | `ifElseMystery(4, 3);` | |	
-  | `ifElseMystery(3, 4);` | |	
-  | `ifElseMystery(30, 4);` | |	
-  | `ifElseMystery(7, 7);` | |	
+    }
+    ```
+
+    For each call below, indicate what output is produced.
+
+    | __Method Call__ | __Output__ |
+    | :--- | :--- |
+    | `ifElseMystery(20, 8);` | |	
+    | `ifElseMystery(30, 30);` | |	
+    | `ifElseMystery(4, 3);` | |	
+    | `ifElseMystery(3, 4);` | |	
+    | `ifElseMystery(30, 4);` | |	
+    | `ifElseMystery(7, 7);` | |	
 
 4. While Loop Simulation, 12 points.  Consider the following method:
     ```java
