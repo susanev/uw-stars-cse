@@ -82,7 +82,7 @@ _CSE 142_
     ```
     Write the output of each of the following calls.
 
-    | __Method Call__ | __Output Produced__ |
+    | __Method Call__ | __Output__ |
     | :--- | :--- |
     | `whileMystery(3, 5);` | |	
     | `whileMystery(5, 3);` | |	
