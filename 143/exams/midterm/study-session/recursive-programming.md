@@ -218,4 +218,4 @@ _CSE 143_
 	| `dedup("mississippi");` | `"misisipi"` |
 	| `dedup("puppy");` | `"pupy"` |
 
-	You may assume that the string is composed entirely of lowercase letters, as in the examples above. If you are passed an empty string ("") you should throw an IllegalArgumentException. You are not allowed to construct any structured objects other than Strings (no array, ArrayList, StringBuilder, Scanner, etc) and you may not use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
+	You may assume that the string is composed entirely of lowercase letters, as in the examples above. If you are passed an empty string (`""`) you should throw an `IllegalArgumentException`. You are not allowed to construct any structured objects other than Strings (no array, ArrayList, StringBuilder, Scanner, etc) and you may not use a while loop, for loop or do/while loop to solve this problem; you must use recursion.
