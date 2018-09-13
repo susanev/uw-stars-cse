@@ -8,7 +8,8 @@ _CSE 142_
 
         }
     ```
-__The class Hello needs a main method in order for it to be executable, and for it to run in the Java Runtime Environment.__
+
+    _The class Hello needs a main method in order for it to be executable, and for it to run in the Java Runtime Environment._
 
 2. Write an executable program that prints "Hello World!"
     ```java
@@ -28,39 +29,40 @@ __The class Hello needs a main method in order for it to be executable, and for 
        }
    }
    ```
-   __The errors are, missing the class on the first line; missing the semiconon on the first print statement, and needs a lowercase 'P' on the second print statement.__
+   
+   _The errors are, missing the class on the first line; missing the semiconon on the first print statement, and needs a lowercase 'P' on the second print statement._
 
 4. What is the name of the character shown: `\`
-__Backslash__
+    _Backslash_
 
 5. What is the name of the character shown: `/`
-__Forward slash, also sometimes called 'slash'__
+    _Forward slash, also sometimes called 'slash'_
 
 6. Fill in the escape sequence that matches each character described in the table below.
 
     | Escape sequence   | Description      |
     | -------------------- | :-------------------- |
-    |  __\n__                     | Newline        |
-    |  __\t__                     | Tab            |
-    |  __\"__                     | Double quote   |
-    |  __\\__                     | Backslash      |
+    |  `\n`                     | Newline        |
+    |  `\t`                     | Tab            |
+    |  `\"`                     | Double quote   |
+    |  `\\`                     | Backslash      |
     
 7. What will be printed to the console when the program below is run?
 
     `System.out.println("\"Quotes\"");`
     
-    __"Quotes"__
+    `"Quotes"`
 8. What will be printed to the console when the program below is run?
 
     `System.out.println("Slashes \\//");`
     
-    __Slashes \//__
+    `Slashes \//`
 9. Fill in the table below, evaluating the expressions
 
     | Expression                 | What does it evaluate to   |
     |-----------------------------  | :----------------------------- |
-    | `3 + 4 + " 2 + 2"`             | __"7 2 + 2"__                 |
-    | `4.0 / 2 * 9 / 2`              | __9.0__                       |
-    | `8 / 5 + 13 / 2 / 3.0`         | __3.0__                       |
-    | `"hello 34 " + 2 * 4`          | __"hello 34 8"__              |
+    | `3 + 4 + " 2 + 2"`             | "7 2 + 2"                 |
+    | `4.0 / 2 * 9 / 2`              | 9.0                       |
+    | `8 / 5 + 13 / 2 / 3.0`         | 3.0                       |
+    | `"hello 34 " + 2 * 4`          | "hello 34 8"              |
     
