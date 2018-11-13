@@ -50,13 +50,13 @@
 
    The following calls demonstrate your method's behavior. Your method should match this output format exactly:
 
-   __Call__
+   __Call 1__
    
    ```java
    randomRects(); 
    ```
    
-   __Output__
+   __Output 1__
    
    ```
    Output w: 5, h: 6, area: 30
@@ -72,11 +72,12 @@
    Four rectangles of increasing area.
    ```
 
-   __Call__
+   __Call 2__
    ```java
    randomRects(); 
    ```
    
+   __Output 2__
    ```
    w: 5, h: 2, area: 10
    w: 6, h: 5, area: 30
@@ -119,17 +120,17 @@
 
 6. __Programming__. Write a static method called `digitRange` that takes an integer n as a parameter and that returns the greatest difference between two digits of n. In particular, the method should report the largest difference `(x - y)` where `x` and `y` are digits of n. For example, the call `digitRange(68437)` should return 5 because the largest difference that can be formed using digits from the number is `(8 - 3)`. You may assume that the number passed to the method is greater than or equal to 0. If the method is passed a 1-digit number, it should return 0. Below are more examples of calls and the values that should be returned.
 
-  | __Method Call__ | __Value Returned__ |
-  | :--- | :--- |
-  | `digitRange(0)` | `0` |        
-  | `digitRange(5)` | `0` |  
-  | `digitRange(26)` | `4` |   
-  | `digitRange(42)` | `2` |   
-  | `digitRange(725)` | `5` |   
-  | `digitRange(888)` | `0` |   
-  | `digitRange(1234)` | `3` |  
-  | `digitRange(24680)` | `8` |   
-  | `digitRange(857492)` | `7` |   
-  | `digitRange(3876254)` | `6` |   
+      | __Method Call__ | __Value Returned__ |
+      | :--- | :--- |
+      | `digitRange(0)` | `0` |        
+      | `digitRange(5)` | `0` |  
+      | `digitRange(26)` | `4` |   
+      | `digitRange(42)` | `2` |   
+      | `digitRange(725)` | `5` |   
+      | `digitRange(888)` | `0` |   
+      | `digitRange(1234)` | `3` |  
+      | `digitRange(24680)` | `8` |   
+      | `digitRange(857492)` | `7` |   
+      | `digitRange(3876254)` | `6` |   
 
-  You are not allowed to use Strings to solve this problem.
+      You are not allowed to use Strings to solve this problem.
