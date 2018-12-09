@@ -6,9 +6,9 @@ _CSE 143_
 
 	| Traversal | Output |
 	| :--- | :--- |
-	| Preorder traversal | 0, 3, 4, 7, 6, 2, 1, 5, 9, 8 |
-	| Inorder traversal | 7, 4, 6, 3, 2, 1, 0, 5, 8, 9 |
-	| Postorder traversal | 7, 6, 4, 1, 2, 3, 8, 9, 5, 0|
+	| Preorder traversal | `0, 3, 4, 7, 6, 2, 1, 5, 9, 8` |
+	| Inorder traversal | `7, 4, 6, 3, 2, 1, 0, 5, 8, 9` |
+	| Postorder traversal | `7, 6, 4, 1, 2, 3, 8, 9, 5, 0` |
 
 1. Binary Search Tree. 4 points.
 
