@@ -11,7 +11,7 @@ _CSE 143_
 
 #### Stacks and Queues
 * Ordered structure
-* Ability to add something, remove something, check if its empty, and get its size, usually also a peek operation
+* Ability to add something, remove something, check if its empty, and get its size
 
 ##### Stacks
 * LIFO (last-in-first-out)
@@ -196,7 +196,8 @@ public class StackQueue {
 ```
 
 ### Interfaces
-* Interfaces specify certain behaviours without actually implementing them; they specify the _what_ without specifying the _how_
+* Interfaces specify certain behaviours without implementing them
+	* They specify the _what_ without specifying the _how_
 * In Java, classes must explicitly state the interfaces they implement
 
 #### IntList Interface
@@ -294,7 +295,9 @@ Guitar g2 = new Guitar37();
 * When using Linked Lists you need a variable that stores a reference to the first node
 
 #### LinkedList Nodes
-* Nodes are objects with two data fields: one for storing a single item of data and one for storing a reference to the next node in the list
+* Nodes are objects with two data fields
+	1. For storing a single item of data
+	1. For storing a reference to the next node in the list
 
 ##### Visualization of a node
 
