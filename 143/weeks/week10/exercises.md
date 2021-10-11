@@ -25,7 +25,7 @@ _CSE 143_
 
 	Printing them in sorted order would result in the following output:
 
-	````
+	```
 	* $40.0: This American Life
 	* $40.0: University of Washington
 	* $600.75: University of Washington
